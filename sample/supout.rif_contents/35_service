@@ -1,0 +1,19 @@
+Flags: D - DYNAMIC; X - DISABLED, I - INVALID
+Columns: NAME, PORT, PROTO, CERTIFICATE, VRF, MAX-SESSIONS
+ #    NAME        PORT  PROTO  CERTIFICATE  VRF   MAX-SESSIONS
+ 0    ftp           21  tcp                 main            20
+ 1    ssh           22  tcp                 main            20
+ 2    telnet        23  tcp                 main            20
+ 3 D  resolver      53  tcp                                   
+ 4 D  resolver      53  udp                                   
+ 5 D  dhcp          67  udp                                   
+ 6 D  dhcpclient    68  udp                                   
+ 7    www           80  tcp                 main            20
+ 8  X www-ssl      443  tcp    none         main            20
+ 9 D  btest       2000  tcp                                   
+10 D  route_      3784  udp                                   
+11 D  route_      4784  udp                                   
+12    winbox      8291  tcp                 main            20
+13    api         8728  tcp                 main            20
+14    api-ssl     8729  tcp    none         main            20
+

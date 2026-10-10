@@ -1,0 +1,179 @@
+INTERFACE
+Flags: D - dynamic; X - disabled, R - running 
+ 0  R name="bridge-LAN" mtu=auto actual-mtu=1500 l2mtu=1598 arp=enabled arp-timeout=auto mac-address=F4:1E:57:4E:1F:A1 protocol-mode=rstp fast-forward=yes igmp-snooping=no 
+      auto-mac=yes ageing-time=5m priority=0x8000 max-message-age=20s forward-delay=15s transmit-hold-count=6 vlan-filtering=no dhcp-snooping=no port-cost-mode=short mvrp=no 
+      max-learned-entries=auto 
+
+ 1  R name="bridge-WAN" mtu=auto actual-mtu=1500 l2mtu=1598 arp=enabled arp-timeout=auto mac-address=F4:1E:57:4E:1F:A0 protocol-mode=rstp fast-forward=yes igmp-snooping=no 
+      auto-mac=yes ageing-time=5m priority=0x8000 max-message-age=20s forward-delay=15s transmit-hold-count=6 vlan-filtering=no dhcp-snooping=no port-cost-mode=short mvrp=no 
+      max-learned-entries=auto 
+
+ 2  R name="bridge-WLAN" mtu=auto actual-mtu=1500 l2mtu=1600 arp=enabled arp-timeout=auto mac-address=F4:1E:57:4E:1F:A5 protocol-mode=rstp fast-forward=yes igmp-snooping=no 
+      auto-mac=yes ageing-time=5m priority=0x8000 max-message-age=20s forward-delay=15s transmit-hold-count=6 vlan-filtering=no dhcp-snooping=no port-cost-mode=short mvrp=no 
+      max-learned-entries=auto 
+
+ = = = bridge-LAN = = =
+                  state: enabled                 
+    current-mac-address: F4:1E:57:4E:1F:A1       
+              bridge-id: 0x8000.F4:1E:57:4E:1F:A1
+            root-bridge: yes                     
+         root-bridge-id: 0x8000.F4:1E:57:4E:1F:A1
+         root-path-cost: 0                       
+              root-port: none                    
+             port-count: 3                       
+  designated-port-count: 1                       
+           fast-forward: no                      
+
+
+ = = = bridge-WAN = = =
+                  state: enabled                 
+    current-mac-address: F4:1E:57:4E:1F:A0       
+              bridge-id: 0x8000.F4:1E:57:4E:1F:A0
+            root-bridge: yes                     
+         root-bridge-id: 0x8000.F4:1E:57:4E:1F:A0
+         root-path-cost: 0                       
+              root-port: none                    
+             port-count: 1                       
+  designated-port-count: 0                       
+           fast-forward: no                      
+
+
+ = = = bridge-WLAN = = =
+                  state: enabled                 
+    current-mac-address: F4:1E:57:4E:1F:A5       
+              bridge-id: 0x8000.F4:1E:57:4E:1F:A5
+            root-bridge: yes                     
+         root-bridge-id: 0x8000.F4:1E:57:4E:1F:A5
+         root-path-cost: 0                       
+              root-port: none                    
+             port-count: 1                       
+  designated-port-count: 0                       
+           fast-forward: no                      
+
+
+PORT
+Flags: I - INACTIVE; H - HW-OFFLOAD
+Columns: INTERFACE, BRIDGE, HW, HORIZON, TRUSTED, FAST-LEAVE, PATH-COST, INTERNAL-PATH-COST, BPDU-GUARD, EDGE, POINT-TO-POINT, PVID, FRAME-TYPES
+#    INTERFACE  BRIDGE       HW   HORIZON  TRUSTED  FAST-LEAVE  PATH-COST  INTERNAL-PATH-COST  BPDU-GUARD  EDGE  POINT-TO-POINT  PVID  FRAME-TYPES
+0 IH ether1     bridge-WAN   yes  none     no       no                 10                  10  no          auto  auto               1  admit-all  
+1    ether2     bridge-LAN   yes  none     no       no                 10                  10  no          auto  auto               1  admit-all  
+2 I  ether3     bridge-LAN   yes  none     no       no                 10                  10  no          auto  auto               1  admit-all  
+3 I  ether4     bridge-LAN   yes  none     no       no                 10                  10  no          auto  auto               1  admit-all  
+4 I  wlan1      bridge-WLAN       none     no       no                 10                  10  no          auto  auto               1  admit-all  
+
+Flags: X - disabled, I - inactive; D - dynamic; H - hw-offload 
+ 0 I H interface=ether1 bridge=bridge-WAN priority=0x80 path-cost=10 internal-path-cost=10 edge=auto point-to-point=auto learn=auto horizon=none hw=yes auto-isolate=no 
+       restricted-role=no restricted-tcn=no pvid=1 frame-types=admit-all ingress-filtering=no unknown-unicast-flood=yes unknown-multicast-flood=yes broadcast-flood=yes 
+       tag-stacking=no bpdu-guard=no trusted=no mvrp-registrar-state=normal mvrp-applicant-state=normal-participant multicast-router=temporary-query fast-leave=no 
+
+ 1     interface=ether2 bridge=bridge-LAN priority=0x80 path-cost=10 internal-path-cost=10 edge=auto point-to-point=auto learn=auto horizon=none hw=yes auto-isolate=no 
+       restricted-role=no restricted-tcn=no pvid=1 frame-types=admit-all ingress-filtering=no unknown-unicast-flood=yes unknown-multicast-flood=yes broadcast-flood=yes 
+       tag-stacking=no bpdu-guard=no trusted=no mvrp-registrar-state=normal mvrp-applicant-state=normal-participant multicast-router=temporary-query fast-leave=no 
+
+ 2 I   interface=ether3 bridge=bridge-LAN priority=0x80 path-cost=10 internal-path-cost=10 edge=auto point-to-point=auto learn=auto horizon=none hw=yes auto-isolate=no 
+       restricted-role=no restricted-tcn=no pvid=1 frame-types=admit-all ingress-filtering=no unknown-unicast-flood=yes unknown-multicast-flood=yes broadcast-flood=yes 
+       tag-stacking=no bpdu-guard=no trusted=no mvrp-registrar-state=normal mvrp-applicant-state=normal-participant multicast-router=temporary-query fast-leave=no 
+
+ 3 I   interface=ether4 bridge=bridge-LAN priority=0x80 path-cost=10 internal-path-cost=10 edge=auto point-to-point=auto learn=auto horizon=none hw=yes auto-isolate=no 
+       restricted-role=no restricted-tcn=no pvid=1 frame-types=admit-all ingress-filtering=no unknown-unicast-flood=yes unknown-multicast-flood=yes broadcast-flood=yes 
+       tag-stacking=no bpdu-guard=no trusted=no mvrp-registrar-state=normal mvrp-applicant-state=normal-participant multicast-router=temporary-query fast-leave=no 
+
+ 4 I   interface=wlan1 bridge=bridge-WLAN priority=0x80 path-cost=10 internal-path-cost=10 edge=auto point-to-point=auto learn=auto horizon=none auto-isolate=no restricted-role=no
+       restricted-tcn=no pvid=1 frame-types=admit-all ingress-filtering=no unknown-unicast-flood=yes unknown-multicast-flood=yes broadcast-flood=yes tag-stacking=no 
+       bpdu-guard=no trusted=no mvrp-registrar-state=normal mvrp-applicant-state=normal-participant multicast-router=temporary-query fast-leave=no 
+
+  interface: ether1  
+     status: inactive
+
+
+               interface: ether2                  
+                  status: in-bridge               
+                 port-id: 0x80.1                  
+                    role: designated-port         
+               edge-port: yes                     
+     edge-port-discovery: yes                     
+     point-to-point-port: yes                     
+            external-fdb: no                      
+            sending-rstp: yes                     
+                learning: yes                     
+              forwarding: yes                     
+        actual-path-cost: 10                      
+    designated-bridge-id: 0x8000.F4:1E:57:4E:1F:A1
+         designated-cost: 0                       
+      designated-port-id: 0x80.1                  
+  designated-message-age: 0s                      
+      designated-max-age: 20s                     
+              tx-rx-bpdu: 5283/0                  
+     discard-transitions: 0                       
+     forward-transitions: 1                       
+                tx-rx-tc: 0/0                     
+        topology-changes: 0                       
+
+
+  interface: ether3  
+     status: inactive
+
+
+  interface: ether4  
+     status: inactive
+
+
+  interface: wlan1   
+     status: inactive
+
+
+VLAN
+Flags: X - disabled, D - dynamic 
+
+MVRP
+
+MSTI
+
+MST-OVERRIDE
+Flags: X - disabled, D - dynamic 
+
+HOST
+Flags: D - DYNAMIC; L - LOCAL
+Columns: MAC-ADDRESS, ON-INTERFACE, BRIDGE
+ #    MAC-ADDRESS        ON-INTERFACE  BRIDGE     
+ 0 DL F4:1E:57:4E:1F:A0  bridge-WAN    bridge-WAN 
+ 1 D  06:0A:74:A1:22:B0  ether2        bridge-LAN 
+ 2 D  0A:12:74:A1:22:B0  ether2        bridge-LAN 
+ 3 D  0E:1A:74:A1:22:B0  ether2        bridge-LAN 
+ 4 D  12:22:74:A1:22:B0  ether2        bridge-LAN 
+ 5 D  16:2A:74:A1:22:B0  ether2        bridge-LAN 
+ 6 D  1A:32:74:A1:22:B0  ether2        bridge-LAN 
+ 7 D  1E:3A:74:A1:22:B0  ether2        bridge-LAN 
+ 8 D  22:42:74:A1:22:B0  ether2        bridge-LAN 
+ 9 D  26:4A:74:A1:22:B0  ether2        bridge-LAN 
+10 D  2A:52:74:A1:22:B0  ether2        bridge-LAN 
+11 D  2E:5A:74:A1:22:B0  ether2        bridge-LAN 
+12 D  32:62:74:A1:22:B0  ether2        bridge-LAN 
+13 D  36:6A:74:A1:22:B0  ether2        bridge-LAN 
+14 D  F0:2F:74:A1:22:B0  ether2        bridge-LAN 
+15 DL F4:1E:57:4E:1F:A1  bridge-LAN    bridge-LAN 
+16 DL F4:1E:57:4E:1F:A5  bridge-WLAN   bridge-WLAN
+
+MDB
+
+FILTER
+Flags: X - disabled, I - invalid, D - dynamic 
+
+
+NAT
+Flags: X - disabled, I - invalid, D - dynamic 
+
+
+SETTINGS
+              use-ip-firewall: no 
+     use-ip-firewall-for-vlan: no 
+    use-ip-firewall-for-pppoe: no 
+              allow-fast-path: yes
+      bridge-fast-path-active: yes
+     bridge-fast-path-packets: 0  
+       bridge-fast-path-bytes: 0  
+  bridge-fast-forward-packets: 0  
+    bridge-fast-forward-bytes: 0  
+
+MLAG
+bad command name mlag (line 1 column 19)

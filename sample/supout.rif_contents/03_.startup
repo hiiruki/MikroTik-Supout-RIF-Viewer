@@ -1,0 +1,2493 @@
+
+@syslog@
+		 06.40@0#00000: [    0.000000][    T0] Linux version 5.6.3 (gitlab-runner@cicd-a13.mt.lv) (gcc version 11.1.0 (GCC)) #2 Tue Apr 21 07:03:28 UTC 2026
+		 06.40@0#00000: [    0.000000][    T0] printk: bootconsole [early0] enabled
+		 06.40@0#00000: [    0.000000][    T0] CPU0 revision is: 00019374 (MIPS 24Kc)
+		 06.40@0#00000: [    0.000000][    T0] User-defined physical RAM map overwrite
+		 06.40@0#00000: [    0.000000][    T0] Initial ramdisk at: 0x80e5c000 (71684 bytes)
+		 06.40@0#00000: [    0.000000][    T0] Primary instruction cache 64kB, VIPT, 4-way, linesize 32 bytes.
+		 06.40@0#00000: [    0.000000][    T0] Primary data cache 32kB, 4-way, VIPT, cache aliases, linesize 32 bytes
+		 06.40@0#00000: [    0.000000][    T0] Zone ranges:
+		 06.40@0#00000: [    0.000000][    T0]   DMA      [mem 0x0000000000000000-0x0000000001ffffff]
+		 06.40@0#00000: [    0.000000][    T0]   Normal   empty
+		 06.40@0#00000: [    0.000000][    T0] Movable zone start for each node
+		 06.40@0#00000: [    0.000000][    T0] Early memory node ranges
+		 06.40@0#00000: [    0.000000][    T0]   node   0: [mem 0x0000000000000000-0x0000000001ffffff]
+		 06.40@0#00000: [    0.000000][    T0] Initmem setup node 0 [mem 0x0000000000000000-0x0000000001ffffff]
+		 06.40@0#00000: [    0.000000][    T0] On node 0 totalpages: 8192
+		 06.40@0#00000: [    0.000000][    T0]   DMA zone: 64 pages used for memmap
+		 06.40@0#00000: [    0.000000][    T0]   DMA zone: 0 pages reserved
+		 06.40@0#00000: [    0.000000][    T0]   DMA zone: 8192 pages, LIFO batch:0
+		 06.40@0#00000: [    0.000000][    T0] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+		 06.40@0#00000: [    0.000000][    T0] pcpu-alloc: [0] 0 
+		 06.40@0#00000: [    0.000000][    T0] Built 1 zonelists, mobility grouping on.  Total pages: 8128
+		 06.40@0#00000: [    0.000000][    T0] Kernel command line: root=/dev/ram0 no-uart no-buzzer no-nand bootimage=1 parts=1 gpio=0 mem=32M kmac=F4:1E:57:4E:1F:A0 board=H951L board_rev=r3 ver=7.21.4 bver=6.49.17 hw_opt=28284001 boot=1 mlc=12 rd_start=0xc0e5c000 rd_size=0x00011804 
+		 06.40@0#00000: [    0.000000][    T0] Dentry cache hash table entries: 4096 (order: 2, 16384 bytes, linear)
+		 06.40@0#00000: [    0.000000][    T0] Inode-cache hash table entries: 2048 (order: 1, 8192 bytes, linear)
+		 06.40@0#00000: [    0.000000][    T0] Writing ErrCtl register=00000000
+		 06.40@0#00000: [    0.000000][    T0] Readback ErrCtl register=00000000
+		 06.40@0#00000: [    0.000000][    T0] mem auto-init: stack:off, heap alloc:off, heap free:off
+		 06.40@0#00000: [    0.000000][    T0] Memory: 28132K/32768K available (3317K kernel code, 227K rwdata, 392K rodata, 148K init, 147K bss, 4636K reserved, 0K cma-reserved)
+		 06.40@0#00000: [    0.000000][    T0] SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+		 06.40@0#00000: [    0.000000][    T0] NR_IRQS: 168
+		 06.40@0#00000: [    0.000000][    T0] clocksource: MIPS: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 5880801374 ns
+		 06.40@0#00000: [    0.000010][    T0] sched_clock: 32 bits at 325MHz, resolution 3ns, wraps every 6607641598ns
+		 06.40@0#00000: [    0.000096][    T0] Calibrating delay loop... 432.53 BogoMIPS (lpj=2162688)
+		 06.40@0#00000: [    0.060054][    T0] pid_max: default: 32768 minimum: 301
+		 06.40@0#00000: [    0.060274][    T0] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+		 06.40@0#00000: [    0.060298][    T0] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes, linear)
+		 06.40@0#00000: [    0.062681][    T1] devtmpfs: initialized
+		 06.40@0#00000: [    0.064005][    T1] random: get_random_bytes called from 0x80214fb8 with crng_init=0
+		 06.40@0#00000: [    0.064407][    T1] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+		 06.40@0#00000: [    0.064440][    T1] futex hash table entries: 256 (order: -1, 3072 bytes, linear)
+		 06.40@0#00000: [    0.065041][    T1] NET: Registered protocol family 16
+		 06.40@0#00000: [    0.065852][    T1] hw_options 28284001
+		 06.40@0#00000: [    0.065865][    T1] adding platform device rb400-gpio
+		 06.40@0#00000: [    0.065939][    T1] adding platform device leds-rb
+		 06.40@0#00000: [    0.065984][    T1] adding platform device rb900-spi
+		 06.40@0#00000: [    0.066036][    T1] adding platform device rb900-spi
+		 06.40@0#00000: [    0.066086][    T1] adding platform device rb750-wlan
+		 06.40@0#00000: [    0.066130][    T1] adding platform device ag7240
+		 06.40@0#00000: [    0.066189][    T1] rb700_pci_init
+		 06.40@0#00000: [    0.074911][    T1] clocksource: Switched to clocksource MIPS
+		 06.40@0#00000: [    0.076549][    T1] NET: Registered protocol family 2
+		 06.40@0#00000: [    0.077534][    T1] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 4096 bytes, linear)
+		 06.40@0#00000: [    0.077581][    T1] TCP established hash table entries: 1024 (order: 0, 4096 bytes, linear)
+		 06.40@0#00000: [    0.077617][    T1] TCP bind hash table entries: 1024 (order: 0, 4096 bytes, linear)
+		 06.40@0#00000: [    0.077647][    T1] TCP: Hash tables configured (established 1024 bind 1024)
+		 06.40@0#00000: [    0.077833][    T1] UDP hash table entries: 256 (order: 0, 4096 bytes, linear)
+		 06.40@0#00000: [    0.077881][    T1] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes, linear)
+		 06.40@0#00000: [    0.078270][    T1] NET: Registered protocol family 1
+		 06.40@0#00000: [    0.078316][    T1] PCI: CLS 0 bytes, default 32
+		 06.40@0#00000: [    0.078852][    T1] Unpacking initramfs...
+		 06.40@0#00000: [    0.137994][    T1] Freeing initrd memory: 68K
+		 06.40@0#00000: [    0.139121][    T1] workingset: timestamp_bits=30 max_order=13 bucket_order=0
+		 06.40@0#00000: [    0.148729][    T1] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+		 06.40@0#00000: [    0.148746][    T1] yaffs: yaffs Installing.
+		 06.40@0#00000: [    0.229215][    T1] NET: Registered protocol family 38
+		 06.40@0#00000: [    0.229619][    T1] Serial: 8250/16550 driver, 8 ports, IRQ sharing disabled
+		 06.40@0#00000: [    0.232724][    T1] loop: module loaded
+		 06.40@0#00000: [    0.233208][    T1] RB900 SPI
+		 06.40@0#00000: [    0.233234][    T1] ahb_clock_source is DDR (200000000Hz)
+		 06.40@0#00000: [    0.233241][    T1] AHB clock 100000000 Hz
+		 06.40@0#00000: [    0.233435][    T1] rb900-spi rb900-spi.0: controller is unqueued, this is deprecated
+		 06.40@0#00000: [    0.233445][    T1] rb400-spi-misc (33 MHz)
+		 06.40@0#00000: [    0.233946][    T1] spi-nor (30 MHz)
+		 06.40@0#00000: [    0.234686][    T1] spi-nor spi0.4: w25q128jv (16384 Kbytes)
+		 06.40@0#00000: [    0.234713][    T1] Creating 2 MTD partitions on "spi0.4":
+		 06.40@0#00000: [    0.234737][    T1] 0x000000020000-0x000001000000 : "RouterOS"
+		 06.40@0#00000: [    0.235955][    T1] 0x000000000000-0x000000020000 : "RouterBoot"
+		 06.40@0#00000: [    0.237820][    T1] libphy: Fixed MDIO Bus: probed
+		 06.40@0#00000: [    0.238229][    T1] Registered gpio 16 as button
+		 06.40@0#00000: [    0.238504][    T1] nf_conntrack: table size 4096 (4 * 1024)
+		 06.40@0#00000: [    0.240498][    T1] NET: Registered protocol family 10
+		 06.40@0#00000: [    0.241747][    T1] Segment Routing with IPv6
+		 06.40@0#00000: [    0.241953][    T1] NET: Registered protocol family 17
+		 06.40@0#00000: [    0.241974][    T1] mpls_gso: MPLS GSO support
+		 06.40@0#00000: [    0.242749][    T1] Warning: unable to open an initial console.
+		 06.40@0#00000: [    0.243728][    T1] Freeing unused kernel memory: 148K
+		 06.40@0#00000: [    0.243737][    T1] This architecture does not have kernel memory protection.
+		 06.40@0#00000: [    0.243744][    T1] Run /init as init process
+		 06.40@0#00000: [    0.243750][    T1]   with arguments:
+		 06.40@0#00000: [    0.243756][    T1]     /init
+		 06.40@0#00000: [    0.243762][    T1]     no-nand
+		 06.40@0#00000: [    0.243767][    T1]   with environment:
+		 06.40@0#00000: [    0.243773][    T1]     HOME=/
+		 06.40@0#00000: [    0.243779][    T1]     TERM=linux
+		 06.40@0#00000: [    0.243785][    T1]     bootimage=1
+		 06.40@0#00000: [    0.243791][    T1]     parts=1
+		 06.40@0#00000: [    0.243797][    T1]     gpio=0
+		 06.40@0#00000: [    0.243804][    T1]     kmac=F4:1E:57:4E:1F:A0
+		 06.40@0#00000: [    0.243809][    T1]     board=H951L
+		 06.40@0#00000: [    0.243816][    T1]     board_rev=r3
+		 06.40@0#00000: [    0.243822][    T1]     ver=7.21.4
+		 06.40@0#00000: [    0.243827][    T1]     bver=6.49.17
+		 06.40@0#00000: [    0.243834][    T1]     hw_opt=28284001
+		 06.40@0#00000: [    0.243840][    T1]     boot=1
+		 06.40@0#00000: [    0.244351][    T1] process '/init' started with executable stack
+		 06.40@0#00000: [    0.247722][    T1] yaffs: dev is 32505856 name is "mtdblock0" rw
+		 06.40@0#00000: [    0.247744][    T1] yaffs: passed flags ""
+		 06.40@0#00000: [    0.247755][    T1] yaffs: yaffs: Attempting MTD mount of 31.0,"mtdblock0"
+		 06.40@0#00000: [    0.255666][    T1] yaffs: 171 blocks to be sorted...
+		 06.40@0#00000: [    0.685873][    T1] yaffs: yaffs_read_super: is_checkpointed 0
+		 06.40@0#00000: [    2.554942][    C0] random: fast init done
+		 06.40@0#00000: [    6.229646][   T47] new-flash: starting...
+		 06.40@0#00000: [    6.229677][   T47] using MTD device
+		 06.40@0#00000: [    6.229688][   T47] -=(00001680)=-
+		 06.40@0#00000: [    6.229699][   T47] flash: ptr = (ptrval), base = 1fc00000
+		 06.40@0#00000: [    6.231410][   T47] HW_OPT[28284001]
+		 06.40@0#00000: [    6.231422][   T47] board name = RB941-2nD
+		 06.40@0#00000: [    6.231429][   T47] market name = hAP lite
+		 06.40@0#00000: [    6.231438][   T47] alloc spi_page_buf size = 4096
+		 06.40@0#00000: [    6.383188][   T47] logring: buf size:8192, syslog buf size:32768, console_loglevel:1
+		 06.40@0#00000: [    6.413266][   T47] printk: console [logring0] enabled
+
+@sstore@
+		 07.26@0#00053: run
+
+@syslog@
+		 07.41@0#00000: [    7.423764][   T54] watchdog freq = 25000000
+		 07.42@0#00000: [    7.426999][   T54] ar7100_wdt_enable
+		 07.42@0#00000: [    7.427757][   T54] ar7100_wdt_disable
+		 07.43@0#00000: [    7.443553][   T54] uid->nand_id ef701800
+		 07.43@0#00000: [    7.444309][   T54] spi unique id e46348a2cf2b0e2d
+		 07.52@0#00000: [    7.534546][   T47] skb_bin_update_max_len: 0->1728
+		 07.52@0#00000: [    7.534621][   T47] gre: register ipv4
+		 07.52@0#00000: [    7.534637][   T47] gre: register ipv6
+		 07.57@0#00000: [    7.584416][   T47] sizeof(struct phy):648
+		 07.67@0#00000: [    7.676121][   T47] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+		 07.72@0#00000: [    7.727880][   T47] Bridge firewalling registered
+		 07.72@0#00000: [    7.730484][   T47] random: crng init done
+
+@loader@
+		 07.79@0#00056: forked
+		 07.79@0#00056: reading configuration
+		 07.79@0#00056: loaded 1 entries from [accfg]
+		 07.80@0#00056: loaded 1 entries from [bserv]
+		 07.80@0#00056: loaded 6 entries from [bridgeports]
+		 07.80@0#00056: loaded 2 entries from [cerm]
+		 07.80@0#00056: loaded 1 entries from [cloud]
+		 07.81@0#00056: loaded 1 entries from [cmanifacecfg]
+		 07.81@0#00056: loaded 1 entries from [detnet-settings]
+		 07.81@0#00056: loaded 3 entries from [dhcp/client_options]
+		 07.81@0#00056: loaded 1 entries from [dhcp/client]
+		 07.81@0#00056: loaded 1 entries from [dhcp/server/config]
+		 07.82@0#00056: loaded 2 entries from [dhcp/server/server]
+		 07.82@0#00056: loaded 4 entries from [dhcp/server/subnet]
+		 07.83@0#00056: loaded 3 entries from [group]
+		 07.83@0#00056: loaded 1 entries from [hotspot/profile]
+		 07.83@0#00056: loaded 1 entries from [hotspot/srvprof]
+		 07.83@0#00056: loaded 1 entries from [hotspot/user]
+		 07.83@0#00056: loaded 1 entries from [hotspot/wgip]
+		 07.84@0#00056: loaded 3 entries from [ippool]
+		 07.84@0#00056: loaded 1 entries from [ipsec/identity]
+		 07.84@0#00056: loaded 1 entries from [ipsec/modecfg]
+		 07.84@0#00056: loaded 1 entries from [ipsec/peer_proposal]
+		 07.84@0#00056: loaded 1 entries from [ipsec/peer]
+		 07.84@0#00056: loaded 1 entries from [ipsec/policy_group]
+		 07.84@0#00056: loaded 2 entries from [ipsec/policy]
+		 07.84@0#00056: loaded 1 entries from [ipsec/sainfo]
+		 07.85@0#00056: loaded 1 entries from [ipsec/user_settings]
+		 07.85@0#00056: loaded 1 entries from [leds]
+		 07.85@0#00056: loaded 1 entries from [led_triggers]
+		 07.85@0#00056: loaded 4 entries from [log-actions]
+		 07.85@0#00056: loaded 4 entries from [log-rules]
+		 07.86@0#00056: loaded 1 entries from [mactel-settings]
+		 07.86@0#00056: loaded 1 entries from [mproxy-settings]
+		 07.86@0#00056: loaded 2 entries from [net/addrs]
+		 07.86@0#00056: loaded 10 entries from [net/devices]
+		 07.86@0#00056: loaded 1 entries from [net/ebt-filter]
+		 07.87@0#00056: loaded 1 entries from [net/ebt-nat]
+		 07.87@0#00056: loaded 1 entries from [net/ipt6-filter]
+		 07.87@0#00056: loaded 1 entries from [net/ipt6-mangle]
+		 07.87@0#00056: loaded 1 entries from [net/ipt6-raw]
+		 07.87@0#00056: loaded 1 entries from [net/ipt-filter]
+		 07.87@0#00056: loaded 1 entries from [net/ipt-mangle]
+		 07.88@0#00056: loaded 3 entries from [net/ipt-nat]
+		 07.88@0#00056: loaded 1 entries from [net/ipt-raw]
+		 07.88@0#00056: loaded 1 entries from [net/raw]
+		 07.88@0#00056: loaded 10 entries from [net/queuetypes]
+		 07.88@0#00056: loaded 1 entries from [net/simplequeues]
+		 07.88@0#00056: loaded 1 entries from [net/switch-acl-entries]
+		 07.88@0#00056: loaded 2 entries from [net/vrf]
+		 07.89@0#00056: loaded 1 entries from [ntp]
+		 07.89@0#00056: loaded 2 entries from [ppp/profile]
+		 07.89@0#00056: loaded 2 entries from [r5/bfd/cfg]
+		 07.91@0#00056: loaded 1 entries from [radius]
+		 07.91@0#00056: loaded 1 entries from [radvd/iface]
+		 07.91@0#00056: loaded 1 entries from [resolver/config]
+		 07.91@0#00056: loaded 1 entries from [resolver/static]
+		 07.91@0#00056: loaded 4 entries from [rps]
+		 07.92@0#00056: loaded 1 entries from [snmpd]
+		 07.92@0#00056: loaded 1 entries from [snmp-communities]
+		 07.92@0#00056: loaded 1 entries from [unicl/client]
+		 07.92@0#00056: loaded 1 entries from [unicl/module]
+		 07.93@0#00056: loaded 1 entries from [user]
+		 07.93@0#00056: loaded 1 entries from [user/aaa]
+		 07.93@0#00056: loaded 1 entries from [wtpcfg]
+		 07.93@0#00056: loaded 1 entries from [wirelessccl]
+		 07.93@0#00056: loaded 1 entries from [wirelessch]
+		 07.94@0#00056: loaded 2 entries from [wirelessprofile]
+		 07.94@0#00056: loaded 1 entries from [wireless]
+		 07.94@0#00056: loaded 1 entries from [wlcacl]
+		 07.94@0#00056: loaded 1 entries from [wlccfgrule]
+		 07.94@0#00056: creating loader
+		 07.95@0#00056: sigusr1
+		 07.96@0#00056: scheduling service startup...
+		 07.96@0#00056: init multiplepeer 89, cpu count 1 percpu 80 maxproc 30 resulting n 1
+		 07.96@0#00056: init multiplepeer 61, cpu count 1 percpu 50 maxproc 30 resulting n 1
+		 07.96@0#00056: init multiplepeer 75, cpu count 1 percpu 50 maxproc 12 resulting n 1
+		 07.96@0#00056: init multiplepeer 12, cpu count 1 percpu 400 maxproc 1 resulting n 4
+		 07.97@0#00056: entering run...
+		 07.97@0#00056: static(mproxy)local(DEAD)peer(2,ffffffff,,BADID)  run!  started, pid 57
+		 07.97@0#00056: static(mproxy pid=57)local(DEAD)peer(2,ffffffff,,BADID)  entering WAITING
+		 07.98@0#00056: static(log)local(DEAD)peer(3,ffffffff,,BADID)  run!  started, pid 58
+		 07.98@0#00056: static(log pid=58)local(DEAD)peer(3,ffffffff,,BADID)  entering WAITING
+		 07.99@0#00056: static(moduler)local(DEAD)peer(6,ffffffff,,BADID)  run!  started, pid 59
+		 08.00@0#00056: static(moduler pid=59)local(DEAD)peer(6,ffffffff,,BADID)  entering WAITING
+		 08.00@0#00056: static(discover)local(DEAD)peer(10,ffffffff,,BADID)  run!  started, pid 60
+		 08.01@0#00056: static(discover pid=60)local(DEAD)peer(10,ffffffff,,BADID)  entering WAITING
+		 08.01@0#00056: static(net)local(DEAD)peer(20,ffffffff,,BADID)  run!  started, pid 61
+		 08.01@0#00056: static(net pid=61)local(DEAD)peer(20,ffffffff,,BADID)  entering WAITING
+		 08.02@0#00056: static(sys2)local(DEAD)peer(24,ffffffff,,BADID)  run!  started, pid 62
+		 08.19@0#00056: static(sys2 pid=62)local(DEAD)peer(24,ffffffff,,BADID)  entering WAITING
+		 08.20@0#00056: static(upnp)local(DEAD)peer(28,ffffffff,,BADID)  run!  started, pid 63
+		 08.20@0#00056: static(upnp pid=63)local(DEAD)peer(28,ffffffff,,BADID)  entering WAITING
+		 08.20@0#00056: static(route)local(DEAD)peer(44,ffffffff,,BADID)  run!  started, pid 64
+		 08.40@0#00056: static(route pid=64)local(DEAD)peer(44,ffffffff,,BADID)  entering WAITING
+		 08.40@0#00056: static(modprobed)local(DEAD)peer(53,ffffffff,,BADID)  run!  started, pid 65
+		 08.45@0#00056: static(modprobed pid=65)local(DEAD)peer(53,ffffffff,,BADID)  entering WAITING
+		 08.45@0#00056: static(sermgr)local(DEAD)peer(68,ffffffff,,BADID)  run!  started, pid 66
+		 08.52@0#00056: static(sermgr pid=66)local(DEAD)peer(68,ffffffff,,BADID)  entering WAITING
+		 08.52@0#00056: static(diskd)local(DEAD)peer(79,ffffffff,,BADID)  run!  started, pid 67
+		 08.53@0#00056: static(diskd pid=67)local(DEAD)peer(79,ffffffff,,BADID)  entering WAITING
+		 08.54@0#00056: static(wireless)local(DEAD)peer(88,ffffffff,,BADID)  run!  started, pid 68
+		 08.60@0#00056: static(wireless pid=68)local(DEAD)peer(88,ffffffff,,BADID)  entering WAITING
+		 08.61@0#00056: static(apptraffic)local(DEAD)peer(117,ffffffff,,BADID)  run!  started, pid 69
+		 08.61@0#00056: static(apptraffic pid=69)local(DEAD)peer(117,ffffffff,,BADID)  entering WAITING
+		 08.61@0#00056: static(led)local(DEAD)peer(118,ffffffff,,BADID)  run!  started, pid 70
+		 08.74@0#00056: static(led pid=70)local(DEAD)peer(118,ffffffff,,BADID)  entering WAITING
+		 08.74@0#00056: static(quickset)local(DEAD)peer(120,ffffffff,,BADID)  run!  started, pid 71
+		 08.75@0#00056: static(quickset pid=71)local(DEAD)peer(120,ffffffff,,BADID)  entering WAITING
+		 08.75@0#00056: static(watchdog)local(DEAD)peer(129,ffffffff,,BADID)  run!  started, pid 72
+		 08.75@0#00056: static(watchdog pid=72)local(DEAD)peer(129,ffffffff,,BADID)  entering WAITING
+		 08.82@0#00056: static(cloudpingd)local(DEAD)peer(133,ffffffff,,BADID)  run!  started, pid 73
+		 08.82@0#00056: static(cloudpingd pid=73)local(DEAD)peer(133,ffffffff,,BADID)  entering WAITING
+		 08.88@0#00056: static(bth)local(DEAD)peer(156,ffffffff,,BADID)  run!  started, pid 74
+		 08.94@0#00056: static(bth pid=74)local(DEAD)peer(156,ffffffff,,BADID)  entering WAITING
+		 08.94@0#00056: static(resolver)local(DEAD)peer(14,ffffffff,,BADID)  run!  started, pid 75
+		 08.95@0#00056: static(resolver pid=75)local(DEAD)peer(14,ffffffff,,BADID)  entering WAITING
+		 08.95@0#00056: static(mactel)local(DEAD)peer(15,ffffffff,,BADID)  run!  started, pid 76
+		 08.96@0#00056: static(mactel pid=76)local(DEAD)peer(15,ffffffff,,BADID)  entering WAITING
+		 08.96@0#00056: static(bridge2)local(DEAD)peer(16,ffffffff,,BADID)  run!  started, pid 77
+		 09.08@0#00056: static(bridge2 pid=77)local(DEAD)peer(16,ffffffff,,BADID)  entering WAITING
+		 09.09@0#00056: static(macping)local(DEAD)peer(18,ffffffff,,BADID)  run!  started, pid 78
+		 09.09@0#00056: static(macping pid=78)local(DEAD)peer(18,ffffffff,,BADID)  entering WAITING
+		 09.09@0#00056: static(cerm)local(DEAD)peer(19,ffffffff,,BADID)  run!  started, pid 79
+		 09.17@0#00056: static(cerm pid=79)local(DEAD)peer(19,ffffffff,,BADID)  entering WAITING
+		 09.17@0#00056: static(dhcp)local(DEAD)peer(23,ffffffff,,BADID)  run!  started, pid 80
+		 09.17@0#00056: static(dhcp pid=80)local(DEAD)peer(23,ffffffff,,BADID)  entering WAITING
+		 09.18@0#00056: static(btest)local(DEAD)peer(29,ffffffff,,BADID)  run!  started, pid 81
+		 09.28@0#00056: static(btest pid=81)local(DEAD)peer(29,ffffffff,,BADID)  entering WAITING
+		 09.28@0#00056: static(dhcpclient)local(DEAD)peer(43,ffffffff,,BADID)  run!  started, pid 82
+		 09.29@0#00056: static(dhcpclient pid=82)local(DEAD)peer(43,ffffffff,,BADID)  entering WAITING
+		 09.31@0#00056: static(cloud)local(DEAD)peer(123,ffffffff,,BADID)  run!  started, pid 83
+		 09.31@0#00056: static(cloud pid=83)local(DEAD)peer(123,ffffffff,,BADID)  entering WAITING
+		 09.32@0#00056: static(lcdstat)local(DEAD)peer(124,ffffffff,,BADID)  run!  started, pid 84
+		 09.33@0#00056: static(lcdstat pid=84)local(DEAD)peer(124,ffffffff,,BADID)  entering WAITING
+		 09.33@0#00056: static(macping pid=78)local(WAITING)peer(18,ffffffff,,BADID)  entering READY
+		 09.33@0#00056: static(macping pid=78)local(READY)peer(18,ffffffff,,BADID)  sending READY_CONFIRM message
+		 09.33@0#00056: static(macping pid=78)local(READY)peer(18,ffffffff,,BADID)  flushing queue
+		 09.34@0#00056: read failed (EOF)
+		 09.34@0#00056: static(bth pid=74)local(WAITING)peer(156,ffffffff,,BADID)  entering WAITSIG
+		 09.34@0#00056: static(bth pid=74)local(WAITING)peer(156,ffffffff,,BADID)  becoming ZOMBIE, draining queue
+		 09.34@0#00056: request to reply with error to NON-REQUEST message [1]->[156]
+		 09.34@0#00056: read failed (EOF)
+		 09.35@0#00056: static(cloudpingd pid=73)local(WAITING)peer(133,ffffffff,,BADID)  entering WAITSIG
+		 09.35@0#00056: static(cloudpingd pid=73)local(WAITING)peer(133,ffffffff,,BADID)  becoming ZOMBIE, draining queue
+		 09.35@0#00056: request to reply with error to NON-REQUEST message [1]->[133]
+		 09.35@0#00056: read failed (EOF)
+		 09.35@0#00056: static(apptraffic pid=69)local(WAITING)peer(117,ffffffff,,BADID)  entering WAITSIG
+		 09.35@0#00056: static(apptraffic pid=69)local(WAITING)peer(117,ffffffff,,BADID)  becoming ZOMBIE, draining queue
+		 09.35@0#00056: request to reply with error to NON-REQUEST message [1]->[117]
+		 09.35@0#00056: read failed (EOF)
+		 09.35@0#00056: static(diskd pid=67)local(WAITING)peer(79,ffffffff,,BADID)  entering WAITSIG
+		 09.35@0#00056: static(diskd pid=67)local(WAITING)peer(79,ffffffff,,BADID)  becoming ZOMBIE, draining queue
+		 09.35@0#00056: request to reply with error to NON-REQUEST message [1]->[79]
+		 09.36@0#00056: static(diskd)local(ZOMBIE)peer(79,ffffffff,,BADID)  SIGCHLD, status 0x100
+		 09.37@0#00056: static(diskd)local(ZOMBIE)peer(4f,ffffffff,,BADID)  entering FINISHING
+		 09.37@0#00056: static(diskd)local(ZOMBIE)peer(79,ffffffff,,BADID)  will stay in ZOMBIE
+		 09.37@0#00056: static(apptraffic)local(ZOMBIE)peer(117,ffffffff,,BADID)  SIGCHLD, status 0x100
+		 09.37@0#00056: static(apptraffic)local(ZOMBIE)peer(75,ffffffff,,BADID)  entering FINISHING
+		 09.37@0#00056: static(apptraffic)local(ZOMBIE)peer(117,ffffffff,,BADID)  will stay in ZOMBIE
+		 09.37@0#00056: static(cloudpingd)local(ZOMBIE)peer(133,ffffffff,,BADID)  SIGCHLD, status 0x100
+		 09.37@0#00056: static(cloudpingd)local(ZOMBIE)peer(85,ffffffff,,BADID)  entering FINISHING
+		 09.37@0#00056: static(cloudpingd)local(ZOMBIE)peer(133,ffffffff,,BADID)  will stay in ZOMBIE
+		 09.38@0#00056: static(bth)local(ZOMBIE)peer(156,ffffffff,,BADID)  SIGCHLD, status 0x100
+		 09.38@0#00056: static(bth)local(ZOMBIE)peer(9c,ffffffff,,BADID)  entering FINISHING
+		 09.38@0#00056: static(bth)local(ZOMBIE)peer(156,ffffffff,,BADID)  will stay in ZOMBIE
+		 09.38@0#00056: static(lcdstat)local(WAITING)peer(124,ffffffff,,BADID)  SIGCHLD, status 0x100
+		 09.38@0#00056: static(lcdstat)local(WAITING)peer(7c,ffffffff,,BADID)  entering FINISHING
+		 09.38@0#00056: static(lcdstat)local(WAITING)peer(124,ffffffff,,BADID)  becoming ZOMBIE, draining queue
+		 09.39@0#00056: request to reply with error to NON-REQUEST message [1]->[124]
+		 09.39@0#00056: building dynamic peer
+		 09.39@0#00056: dynamic(17)local(READY)peer(1031,ffffffff,,BADID)  sending READY_CONFIRM message
+		 09.39@0#00056: dynamic(17)local(READY)peer(1031,ffffffff,,BADID)  flushing queue
+		 09.39@0#00056: read failed (EOF)
+		 09.39@0#00056: static(lcdstat)local(ZOMBIE)peer(124,ffffffff,,BADID)  entering WAITSIG
+		 09.39@0#00056: static(lcdstat)local(ZOMBIE)peer(124,ffffffff,,BADID)  will stay in ZOMBIE
+		 09.40@0#00056: static(log pid=58)local(WAITING)peer(3,ffffffff,,BADID)  entering READY
+		 09.40@0#00056: static(log pid=58)local(READY)peer(3,ffffffff,,BADID)  sending READY_CONFIRM message
+		 09.40@0#00056: static(log pid=58)local(READY)peer(3,ffffffff,,BADID)  flushing queue
+		 09.40@0#00056: static(macping pid=78)local(READY)peer(18,ffffffff,,BADID)  entering RUNNING
+		 09.43@0#00056: static(parser)local(DEAD)peer(48,ffffffff,,BADID)  run!  started, pid 85
+		 09.43@0#00056: static(parser pid=85)local(DEAD)peer(48,ffffffff,,BADID)  entering WAITING
+
+@sermgr@
+		 09.47@0#00066: started
+
+@loader@
+		 09.58@0#00056: static(discover pid=60)local(WAITING)peer(10,ffffffff,,BADID)  entering READY
+		 09.58@0#00056: static(discover pid=60)local(READY)peer(10,ffffffff,,BADID)  sending READY_CONFIRM message
+		 09.58@0#00056: static(discover pid=60)local(READY)peer(10,ffffffff,,BADID)  flushing queue
+		 09.59@0#00056: static(moduler pid=59)local(WAITING)peer(6,ffffffff,,BADID)  entering READY
+		 09.59@0#00056: static(moduler pid=59)local(READY)peer(6,ffffffff,,BADID)  sending READY_CONFIRM message
+		 09.59@0#00056: static(moduler pid=59)local(READY)peer(6,ffffffff,,BADID)  flushing queue
+
+@moduler@
+		 09.59@0#00059: old RCBUF: 180224
+		 09.59@0#00059: new RCBUF: 3604480
+
+@loader@
+		 09.67@0#00056: static(sermgr pid=66)local(WAITING)peer(68,ffffffff,,BADID)  entering READY
+		 09.67@0#00056: static(sermgr pid=66)local(READY)peer(68,ffffffff,,BADID)  sending READY_CONFIRM message
+		 09.67@0#00056: static(sermgr pid=66)local(READY)peer(68,ffffffff,,BADID)  flushing queue
+		 09.69@0#00056: static(discover pid=60)local(READY)peer(10,ffffffff,,BADID)  entering RUNNING
+		 09.69@0#00056: static(mproxy pid=57)local(WAITING)peer(2,ffffffff,,BADID)  entering READY
+		 09.69@0#00056: static(mproxy pid=57)local(READY)peer(2,ffffffff,,BADID)  sending READY_CONFIRM message
+		 09.69@0#00056: static(mproxy pid=57)local(READY)peer(2,ffffffff,,BADID)  flushing queue
+		 09.71@0#00056: static(quickset pid=71)local(WAITING)peer(120,ffffffff,,BADID)  entering READY
+		 09.71@0#00056: static(quickset pid=71)local(READY)peer(120,ffffffff,,BADID)  sending READY_CONFIRM message
+		 09.71@0#00056: static(quickset pid=71)local(READY)peer(120,ffffffff,,BADID)  flushing queue
+		 09.76@0#00056: static(modprobed pid=65)local(WAITING)peer(53,ffffffff,,BADID)  entering READY
+		 09.76@0#00056: static(modprobed pid=65)local(READY)peer(53,ffffffff,,BADID)  sending READY_CONFIRM message
+		 09.76@0#00056: static(modprobed pid=65)local(READY)peer(53,ffffffff,,BADID)  flushing queue
+		 09.79@0#00056: static(watchdog pid=72)local(WAITING)peer(129,ffffffff,,BADID)  entering READY
+		 09.79@0#00056: static(watchdog pid=72)local(READY)peer(129,ffffffff,,BADID)  sending READY_CONFIRM message
+		 09.79@0#00056: static(watchdog pid=72)local(READY)peer(129,ffffffff,,BADID)  flushing queue
+		 10.15@0#00056: static(led pid=70)local(WAITING)peer(118,ffffffff,,BADID)  entering READY
+		 10.15@0#00056: static(led pid=70)local(READY)peer(118,ffffffff,,BADID)  sending READY_CONFIRM message
+		 10.16@0#00056: static(led pid=70)local(READY)peer(118,ffffffff,,BADID)  flushing queue
+
+@mactel@
+		 10.20@0#00076: main() in
+
+@cloud@
+		 10.22@0#00083: =============
+		 10.22@0#00083: Starting cloud...
+
+@loader@
+		 10.23@0#00056: static(mactel pid=76)local(WAITING)peer(15,ffffffff,,BADID)  entering READY
+		 10.23@0#00056: static(mactel pid=76)local(READY)peer(15,ffffffff,,BADID)  sending READY_CONFIRM message
+		 10.23@0#00056: static(mactel pid=76)local(READY)peer(15,ffffffff,,BADID)  flushing queue
+
+@mactel@
+		 10.23@0#00076: doSet: 33554432
+
+@loader@
+		 10.24@0#00056: static(mactel pid=76)local(READY)peer(15,ffffffff,,BADID)  entering RUNNING
+		 10.30@0#00056: static(cloud pid=83)local(WAITING)peer(123,ffffffff,,BADID)  entering READY
+		 10.30@0#00056: static(cloud pid=83)local(READY)peer(123,ffffffff,,BADID)  sending READY_CONFIRM message
+		 10.31@0#00056: static(cloud pid=83)local(READY)peer(123,ffffffff,,BADID)  flushing queue
+
+@cloud@
+		 10.32@0#00083: (AUTOTIME) start enabled
+
+@loader@
+		 10.33@0#00056: static(cloud pid=83)local(READY)peer(123,ffffffff,,BADID)  entering RUNNING
+		 10.33@0#00056: static(ntp)local(DEAD)peer(47,ffffffff,,BADID)  run!  started, pid 86
+		 10.33@0#00056: static(ntp pid=86)local(DEAD)peer(47,ffffffff,,BADID)  entering WAITING
+
+@upnp@
+		 10.35@0#00063: main() in
+
+@loader@
+		 10.35@0#00056: static(upnp pid=63)local(WAITING)peer(28,ffffffff,,BADID)  entering READY
+		 10.35@0#00056: static(upnp pid=63)local(READY)peer(28,ffffffff,,BADID)  sending READY_CONFIRM message
+		 10.35@0#00056: static(upnp pid=63)local(READY)peer(28,ffffffff,,BADID)  flushing queue
+		 10.36@0#00056: static(keyman)local(DEAD)peer(65,ffffffff,,BADID)  run!  started, pid 87
+		 10.36@0#00056: static(keyman pid=87)local(DEAD)peer(65,ffffffff,,BADID)  entering WAITING
+
+@resolver@
+		 10.66@0#00075: free-memory: 14057472
+
+@loader@
+		 10.67@0#00056: static(bridge2 pid=77)local(WAITING)peer(16,ffffffff,,BADID)  entering READY
+		 10.67@0#00056: static(bridge2 pid=77)local(READY)peer(16,ffffffff,,BADID)  sending READY_CONFIRM message
+		 10.67@0#00056: static(bridge2 pid=77)local(READY)peer(16,ffffffff,,BADID)  flushing queue
+		 10.67@0#00056: static(resolver pid=75)local(WAITING)peer(14,ffffffff,,BADID)  entering READY
+		 10.68@0#00056: static(resolver pid=75)local(READY)peer(14,ffffffff,,BADID)  sending READY_CONFIRM message
+		 10.68@0#00056: static(resolver pid=75)local(READY)peer(14,ffffffff,,BADID)  flushing queue
+
+@bridge2@
+		 10.68@0#00077: about to init
+		 10.69@0#00077: ASecMap[15]: store does not have ORDER_ID
+
+@resolver@
+		 10.69@0#00075: udpate servers 0; 8.8.8.8, 8.8.4.4; 
+		 10.70@0#00075: run
+
+@loader@
+		 10.70@0#00056: static(resolver pid=75)local(READY)peer(14,ffffffff,,BADID)  entering RUNNING
+		 11.07@0#00056: static(btest pid=81)local(WAITING)peer(29,ffffffff,,BADID)  entering READY
+		 11.07@0#00056: static(btest pid=81)local(READY)peer(29,ffffffff,,BADID)  sending READY_CONFIRM message
+		 11.07@0#00056: static(btest pid=81)local(READY)peer(29,ffffffff,,BADID)  flushing queue
+
+@btest@
+		 11.07@0#00081: SocketHelper-1: listen 2000
+
+@loader@
+		 11.07@0#00056: static(btest pid=81)local(READY)peer(29,ffffffff,,BADID)  entering RUNNING
+		 11.28@0#00056: static(keyman pid=87)local(WAITING)peer(65,ffffffff,,BADID)  entering READY
+		 11.28@0#00056: static(keyman pid=87)local(READY)peer(65,ffffffff,,BADID)  sending READY_CONFIRM message
+		 11.28@0#00056: static(keyman pid=87)local(READY)peer(65,ffffffff,,BADID)  flushing queue
+		 11.31@0#00056: static(dhcpclient pid=82)local(WAITING)peer(43,ffffffff,,BADID)  entering READY
+		 11.32@0#00056: static(dhcpclient pid=82)local(READY)peer(43,ffffffff,,BADID)  sending READY_CONFIRM message
+		 11.32@0#00056: static(dhcpclient pid=82)local(READY)peer(43,ffffffff,,BADID)  flushing queue
+		 11.32@0#00056: static(keyman pid=87)local(READY)peer(65,ffffffff,,BADID)  entering RUNNING
+		 11.33@0#00056: static(keyman pid=87)local(RUNNING)peer(65,ffffffff,,BADID)  SETUP timeout to:1000
+
+@moduler@
+		 11.46@0#00059: add@/devices/platform/rb900-spi.0
+		 11.46@0#00059: 	SYNTH_UUID=0
+		 11.46@0#00059: 	DRIVER=rb900-spi
+		 11.46@0#00059: 	MODALIAS=platform:rb900-spi
+
+@loader@
+		 11.47@0#00056: static(upnp pid=63)local(READY)peer(28,ffffffff,,BADID)  entering RUNNING
+		 11.47@0#00056: static(upnp pid=63)local(RUNNING)peer(28,ffffffff,,BADID)  SETUP timeout to:1000
+
+@moduler@
+		 11.51@0#00059: add@/devices/platform/rb750-wlan
+		 11.51@0#00059: 	SYNTH_UUID=0
+		 11.52@0#00059: 	MODALIAS=platform:rb750-wlan
+		 11.52@0#00059: add@/devices/platform/ag7240
+		 11.52@0#00059: 	SYNTH_UUID=0
+		 11.52@0#00059: 	MODALIAS=platform:ag7240
+		 11.52@0#00059: add@/devices/platform/rb400-gpio
+		 11.52@0#00059: 	SYNTH_UUID=0
+		 11.52@0#00059: 	DRIVER=rb400-gpio
+		 11.52@0#00059: 	MODALIAS=platform:rb400-gpio
+		 11.53@0#00059: add@/devices/platform/Fixed MDIO bus.0
+		 11.54@0#00059: 	SYNTH_UUID=0
+		 11.54@0#00059: 	MODALIAS=platform:Fixed MDIO bus
+		 11.54@0#00059: add@/devices/platform/serial8250
+		 11.54@0#00059: 	SYNTH_UUID=0
+		 11.54@0#00059: 	DRIVER=serial8250
+		 11.54@0#00059: 	MODALIAS=platform:serial8250
+		 11.54@0#00059: add@/devices/platform/rb900-spi.4
+		 11.55@0#00059: 	SYNTH_UUID=0
+		 11.55@0#00059: 	DRIVER=rb900-spi
+		 11.55@0#00059: 	MODALIAS=platform:rb900-spi
+		 11.55@0#00059: add@/devices/platform/leds-rb
+		 11.55@0#00059: 	SYNTH_UUID=0
+		 11.55@0#00059: 	DRIVER=leds-rb
+		 11.55@0#00059: 	MODALIAS=platform:leds-rb
+
+@loader@
+		 11.55@0#00056: static(sys2 pid=62)local(WAITING)peer(24,ffffffff,,BADID)  entering READY
+		 11.55@0#00056: static(sys2 pid=62)local(READY)peer(24,ffffffff,,BADID)  sending READY_CONFIRM message
+		 11.55@0#00056: static(sys2 pid=62)local(READY)peer(24,ffffffff,,BADID)  flushing queue
+
+@moduler@
+2026.04.20-07:02:24.00@0#00059: add@/devices/platform/rb900-spi.0/spi_master/spi0/spi0.0
+2026.04.20-07:02:24.07@0#00059: 	SYNTH_UUID=0
+2026.04.20-07:02:24.07@0#00059: 	DRIVER=rb400-spi-misc
+2026.04.20-07:02:24.07@0#00059: 	MODALIAS=spi:rb400-spi-misc
+2026.04.20-07:02:24.07@0#00059: add@/devices/platform/rb900-spi.0/spi_master/spi0/spi0.4
+
+@dhcpclient@
+2026.04.20-07:02:24.07@0#00082: loaded DUID: 00030001f41e574e1fa0 
+2026.04.20-07:02:24.07@0#00082: ClientHandler::init()
+2026.04.20-07:02:24.08@0#00082: ClientHandler::init() done, 1 clients
+2026.04.20-07:02:24.08@0#00082: AlertHandler::init()
+2026.04.20-07:02:24.08@0#00082: AlertHandler::init() done, 0 entries
+2026.04.20-07:02:24.08@0#00082: Client6Handler::init()
+2026.04.20-07:02:24.08@0#00082: Client6Handler::init() done, 0 clients
+2026.04.20-07:02:24.08@0#00082: unseen ifaces: 1
+
+@loader@
+2026.04.20-07:02:24.08@0#00056: static(dhcpclient pid=82)local(READY)peer(43,ffffffff,,BADID)  entering RUNNING
+
+@moduler@
+2026.04.20-07:02:24.09@0#00059: 	SYNTH_UUID=0
+2026.04.20-07:02:24.09@0#00059: 	DRIVER=spi-nor
+2026.04.20-07:02:24.09@0#00059: 	MODALIAS=spi:spi-nor
+2026.04.20-07:02:24.09@0#00059: add@/devices/gpiochip0/gpio/gpiochip0
+2026.04.20-07:02:24.09@0#00059: 	SYNTH_UUID=0
+2026.04.20-07:02:24.09@0#00059: add@/devices/gpiochip0/gpio/button
+2026.04.20-07:02:24.10@0#00059: 	SYNTH_UUID=0
+2026.04.20-07:02:24.10@0#00059: add@/devices/gpiochip1/gpio/gpiochip100
+2026.04.20-07:02:24.10@0#00059: 	SYNTH_UUID=0
+2026.04.20-07:02:24.10@0#00059: init usb
+
+@loader@
+2026.04.20-07:02:24.11@0#00056: static(moduler pid=59)local(READY)peer(6,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:24.11@0#00056: could not find destination 144
+2026.04.20-07:02:24.11@0#00056: request to reply with error to NON-REQUEST message [6]->[144, 1]
+2026.04.20-07:02:24.11@0#00056: could not find destination 144
+2026.04.20-07:02:24.11@0#00056: request to reply with error to NON-REQUEST message [6]->[144, 1]
+2026.04.20-07:02:24.11@0#00056: could not find destination 144
+2026.04.20-07:02:24.11@0#00056: request to reply with error to NON-REQUEST message [6]->[144, 1]
+
+@ntp@
+2026.04.20-07:02:24.65@0#00086: starting NTP
+
+@loader@
+2026.04.20-07:02:24.66@0#00056: static(ntp pid=86)local(WAITING)peer(47,ffffffff,,BADID)  entering READY
+2026.04.20-07:02:24.66@0#00056: static(ntp pid=86)local(READY)peer(47,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:02:24.66@0#00056: static(ntp pid=86)local(READY)peer(47,ffffffff,,BADID)  flushing queue
+
+@sermgr@
+2026.04.20-07:02:25.47@0#00066: Service0x77eddbb0-ssh---0-6-22: enable
+2026.04.20-07:02:25.47@0#00066: Service0x77eddbb0-ssh---0-6-22: enabling
+
+@led@
+2026.04.20-07:02:25.58@0#00070: no led config found
+2026.04.20-07:02:25.58@0#00070: error: while loading config from store: This feature is not supported on this board! (16646150)
+2026.04.20-07:02:25.59@0#00070: discover ifaces 0
+2026.04.20-07:02:25.59@0#00070: -ifaces present-
+2026.04.20-07:02:25.59@0#00070: finish loading 0
+
+@ntp@
+2026.04.20-07:02:25.59@0#00086: Old settings were already imported
+
+@led@
+2026.04.20-07:02:25.59@0#00070: done loading 0
+2026.04.20-07:02:25.59@0#00070: checking triggers
+2026.04.20-07:02:25.60@0#00070: triggers updated: [none] dark-mode-trigger heartbeat group0.0 group0.1 group0.2 group0.3 group0.4 group0.5 group0.6 group0.7 group1.0 group1.1 group1.2 group1.3 group1.4 group1.5 group1.6 group1.7 group2.0 group2.1 group2.2 group2.3 group2.4 group2.5 group2.6 group2.7 group3.0 group3.1 group3.2 group3.3 group3.4 group3.5 group3.6 group3.7
+2026.04.20-07:02:25.60@0#00070: +user-led	1
+2026.04.20-07:02:25.60@0#00070: -leds present-
+2026.04.20-07:02:25.60@0#00070: checking triggers
+
+@log@
+2026.04.20-07:02:25.98@0#00058: APP: rebuild actions
+2026.04.20-07:02:25.99@0#00058: APP: rebuild actions
+2026.04.20-07:02:26.00@0#00058: APP: rebuild actions
+2026.04.20-07:02:26.00@0#00058: APP: rebuild actions
+2026.04.20-07:02:26.00@0#00058: memory buffers get buf:memory refs:1, max:1000, stop:0
+2026.04.20-07:02:26.00@0#00058: APP: rebuild actions
+2026.04.20-07:02:26.00@0#00058: memory buffers get buf:memory refs:2, max:1000, stop:0
+2026.04.20-07:02:26.00@0#00058: APP: rebuild actions
+2026.04.20-07:02:26.01@0#00058: memory buffers get buf:memory refs:3, max:1000, stop:0
+2026.04.20-07:02:26.01@0#00058: APP: rebuild actions
+2026.04.20-07:02:26.01@0#00058: APP: rebuild actions
+2026.04.20-07:02:26.01@0#00058: APP: rebuild actions
+
+@sermgr@
+2026.04.20-07:02:26.02@0#00066: Service0x77f98190-telnet---0-6-23: enable
+2026.04.20-07:02:26.02@0#00066: Service0x77f98190-telnet---0-6-23: enabling
+2026.04.20-07:02:26.02@0#00066: Service0x77ff9760-ftp---0-6-21: enable
+2026.04.20-07:02:26.02@0#00066: Service0x77ff9760-ftp---0-6-21: enabling
+2026.04.20-07:02:26.02@0#00066: Service0x77ff98f0-www---0-6-80: enable
+2026.04.20-07:02:26.02@0#00066: Service0x77ff98f0-www---0-6-80: enabling remote
+
+@sys2@
+2026.04.20-07:02:26.20@0#00062: open file descriptor
+2026.04.20-07:02:26.20@0#00062: descriptor opened fd=7
+2026.04.20-07:02:26.20@0#00062: Health store is empty
+
+@loader@
+2026.04.20-07:02:26.45@0#00056: static(ntp pid=86)local(READY)peer(47,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:26.45@0#00056: static(ntp pid=86)local(RUNNING)peer(47,ffffffff,,BADID)  SETUP timeout to:100
+2026.04.20-07:02:26.45@0#00056: static(dhcp pid=80)local(WAITING)peer(23,ffffffff,,BADID)  entering READY
+2026.04.20-07:02:26.46@0#00056: static(dhcp pid=80)local(READY)peer(23,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:02:26.46@0#00056: static(dhcp pid=80)local(READY)peer(23,ffffffff,,BADID)  flushing queue
+2026.04.20-07:02:26.46@0#00056: static(cerm pid=79)local(WAITING)peer(19,ffffffff,,BADID)  entering READY
+2026.04.20-07:02:26.46@0#00056: static(cerm pid=79)local(READY)peer(19,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:02:26.46@0#00056: static(cerm pid=79)local(READY)peer(19,ffffffff,,BADID)  flushing queue
+2026.04.20-07:02:26.46@0#00056: static(led pid=70)local(READY)peer(118,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:26.46@0#00056: static(led pid=70)local(RUNNING)peer(118,ffffffff,,BADID)  SETUP timeout to:1000
+2026.04.20-07:02:26.49@0#00056: static(net pid=61)local(WAITING)peer(20,ffffffff,,BADID)  entering READY
+2026.04.20-07:02:26.50@0#00056: static(net pid=61)local(READY)peer(20,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:02:26.51@0#00056: static(net pid=61)local(READY)peer(20,ffffffff,,BADID)  flushing queue
+2026.04.20-07:02:26.51@0#00056: could not find destination 58
+2026.04.20-07:02:26.51@0#00056: request to reply with error to NON-REQUEST message [118]->[58, 1]
+2026.04.20-07:02:26.51@0#00056: static(www)local(DEAD)peer(70,ffffffff,,BADID)  run!  started, pid 89
+2026.04.20-07:02:26.52@0#00056: static(www pid=89)local(DEAD)peer(70,ffffffff,,BADID)  entering WAITING
+2026.04.20-07:02:26.53@0#00056: static(portman)local(DEAD)peer(52,ffffffff,,BADID)  run!  started, pid 90
+2026.04.20-07:02:26.53@0#00056: static(portman pid=90)local(DEAD)peer(52,ffffffff,,BADID)  entering WAITING
+
+@cloud@
+2026.04.20-07:02:26.54@0#00083: (AUTOTIME) wants to send
+2026.04.20-07:02:26.54@0#00083: [CTUN-4]Start resolving: cloud2.mikrotik.com
+2026.04.20-07:02:26.54@0#00083: (TZ) rcvd CMD req: 
+
+@net@
+2026.04.20-07:02:26.55@0#00061: sizeof(nv::Handler): 132
+2026.04.20-07:02:26.55@0#00061: sizeof(nv::Looper): 1440
+2026.04.20-07:02:26.55@0#00061: sizeof(Iface): 76
+2026.04.20-07:02:26.55@0#00061: sizeof(Arp): 72
+2026.04.20-07:02:26.55@0#00061: sizeof(Device): 464
+2026.04.20-07:02:26.56@0#00061: sizeof(LinuxDevice): 36
+2026.04.20-07:02:26.56@0#00061: sizeof(EtherDev): 552
+2026.04.20-07:02:26.56@0#00061: sizeof(struct ifreq): 32
+2026.04.20-07:02:26.56@0#00061: offsetof(struct ifreq, ifr_ifru): 16
+2026.04.20-07:02:26.56@0#00061: sizeof(AddrListEntry): 116
+2026.04.20-07:02:26.56@0#00061: sizeof(AddrListEntry::Key): 28
+
+@parser@
+2026.04.20-07:02:26.57@0#00085: loaded /nova/lib/console/1073741824.mem
+2026.04.20-07:02:27.44@0#00085: loaded /pckg/security/nova/lib/console/1077936128.mem
+
+@cloud@
+2026.04.20-07:02:27.77@0#00083: --- nv::message --------
+2026.04.20-07:02:27.77@0#00083:  bool [SYS_REPLYEXP]=true
+2026.04.20-07:02:27.77@0#00083:  bool [STD_DISABLED]=false
+2026.04.20-07:02:27.77@0#00083:  u32 [SYS_TYPE]=TYPE_REQUEST
+2026.04.20-07:02:27.77@0#00083:  u32 [SYS_REQID]=0 0x0 0.0.0.0
+2026.04.20-07:02:27.77@0#00083:  u32 [SYS_CMD]=2 0x2 0.0.0.2
+2026.04.20-07:02:27.78@0#00083:  u32[0] [SYS_TO]=
+2026.04.20-07:02:27.78@0#00083:  u32[2] [SYS_FROM]=24, 0, 
+2026.04.20-07:02:27.78@0#00083: (TZ) wants to send
+
+@resolver@
+2026.04.20-07:02:27.78@0#00075: cmd_resolve: cloud2.mikrotik.com
+
+@route@
+2026.04.20-07:02:28.45@0#00064: no okfile
+2026.04.20-07:02:28.45@0#00064: Initialize shmem
+2026.04.20-07:02:28.45@0#00064: 1 map registry private 3072-3104 0x30000000-0x307fffff
+2026.04.20-07:02:28.45@0#00064: 1 map registry shared 2048-2080 0x20000000-0x207fffff
+2026.04.20-07:02:28.46@0#00064: 1 malmapmux(0, 0, 4096, *4096)
+2026.04.20-07:02:28.46@0#00064: shmemMallocMuxImpl(4096, *4096) 1 blocks
+2026.04.20-07:02:28.46@0#00064: malloc blocks 3073(0x30040000) - 3073(0x3007ffff))
+2026.04.20-07:02:28.46@0#00064: [64 64] Initialize main looper
+
+@loader@
+2026.04.20-07:02:28.46@0#00056: static(modprobed pid=65)local(READY)peer(53,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:28.46@0#00056: static(route pid=64)local(WAITING)peer(44,ffffffff,,BADID)  entering READY
+2026.04.20-07:02:28.46@0#00056: static(route pid=64)local(READY)peer(44,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:02:28.47@0#00056: static(route pid=64)local(READY)peer(44,ffffffff,,BADID)  flushing queue
+
+@route@
+2026.04.20-07:02:28.47@0#00064: handler remap :0:fd1000 as fffe0000
+2026.04.20-07:02:28.47@0#00064: handler remap :0:fd1001 as fffe0001
+2026.04.20-07:02:28.47@0#00064: handler remap :0:fd1002 as fffe0002
+2026.04.20-07:02:28.49@0#00064: handler remap :0:fd1003 as fffe0003
+2026.04.20-07:02:28.49@0#00064: Created Task #1: routing tables
+2026.04.20-07:02:28.56@0#00064:  routing policy publish ON
+2026.04.20-07:02:28.56@0#00064:  routing policy wipe ON
+2026.04.20-07:02:28.56@0#00064:  mark default dsts ON
+2026.04.20-07:02:28.57@0#00064: handler remap :0:fd1004 as fffe0004
+2026.04.20-07:02:28.57@0#00064:  update connected route information ON
+2026.04.20-07:02:28.57@0#00064: [42mCREATE CALC TASK[m
+2026.04.20-07:02:28.57@0#00064: Created Task #2: rib
+2026.04.20-07:02:28.58@0#00064:  main route calculation ON
+2026.04.20-07:02:28.58@0#00064:  mark used origins ON
+2026.04.20-07:02:28.58@0#00064:  unnamed ON
+2026.04.20-07:02:28.58@0#00064:  unnamed ON
+2026.04.20-07:02:28.58@0#00064: [42mCREATE HOLD TASK[m
+2026.04.20-07:02:28.58@0#00064:  unnamed ON
+2026.04.20-07:02:28.59@0#00064: starting in single process mode
+2026.04.20-07:02:28.59@0#00064: [42mCREATE NETLINK TASK[m
+2026.04.20-07:02:28.59@0#00064:  route/fib/publish/sync ON
+2026.04.20-07:02:28.59@0#00064:  route/fib/publish/mark ON
+2026.04.20-07:02:28.59@0#00064: inhibit sleep, publish requested
+2026.04.20-07:02:28.59@0#00064: Created Task #3: fib
+2026.04.20-07:02:28.59@0#00064:  publish ON
+
+@parser@
+2026.04.20-07:02:28.63@0#00085: loaded /pckg/ppp/nova/lib/console/1090519040.mem
+
+@net@
+2026.04.20-07:02:28.70@0#00061: registering remote provider:  type:19 ustring:ppp-in lnameprefix: defqueue:0 addable:1 status:0
+2026.04.20-07:02:28.70@0#00061: registering remote provider:  type:20 ustring:ppp-out lnameprefix: defqueue:0 addable:1 status:0
+2026.04.20-07:02:28.70@0#00061: registering remote provider:  type:10 ustring:pptp-in lnameprefix: defqueue:0 addable:1 status:0
+2026.04.20-07:02:28.70@0#00061: registering remote provider:  type:11 ustring:pptp-out lnameprefix: defqueue:0 addable:1 status:0
+2026.04.20-07:02:28.71@0#00061: registering remote provider:  type:33 ustring:l2tp-in lnameprefix: defqueue:0 addable:1 status:0
+2026.04.20-07:02:28.71@0#00061: registering remote provider:  type:34 ustring:l2tp-out lnameprefix: defqueue:0 addable:1 status:0
+2026.04.20-07:02:28.71@0#00061: registering remote provider:  type:16 ustring:pppoe-in lnameprefix: defqueue:0 addable:1 status:0
+2026.04.20-07:02:28.71@0#00061: registering remote provider:  type:18 ustring:pppoe-out lnameprefix: defqueue:0 addable:1 status:0
+2026.04.20-07:02:28.71@0#00061: registering remote provider:  type:45 ustring:ovpn-in lnameprefix: defqueue:4294967292 addable:1 status:0
+2026.04.20-07:02:28.71@0#00061: registering remote provider:  type:44 ustring:ovpn-out lnameprefix: defqueue:4294967292 addable:1 status:0
+2026.04.20-07:02:28.71@0#00061: registering remote provider:  type:51 ustring:sstp-in lnameprefix: defqueue:0 addable:1 status:0
+2026.04.20-07:02:28.71@0#00061: registering remote provider:  type:52 ustring:sstp-out lnameprefix: defqueue:0 addable:1 status:0
+2026.04.20-07:02:28.71@0#00061: registering remote provider:  type:73 ustring:l2tp-ether lnameprefix: defqueue:0 addable:1 status:0
+
+@resolver@
+2026.04.20-07:02:28.73@0#00075: name: cloud2.mikrotik.com.
+2026.04.20-07:02:28.75@0#00075: Logger: connect: No such file or directory
+2026.04.20-07:02:28.77@0#00075: Logger: connect: No such file or directory
+2026.04.20-07:02:28.78@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:28.78@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:28.78@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:28.78@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:28.78@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:28.78@0#00075: q cloud2.mikrotik.com.:A:1: done reqs:0 dur:1 server failure
+2026.04.20-07:02:28.79@0#00075: Logger: connect: No such file or directory
+
+@portman@
+2026.04.20-07:02:28.81@0#00090: init
+
+@loader@
+2026.04.20-07:02:28.86@0#00056: static(portman pid=90)local(WAITING)peer(52,ffffffff,,BADID)  entering READY
+2026.04.20-07:02:28.86@0#00056: static(portman pid=90)local(READY)peer(52,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:02:28.87@0#00056: static(portman pid=90)local(READY)peer(52,ffffffff,,BADID)  flushing queue
+
+@portman@
+2026.04.20-07:02:28.87@0#00090: perm store empty
+2026.04.20-07:02:28.88@0#00090: checkPorts
+
+@loader@
+2026.04.20-07:02:28.88@0#00056: static(portman pid=90)local(READY)peer(52,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:28.88@0#00056: static(portman pid=90)local(RUNNING)peer(52,ffffffff,,BADID)  SETUP timeout to:2000
+
+@sys2@
+2026.04.20-07:02:28.88@0#00062: init booter
+
+@syslog@
+2026.04.20-07:02:29.35@0#00000: [   16.917162][   T92] sram: init cpu:160
+2026.04.20-07:02:29.62@0#00000: [   17.195943][   T62] rb: starting...
+2026.04.20-07:02:29.63@0#00000: [   17.197416][   T62] rb: started
+2026.04.20-07:02:29.63@0#00000: [   17.198652][   T62] rb_ioctl, cmd: 0x2000520f, arg: 0x0
+2026.04.20-07:02:29.63@0#00000: [   17.198708][   T62] rb: RB_GET_TYPE
+
+@sys2@
+2026.04.20-07:02:29.63@0#00062: BooterCfg::start()
+2026.04.20-07:02:29.63@0#00062: Holder init - done
+
+@syslog@
+2026.04.20-07:02:29.63@0#00000: [   17.201782][   T62] rb_ioctl, cmd: 0x20005201, arg: 0x0
+2026.04.20-07:02:29.63@0#00000: [   17.201834][   T62] rb: RB_CFG_SIZE
+
+@sys2@
+2026.04.20-07:02:29.63@0#00062: cfgSize = 4096
+
+@syslog@
+2026.04.20-07:02:29.63@0#00000: [   17.203777][   T62] rb_ioctl, cmd: 0x20005203, arg: 0x450820
+2026.04.20-07:02:29.63@0#00000: [   17.203821][   T62] rb: RB_READ_CFG
+
+@sys2@
+2026.04.20-07:02:29.64@0#00062: baudrate = 0
+2026.04.20-07:02:29.64@0#00062: s_version = 7.21.4
+2026.04.20-07:02:29.64@0#00062: s_ver_build = 7.21.4 built by gitlab-runner at Apr/21/2026 06:51:47
+
+@syslog@
+2026.04.20-07:02:29.64@0#00000: [   17.209126][   T62] rb_ioctl, cmd: 0x20005202, arg: 0x0
+2026.04.20-07:02:29.64@0#00000: [   17.209177][   T62] rb: RB_INFO_SIZE
+
+@sys2@
+2026.04.20-07:02:29.64@0#00062: nfoSize = 4096
+
+@syslog@
+2026.04.20-07:02:29.64@0#00000: [   17.211171][   T62] rb_ioctl, cmd: 0x20005204, arg: 0x451830
+2026.04.20-07:02:29.64@0#00000: [   17.211220][   T62] rb: RB_READ_INFO
+
+@sys2@
+2026.04.20-07:02:29.64@0#00062: ID_BOARD_NAME = RB941-2nD
+2026.04.20-07:02:29.64@0#00062: cfg->marketName = hAP lite
+2026.04.20-07:02:29.64@0#00062: p_version = 6.49.17
+2026.04.20-07:02:29.65@0#00062: cfg->boardRevision = r3
+
+@syslog@
+2026.04.20-07:02:29.65@0#00000: [   17.217782][   T62] probe_er_radio_data chunkid 3 caldataid 3
+
+@modprobed@
+2026.04.20-07:02:29.69@0#00092:   +sram.ko
+
+@cloud@
+2026.04.20-07:02:29.70@0#00083: [CTUN-4][WARN] couldn't resolve. Scheduling next retry...
+2026.04.20-07:02:29.70@0#00083: [CTUN-6]Start resolving: cloud2.mikrotik.com
+2026.04.20-07:02:29.70@0#00083: [CTUN-4]all unsubscribed
+2026.04.20-07:02:29.70@0#00083: [CTUN-4] next startConnection scheduled after secs: 10
+
+@resolver@
+2026.04.20-07:02:29.70@0#00075: cmd_resolve6: cloud2.mikrotik.com
+2026.04.20-07:02:29.70@0#00075: Logger: connect: No such file or directory
+2026.04.20-07:02:29.71@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:29.71@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:29.71@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:29.71@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:29.71@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:29.71@0#00075: q cloud2.mikrotik.com.:AAAA:2: done reqs:0 dur:0 server failure
+2026.04.20-07:02:29.71@0#00075: Logger: connect: No such file or directory
+
+@cloud@
+2026.04.20-07:02:29.72@0#00083: [CTUN-6][WARN] couldn't resolve. Scheduling next retry...
+2026.04.20-07:02:29.73@0#00083: [CTUN-6]all unsubscribed
+2026.04.20-07:02:29.73@0#00083: [CTUN-6] next startConnection scheduled after secs: 10
+
+@loader@
+2026.04.20-07:02:29.75@0#00056: static(wireless pid=68)local(WAITING)peer(88,ffffffff,,BADID)  entering READY
+2026.04.20-07:02:29.75@0#00056: static(wireless pid=68)local(READY)peer(88,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:02:29.75@0#00056: static(wireless pid=68)local(READY)peer(88,ffffffff,,BADID)  flushing queue
+
+@parser@
+2026.04.20-07:02:29.75@0#00085: loaded /pckg/wireless/nova/lib/console/1107296256.mem
+
+@net@
+2026.04.20-07:02:29.79@0#00061: registering remote provider:  type:35 ustring:wlan lnameprefix: defqueue:3 addable:0 status:1
+2026.04.20-07:02:29.79@0#00061: registering remote provider:  type:36 ustring:wds lnameprefix: defqueue:3 addable:1 status:1
+2026.04.20-07:02:29.79@0#00061: registering remote provider:  type:38 ustring:nstreme lnameprefix: defqueue:3 addable:0 status:1
+2026.04.20-07:02:29.80@0#00061: registering remote provider:  type:61 ustring:cap lnameprefix: defqueue:0 addable:1 status:0
+2026.04.20-07:02:29.80@0#00061: registering remote provider:  type:62 ustring:wlan60- lnameprefix: defqueue:3 addable:0 status:1
+2026.04.20-07:02:29.80@0#00061: registering remote provider:  type:64 ustring:wlan60-station- lnameprefix: defqueue:3 addable:1 status:1
+
+@modprobed@
+2026.04.20-07:02:29.95@0#00091:  d+ath.ko
+
+@net@
+2026.04.20-07:02:30.25@0#00061: registering remote provider:  type:12 ustring:bridge lnameprefix: defqueue:0 addable:1 status:1
+2026.04.20-07:02:30.25@0#00061: registering remote provider:  type:46 ustring:mesh lnameprefix: defqueue:0 addable:1 status:1
+2026.04.20-07:02:30.25@0#00061: registering remote provider:  type:3 ustring:vrrp lnameprefix: defqueue:0 addable:1 status:0
+2026.04.20-07:02:30.25@0#00061: registering remote provider:  type:50 ustring:vif lnameprefix: defqueue:0 addable:1 status:0
+2026.04.20-07:02:30.25@0#00061: registering remote provider:  type:65 ustring:macsec lnameprefix: defqueue:0 addable:1 status:1
+2026.04.20-07:02:30.25@0#00061: registering remote provider:  type:47 ustring:vpls lnameprefix: defqueue:0 addable:1 status:1
+2026.04.20-07:02:30.25@0#00061: registering remote provider:  type:69 ustring:extport lnameprefix: defqueue:0 addable:1 status:1
+2026.04.20-07:02:30.25@0#00061: registering remote provider:  type:47 ustring:vpls lnameprefix: defqueue:0 addable:1 status:1
+2026.04.20-07:02:30.25@0#00061: ADDRLIST netlink: enable
+2026.04.20-07:02:30.26@0#00061: ADDRLIST netlink: RCBUF: 180224
+2026.04.20-07:02:30.26@0#00061: ADDRLIST netlink: RCBUF: 524288
+
+@sys2@
+2026.04.20-07:02:30.32@0#00062: found valid firmware /etc/qca9531L-7.21.4.fwf
+2026.04.20-07:02:30.38@0#00062: start PoE handler.
+2026.04.20-07:02:30.38@0#00062: PoEOutHandler::PoEOutHandler()
+2026.04.20-07:02:30.38@0#00062: Failed to open usbler dev: No such file or directory
+
+@parser@
+2026.04.20-07:02:30.39@0#00085: loaded /pckg/dhcp/nova/lib/console/1128267776.mem
+
+@loader@
+2026.04.20-07:02:30.39@0#00056: static(ntp pid=86)local(RUNNING)peer(47,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:02:30.39@0#00056: static(ntp pid=86)local(RUNNING)peer(47,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:02:30.39@0#00056: static(ntp pid=86)local(TRYTERM)peer(47,ffffffff,,BADID)  sending TERM message
+
+@sys2@
+2026.04.20-07:02:30.41@0#00062: init pacman
+
+@parser@
+2026.04.20-07:02:30.65@0#00085: loaded /pckg/hotspot/nova/lib/console/1132462080.mem
+
+@resolver@
+2026.04.20-07:02:30.73@0#00075: Logger: connect: No such file or directory
+
+@net@
+2026.04.20-07:02:30.79@0#00061: sizeof(QueueNode): 272
+2026.04.20-07:02:30.79@0#00061: sizeof(HTBNode): 168
+2026.04.20-07:02:30.79@0#00061: sizeof(SimpleQueue): 704
+
+@sys2@
+2026.04.20-07:02:30.79@0#00062: init upgrader
+
+@modprobed@
+2026.04.20-07:02:30.90@0#00091:  d+a9300.ko
+
+@parser@
+2026.04.20-07:02:31.02@0#00085: loaded /pckg/advanced-tools/nova/lib/console/1166016512.mem
+
+@ntp@
+2026.04.20-07:02:31.19@0#00086: [INF] save perm data
+2026.04.20-07:02:31.19@0#00086: --- nv::message --------
+2026.04.20-07:02:31.19@0#00086:  message[0] [6]..
+
+@loader@
+2026.04.20-07:02:31.19@0#00056: static(ntp pid=86)local(TRYTERM)peer(47,ffffffff,,BADID)  TERMOK, terminating
+
+@ntp@
+2026.04.20-07:02:31.20@0#00086: NTP exited
+
+@loader@
+2026.04.20-07:02:31.20@0#00056: read failed (EOF)
+2026.04.20-07:02:31.20@0#00056: static(ntp pid=86)local(TRYTERM)peer(47,ffffffff,,BADID)  entering WAITSIG
+2026.04.20-07:02:31.38@0#00056: static(www pid=89)local(WAITING)peer(70,ffffffff,,BADID)  entering READY
+2026.04.20-07:02:31.38@0#00056: static(www pid=89)local(READY)peer(70,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:02:31.38@0#00056: static(www pid=89)local(READY)peer(70,ffffffff,,BADID)  flushing queue
+
+@syslog@
+2026.04.20-07:02:31.40@0#00000: [   18.971495][   T91] a9300_ahb_init: read eeprom, size 65536, rev 0x160
+2026.04.20-07:02:31.40@0#00000: [   18.973994][   T91] probe_er_radio_data chunkid 1 caldataid -1
+2026.04.20-07:02:31.40@0#00000: [   18.974045][   T91] found extended radio data with id 1
+2026.04.20-07:02:31.40@0#00000: [   18.974831][   T91] radio data lzo decompressed from 722 to 65536
+2026.04.20-07:02:31.40@0#00000: [   18.974853][   T91] read_radio_data got 65536 from 131072
+2026.04.20-07:02:31.40@0#00000: [   18.975507][   T91] mem: 0x18100000, 0xb8100000-0xb8140000 (262144)
+2026.04.20-07:02:31.41@0#00000: [   18.983414][   T91] a9300_init: custData = '....................'
+2026.04.20-07:02:31.41@0#00000: [   18.983542][   T91] a9300_init: mac f4:1e:57:4e:1f:a5, modes 0x360000, caps 0x27c1bf, txchains 0x3, rxchains 0x3, macver 0x500 macrev 0x60
+2026.04.20-07:02:31.42@0#00000: [   18.988154][   T91] w_virtdev_alloc: bcast_sta refcnt 1
+2026.04.20-07:02:31.42@0#00000: [   18.988849][   T91] w_hwdev_update_l2mtu: l2mtu 0->1600
+2026.04.20-07:02:31.42@0#00000: [   18.988897][   T91] w_hwdev_update_l2mtu: bindatasize 0->1792
+2026.04.20-07:02:31.42@0#00000: [   18.988912][   T91] ath_changedbufsize
+2026.04.20-07:02:31.42@0#00000: [   18.989006][   T91] a9300_ahb_init: registered at 0xb8100000, irq 2
+
+@modprobed@
+2026.04.20-07:02:31.42@0#00091:   +a9300_ahb.ko
+
+@sys2@
+2026.04.20-07:02:31.52@0#00062: init panicsaver
+
+@parser@
+2026.04.20-07:02:31.54@0#00085: loaded /pckg/ipv6/nova/lib/console/1212153856.mem
+
+@resolver@
+2026.04.20-07:02:31.79@0#00075: Logger: connect: No such file or directory
+
+@loader@
+2026.04.20-07:02:31.97@0#00056: static(ntp)local(WAITSIG)peer(47,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:02:31.97@0#00056: static(ntp)local(WAITSIG)peer(2f,ffffffff,,BADID)  entering DEAD
+
+@www@
+2026.04.20-07:02:32.07@0#00089: adding server www-ssl, ssl=1
+2026.04.20-07:02:32.08@0#00089: Server-0x431b90-www-ssl-0-fd-1: adding servlet index, path=/
+2026.04.20-07:02:32.08@0#00089: Server-0x431b90-www-ssl-0-fd-1: adding servlet jsproxy, path=/jsproxy
+2026.04.20-07:02:32.08@0#00089: Server-0x431b90-www-ssl-0-fd-1: adding servlet dir, path=/
+2026.04.20-07:02:32.08@0#00089: Server-0x431b90-www-ssl-0-fd-1: adding servlet dir, path=/assets/
+2026.04.20-07:02:32.08@0#00089: Server-0x431b90-www-ssl-0-fd-1: adding servlet dir, path=/webfig/list
+2026.04.20-07:02:32.08@0#00089: Server-0x431b90-www-ssl-0-fd-1: adding servlet dir, path=/webfig/
+2026.04.20-07:02:32.08@0#00089: Server-0x431b90-www-ssl-0-fd-1: adding servlet rest, path=/rest
+2026.04.20-07:02:32.08@0#00089: Server-0x431b90-www-ssl-0-fd-1: adding servlet remote, path=/graphs
+2026.04.20-07:02:32.08@0#00089: Server-0x431b90-www-ssl-0-fd-1: adding servlet remote, path=/apps
+2026.04.20-07:02:32.08@0#00089: adding server www, ssl=0
+2026.04.20-07:02:32.08@0#00089: Server-0x77ff9d50-www-0-fd-1: adding servlet index, path=/
+2026.04.20-07:02:32.09@0#00089: Server-0x77ff9d50-www-0-fd-1: adding servlet jsproxy, path=/jsproxy
+2026.04.20-07:02:32.09@0#00089: Server-0x77ff9d50-www-0-fd-1: adding servlet dir, path=/
+2026.04.20-07:02:32.09@0#00089: Server-0x77ff9d50-www-0-fd-1: adding servlet dir, path=/assets/
+2026.04.20-07:02:32.09@0#00089: Server-0x77ff9d50-www-0-fd-1: adding servlet dir, path=/webfig/list
+2026.04.20-07:02:32.09@0#00089: Server-0x77ff9d50-www-0-fd-1: adding servlet dir, path=/webfig/
+2026.04.20-07:02:32.09@0#00089: Server-0x77ff9d50-www-0-fd-1: adding servlet dir, path=/crl
+2026.04.20-07:02:32.09@0#00089: Server-0x77ff9d50-www-0-fd-1: adding servlet rest, path=/rest
+2026.04.20-07:02:32.10@0#00089: Server-0x77ff9d50-www-0-fd-1: adding servlet remote, path=/graphs
+2026.04.20-07:02:32.11@0#00089: Server-0x77ff9d50-www-0-fd-1: adding servlet remote, path=/scep
+2026.04.20-07:02:32.11@0#00089: Server-0x77ff9d50-www-0-fd-1: adding servlet remote, path=/apps
+2026.04.20-07:02:32.11@0#00089: Server-0x77ff9d50-www-0-fd-1: adding servlet remote, path=/.well-known/acme-challenge
+2026.04.20-07:02:32.11@0#00089: adding server fileshare-www-ssl, ssl=1
+2026.04.20-07:02:32.11@0#00089: Server-0x77e34af0-fileshare-www-ssl-0-fd-1: adding servlet remote, path=/
+2026.04.20-07:02:32.12@0#00089: Plain {/:1}, {/.well-known/acme-challenge:1}, {/apps:1}, {/assets/:1}, {/crl:1}, {/graphs:1}, {/jsproxy:1}, {/rest:1}, {/scep:1}, {/webfig/:1}, {/webfig/list:1}, 
+2026.04.20-07:02:32.12@0#00089: Secure {/:1}, {/apps:1}, {/assets/:1}, {/graphs:1}, {/jsproxy:1}, {/rest:1}, {/webfig/:1}, {/webfig/list:1}, 
+
+@loader@
+2026.04.20-07:02:32.12@0#00056: static(www pid=89)local(READY)peer(70,ffffffff,,BADID)  entering RUNNING
+
+@parser@
+2026.04.20-07:02:32.12@0#00085: loaded /pckg/tr069-client/nova/lib/console/1262485504.mem
+
+@www@
+2026.04.20-07:02:32.12@0#00089: set www enabled=1 port=80 cert=4294967295 vrf=0
+2026.04.20-07:02:32.14@0#00089: Server-0x77ff9d50-www-80-fd-1: rebind enabled:1 allowedFrom:[]
+2026.04.20-07:02:32.14@0#00089: Server-0x77ff9d50-www-80-fd-1: creating tcp socket on port 80
+2026.04.20-07:02:32.14@0#00089: Server-0x77ff9d50-www-80-fd5: using inet6
+
+@sermgr@
+2026.04.20-07:02:32.14@0#00066: Service0x77ff99e0-api---0-6-8728: enable
+2026.04.20-07:02:32.14@0#00066: Service0x77ff99e0-api---0-6-8728: enabling
+2026.04.20-07:02:32.14@0#00066: Service0x77ff9b10-winbox---0-6-8291: enable
+2026.04.20-07:02:32.14@0#00066: Service0x77ff9b10-winbox---0-6-8291: enabling remote
+
+@modprobed@
+2026.04.20-07:02:32.19@0#00092:   +aths16.ko
+2026.04.20-07:02:32.44@0#00092: module load failed: ath8327.ko: No such file or directory
+2026.04.20-07:02:32.44@0#00092: module load failed: music_switch.ko: No such file or directory
+
+@sys2@
+2026.04.20-07:02:32.78@0#00062: init done
+
+@loader@
+2026.04.20-07:02:32.78@0#00056: static(sys2 pid=62)local(READY)peer(24,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:32.79@0#00056: queuing error message
+
+@net@
+2026.04.20-07:02:32.81@0#00061: conntrack: conntrackRulesAllowed[0] = 1
+2026.04.20-07:02:32.82@0#00061: conntrack: conntrackRulesAllowed[1] = 1
+2026.04.20-07:02:32.85@0#00061: XTREPLACE: startChain, id 1, offs 96
+2026.04.20-07:02:32.85@0#00061: XTREPLACE: startChain, id 2, offs 248
+2026.04.20-07:02:32.89@0#00061: XTREPLACE: startChain, id 3, offs 400
+
+@syslog@
+2026.04.20-07:02:32.89@0#00000: [   20.462325][   T92] machtype:80 cpu: 0160, revision: 0, cycles_per_sec: 325000000
+2026.04.20-07:02:32.89@0#00000: [   20.462382][   T92] ar7240:0 ar7241:0 ar7242:0 ar9330:0 ar9331:0 ar9341:0 ar9342:0 ar9344:0 qca95xx:1
+2026.04.20-07:02:32.89@0#00000: [   20.463316][   T92] switch0: reset unit 1 (phy 8227, mii divider 2, preamble 0) mdio_reset:1
+2026.04.20-07:02:32.94@0#00000: [   20.506686][   T92] ath_reset (specific_config:0)
+2026.04.20-07:02:33.04@0#00000: [   20.608256][   T92] switch0: max_tx_buffers_per_port=101, tx_buffer_count=512, cpu_port_count=1, stat_count=1, port_count=5, max_tx_buffers_per_pack=1, num_tx_queues:1
+
+@resolver@
+2026.04.20-07:02:33.04@0#00075: Logger: connect: No such file or directory
+
+@net@
+2026.04.20-07:02:33.04@0#00061: XTREPLACE: startChain, id 4294967295, offs 552
+2026.04.20-07:02:33.05@0#00061: ipt filter: rebuild general 0->0
+2026.04.20-07:02:33.05@0#00061: XTREPLACE: startChain, id 1, offs 96
+2026.04.20-07:02:33.05@0#00061: XTREPLACE: startChain, id 2, offs 304
+2026.04.20-07:02:33.05@0#00061: XTREPLACE: startChain, id 3, offs 512
+2026.04.20-07:02:33.05@0#00061: XTREPLACE: startChain, id 4294967295, offs 720
+2026.04.20-07:02:33.05@0#00061: ipt6 filter: rebuild general 0->0
+2026.04.20-07:02:33.05@0#00061: XTREPLACE: startChain, id 1, offs 96
+2026.04.20-07:02:33.05@0#00061: XTREPLACE: startChain, id 2, offs 248
+2026.04.20-07:02:33.05@0#00061: XTREPLACE: startChain, id 3, offs 400
+2026.04.20-07:02:33.06@0#00061: XTREPLACE: startChain, id 4, offs 552
+2026.04.20-07:02:33.06@0#00061: XTREPLACE: startChain, id 5, offs 704
+2026.04.20-07:02:33.06@0#00061: XTREPLACE: startChain, id 4294967295, offs 856
+2026.04.20-07:02:33.06@0#00061: ipt mangle: rebuild general 0->0
+2026.04.20-07:02:33.06@0#00061: XTREPLACE: startChain, id 1, offs 96
+2026.04.20-07:02:33.06@0#00061: XTREPLACE: startChain, id 2, offs 304
+2026.04.20-07:02:33.07@0#00061: XTREPLACE: startChain, id 3, offs 512
+2026.04.20-07:02:33.07@0#00061: XTREPLACE: startChain, id 4, offs 720
+2026.04.20-07:02:33.07@0#00061: XTREPLACE: startChain, id 5, offs 928
+2026.04.20-07:02:33.07@0#00061: XTREPLACE: startChain, id 4294967295, offs 1136
+2026.04.20-07:02:33.07@0#00061: ipt6 mangle: rebuild general 0->0
+2026.04.20-07:02:33.07@0#00061: XTREPLACE: startChain, id 1, offs 96
+2026.04.20-07:02:33.07@0#00061: XTREPLACE: startChain, id 2, offs 248
+2026.04.20-07:02:33.07@0#00061: XTREPLACE: startChain, id 3, offs 400
+2026.04.20-07:02:33.07@0#00061: XTREPLACE: startChain, id 4, offs 552
+
+@resolver@
+2026.04.20-07:02:33.22@0#00075: opendir: No such file or directory
+
+@net@
+2026.04.20-07:02:33.52@0#00061: XTREPLACE: startChain, id 4294967295, offs 704
+2026.04.20-07:02:33.52@0#00061: ipt nat: rebuild general 0->0
+2026.04.20-07:02:33.52@0#00061: XTREPLACE: startChain, id 1, offs 96
+2026.04.20-07:02:33.52@0#00061: XTREPLACE: startChain, id 2, offs 304
+2026.04.20-07:02:33.53@0#00061: XTREPLACE: startChain, id 3, offs 512
+2026.04.20-07:02:33.53@0#00061: XTREPLACE: startChain, id 4, offs 720
+2026.04.20-07:02:33.53@0#00061: XTREPLACE: startChain, id 4294967295, offs 928
+2026.04.20-07:02:33.53@0#00061: ipt6 nat: rebuild general 0->0
+2026.04.20-07:02:33.53@0#00061: XTREPLACE: startChain, id 1, offs 96
+2026.04.20-07:02:33.53@0#00061: XTREPLACE: startChain, id 2, offs 248
+2026.04.20-07:02:33.53@0#00061: XTREPLACE: startChain, id 4294967295, offs 400
+2026.04.20-07:02:33.53@0#00061: ipt raw: rebuild general 0->0
+2026.04.20-07:02:33.53@0#00061: XTREPLACE: startChain, id 1, offs 96
+2026.04.20-07:02:33.53@0#00061: XTREPLACE: startChain, id 2, offs 304
+2026.04.20-07:02:33.53@0#00061: XTREPLACE: startChain, id 4294967295, offs 512
+2026.04.20-07:02:33.54@0#00061: ipt6 raw: rebuild general 0->0
+2026.04.20-07:02:33.54@0#00061: ebt filter: rebuild general 0->0
+2026.04.20-07:02:33.54@0#00061: ebt nat: rebuild general 0->0
+2026.04.20-07:02:33.56@0#00061: VRF: lo cur: main
+2026.04.20-07:02:33.57@0#00061: Logger: connect: No such file or directory
+2026.04.20-07:02:33.57@0#00061: Logger: connect: No such file or directory
+2026.04.20-07:02:33.57@0#00061: run
+
+@loader@
+2026.04.20-07:02:33.57@0#00056: static(net pid=61)local(READY)peer(20,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:33.58@0#00056: static(ippool6)local(DEAD)peer(30,ffffffff,,BADID)  run!  started, pid 94
+2026.04.20-07:02:33.58@0#00056: static(ippool6 pid=94)local(DEAD)peer(30,ffffffff,,BADID)  entering WAITING
+
+@net@
+2026.04.20-07:02:33.58@0#00061: ifaces: reopen netlink with notifs
+
+@macping@
+2026.04.20-07:02:33.72@0#00078: AsyncReget done
+
+@mproxy@
+2026.04.20-07:02:33.78@0#00057: sermgr::CMD_SET
+
+@loader@
+2026.04.20-07:02:33.79@0#00056: static(mproxy pid=57)local(READY)peer(2,ffffffff,,BADID)  entering RUNNING
+
+@sermgr@
+2026.04.20-07:02:33.79@0#00066: Service0x77eae770-api-ssl---0-6-8729: enable
+2026.04.20-07:02:33.79@0#00066: Service0x77eae770-api-ssl---0-6-8729: enabling
+
+@mactel@
+2026.04.20-07:02:33.79@0#00076: AsyncReget done
+
+@syslog@
+2026.04.20-07:02:33.82@0#00000: [   21.387259][   T62] flash: writing cfg id = 23, size = 4
+2026.04.20-07:02:33.82@0#00000: [   21.390905][   T62] flash_ioctl: programming injected settings id 23
+
+@modprobed@
+2026.04.20-07:02:33.82@0#00092:   +ag7240.ko
+
+@sys2@
+2026.04.20-07:02:33.83@0#00062: cmd tick
+2026.04.20-07:02:33.83@0#00062: ctl 20 5000000 2 10
+2026.04.20-07:02:33.83@0#00062: add tickTimer
+
+@quickset@
+2026.04.20-07:02:33.99@0#00071: caps=0
+
+@loader@
+2026.04.20-07:02:33.99@0#00056: static(quickset pid=71)local(READY)peer(120,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:34.02@0#00056: static(log pid=58)local(READY)peer(3,ffffffff,,BADID)  entering RUNNING
+
+@log@
+2026.04.20-07:02:34.04@0#00058: REC 5: ready
+2026.04.20-07:02:34.04@0#00058: REC 5: 1 subscribe dns
+2026.04.20-07:02:34.04@0#00058: REC 5: 1 notify off
+
+@sys2@
+2026.04.20-07:02:34.25@0#00062: tickTimer
+
+@log@
+2026.04.20-07:02:34.63@0#00058: REC 8: ready
+2026.04.20-07:02:34.63@0#00058: REC 8: 1 subscribe interface,info
+
+@syslog@
+2026.04.20-07:02:34.67@0#00000: [   22.244874][   T72] ar7100_wdt_enable
+
+@loader@
+2026.04.20-07:02:34.68@0#00056: static(watchdog pid=72)local(READY)peer(129,ffffffff,,BADID)  entering RUNNING
+
+@mproxy@
+2026.04.20-07:02:34.78@0#00057: set mac listen [] []
+
+@bridge2@
+2026.04.20-07:02:34.85@0#00077: BH: allocated lname br0
+2026.04.20-07:02:34.86@0#00077: bridge-WAN; bridgeEnable 
+2026.04.20-07:02:34.87@0#00077: bridge-WAN max learned entries 4096
+2026.04.20-07:02:34.88@0#00077: PORTDEV: brid: 8 mtu:1500 l2mtu:65535
+2026.04.20-07:02:34.88@0#00077: bridge-WAN: BRIDGE: updating mtu: 1500
+
+@sstore@
+2026.04.20-07:02:34.88@0#00053: net/devices:8 wr 313
+
+@bridge2@
+2026.04.20-07:02:34.89@0#00077: BH: tryAddRstpPort: no PortDev for 1
+2026.04.20-07:02:34.89@0#00077: BH: allocated lname br1
+2026.04.20-07:02:34.89@0#00077: bridge-LAN; bridgeEnable 
+
+@log@
+2026.04.20-07:02:34.89@0#00058: REC 9: ready
+2026.04.20-07:02:34.89@0#00058: REC 9: 1 subscribe system,info
+
+@bridge2@
+2026.04.20-07:02:34.90@0#00077: bridge-LAN max learned entries 4096
+2026.04.20-07:02:34.92@0#00077: PORTDEV: brid: 9 mtu:1500 l2mtu:65535
+2026.04.20-07:02:34.92@0#00077: bridge-LAN: BRIDGE: updating mtu: 1500
+2026.04.20-07:02:34.92@0#00077: BH: tryAddRstpPort: no PortDev for 2
+2026.04.20-07:02:34.93@0#00077: BH: tryAddRstpPort: no PortDev for 3
+2026.04.20-07:02:34.93@0#00077: BH: tryAddRstpPort: no PortDev for 4
+2026.04.20-07:02:34.93@0#00077: BH: allocated lname br2
+2026.04.20-07:02:34.93@0#00077: bridge-WLAN; bridgeEnable 
+2026.04.20-07:02:34.93@0#00077: bridge-WLAN max learned entries 4096
+
+@net@
+2026.04.20-07:02:34.93@0#00061: VRF: bridge-WAN cur: main
+2026.04.20-07:02:34.94@0#00061: XTREPLACE: startChain, id 1, offs 96
+2026.04.20-07:02:34.94@0#00061: XTREPLACE: startChain, id 2, offs 248
+2026.04.20-07:02:34.94@0#00061: XTREPLACE: startChain, id 3, offs 400
+2026.04.20-07:02:34.94@0#00061: XTREPLACE: startChain, id 4, offs 552
+2026.04.20-07:02:34.94@0#00061: XTREPLACE: startChain, id 4294967295, offs 872
+
+@bridge2@
+2026.04.20-07:02:34.98@0#00077: PORTDEV: brid: 10 mtu:1500 l2mtu:65535
+2026.04.20-07:02:34.98@0#00077: bridge-WLAN: BRIDGE: updating mtu: 1500
+2026.04.20-07:02:34.98@0#00077: BH: tryAddRstpPort: no PortDev for 6
+2026.04.20-07:02:34.98@0#00077: BridgeHandler::watchDevices
+
+@cerm@
+2026.04.20-07:02:35.02@0#00079: free hdd 7612
+
+@sermgr@
+2026.04.20-07:02:35.03@0#00066: running
+
+@loader@
+2026.04.20-07:02:35.03@0#00056: static(sermgr pid=66)local(READY)peer(68,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:35.03@0#00056: could not find destination 146
+2026.04.20-07:02:35.03@0#00056: request to reply with error to NON-REQUEST message [68, 100]->[146, 1]
+2026.04.20-07:02:35.03@0#00056: could not find destination 146
+2026.04.20-07:02:35.03@0#00056: queuing error message
+
+@sermgr@
+2026.04.20-07:02:35.04@0#00066: Service0x77ff9b10-winbox---0-6-8291: enable
+2026.04.20-07:02:35.04@0#00066: Service0x77ff9b10-winbox---0-6-8291: enabling remote
+
+@mproxy@
+2026.04.20-07:02:35.04@0#00057: sermgr::CMD_SET
+
+@sermgr@
+2026.04.20-07:02:35.05@0#00066: map mirror [146, 1]: CMD_GETALL failed: std failure: broken path (2)
+
+@discover@
+2026.04.20-07:02:35.06@0#00060: platform: MikroTik
+2026.04.20-07:02:35.15@0#00060: osvers:7.21.4 (long-term) 2026-04-21 06:49:05
+2026.04.20-07:02:35.15@0#00060: [ND] subscribe to netdev
+
+@cerm@
+2026.04.20-07:02:35.19@0#00079: reading store
+
+@discover@
+2026.04.20-07:02:35.19@0#00060: board name: RB941-2nD neighbours->max: 512
+2026.04.20-07:02:35.19@0#00060: rosIdentity: MikroTik
+
+@dhcp@
+2026.04.20-07:02:35.44@0#00080: creating classes
+2026.04.20-07:02:35.93@0#00080: adding handlers
+2026.04.20-07:02:35.93@0#00080: init config
+2026.04.20-07:02:35.93@0#00080: init options
+2026.04.20-07:02:35.93@0#00080: init ifaces
+
+@mproxy@
+2026.04.20-07:02:36.29@0#00057: set mac listen [13] [F4:1E:57:4E:1F:A0]
+
+@dhcpclient@
+2026.04.20-07:02:36.29@0#00082: > addr getall, - 192.168.1.1 devid=9, - 192.168.10.1 devid=10, finish
+2026.04.20-07:02:36.29@0#00082: devinfo
+2026.04.20-07:02:36.30@0#00082: bridge-WAN//8/0/0 0x2 down -H-------------------
+2026.04.20-07:02:36.30@0#00082: devinfo
+2026.04.20-07:02:36.31@0#00082: bridge-WAN/br0/8/d/0 0x80541 up --LERU--O------------
+2026.04.20-07:02:36.31@0#00082: link4 br0 (13) SET bridge-WAN
+2026.04.20-07:02:36.31@0#00082: bridge-WAN starting...
+
+@log@
+2026.04.20-07:02:36.31@0#00058: REC 10: ready
+2026.04.20-07:02:36.31@0#00058: REC 10: 1 subscribe dhcp,debug,state
+2026.04.20-07:02:36.32@0#00058: REC 10: 1 notify off
+
+@dhcpclient@
+2026.04.20-07:02:36.32@0#00082: dhcp-client on bridge-WAN entering <selecting...> state
+
+@dhcp@
+2026.04.20-07:02:36.38@0#00080: loaded DUID: 00030001f41e574e1fa0 
+2026.04.20-07:02:36.38@0#00080: init subnets
+2026.04.20-07:02:36.38@0#00080: init servers
+
+@loader@
+2026.04.20-07:02:36.39@0#00056: static(ippool)local(DEAD)peer(84,ffffffff,,BADID)  run!  started, pid 95
+2026.04.20-07:02:36.39@0#00056: static(ippool pid=95)local(DEAD)peer(84,ffffffff,,BADID)  entering WAITING
+
+@dhcpclient@
+2026.04.20-07:02:36.56@0#00082: bridge-WAN sending DHCPDISCOVER after 0s
+2026.04.20-07:02:36.56@0#00082: dhcp-client on bridge-WAN sending discover with id 1930321672 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+
+@log@
+2026.04.20-07:02:36.78@0#00058: REC 10: 2 subscribe dhcp,debug
+2026.04.20-07:02:36.78@0#00058: REC 10: 2 notify off
+2026.04.20-07:02:36.78@0#00058: REC 10: 3 subscribe dhcp,debug,packet
+2026.04.20-07:02:36.78@0#00058: REC 10: 3 notify off
+
+@bridge2@
+2026.04.20-07:02:37.08@0#00077: do run
+
+@loader@
+2026.04.20-07:02:37.09@0#00056: static(bridge2 pid=77)local(READY)peer(16,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:37.09@0#00056: static(detnet)local(DEAD)peer(132,ffffffff,,BADID)  run!  started, pid 96
+2026.04.20-07:02:37.09@0#00056: static(detnet pid=96)local(DEAD)peer(132,ffffffff,,BADID)  entering WAITING
+
+@bridge2@
+2026.04.20-07:02:37.09@0#00077: HW: rechecking hw
+
+@loader@
+2026.04.20-07:02:37.70@0#00056: static(cerm pid=79)local(READY)peer(19,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:37.70@0#00056: static(cerm pid=79)local(RUNNING)peer(19,ffffffff,,BADID)  SETUP timeout to:1000
+
+@dhcpclient@
+2026.04.20-07:02:37.85@0#00082: bridge-WAN sending DHCPDISCOVER after 2s
+2026.04.20-07:02:37.85@0#00082: dhcp-client on bridge-WAN sending discover with id 1930321672 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+
+@detnet@
+2026.04.20-07:02:38.06@0#00096: main in
+
+@loader@
+2026.04.20-07:02:38.12@0#00056: static(ippool pid=95)local(WAITING)peer(84,ffffffff,,BADID)  entering READY
+2026.04.20-07:02:38.12@0#00056: static(ippool pid=95)local(READY)peer(84,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:02:38.13@0#00056: static(ippool pid=95)local(READY)peer(84,ffffffff,,BADID)  flushing queue
+2026.04.20-07:02:38.13@0#00056: static(detnet pid=96)local(WAITING)peer(132,ffffffff,,BADID)  entering READY
+2026.04.20-07:02:38.13@0#00056: static(detnet pid=96)local(READY)peer(132,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:02:38.13@0#00056: static(detnet pid=96)local(READY)peer(132,ffffffff,,BADID)  flushing queue
+2026.04.20-07:02:38.13@0#00056: static(ippool6 pid=94)local(WAITING)peer(30,ffffffff,,BADID)  entering READY
+2026.04.20-07:02:38.14@0#00056: static(ippool6 pid=94)local(READY)peer(30,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:02:38.14@0#00056: static(ippool6 pid=94)local(READY)peer(30,ffffffff,,BADID)  flushing queue
+
+@detnet@
+2026.04.20-07:02:38.21@0#00096: software id: 0000017486fa4aca
+2026.04.20-07:02:38.21@0#00096: key hex: 
+2026.04.20-07:02:38.22@0#00096: 0000: e2 83 12 43 b3 9c fc 49  2f dd cd 28 31 38 f9 9d  ...C...I /..(18..
+2026.04.20-07:02:38.22@0#00096: 0010: a3 a5 51 fd d8 5a 70 8e  ba 98 98 d8 c3 fc f7 30  ..Q..Zp. .......0
+2026.04.20-07:02:38.22@0#00096: 0020: 67 79 01 36 55 e9 b5 75  47 7d 1f 98 b6 83 a5 9e  gy.6U..u G}......
+2026.04.20-07:02:38.22@0#00096: 0030: ed 6f 17 d5 2d ac 5d 6f  f7 a7 63 13 4e 7f f0 07  .o..-.]o ..c.N...
+@loader@
+2026.04.20-07:02:38.22@0#00056: NEWID is!!
+
+@ippool@
+2026.04.20-07:02:38.22@0#00095: burp c0a8000a,c0a800fe,blah
+2026.04.20-07:02:38.22@0#00095: burp c0a80102,c0a801fe,blah
+2026.04.20-07:02:38.22@0#00095: burp c0a80a02,c0a80afe,blah
+
+@loader@
+2026.04.20-07:02:38.23@0#00056: static(ippool6 pid=94)local(READY)peer(30,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:38.23@0#00056: static(ippool6 pid=94)local(RUNNING)peer(30,ffffffff,,BADID)  SETUP timeout to:1000
+2026.04.20-07:02:38.23@0#00056: static(ippool pid=95)local(READY)peer(84,ffffffff,,BADID)  entering RUNNING
+
+@detnet@
+
+2026.04.20-07:02:38.23@0#00096: key hash: 
+2026.04.20-07:02:38.23@0#00096: 0000: 91 f1 87 90 1b 10 36 3f  69 8b 21 0f 61 33 3a ee  ......6? i.!.a3:.
+2026.04.20-07:02:38.23@0#00096: key id: 00760d179ddf0a41
+
+@loader@
+2026.04.20-07:02:38.24@0#00056: static(ippool pid=95)local(RUNNING)peer(84,ffffffff,,BADID)  SETUP timeout to:1000
+2026.04.20-07:02:38.25@0#00056: static(detnet pid=96)local(READY)peer(132,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:38.25@0#00056: static(detnet pid=96)local(RUNNING)peer(132,ffffffff,,BADID)  SETUP timeout to:100
+
+@dhcp@
+2026.04.20-07:02:38.25@0#00080:  added giaddr 0.0.0.0
+
+@bridge2@
+2026.04.20-07:02:38.25@0#00077: BridgeHandler: detnet disabled
+
+@dhcp@
+2026.04.20-07:02:38.25@0#00080:  added giaddr 0.0.0.0
+2026.04.20-07:02:38.26@0#00080: init servers6
+2026.04.20-07:02:38.26@0#00080: init relays6
+2026.04.20-07:02:38.26@0#00080: init relays6Routes
+2026.04.20-07:02:38.26@0#00080: init bindings
+2026.04.20-07:02:38.26@0#00080: init leases
+2026.04.20-07:02:38.26@0#00080: restored 0 leases in 0ms
+2026.04.20-07:02:38.26@0#00080: init relays
+2026.04.20-07:02:38.26@0#00080: entering run
+2026.04.20-07:02:38.26@0#00080: unseen ifaces: 2
+
+@loader@
+2026.04.20-07:02:38.26@0#00056: static(dhcp pid=80)local(READY)peer(23,ffffffff,,BADID)  entering RUNNING
+
+@net@
+2026.04.20-07:02:38.31@0#00061: load module: kernel/net/ipv4/netfilter/nf_nat_ftp.ko: -1
+2026.04.20-07:02:38.54@0#00061: load module: kernel/net/ipv4/netfilter/nf_nat_tftp.ko: -1
+2026.04.20-07:02:39.39@0#00061: load module: kernel/net/ipv4/netfilter/nf_nat_sip.ko: -1
+
+@route@
+2026.04.20-07:02:39.45@0#00064: Created Task #4: routing policy configuration
+
+@wireless@
+2026.04.20-07:02:39.79@0#00068: wirelessrd: using /pckg/wireless/nova/etc/wirelessrd, parse ok
+2026.04.20-07:02:39.79@0#00068: loadLockBlob: no valid data, len -1
+
+@route@
+2026.04.20-07:02:39.90@0#00064:  publish ON
+2026.04.20-07:02:39.90@0#00064:  mark ON
+2026.04.20-07:02:39.90@0#00064:  wipe ON
+2026.04.20-07:02:39.91@0#00064: handler remap :0:fd1005 as fffe0005
+2026.04.20-07:02:39.91@0#00064: handler remap :0:fd1006 as fffe0006
+2026.04.20-07:02:39.91@0#00064: [42mCREATE STATIC TASK[m
+2026.04.20-07:02:39.91@0#00064: Created Task #5: configuration and reporting
+2026.04.20-07:02:39.91@0#00064:  route/static/dst/mark ON
+2026.04.20-07:02:39.91@0#00064:  route/static/dst/publish ON
+2026.04.20-07:02:39.91@0#00064:  cleanup static ON
+2026.04.20-07:02:39.91@0#00064:  update static routes ON
+2026.04.20-07:02:39.91@0#00064:  notifications ON
+2026.04.20-07:02:39.92@0#00064:  process api queue ON
+2026.04.20-07:02:39.92@0#00064:  wipe ON
+2026.04.20-07:02:39.92@0#00064: handler map :0:15
+2026.04.20-07:02:39.92@0#00064: Created Task #6: BFD service
+2026.04.20-07:02:39.92@0#00064:  BFD cfg apply schedule after 50 jiffies
+
+@dhcpclient@
+2026.04.20-07:02:39.92@0#00082: bridge-WAN sending DHCPDISCOVER after 4s
+2026.04.20-07:02:39.92@0#00082: dhcp-client on bridge-WAN sending discover with id 1930321672 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+
+@cloud@
+2026.04.20-07:02:40.14@0#00083: [CTUN-4]Start resolving: cloud2.mikrotik.com
+
+@loader@
+2026.04.20-07:02:40.40@0#00056: static(upnp pid=63)local(RUNNING)peer(28,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:02:40.40@0#00056: static(upnp pid=63)local(RUNNING)peer(28,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:02:40.40@0#00056: static(upnp pid=63)local(TRYTERM)peer(28,ffffffff,,BADID)  sending TERM message
+2026.04.20-07:02:40.40@0#00056: static(led pid=70)local(RUNNING)peer(118,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:02:40.41@0#00056: static(led pid=70)local(RUNNING)peer(118,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:02:40.41@0#00056: static(led pid=70)local(TRYTERM)peer(118,ffffffff,,BADID)  sending TERM message
+2026.04.20-07:02:40.41@0#00056: static(detnet pid=96)local(RUNNING)peer(132,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:02:40.41@0#00056: static(detnet pid=96)local(RUNNING)peer(132,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:02:40.41@0#00056: static(detnet pid=96)local(TRYTERM)peer(132,ffffffff,,BADID)  sending TERM message
+
+@detnet@
+2026.04.20-07:02:40.41@0#00096: main out
+
+@loader@
+2026.04.20-07:02:40.41@0#00056: static(detnet pid=96)local(TRYTERM)peer(132,ffffffff,,BADID)  TERMOK, terminating
+2026.04.20-07:02:40.41@0#00056: read failed (EOF)
+2026.04.20-07:02:40.42@0#00056: static(detnet pid=96)local(TRYTERM)peer(132,ffffffff,,BADID)  entering WAITSIG
+
+@route@
+2026.04.20-07:02:40.42@0#00064: [41mCREATE OSPF TASK[m
+2026.04.20-07:02:40.42@0#00064: Created Task #7: ospf
+2026.04.20-07:02:40.42@0#00064:  policy merge ON
+2026.04.20-07:02:40.42@0#00064:  cleanup ospf ON
+2026.04.20-07:02:40.60@0#00064: Created Task #8: isis
+2026.04.20-07:02:40.60@0#00064:  link update ON
+
+@resolver@
+2026.04.20-07:02:40.61@0#00075: cmd_resolve: cloud2.mikrotik.com
+2026.04.20-07:02:40.61@0#00075: name: cloud2.mikrotik.com.
+
+@upnp@
+2026.04.20-07:02:40.63@0#00063: main() out
+
+@net@
+2026.04.20-07:02:40.84@0#00061: connlist4: on conntrack change: 1
+
+@loader@
+2026.04.20-07:02:41.23@0#00056: read failed (EOF)
+2026.04.20-07:02:41.23@0#00056: static(upnp pid=63)local(TRYTERM)peer(28,ffffffff,,BADID)  entering WAITSIG
+2026.04.20-07:02:41.23@0#00056: static(upnp)local(WAITSIG)peer(28,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:02:41.23@0#00056: static(upnp)local(WAITSIG)peer(1c,ffffffff,,BADID)  entering DEAD
+
+@wireless@
+2026.04.20-07:02:41.23@0#00068: socketActivity: NEWDEVICE
+
+@syslog@
+2026.04.20-07:02:41.23@0#00000: [   28.805563][   T68] ctl_zap
+
+@wireless@
+2026.04.20-07:02:41.24@0#00068: HWDevice: phymodes 0x360000 2312000-2732000, step 5000
+2026.04.20-07:02:41.24@0#00068: HWDevice: phymodes 0x360000 2484000-2484000, step 5000
+2026.04.20-07:02:41.24@0#00068: getWifiIfIdx: iface num 0
+2026.04.20-07:02:41.24@0#00068: findLockInfo: for num 0 no valid data
+2026.04.20-07:02:41.24@0#00068: HwDevice: use legacy lock info
+
+@loader@
+2026.04.20-07:02:41.26@0#00056: static(detnet)local(WAITSIG)peer(132,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:02:41.26@0#00056: static(detnet)local(WAITSIG)peer(84,ffffffff,,BADID)  entering DEAD
+
+@resolver@
+2026.04.20-07:02:41.31@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:41.31@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:41.31@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:41.32@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:41.32@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:41.32@0#00075: q cloud2.mikrotik.com.:A:3: done reqs:0 dur:72 server failure
+
+@cloud@
+2026.04.20-07:02:41.33@0#00083: [CTUN-4][WARN] couldn't resolve. Scheduling next retry...
+2026.04.20-07:02:41.33@0#00083: [CTUN-6]Start resolving: cloud2.mikrotik.com
+2026.04.20-07:02:41.33@0#00083: [CTUN-4]all unsubscribed
+2026.04.20-07:02:41.33@0#00083: [CTUN-4] next startConnection scheduled after secs: 20
+
+@resolver@
+2026.04.20-07:02:41.39@0#00075: cmd_resolve6: cloud2.mikrotik.com
+2026.04.20-07:02:41.39@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:41.40@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:41.40@0#00075: connect socket: Network unreachable
+2026.04.20-07:02:41.40@0#00075: connect socket: Network unreachable
+
+@route@
+2026.04.20-07:02:41.40@0#00064: Created Task #9: rip
+
+@resolver@
+2026.04.20-07:02:41.40@0#00075: connect socket: Network unreachable
+
+@route@
+2026.04.20-07:02:41.40@0#00064:   cfg update ON
+2026.04.20-07:02:41.41@0#00064:  unnamed ON
+
+@resolver@
+2026.04.20-07:02:41.41@0#00075: q cloud2.mikrotik.com.:AAAA:4: done reqs:0 dur:1 server failure
+
+@cloud@
+2026.04.20-07:02:41.41@0#00083: [CTUN-6][WARN] couldn't resolve. Scheduling next retry...
+2026.04.20-07:02:41.41@0#00083: [CTUN-6]all unsubscribed
+2026.04.20-07:02:41.41@0#00083: [CTUN-6] next startConnection scheduled after secs: 20
+
+@route@
+2026.04.20-07:02:41.41@0#00064: [42mCREATE FANTASY TASK[m
+2026.04.20-07:02:41.42@0#00064: Created Task #10: fantasy
+2026.04.20-07:02:41.42@0#00064:  unnamed ON
+2026.04.20-07:02:41.42@0#00064: [42mCREATE ROUTING TABLE TASK[m
+2026.04.20-07:02:41.42@0#00064: [42mCREATE NET MIRROR TASK[m
+2026.04.20-07:02:41.42@0#00064:  cleanup net ON
+
+@wireless@
+2026.04.20-07:02:41.65@0#00068: loadMfgRulesFile: /pckg/wireless/nova/etc/wirelessmfg parsed ok
+2026.04.20-07:02:41.65@0#00068: loadMfgRulesFile: count 331
+2026.04.20-07:02:41.65@0#00068: HwDevice::HwDevice: bn 'RB941-2nD' mn 'hAP lite' btn 'H951L'
+2026.04.20-07:02:41.65@0#00068: HwDevice::HwDevice:    matched rule line 55
+2026.04.20-07:02:41.65@0#00068: HwDevice::HwDevice:    matched rule line 92
+2026.04.20-07:02:41.65@0#00068: HwDevice::HwDevice:    matched rule line 153
+2026.04.20-07:02:41.65@0#00068: HwDevice::HwDevice:    matched rule line 230
+2026.04.20-07:02:41.66@0#00068: HwDevice::HwDevice: type 9 htinfo 0x30301 pciinfo 0x0 soccoreid 0 mfg: enableallchains 1 euantgain 2 cca2 -90 cca5 0 location 0 deflocation 0 defantgain 2 resetantgain 0 rdtag 0
+2026.04.20-07:02:41.66@0#00068:   countries:
+2026.04.20-07:02:41.66@0#00068:   freqcost:
+2026.04.20-07:02:41.66@0#00068: NetDevHandler::init
+
+@loader@
+2026.04.20-07:02:41.68@0#00056: read failed (EOF)
+2026.04.20-07:02:41.68@0#00056: static(led pid=70)local(TRYTERM)peer(118,ffffffff,,BADID)  entering WAITSIG
+2026.04.20-07:02:41.68@0#00056: static(led)local(WAITSIG)peer(118,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:02:41.69@0#00056: static(led)local(WAITSIG)peer(76,ffffffff,,BADID)  entering DEAD
+
+@route@
+2026.04.20-07:02:41.69@0#00064:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:41.69@0#00064:  recompile later
+2026.04.20-07:02:41.69@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:02:41.70@0#00064: PolicyTask recompile
+
+@log@
+2026.04.20-07:02:41.70@0#00058: REC 11: ready
+2026.04.20-07:02:41.76@0#00058: REC 11: 1 subscribe route,rpki,debug
+2026.04.20-07:02:41.76@0#00058: REC 11: 1 notify off
+
+@route@
+2026.04.20-07:02:41.76@0#00064: rpki:
+2026.04.20-07:02:41.76@0#00064: address-lists:
+2026.04.20-07:02:41.76@0#00064: num-sets:
+2026.04.20-07:02:41.76@0#00064: community-sets:
+2026.04.20-07:02:41.76@0#00064: ext-community-sets:
+2026.04.20-07:02:41.76@0#00064: large-community-sets:
+2026.04.20-07:02:41.76@0#00064: fchains:
+2026.04.20-07:02:41.77@0#00064: schains:
+2026.04.20-07:02:41.77@0#00064: PolicyTask recompile done
+2026.04.20-07:02:41.77@0#00064: handler map :0:14
+
+@net@
+2026.04.20-07:02:41.78@0#00061: load module: misc/ulog.ko: -1
+
+@dhcpclient@
+2026.04.20-07:02:42.02@0#00082: bridge-WAN sending DHCPDISCOVER after 6s
+2026.04.20-07:02:42.02@0#00082: dhcp-client on bridge-WAN sending discover with id 1930321672 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+
+@route@
+2026.04.20-07:02:42.23@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:02:42.23@0#00064:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:42.23@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:02:42.77@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:02:42.77@0#00064:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:42.77@0#00064: inhibit sleep, scheduled later
+
+@syslog@
+2026.04.20-07:02:43.22@0#00000: [   30.793267][   T61] netfilter PSD loaded - (c) astaro AG
+
+@route@
+2026.04.20-07:02:43.27@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:02:43.27@0#00064:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:43.28@0#00064: inhibit sleep, scheduled later
+
+@dhcpclient@
+2026.04.20-07:02:43.77@0#00082: bridge-WAN sending DHCPDISCOVER after 8s
+2026.04.20-07:02:43.77@0#00082: dhcp-client on bridge-WAN sending discover with id 1930321672 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+
+@route@
+2026.04.20-07:02:43.78@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:02:43.78@0#00064:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:43.78@0#00064: inhibit sleep, scheduled later
+
+@loader@
+2026.04.20-07:02:43.84@0#00056: static(parser pid=85)local(WAITING)peer(48,ffffffff,,BADID)  entering READY
+2026.04.20-07:02:43.85@0#00056: static(parser pid=85)local(READY)peer(48,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:02:43.85@0#00056: static(parser pid=85)local(READY)peer(48,ffffffff,,BADID)  flushing queue
+2026.04.20-07:02:44.20@0#00056: static(parser pid=85)local(READY)peer(48,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:44.20@0#00056: static(parser pid=85)local(RUNNING)peer(48,ffffffff,,BADID)  SETUP timeout to:1000
+2026.04.20-07:02:44.20@0#00056: NEWID is!!
+
+@route@
+2026.04.20-07:02:44.29@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:02:44.29@0#00064:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:44.29@0#00064: inhibit sleep, scheduled later
+
+@loader@
+2026.04.20-07:02:44.43@0#00056: static(parser pid=85)local(RUNNING)peer(48,ffffffff,,BADID)  SETUP timeout to:0
+
+@route@
+2026.04.20-07:02:44.79@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:02:44.79@0#00064:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:44.80@0#00064: inhibit sleep, scheduled later
+
+@net@
+2026.04.20-07:02:44.99@0#00061: ipt nat: rebuild general 0->1
+
+@route@
+2026.04.20-07:02:45.30@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:02:45.30@0#00064:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:45.30@0#00064: inhibit sleep, scheduled later
+
+@net@
+2026.04.20-07:02:45.37@0#00061: SwitchFactory: switch type 6 - S17SwitchOps
+2026.04.20-07:02:45.37@0#00061: Switch capabilities: 4027
+2026.04.20-07:02:45.37@0#00061: SWITCHES: add switch0 id:0 type:6
+2026.04.20-07:02:45.37@0#00061: (eth0#8): phy id 4dd042
+
+@syslog@
+2026.04.20-07:02:45.38@0#00000: [   32.946625][   T61] switch0: open
+2026.04.20-07:02:45.38@0#00000: [   32.946695][   T61] switch0: reset unit 1 (phy 8227, mii divider 2, preamble 0) mdio_reset:1
+2026.04.20-07:02:45.42@0#00000: [   32.987195][   T61] ath_reset (specific_config:0)
+2026.04.20-07:02:45.52@0#00000: [   33.089692][   T61] eth0: phy reg access: 10984ns
+
+@loader@
+2026.04.20-07:02:45.71@0#00056: static(led)local(DEAD)peer(118,ffffffff,,BADID)  run!  started, pid 98
+2026.04.20-07:02:45.72@0#00056: static(led pid=98)local(DEAD)peer(118,ffffffff,,BADID)  entering WAITING
+
+@route@
+2026.04.20-07:02:45.83@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:02:45.83@0#00064:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:45.83@0#00064: inhibit sleep, scheduled later
+
+@net@
+2026.04.20-07:02:45.95@0#00061: VRF: ether1 cur: main
+2026.04.20-07:02:45.96@0#00061: (eth1#9): phy id 4dd042
+2026.04.20-07:02:45.97@0#00061: VRF: ether2 cur: main
+2026.04.20-07:02:45.98@0#00061: (eth2#10): phy id 4dd042
+2026.04.20-07:02:45.99@0#00061: VRF: ether3 cur: main
+2026.04.20-07:02:46.00@0#00061: (eth3#11): phy id 4dd042
+2026.04.20-07:02:46.01@0#00061: VRF: ether4 cur: main
+2026.04.20-07:02:46.02@0#00061: (eth4#12): phy id 4dd042
+2026.04.20-07:02:46.02@0#00061: PLC-pwr-line1#5(NULL#0): apply
+2026.04.20-07:02:46.02@0#00061: PLC-pwr-line1#5(NULL#0): flush
+2026.04.20-07:02:46.02@0#00061: PLC-pwr-line1#5(NULL#0): reset
+2026.04.20-07:02:46.04@0#00061: VRF: pwr-line1 cur: main
+
+@quickset@
+2026.04.20-07:02:46.20@0#00071: caps=0
+
+@route@
+2026.04.20-07:02:46.33@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:02:46.33@0#00064:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:46.34@0#00064: inhibit sleep, scheduled later
+
+@sstore@
+2026.04.20-07:02:46.47@0#00053: net/devices:9 wr 313
+
+@net@
+2026.04.20-07:02:46.47@0#00061: VRF: bridge-LAN cur: main
+
+@route@
+2026.04.20-07:02:46.89@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:02:46.89@0#00064:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:46.89@0#00064: inhibit sleep, scheduled later
+
+@quickset@
+2026.04.20-07:02:47.12@0#00071: caps=64
+
+@syslog@
+2026.04.20-07:02:47.12@0#00000: [   34.695600][   T61] eth0: Caught tx_queue_len zero misconfig
+2026.04.20-07:02:47.13@0#00000: [   34.696716][   T61] eth1: Caught tx_queue_len zero misconfig
+2026.04.20-07:02:47.13@0#00000: [   34.698221][   T61] eth2: Caught tx_queue_len zero misconfig
+2026.04.20-07:02:47.13@0#00000: [   34.699255][   T61] eth3: Caught tx_queue_len zero misconfig
+2026.04.20-07:02:47.13@0#00000: [   34.700756][   T61] eth4: Caught tx_queue_len zero misconfig
+
+@net@
+2026.04.20-07:02:47.13@0#00061: SWITCHES: handle switch change
+2026.04.20-07:02:47.14@0#00061: switch1 init
+2026.04.20-07:02:47.14@0#00061: apply s17 4 10000
+2026.04.20-07:02:47.14@0#00061: apply s17 3 10000
+2026.04.20-07:02:47.14@0#00061: apply s17 2 10000
+2026.04.20-07:02:47.14@0#00061: apply s17 1 10000
+2026.04.20-07:02:47.15@0#00061: apply s17 5 10000
+2026.04.20-07:02:47.15@0#00061: apply s17 0 0
+2026.04.20-07:02:47.15@0#00061: SWITCHES: handle switch change 2
+
+@sstore@
+2026.04.20-07:02:47.16@0#00053: net/devices:10 wr 314
+
+@net@
+2026.04.20-07:02:47.34@0#00061: VRF: bridge-WLAN cur: main
+
+@quickset@
+2026.04.20-07:02:47.35@0#00071: caps=64
+
+@net@
+2026.04.20-07:02:47.36@0#00061: XTREPLACE: startChain, id 1, offs 96
+2026.04.20-07:02:47.36@0#00061: XTREPLACE: startChain, id 2, offs 248
+2026.04.20-07:02:47.36@0#00061: XTREPLACE: startChain, id 3, offs 400
+2026.04.20-07:02:47.36@0#00061: XTREPLACE: startChain, id 4, offs 552
+2026.04.20-07:02:47.37@0#00061: XTREPLACE: startChain, id 4294967295, offs 1040
+2026.04.20-07:02:47.37@0#00061: ipt nat: rebuild general 1->2
+
+@discover@
+2026.04.20-07:02:47.37@0#00060: bridge-WLAN discover: enable
+2026.04.20-07:02:47.38@0#00060: bridge-WAN discover: enable
+2026.04.20-07:02:47.38@0#00060: bridge-LAN discover: enable
+
+@route@
+2026.04.20-07:02:47.39@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:02:47.39@0#00064:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:47.39@0#00064: inhibit sleep, scheduled later
+
+@dhcpclient@
+2026.04.20-07:02:47.64@0#00082: > addr notify, + 192.168.1.1 devid=9, + 192.168.10.1 devid=10
+
+@sstore@
+2026.04.20-07:02:47.70@0#00053: dhcp/server/server:2 wr 164
+2026.04.20-07:02:47.70@0#00053: dhcp/server/server:3 wr 164
+
+@syslog@
+2026.04.20-07:02:47.71@0#00000: [   35.285358][   T36] eth1: phy link up (100/full)
+
+@discover@
+2026.04.20-07:02:47.72@0#00060: ether2 discover: enable
+
+@dhcp@
+2026.04.20-07:02:47.73@0#00080: > addr getall, + 192.168.1.1 devid=9, + 192.168.10.1 devid=10, finish
+2026.04.20-07:02:47.73@0#00080: devinfo
+2026.04.20-07:02:47.73@0#00080: bridge-LAN/br1/9/e/0 0x80741 up --LERUI-O------------
+2026.04.20-07:02:47.73@0#00080: link4 br1 (14) SET bridge-LAN
+2026.04.20-07:02:47.73@0#00080: devinfo
+2026.04.20-07:02:47.73@0#00080: bridge-WLAN/br2/a/f/0 0x80741 up --LERUI-O------------
+2026.04.20-07:02:47.73@0#00080: link4 br2 (15) SET bridge-WLAN
+
+@bridge2@
+2026.04.20-07:02:47.90@0#00077: PORTDEV: ether1 0x1 status 0x4441 valid:0->1 F4:1E:57:4E:1F:A0 group:0
+2026.04.20-07:02:47.90@0#00077: BRIDGE: notifyNewPortDev ether1
+2026.04.20-07:02:47.90@0#00077: bridge-WAN; add port: F4:1E:57:4E:1F:A0
+2026.04.20-07:02:47.91@0#00077: PORTDEV: sendUnderBridge: ether1 -> 1
+2026.04.20-07:02:47.91@0#00077: PORTDEV: brid: 8 mtu:1500 l2mtu:1598
+
+@quickset@
+2026.04.20-07:02:47.98@0#00071: caps=64
+
+@bridge2@
+2026.04.20-07:02:47.98@0#00077: bridge-WAN: BRIDGE: updating l2mtu: 1598
+2026.04.20-07:02:47.99@0#00077: PORTDEV: ether2 0x2 status 0x4441 valid:0->1 F4:1E:57:4E:1F:A1 group:0
+
+@dhcpclient@
+2026.04.20-07:02:47.99@0#00082: devinfo
+2026.04.20-07:02:48.00@0#00082: bridge-WAN/br0/8/d/0 0x80541 up --LERU--O------------
+
+@bridge2@
+2026.04.20-07:02:48.00@0#00077: BRIDGE: notifyNewPortDev ether2
+2026.04.20-07:02:48.00@0#00077: bridge-LAN; add port: F4:1E:57:4E:1F:A1
+2026.04.20-07:02:48.00@0#00077: PORTDEV: sendUnderBridge: ether2 -> 1
+2026.04.20-07:02:48.00@0#00077: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+2026.04.20-07:02:48.01@0#00077: bridge-LAN: BRIDGE: updating l2mtu: 1598
+
+@dhcp@
+2026.04.20-07:02:48.01@0#00080: devinfo
+2026.04.20-07:02:48.01@0#00080: bridge-LAN/br1/9/e/0 0x80741 up --LERUI-O------------
+
+@bridge2@
+2026.04.20-07:02:48.01@0#00077: PORTDEV: ether3 0x3 status 0x4441 valid:0->1 F4:1E:57:4E:1F:A2 group:0
+2026.04.20-07:02:48.02@0#00077: BRIDGE: notifyNewPortDev ether3
+2026.04.20-07:02:48.02@0#00077: bridge-LAN; add port: F4:1E:57:4E:1F:A2
+2026.04.20-07:02:48.02@0#00077: PORTDEV: sendUnderBridge: ether3 -> 1
+2026.04.20-07:02:48.02@0#00077: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+2026.04.20-07:02:48.02@0#00077: PORTDEV: ether4 0x4 status 0x4441 valid:0->1 F4:1E:57:4E:1F:A3 group:0
+2026.04.20-07:02:48.03@0#00077: BRIDGE: notifyNewPortDev ether4
+2026.04.20-07:02:48.03@0#00077: bridge-LAN; add port: F4:1E:57:4E:1F:A3
+2026.04.20-07:02:48.03@0#00077: PORTDEV: sendUnderBridge: ether4 -> 1
+2026.04.20-07:02:48.03@0#00077: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+2026.04.20-07:02:48.03@0#00077: PORTDEV: pwr-line1 0x5 status 0x4441 valid:0->1 F4:1E:57:4E:1F:A4 group:0
+2026.04.20-07:02:48.04@0#00077: BRIDGE: notifyNewPortDev pwr-line1
+2026.04.20-07:02:48.04@0#00077: BH: notifyNewPortDev: pwr-line1 no port or disabled
+2026.04.20-07:02:48.04@0#00077: PORTDEV: bridge-LAN 0x9 status 0x80741 valid:0->1 F4:1E:57:4E:1F:A1
+2026.04.20-07:02:48.04@0#00077: PORTDEV: bridge-WAN 0x8 status 0x80541 valid:0->1 F4:1E:57:4E:1F:A0
+2026.04.20-07:02:48.04@0#00077: PORTDEV: bridge-WLAN 0xa status 0x80741 valid:0->1 A6:7F:2F:DA:A3:E5
+2026.04.20-07:02:48.04@0#00077: AsyncReget done
+2026.04.20-07:02:48.05@0#00077: PORTDEV: ether2 0x2 status 0x84541 valid:1->1 F4:1E:57:4E:1F:A1 group:0 speed:100
+2026.04.20-07:02:48.05@0#00077: setPort, cfg.mac=F4:1E:57:4E:1F:A1 
+2026.04.20-07:02:48.05@0#00077: bridge-LAN:       ether2; portEnable F4:1E:57:4E:1F:A1
+
+@syslog@
+2026.04.20-07:02:48.05@0#00000: [   35.624454][   T77] device eth1 entered promiscuous mode
+2026.04.20-07:02:48.05@0#00000: [   35.624594][   T77] br1: port 1(eth1) entered blocking state
+
+@bridge2@
+2026.04.20-07:02:48.06@0#00077: PORTDEV: sendUnderBridge: ether2 -> 1
+2026.04.20-07:02:48.06@0#00077: BRIDGE: kernelUpdateState for ether2 0:1
+
+@log@
+2026.04.20-07:02:48.06@0#00058: REC 12: ready
+2026.04.20-07:02:48.06@0#00058: REC 12: 1 subscribe bridge,stp
+2026.04.20-07:02:48.07@0#00058: REC 12: 1 notify off
+
+@bridge2@
+2026.04.20-07:02:48.07@0#00077: ether2:0  becomes Designated
+
+@log@
+2026.04.20-07:02:48.07@0#00058: REC 12: 2 subscribe bridge,stp,debug
+2026.04.20-07:02:48.07@0#00058: REC 12: 2 notify off
+
+@bridge2@
+2026.04.20-07:02:48.07@0#00077: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+
+@net@
+2026.04.20-07:02:48.08@0#00061: ether1#1(eth0#8): under bridge-WAN#8(br0#13)
+2026.04.20-07:02:48.08@0#00061: ether2#2(eth1#9): under bridge-LAN#9(br1#14)
+2026.04.20-07:02:48.09@0#00061: ether3#3(eth2#10): under bridge-LAN#9(br1#14)
+2026.04.20-07:02:48.09@0#00061: ether4#4(eth3#11): under bridge-LAN#9(br1#14)
+
+@bridge2@
+2026.04.20-07:02:48.09@0#00077: PORTDEV: bridge-WAN 0x8 status 0x80541 valid:1->1 F4:1E:57:4E:1F:A0
+
+@net@
+2026.04.20-07:02:48.09@0#00061: ether2#2(eth1#9) --LERU-BO-x--S-p-----
+
+@bridge2@
+2026.04.20-07:02:48.09@0#00077: PORTDEV: bridge-WAN 0x8 status 0x80541 valid:1->1 F4:1E:57:4E:1F:A0
+2026.04.20-07:02:48.10@0#00077: PORTDEV: bridge-LAN 0x9 status 0x80741 valid:1->1 F4:1E:57:4E:1F:A1
+
+@discover@
+2026.04.20-07:02:48.10@0#00060: bridge-WAN discover: disable
+2026.04.20-07:02:48.10@0#00060: bridge-LAN discover: disable
+
+@bridge2@
+2026.04.20-07:02:48.11@0#00077: HW: rechecking hw
+2026.04.20-07:02:48.11@0#00077: HW: portHwEnable: ether1: otherHw 0 otherSw 1, 0 -> 1
+2026.04.20-07:02:48.12@0#00077: HW: portHwEnable: ether2: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:48.12@0#00077: HW: portHwEnable: ether3: otherHw 1 otherSw 0, 0 -> 0
+
+@mproxy@
+2026.04.20-07:02:48.12@0#00057: set mac listen [9, 13, 14, 15] [F4:1E:57:4E:1F:A1, F4:1E:57:4E:1F:A0, F4:1E:57:4E:1F:A1, A6:7F:2F:DA:A3:E5]
+
+@bridge2@
+2026.04.20-07:02:48.12@0#00077: HW: portHwEnable: ether4: otherHw 1 otherSw 0, 0 -> 0
+
+@log@
+2026.04.20-07:02:48.12@0#00058: REC 12: 3 subscribe bridge,info
+
+@bridge2@
+2026.04.20-07:02:48.12@0#00077: hardware offloading activated on bridge "bridge-WAN" ports: ether1
+2026.04.20-07:02:48.12@0#00077: PORTDEV: bridge-LAN 0x9 status 0x80741 valid:1->1 F4:1E:57:4E:1F:A1
+2026.04.20-07:02:48.13@0#00077: PORTDEV: ether1 0x1 status 0x25449 valid:1->1 F4:1E:57:4E:1F:A0 masterID:8 group:0
+2026.04.20-07:02:48.13@0#00077: PORTDEV: brid: 8 mtu:1500 l2mtu:1598
+2026.04.20-07:02:48.13@0#00077: PORTDEV: ether2 0x2 status 0xa5549 valid:1->1 F4:1E:57:4E:1F:A1 masterID:9 group:0 speed:100
+2026.04.20-07:02:48.13@0#00077: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+2026.04.20-07:02:48.14@0#00077: PORTDEV: ether3 0x3 status 0x25449 valid:1->1 F4:1E:57:4E:1F:A2 masterID:9 group:0
+2026.04.20-07:02:48.14@0#00077: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+2026.04.20-07:02:48.15@0#00077: PORTDEV: ether4 0x4 status 0x25449 valid:1->1 F4:1E:57:4E:1F:A3 masterID:9 group:0
+2026.04.20-07:02:48.15@0#00077: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+
+@quickset@
+2026.04.20-07:02:48.20@0#00071: caps=64
+
+@bridge2@
+2026.04.20-07:02:48.23@0#00077: HW: rechecking hw
+2026.04.20-07:02:48.23@0#00077: HW: portHwDisable: ether1: 1 -> 0
+2026.04.20-07:02:48.23@0#00077: HW: portHwEnable: ether1: otherHw 0 otherSw 1, 0 -> 1
+2026.04.20-07:02:48.23@0#00077: HW: portHwEnable: ether2: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:48.23@0#00077: HW: portHwEnable: ether3: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:48.23@0#00077: HW: portHwEnable: ether4: otherHw 1 otherSw 0, 0 -> 0
+
+@route@
+2026.04.20-07:02:48.28@0#00064: inhibit sleep, hold release
+
+@dhcpclient@
+2026.04.20-07:02:48.31@0#00082: bridge-WAN sending DHCPDISCOVER after 12s
+2026.04.20-07:02:48.31@0#00082: dhcp-client on bridge-WAN sending discover with id 1930321672 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+
+@wireless@
+2026.04.20-07:02:48.38@0#00068:   init has info for f4:1e:57:4e:1f:a5
+
+@route@
+2026.04.20-07:02:49.26@0#00064:  BFD cfg apply schedule after 50 jiffies
+
+@discover@
+2026.04.20-07:02:49.41@0#00060: Discovery: chassis mac:F4:1E:57:4E:1F:A0
+
+@loader@
+2026.04.20-07:02:49.80@0#00056: static(led pid=98)local(WAITING)peer(118,ffffffff,,BADID)  entering READY
+2026.04.20-07:02:49.80@0#00056: static(led pid=98)local(READY)peer(118,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:02:49.80@0#00056: static(led pid=98)local(READY)peer(118,ffffffff,,BADID)  flushing queue
+
+@dhcpclient@
+2026.04.20-07:02:50.12@0#00082: bridge-WAN sending DHCPDISCOVER after 14s
+2026.04.20-07:02:50.12@0#00082: dhcp-client on bridge-WAN sending discover with id 1930321672 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+
+@wireless@
+2026.04.20-07:02:50.28@0#00068:   setting config
+2026.04.20-07:02:50.29@0#00068: NetDevHw::setConfig
+2026.04.20-07:02:50.29@0#00068: MainCfg::validateChan: fixed ext
+
+@route@
+2026.04.20-07:02:50.29@0#00064: inhibit sleep, route updated
+
+@sstore@
+2026.04.20-07:02:50.30@0#00053: net/devices:6 wr 1250
+
+@route@
+2026.04.20-07:02:50.30@0#00064:  BFD cfg apply schedule after 50 jiffies
+
+@net@
+2026.04.20-07:02:50.31@0#00061: VRF: wlan1 cur: main
+
+@route@
+2026.04.20-07:02:50.37@0#00064: inhibit sleep, route updated
+2026.04.20-07:02:50.38@0#00064: inhibit sleep, route updated
+
+@bridge2@
+2026.04.20-07:02:50.38@0#00077: PORTDEV: wlan1 0x6 status 0x41 valid:0->1 F4:1E:57:4E:1F:A5
+2026.04.20-07:02:50.38@0#00077: BRIDGE: notifyNewPortDev wlan1
+2026.04.20-07:02:50.38@0#00077: bridge-WLAN; add port: F4:1E:57:4E:1F:A5
+2026.04.20-07:02:50.38@0#00077: PORTDEV: sendUnderBridge: wlan1 -> 1
+2026.04.20-07:02:50.38@0#00077: "bridge-WLAN" mac address changed to F4:1E:57:4E:1F:A5
+
+@route@
+2026.04.20-07:02:50.39@0#00064: inhibit sleep, route updated
+
+@loader@
+2026.04.20-07:02:50.48@0#00056: static(cerm pid=79)local(RUNNING)peer(19,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:02:50.48@0#00056: static(cerm pid=79)local(RUNNING)peer(19,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:02:50.48@0#00056: static(cerm pid=79)local(TRYTERM)peer(19,ffffffff,,BADID)  sending TERM message
+2026.04.20-07:02:50.48@0#00056: static(ippool6 pid=94)local(RUNNING)peer(30,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:02:50.48@0#00056: static(ippool6 pid=94)local(RUNNING)peer(30,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:02:50.48@0#00056: static(ippool6 pid=94)local(TRYTERM)peer(30,ffffffff,,BADID)  sending TERM message
+2026.04.20-07:02:50.48@0#00056: static(portman pid=90)local(RUNNING)peer(52,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:02:50.48@0#00056: static(portman pid=90)local(RUNNING)peer(52,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:02:50.48@0#00056: static(portman pid=90)local(TRYTERM)peer(52,ffffffff,,BADID)  sending TERM message
+2026.04.20-07:02:50.48@0#00056: static(keyman pid=87)local(RUNNING)peer(65,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:02:50.48@0#00056: static(keyman pid=87)local(RUNNING)peer(65,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:02:50.49@0#00056: static(keyman pid=87)local(TRYTERM)peer(65,ffffffff,,BADID)  sending TERM message
+2026.04.20-07:02:50.49@0#00056: static(ippool pid=95)local(RUNNING)peer(84,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:02:50.49@0#00056: static(ippool pid=95)local(RUNNING)peer(84,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:02:50.49@0#00056: static(ippool pid=95)local(TRYTERM)peer(84,ffffffff,,BADID)  sending TERM message
+2026.04.20-07:02:50.71@0#00056: static(ippool pid=95)local(TRYTERM)peer(84,ffffffff,,BADID)  TERMOK, terminating
+2026.04.20-07:02:50.71@0#00056: read failed (EOF)
+
+@led@
+2026.04.20-07:02:50.73@0#00098: no led config found
+2026.04.20-07:02:50.73@0#00098: error: while loading config from store: This feature is not supported on this board! (16646150)
+2026.04.20-07:02:50.77@0#00098: discover ifaces 0
+2026.04.20-07:02:50.77@0#00098: -ifaces present-
+2026.04.20-07:02:50.77@0#00098: finish loading 0
+2026.04.20-07:02:50.77@0#00098: done loading 0
+2026.04.20-07:02:50.78@0#00098: checking triggers
+2026.04.20-07:02:50.78@0#00098: triggers updated: [none] dark-mode-trigger heartbeat group0.0 group0.1 group0.2 group0.3 group0.4 group0.5 group0.6 group0.7 group1.0 group1.1 group1.2 group1.3 group1.4 group1.5 group1.6 group1.7 group2.0 group2.1 group2.2 group2.3 group2.4 group2.5 group2.6 group2.7 group3.0 group3.1 group3.2 group3.3 group3.4 group3.5 group3.6 group3.7 wifi-signal-ath0 wifi-status-ath0
+2026.04.20-07:02:50.78@0#00098: +user-led	1
+2026.04.20-07:02:50.78@0#00098: -leds present-
+2026.04.20-07:02:50.78@0#00098: checking triggers
+
+@bridge2@
+2026.04.20-07:02:50.81@0#00077: BRIDGE: kernelUpdateState for wlan1 0:1
+2026.04.20-07:02:51.20@0#00077: [ERR] set stp state: 
+2026.04.20-07:02:51.20@0#00077:   req hdr len:56,type:0010,flags:0005,seq:5,pid:77 errno:Not supported
+2026.04.20-07:02:51.20@0#00077: PORTDEV: brid: 10 mtu:1500 l2mtu:65535
+2026.04.20-07:02:51.20@0#00077: bridge-LAN:       ether2; BDM_EDGE
+2026.04.20-07:02:51.21@0#00077: BRIDGE: kernelUpdateState for ether2 0:2
+2026.04.20-07:02:51.21@0#00077: ether2:0  learning
+2026.04.20-07:02:51.21@0#00077: BRIDGE: kernelUpdateState for ether2 0:3
+2026.04.20-07:02:51.21@0#00077: ether2:0  forwarding
+2026.04.20-07:02:51.28@0#00077: HW: rechecking hw
+2026.04.20-07:02:51.28@0#00077: HW: portHwDisable: ether1: 1 -> 0
+2026.04.20-07:02:51.28@0#00077: HW: portHwEnable: ether1: otherHw 0 otherSw 1, 0 -> 1
+2026.04.20-07:02:51.28@0#00077: HW: portHwEnable: ether2: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:51.28@0#00077: HW: portHwEnable: ether3: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:51.28@0#00077: HW: portHwEnable: ether4: otherHw 1 otherSw 0, 0 -> 0
+
+@syslog@
+2026.04.20-07:02:51.45@0#00000: [   39.024706][   T61] sizeof(struct sfq_data): 4396
+
+@portman@
+2026.04.20-07:02:51.59@0#00090: exit
+
+@loader@
+2026.04.20-07:02:51.75@0#00056: static(ippool pid=95)local(TRYTERM)peer(84,ffffffff,,BADID)  entering WAITSIG
+2026.04.20-07:02:51.76@0#00056: read failed (EOF)
+2026.04.20-07:02:51.76@0#00056: static(keyman pid=87)local(TRYTERM)peer(65,ffffffff,,BADID)  entering WAITSIG
+2026.04.20-07:02:51.76@0#00056: static(portman pid=90)local(TRYTERM)peer(52,ffffffff,,BADID)  TERMOK, terminating
+2026.04.20-07:02:51.76@0#00056: static(ippool6 pid=94)local(TRYTERM)peer(30,ffffffff,,BADID)  TERMOK, terminating
+2026.04.20-07:02:51.76@0#00056: read failed (EOF)
+2026.04.20-07:02:51.76@0#00056: static(ippool6 pid=94)local(TRYTERM)peer(30,ffffffff,,BADID)  entering WAITSIG
+2026.04.20-07:02:51.76@0#00056: static(led pid=98)local(READY)peer(118,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:02:51.77@0#00056: static(led pid=98)local(RUNNING)peer(118,ffffffff,,BADID)  SETUP timeout to:1000
+
+@route@
+2026.04.20-07:02:52.43@0#00064: inhibit sleep, route updated
+2026.04.20-07:02:52.43@0#00064:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:52.43@0#00064: inhibit sleep, route updated
+2026.04.20-07:02:52.43@0#00064: inhibit sleep, route updated
+2026.04.20-07:02:52.44@0#00064: inhibit sleep, route updated
+2026.04.20-07:02:52.44@0#00064:  apply routing policy rule changes schedule after 50 jiffies
+2026.04.20-07:02:52.45@0#00064: inhibit sleep, scheduled later
+
+@loader@
+2026.04.20-07:02:52.54@0#00056: static(keyman)local(WAITSIG)peer(65,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:02:52.54@0#00056: static(keyman)local(WAITSIG)peer(41,ffffffff,,BADID)  entering DEAD
+2026.04.20-07:02:52.54@0#00056: static(portman)local(TRYTERM)peer(52,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:02:52.55@0#00056: static(portman)local(TRYTERM)peer(34,ffffffff,,BADID)  entering FINISHING
+2026.04.20-07:02:52.55@0#00056: static(ippool6)local(WAITSIG)peer(30,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:02:52.55@0#00056: static(ippool6)local(WAITSIG)peer(1e,ffffffff,,BADID)  entering DEAD
+2026.04.20-07:02:52.55@0#00056: static(ippool)local(WAITSIG)peer(84,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:02:52.55@0#00056: static(ippool)local(WAITSIG)peer(54,ffffffff,,BADID)  entering DEAD
+2026.04.20-07:02:52.55@0#00056: could not find destination 58
+2026.04.20-07:02:52.56@0#00056: request to reply with error to NON-REQUEST message [118]->[58, 1]
+2026.04.20-07:02:52.56@0#00056: read failed (EOF)
+2026.04.20-07:02:52.56@0#00056: static(portman)local(FINISHING)peer(52,ffffffff,,BADID)  entering DEAD
+2026.04.20-07:02:52.56@0#00056: read failed (EOF)
+2026.04.20-07:02:52.56@0#00056: static(cerm pid=79)local(TRYTERM)peer(19,ffffffff,,BADID)  entering WAITSIG
+
+@net@
+2026.04.20-07:02:52.56@0#00061: wlan1#6(ath0#6): under bridge-WLAN#10(br2#15)
+
+@sstore@
+2026.04.20-07:02:52.57@0#00053: net/devices:10 wr 314
+
+@wireless@
+2026.04.20-07:02:52.63@0#00068: init over
+2026.04.20-07:02:52.65@0#00068: modeReset
+2026.04.20-07:02:52.65@0#00068: HwDevice::selectDefaultMode
+2026.04.20-07:02:52.65@0#00068: HwDevice::hwIdle: curr 0/0 pend ...
+2026.04.20-07:02:52.65@0#00068: HwDevice::notifyModeCleanupOver: activeMode = mode
+
+@led@
+2026.04.20-07:02:52.66@0#00098: setup uname: ath0 wlan1 6
+
+@dhcp@
+2026.04.20-07:02:52.66@0#00080: devinfo
+2026.04.20-07:02:52.66@0#00080: bridge-WLAN/br2/a/f/0 0x80341 down --LER-I-O------------
+
+@bridge2@
+2026.04.20-07:02:52.68@0#00077: PORTDEV: bridge-WLAN 0xa status 0x80341 valid:1->1 F4:1E:57:4E:1F:A5
+2026.04.20-07:02:52.68@0#00077: PORTDEV: bridge-WLAN 0xa status 0x80141 valid:1->1 F4:1E:57:4E:1F:A5
+
+@route@
+2026.04.20-07:02:52.68@0#00064: inhibit sleep, route updated
+
+@bridge2@
+2026.04.20-07:02:52.75@0#00077: PORTDEV: bridge-WLAN 0xa status 0x80141 valid:1->1 F4:1E:57:4E:1F:A5
+2026.04.20-07:02:52.77@0#00077: PORTDEV: bridge-WLAN 0xa status 0x80541 valid:1->1 F4:1E:57:4E:1F:A5
+2026.04.20-07:02:52.77@0#00077: PORTDEV: bridge-WLAN 0xa status 0x80741 valid:1->1 F4:1E:57:4E:1F:A5
+
+@route@
+2026.04.20-07:02:52.77@0#00064: inhibit sleep, route updated
+2026.04.20-07:02:52.77@0#00064: inhibit sleep, route updated
+
+@bridge2@
+2026.04.20-07:02:52.80@0#00077: PORTDEV: wlan1 0x6 status 0x21049 valid:1->1 F4:1E:57:4E:1F:A5 masterID:10
+2026.04.20-07:02:52.80@0#00077: PORTDEV: brid: 10 mtu:1500 l2mtu:65535
+
+@discover@
+2026.04.20-07:02:52.81@0#00060: bridge-WLAN discover: disable
+
+@bridge2@
+2026.04.20-07:02:52.88@0#00077: HW: rechecking hw
+2026.04.20-07:02:52.88@0#00077: HW: portHwDisable: ether1: 1 -> 0
+2026.04.20-07:02:52.88@0#00077: HW: portHwEnable: ether1: otherHw 0 otherSw 1, 0 -> 1
+2026.04.20-07:02:52.88@0#00077: HW: portHwEnable: ether2: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:52.88@0#00077: HW: portHwEnable: ether3: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:52.88@0#00077: HW: portHwEnable: ether4: otherHw 1 otherSw 0, 0 -> 0
+
+@dhcpclient@
+2026.04.20-07:02:52.88@0#00082: > addr notify, + 192.168.10.1 devid=10
+
+@route@
+2026.04.20-07:02:52.94@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:02:53.03@0#00064:  BFD cfg apply schedule after 50 jiffies
+
+@dhcp@
+2026.04.20-07:02:53.23@0#00080: link4 br2 (15) DEL (was bridge-WLAN)
+
+@quickset@
+2026.04.20-07:02:53.32@0#00071: caps=25118
+
+@mproxy@
+2026.04.20-07:02:54.18@0#00057: set mac listen [9, 13, 14, 15] [F4:1E:57:4E:1F:A1, F4:1E:57:4E:1F:A0, F4:1E:57:4E:1F:A1, F4:1E:57:4E:1F:A5]
+
+@dhcp@
+2026.04.20-07:02:54.56@0#00080: devinfo
+2026.04.20-07:02:54.56@0#00080: bridge-WLAN/br2/a/f/0 0x80141 down --LER---O------------
+2026.04.20-07:02:54.57@0#00080: devinfo
+2026.04.20-07:02:54.57@0#00080: bridge-WLAN/br2/a/f/0 0x80141 down --LER---O------------
+2026.04.20-07:02:54.57@0#00080: devinfo
+2026.04.20-07:02:54.57@0#00080: bridge-WLAN/br2/a/f/0 0x80541 up --LERU--O------------
+2026.04.20-07:02:54.57@0#00080: link4 br2 (15) SET bridge-WLAN
+2026.04.20-07:02:54.58@0#00080: devinfo
+2026.04.20-07:02:54.58@0#00080: bridge-WLAN/br2/a/f/0 0x80741 up --LERUI-O------------
+
+@sstore@
+2026.04.20-07:02:54.58@0#00053: dhcp/server/server:3 wr 164
+
+@dhcp@
+2026.04.20-07:02:54.58@0#00080: > addr notify, + 192.168.10.1 devid=10
+
+@wireless@
+2026.04.20-07:02:55.19@0#00068: hwInit: ccahackva 2ghz 0 5ghz 0
+2026.04.20-07:02:55.19@0#00068: HwDevice::vapUpdate: for 0
+
+@dhcpclient@
+2026.04.20-07:02:55.59@0#00082: bridge-WAN sending DHCPDISCOVER after 20s
+
+@log@
+2026.04.20-07:02:55.68@0#00058: REC 11: 2 subscribe route,debug,calc
+2026.04.20-07:02:55.69@0#00058: REC 11: 2 notify off
+
+@dhcpclient@
+2026.04.20-07:02:55.92@0#00082: dhcp-client on bridge-WAN sending discover with id 1930321672 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+
+@wireless@
+2026.04.20-07:02:56.36@0#00068: HwDevice::vapUpdate: vapcfg.macaddr:F4:1E:57:4E:1F:A5 mac:F4:1E:57:4E:1F:A5 vd->mac:F4:1E:57:4E:1F:A5
+
+@syslog@
+2026.04.20-07:02:56.36@0#00000: [   43.929239][   T68] virt_open: can not start queue, enabled 0, backlog 0
+
+@quickset@
+2026.04.20-07:02:57.02@0#00071: caps=25118
+
+@wireless@
+2026.04.20-07:02:58.24@0#00068: ApMode::figureChannelSelInfo: channelid 4294967295 channel 2412
+
+@net@
+2026.04.20-07:02:58.36@0#00061: wlan1#6(ath0#6) --LE---B--x--S-------
+2026.04.20-07:02:58.36@0#00061: ether2#2(eth1#9) --LERU-BO-x--S-p-----
+2026.04.20-07:02:58.36@0#00061: ether2#2(eth1#9) --LERU-BO-x--S-p-----
+
+@loader@
+2026.04.20-07:02:58.94@0#00056: static(cerm)local(WAITSIG)peer(19,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:02:58.94@0#00056: static(cerm)local(WAITSIG)peer(13,ffffffff,,BADID)  entering DEAD
+
+@wireless@
+2026.04.20-07:02:58.98@0#00068: ApMode::doInit: ChannelSelInfo
+2026.04.20-07:02:58.98@0#00068:   valid 1 about  doScan 0 firstFixed 0 fixed 2412/20/g(18dBm)
+2026.04.20-07:02:59.05@0#00068:   prim: 
+2026.04.20-07:02:59.05@0#00068:   sec: 
+2026.04.20-07:02:59.05@0#00068:   spec: 
+2026.04.20-07:02:59.05@0#00068:   scan: 
+2026.04.20-07:02:59.05@0#00068: ApMode: fixed chan 2412/20/g(18dBm)
+2026.04.20-07:02:59.05@0#00068: ApMode::enable: wirelessprotocol 2
+2026.04.20-07:02:59.05@0#00068: ApMode::enableWlans
+2026.04.20-07:02:59.05@0#00068: HwDevice::hwStateSwitch: 17 curr 0/0 pend ...
+
+@syslog@
+2026.04.20-07:02:59.05@0#00000: [   46.625227][   T68] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-07:02:59.06@0#00000: [   46.629264][   T68] probe_er_radio_data chunkid 2 caldataid 2
+2026.04.20-07:02:59.06@0#00000: [   46.629285][   T68] probe_er_radio_data chunkid 3 caldataid 3
+2026.04.20-07:02:59.06@0#00000: [   46.629300][   T68] get_tx_power_adjust = 0
+2026.04.20-07:02:59.06@0#00000: [   46.633170][    C0] interrupt: !enabled, isr 0x10
+2026.04.20-07:02:59.06@0#00000: [   46.633247][   T68] dynack_init: distance 4294967295
+
+@dhcpclient@
+2026.04.20-07:02:59.43@0#00082: bridge-WAN sending DHCPDISCOVER after 23s
+2026.04.20-07:02:59.44@0#00082: dhcp-client on bridge-WAN sending discover with id 1930321672 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+
+@bridge2@
+2026.04.20-07:02:59.46@0#00077: PORTDEV: ether2 0x2 status 0x85549 valid:1->1 F4:1E:57:4E:1F:A1 masterID:9 group:0 speed:100
+2026.04.20-07:02:59.46@0#00077: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+2026.04.20-07:02:59.52@0#00077: HW: rechecking hw
+2026.04.20-07:02:59.52@0#00077: HW: portHwDisable: ether1: 1 -> 0
+2026.04.20-07:02:59.52@0#00077: HW: portHwEnable: ether1: otherHw 0 otherSw 1, 0 -> 1
+2026.04.20-07:02:59.52@0#00077: HW: portHwEnable: ether2: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:59.52@0#00077: HW: portHwEnable: ether3: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:59.52@0#00077: HW: portHwEnable: ether4: otherHw 1 otherSw 0, 0 -> 0
+
+@quickset@
+2026.04.20-07:03:00.28@0#00071: caps=25118
+
+@dhcpclient@
+2026.04.20-07:03:00.82@0#00082: bridge-WAN sending DHCPDISCOVER after 25s
+2026.04.20-07:03:00.82@0#00082: dhcp-client on bridge-WAN sending discover with id 1930321672 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+
+@mproxy@
+2026.04.20-07:03:00.93@0#00057: set mac listen [9, 13, 14, 15] [F4:1E:57:4E:1F:A1, F4:1E:57:4E:1F:A0, F4:1E:57:4E:1F:A1, F4:1E:57:4E:1F:A5]
+
+@led@
+2026.04.20-07:03:01.09@0#00098: setup uname: ath0 wlan1 6
+
+@cloud@
+2026.04.20-07:03:01.77@0#00083: [CTUN-4]Start resolving: cloud2.mikrotik.com
+
+@resolver@
+2026.04.20-07:03:01.78@0#00075: cmd_resolve: cloud2.mikrotik.com
+2026.04.20-07:03:01.78@0#00075: name: cloud2.mikrotik.com.
+2026.04.20-07:03:01.79@0#00075: connect socket: Network unreachable
+2026.04.20-07:03:01.79@0#00075: connect socket: Network unreachable
+2026.04.20-07:03:01.79@0#00075: connect socket: Network unreachable
+2026.04.20-07:03:01.79@0#00075: connect socket: Network unreachable
+2026.04.20-07:03:01.79@0#00075: connect socket: Network unreachable
+2026.04.20-07:03:01.79@0#00075: q cloud2.mikrotik.com.:A:5: done reqs:0 dur:1 server failure
+
+@cloud@
+2026.04.20-07:03:01.79@0#00083: [CTUN-4][WARN] couldn't resolve. Scheduling next retry...
+2026.04.20-07:03:01.80@0#00083: [CTUN-6]Start resolving: cloud2.mikrotik.com
+2026.04.20-07:03:01.80@0#00083: [CTUN-4]all unsubscribed
+2026.04.20-07:03:01.80@0#00083: [CTUN-4] next startConnection scheduled after secs: 40
+
+@resolver@
+2026.04.20-07:03:01.80@0#00075: cmd_resolve6: cloud2.mikrotik.com
+2026.04.20-07:03:01.80@0#00075: connect socket: Network unreachable
+2026.04.20-07:03:01.80@0#00075: connect socket: Network unreachable
+2026.04.20-07:03:01.80@0#00075: connect socket: Network unreachable
+2026.04.20-07:03:01.80@0#00075: connect socket: Network unreachable
+2026.04.20-07:03:01.81@0#00075: connect socket: Network unreachable
+2026.04.20-07:03:01.81@0#00075: q cloud2.mikrotik.com.:AAAA:6: done reqs:0 dur:1 server failure
+
+@cloud@
+2026.04.20-07:03:01.81@0#00083: [CTUN-6][WARN] couldn't resolve. Scheduling next retry...
+2026.04.20-07:03:01.81@0#00083: [CTUN-6]all unsubscribed
+2026.04.20-07:03:01.81@0#00083: [CTUN-6] next startConnection scheduled after secs: 40
+
+@bridge2@
+2026.04.20-07:03:02.64@0#00077: PORTDEV: wlan1 0x6 status 0x21449 valid:1->1 F4:1E:57:4E:1F:A5 masterID:10
+2026.04.20-07:03:02.64@0#00077: PORTDEV: brid: 10 mtu:1500 l2mtu:1600
+2026.04.20-07:03:02.64@0#00077: bridge-WLAN: BRIDGE: updating l2mtu: 1600
+2026.04.20-07:03:02.71@0#00077: HW: rechecking hw
+2026.04.20-07:03:02.71@0#00077: HW: portHwDisable: ether1: 1 -> 0
+2026.04.20-07:03:02.71@0#00077: HW: portHwEnable: ether1: otherHw 0 otherSw 1, 0 -> 1
+2026.04.20-07:03:02.71@0#00077: HW: portHwEnable: ether2: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:03:02.71@0#00077: HW: portHwEnable: ether3: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:03:02.71@0#00077: HW: portHwEnable: ether4: otherHw 1 otherSw 0, 0 -> 0
+
+@led@
+2026.04.20-07:03:03.04@0#00098: setup uname: ath0 wlan1 6
+
+@bridge2@
+2026.04.20-07:03:03.05@0#00077: PORTDEV: bridge-WLAN 0xa status 0x80741 valid:1->1 F4:1E:57:4E:1F:A5
+2026.04.20-07:03:03.05@0#00077: PORTDEV: bridge-WLAN 0xa status 0x80741 valid:1->1 F4:1E:57:4E:1F:A5
+
+@dhcp@
+2026.04.20-07:03:03.61@0#00080: devinfo
+2026.04.20-07:03:03.61@0#00080: bridge-WLAN/br2/a/f/0 0x80741 up --LERUI-O------------
+
+@quickset@
+2026.04.20-07:03:03.70@0#00071: caps=25118
+
+@syslog@
+2026.04.20-07:03:04.06@0#00000: [   51.634930][    C0] ath_txtimeout: monitor reset
+2026.04.20-07:03:04.06@0#00000: [   51.634985][    C0] ath_reset
+2026.04.20-07:03:04.07@0#00000: [   51.638670][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+
+@quickset@
+2026.04.20-07:03:04.41@0#00071: caps=25118
+
+@mproxy@
+2026.04.20-07:03:04.42@0#00057: set mac listen [9, 13, 14, 15] [F4:1E:57:4E:1F:A1, F4:1E:57:4E:1F:A0, F4:1E:57:4E:1F:A1, F4:1E:57:4E:1F:A5]
+
+@net@
+2026.04.20-07:03:06.14@0#00061: PLC-pwr-line1#5(eth4#12): onReset 0x0
+
+@dhcpclient@
+2026.04.20-07:03:07.13@0#00082: bridge-WAN sending DHCPDISCOVER after 31s
+
+@net@
+2026.04.20-07:03:07.23@0#00061: PLC-pwr-line1#5(eth4#12): reset
+
+@wireless@
+2026.04.20-07:03:07.31@0#00068: getBaseMac: from flash F4:1E:57:4E:1F:A0
+
+@dhcpclient@
+2026.04.20-07:03:07.55@0#00082: dhcp-client on bridge-WAN sending discover with id 1930321672 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+
+@wireless@
+2026.04.20-07:03:08.14@0#00068: WlcIfaceHandler::init
+
+@route@
+2026.04.20-07:03:09.01@0#00064: evicting 0x20200000..0x20240000
+2026.04.20-07:03:09.01@0#00064: Reclaimed 1 blocks
+
+@syslog@
+2026.04.20-07:03:09.14@0#00000: [   56.714941][    C0] ath_txtimeout: monitor reset
+2026.04.20-07:03:09.14@0#00000: [   56.714999][    C0] ath_reset
+2026.04.20-07:03:09.15@0#00000: [   56.718688][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+
+@route@
+2026.04.20-07:03:09.16@0#00064:  recompile later
+
+@wireless@
+2026.04.20-07:03:09.26@0#00068: WlcIfaceHandler::init over
+
+@route@
+2026.04.20-07:03:09.58@0#00064: inhibit sleep, scheduled later
+2026.04.20-07:03:09.58@0#00064: PolicyTask recompile
+2026.04.20-07:03:09.58@0#00064: rpki:
+2026.04.20-07:03:09.58@0#00064: address-lists:
+2026.04.20-07:03:09.58@0#00064: num-sets:
+2026.04.20-07:03:09.58@0#00064: community-sets:
+2026.04.20-07:03:09.58@0#00064: ext-community-sets:
+2026.04.20-07:03:09.58@0#00064: large-community-sets:
+2026.04.20-07:03:09.58@0#00064: fchains:
+2026.04.20-07:03:09.59@0#00064: schains:
+2026.04.20-07:03:09.59@0#00064: PolicyTask recompile done
+2026.04.20-07:03:09.59@0#00064: evicting 0x20200000..0x20240000
+2026.04.20-07:03:09.59@0#00064: Reclaimed 1 blocks
+
+@wireless@
+2026.04.20-07:03:09.70@0#00068: WilDevHandler::init regionLocks:[]
+2026.04.20-07:03:09.72@0#00068: ioctl SIOCGIFHWADDR@wil0 failed: No such device(19)
+2026.04.20-07:03:09.72@0#00068: WilDevHandler::init: no ifaces, rmmod
+
+@loader@
+2026.04.20-07:03:10.65@0#00056: static(wireless pid=68)local(READY)peer(88,ffffffff,,BADID)  entering RUNNING
+
+@wireless@
+2026.04.20-07:03:10.66@0#00068: MESH: new br2, mac F4:1E:57:4E:1F:A5
+2026.04.20-07:03:10.66@0#00068: MESH: addNetDev wlan1
+2026.04.20-07:03:10.66@0#00068: MESH: start up on br2
+2026.04.20-07:03:10.83@0#00068: statechange: curr 0/0 pend 17/1 old 0/0 new 17/1
+2026.04.20-07:03:10.83@0#00068: ApMode::nlStatechange: statechange 0->17 in state 5
+2026.04.20-07:03:10.84@0#00068: ApMode::enableWlans: new AP wlan1
+2026.04.20-07:03:10.84@0#00068: ApVapMode::start: no iw profile 
+2026.04.20-07:03:10.84@0#00068: ApVapMode::start: runtime:
+2026.04.20-07:03:10.84@0#00068: chan: 2412/20/g(18dBm) defaultrate: 0x1000 rates: CCK:1-11 OFDM:6-54
+2026.04.20-07:03:10.84@0#00068: VapDevice::vapInit: wdsmode 0
+
+@syslog@
+2026.04.20-07:03:10.84@0#00000: [   58.411117][   T68] ctl_key_set: vid 0, idx 0, algo 0
+2026.04.20-07:03:10.84@0#00000: [   58.412009][   T68] ctl_key_set: vid 0, idx 1, algo 0
+2026.04.20-07:03:10.84@0#00000: [   58.412864][   T68] ctl_key_set: vid 0, idx 2, algo 0
+2026.04.20-07:03:10.84@0#00000: [   58.413936][   T68] ctl_key_set: vid 0, idx 3, algo 0
+2026.04.20-07:03:11.03@0#00000: [   58.603961][   T68] ctl_key_set: vid 0, idx 1, algo 3
+2026.04.20-07:03:11.03@0#00000: [   58.604023][   T68] aesccm_init: wep_kid 1, id 2
+
+@wireless@
+2026.04.20-07:03:11.03@0#00068: GroupContext::keyUpdateOver
+
+@syslog@
+2026.04.20-07:03:11.04@0#00000: [   58.606156][   T68] ctl_txkey_set: updated txkey to 1
+2026.04.20-07:03:11.04@0#00000: [   58.607544][   T68] ctl_key_set: vid 0, idx 2, algo 0
+
+@wireless@
+2026.04.20-07:03:11.04@0#00068: ApVapMode::start: create WLAN_AP
+
+@syslog@
+2026.04.20-07:03:11.04@0#00000: [   58.609268][   T68] wl_beacon_enable: enable hw gen, postbeaconcapable 1
+
+@dhcpclient@
+2026.04.20-07:03:11.48@0#00082: bridge-WAN sending DHCPDISCOVER after 36s
+2026.04.20-07:03:11.84@0#00082: dhcp-client on bridge-WAN sending discover with id 1930321672 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+
+@parser@
+2026.04.20-07:03:12.35@0#00085: mkFindMsgInspector expr=$name;$default-name;$type;$mtu;$actual-mtu;$l2mtu;$max-l2mtu;$vrf;$mac-address;$last-link-down-time;$last-link-up-time;$link-downs;$rx-byte;$tx-byte;$rx-packet;$tx-packet;$rx-drop;$tx-drop;$tx-queue-drop;$rx-error;$tx-error;$fp-rx-byte;$fp-tx-byte;$fp-rx-packet;$fp-tx-packet;$fp-rps-drop;$dynamic;$inactive;$running;$slave;$passthrough;$disabled;$comment;$.id;$.nextid;$.dead;$.about;(= $type loopback);5
+2026.04.20-07:03:13.29@0#00085: Handler Info
+2026.04.20-07:03:13.29@0#00085: H3_1: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H3_3: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H3_5: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H10_1: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H13_1: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H13_2: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H13_3: 2 1 0 [ <3,0> ]
+2026.04.20-07:03:13.29@0#00085: H13_8: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H14_6: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H16_2: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H16_13: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H19_1: fe0010 fe0009 0 [ <25,0> <5b,1> ]
+2026.04.20-07:03:13.29@0#00085: H19_4: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H19_11: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H20_0: 10006 fe0009 25 [ <10001,1> <10002,0> ]
+2026.04.20-07:03:13.29@0#00085: H20_2: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H20_4: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H20_6: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H20_9: 2 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H20_10: 16 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H20_12: 2 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H20_13: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H20_14: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H20_28: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H20_30: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H20_33: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.29@0#00085: H20_34: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_41: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_43: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_45: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_47: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_49: 8 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_51: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_55: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_86: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_88: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_90: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_101: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_112: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_114: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_115: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_120: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_126: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H20_134: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.30@0#00085: H21: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H23_0: 9 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H23_4: 2 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H23_6: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H23_8: 9 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H23_9: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H23_10: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H23_11: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H23_12: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H23_15: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H24_7: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H24_18: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H24_19: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H24_20: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H24_23: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H24_34: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H24_36: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H27_54: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H27_101: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.31@0#00085: H27_102: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H30_1: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H34_1: 5 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H34_2: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H42_6: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H43_1: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H43_3: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H43_4: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H43_5: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H43_6: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_20: fe0010 fe0009 0 [ <5,0> ]
+2026.04.20-07:03:13.32@0#00085: H44_25: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_33: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_41: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_80: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_82: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_84: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_86: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_90: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_91: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_92: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_93: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_109: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_113: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_117: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_123: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H44_128: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.32@0#00085: H47_3: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H48_3: 66 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H48_101: 66 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H51_1: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H52_1: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H63_1: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H63_3: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H63_9: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H63_11: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H63_14: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H68_1: 1 fe0009 0 [ <11,0> ]
+2026.04.20-07:03:13.33@0#00085: H84_2: a fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H85_4: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H85_5: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H85_6: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H85_7: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H85_10: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H85_13: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H85_15: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.33@0#00085: H88_14: 2 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H88_22: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H88_23: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H88_25: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H88_27: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H88_28: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H88_35: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H88_150: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H88_152: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H88_157: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H88_160: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H88_163: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H88_164: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H118_1: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H119_2: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H119_6: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H119_8: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H119_9: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0#00085: H123_2: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0#00085: H125_1: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0#00085: H134_1: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0#00085: H134_2: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0#00085: H146_1: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0#00085: H153_1: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0#00085: H153_2: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0#00085: H153_3: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0#00085: H153_14: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0#00085: H164_0: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0#00085: H254_8: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0#00085: H254_101: 66 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0#00085: H254_102: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0#00085: 
+2026.04.20-07:03:13.94@0#00085: Loaded H20_101, signalling
+
+@syslog@
+2026.04.20-07:03:14.23@0#00000: [   61.804914][    C0] ath_txtimeout: monitor reset
+2026.04.20-07:03:14.23@0#00000: [   61.804972][    C0] ath_reset
+2026.04.20-07:03:14.24@0#00000: [   61.808658][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+
+@loader@
+2026.04.20-07:03:15.12@0#00056: static(keyman)local(DEAD)peer(65,ffffffff,,BADID)  run!  started, pid 99
+2026.04.20-07:03:15.12@0#00056: static(keyman pid=99)local(DEAD)peer(65,ffffffff,,BADID)  entering WAITING
+2026.04.20-07:03:15.57@0#00056: static(keyman pid=99)local(WAITING)peer(65,ffffffff,,BADID)  entering READY
+2026.04.20-07:03:15.57@0#00056: static(keyman pid=99)local(READY)peer(65,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:03:15.57@0#00056: static(keyman pid=99)local(READY)peer(65,ffffffff,,BADID)  flushing queue
+2026.04.20-07:03:15.58@0#00056: static(keyman pid=99)local(READY)peer(65,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:03:15.58@0#00056: static(keyman pid=99)local(RUNNING)peer(65,ffffffff,,BADID)  SETUP timeout to:1000
+
+@parser@
+2026.04.20-07:03:15.77@0#00085: mkFindMsgInspector expr=$name;$version;$build-time;$scheduled;$bundle;$size;$available;$disabled;$.id;$.nextid;$.dead;$.about;(  (= $name ipv6) (! $disabled));5
+2026.04.20-07:03:15.83@0#00085: mkFindMsgInspector expr=$name;$version;$build-time;$scheduled;$bundle;$size;$available;$disabled;$.id;$.nextid;$.dead;$.about;(  (= $name dhcp) (! $disabled));5
+2026.04.20-07:03:15.84@0#00085: mkFindMsgInspector expr=$name;$version;$build-time;$scheduled;$bundle;$size;$available;$disabled;$.id;$.nextid;$.dead;$.about;(  (= $name wireless) (! $disabled));5
+2026.04.20-07:03:15.84@0#00085: mkFindMsgInspector expr=$name;$version;$build-time;$scheduled;$bundle;$size;$available;$disabled;$.id;$.nextid;$.dead;$.about;(  (~ $name wifi) (! $disabled));5
+2026.04.20-07:03:16.07@0#00085: RUN INLINE  owner=-empty- policy=ffffffff source=:global nTemp [:len [/interface wireless find where interface-type!="virtual"]]
+2026.04.20-07:03:16.33@0#00085: mkFindMsgInspector expr=$default-name;$name;$mtu;$l2mtu;$mac-address;$arp;$arp-timeout;$disable-running-check;$interface-type;$prism-cardtype;$master-interface;$radio-name;$mode;$ssid;$area;$frequency-mode;$country;$installation;$antenna-gain;$frequency;$band;$channel-width;$secondary-frequency;$scan-list;$wireless-protocol;$rate-set;$supported-rates-b;$supported-rates-a/g;$basic-rates-b;$basic-rates-a/g;$max-station-count;$distance;$tx-power;$tx-power-mode;$noise-floor-threshold;$nv2-noise-floor-offset;$burst-time;$antenna-mode;$vlan-mode;$vlan-id;$wds-mode;$wds-default-bridge;$wds-default-cost;$wds-cost-range;$wds-ignore-ssid;$update-stats-interval;$bridge-mode;$default-authentication;$default-forwarding;$default-ap-tx-limit;$default-client-tx-limit;$wmm-support;$hide-ssid;$security-profile;$interworking-profile;$wps-mode;$station-roaming;$disconnect-timeout;$on-fail-retry-time;$preamble-mode;$compression;$allow-sharedkey;$station-bridge-clone-mac;$ampdu-priorities;$guard-interval;$ht-supported-mcs;$ht-basic-mcs;$vht-supported-mcs;$vht-basic-mcs;$tx-chains;$rx-chains;$amsdu-limit;$amsdu-threshold;$tdma-period-size;$nv2-queue-count;$nv2-qos;$nv2-cell-radius;$nv2-security;$nv2-preshared-key;$nv2-mode;$nv2-downlink-ratio;$nv2-sync-secret;$hw-retries;$frame-lifetime;$adaptive-noise-immunity;$hw-fragmentation-threshold;$hw-protection-mode;$hw-protection-threshold;$frequency-offset;$rate-selection;$multicast-helper;$multicast-buffering;$keepalive-frames;$skip-dfs-channels;$pci-info;$running;$disabled;$comment;$.id;$.nextid;$.dead;$.about;(!= $interface-type virtual);65536
+2026.04.20-07:03:16.99@0#00085: Loaded H88_28, signalling
+2026.04.20-07:03:17.02@0#00085: Loaded H88_27, signalling
+2026.04.20-07:03:17.23@0#00085: Loaded H20_0, signalling
+2026.04.20-07:03:17.25@0#00085: Loaded H88_14, signalling
+2026.04.20-07:03:17.25@0#00085: Loaded H88_25, signalling
+
+@dhcpclient@
+2026.04.20-07:03:17.29@0#00082: bridge-WAN sending DHCPDISCOVER after 41s
+2026.04.20-07:03:17.49@0#00082: dhcp-client on bridge-WAN sending discover with id 1930321672 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+
+@net@
+2026.04.20-07:03:18.24@0#00061: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-07:03:18.25@0#00061: PLC-pwr-line1#5(eth4#12): reset
+
+@parser@
+2026.04.20-07:03:18.94@0#00085: hdTimer H20_101 lastAccess+d 6149+500
+
+@syslog@
+2026.04.20-07:03:19.30@0#00000: [   66.874899][    C0] ath_txtimeout: monitor reset
+2026.04.20-07:03:19.30@0#00000: [   66.874954][    C0] ath_reset
+2026.04.20-07:03:19.31@0#00000: [   66.878633][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+
+@parser@
+2026.04.20-07:03:19.59@0#00085: RUN INLINE  owner=-empty- policy=ffffffff source=:if ([/interface wireless get [find default-name=wlan1] antenna-gain]=0) do={:set gain true}
+2026.04.20-07:03:19.68@0#00085: mkFindMsgInspector expr=$default-name;$name;$mtu;$l2mtu;$mac-address;$arp;$arp-timeout;$disable-running-check;$interface-type;$prism-cardtype;$master-interface;$radio-name;$mode;$ssid;$area;$frequency-mode;$country;$installation;$antenna-gain;$frequency;$band;$channel-width;$secondary-frequency;$scan-list;$wireless-protocol;$rate-set;$supported-rates-b;$supported-rates-a/g;$basic-rates-b;$basic-rates-a/g;$max-station-count;$distance;$tx-power;$tx-power-mode;$noise-floor-threshold;$nv2-noise-floor-offset;$burst-time;$antenna-mode;$vlan-mode;$vlan-id;$wds-mode;$wds-default-bridge;$wds-default-cost;$wds-cost-range;$wds-ignore-ssid;$update-stats-interval;$bridge-mode;$default-authentication;$default-forwarding;$default-ap-tx-limit;$default-client-tx-limit;$wmm-support;$hide-ssid;$security-profile;$interworking-profile;$wps-mode;$station-roaming;$disconnect-timeout;$on-fail-retry-time;$preamble-mode;$compression;$allow-sharedkey;$station-bridge-clone-mac;$ampdu-priorities;$guard-interval;$ht-supported-mcs;$ht-basic-mcs;$vht-supported-mcs;$vht-basic-mcs;$tx-chains;$rx-chains;$amsdu-limit;$amsdu-threshold;$tdma-period-size;$nv2-queue-count;$nv2-qos;$nv2-cell-radius;$nv2-security;$nv2-preshared-key;$nv2-mode;$nv2-downlink-ratio;$nv2-sync-secret;$hw-retries;$frame-lifetime;$adaptive-noise-immunity;$hw-fragmentation-threshold;$hw-protection-mode;$hw-protection-threshold;$frequency-offset;$rate-selection;$multicast-helper;$multicast-buffering;$keepalive-frames;$skip-dfs-channels;$pci-info;$running;$disabled;$comment;$.id;

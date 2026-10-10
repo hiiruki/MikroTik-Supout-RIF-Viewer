@@ -1,0 +1,45 @@
+IP SETTINGS
+                                 ip-forward: yes          
+                             send-redirects: yes          
+                        accept-source-route: no           
+                           accept-redirects: no           
+                           secure-redirects: yes          
+                                  rp-filter: no           
+                 ipv4-multipath-hash-policy: l3           
+                             tcp-syncookies: no           
+                             tcp-timestamps: random-offset
+                       max-neighbor-entries: 8192         
+                                arp-timeout: 30s          
+                            icmp-rate-limit: 10           
+                             icmp-rate-mask: 0x1818       
+  icmp-errors-use-inbound-interface-address: no           
+                            allow-fast-path: yes          
+                      ipv4-fast-path-active: no           
+                     ipv4-fast-path-packets: 0            
+                       ipv4-fast-path-bytes: 0            
+                      ipv4-fasttrack-active: no           
+                     ipv4-fasttrack-packets: 0            
+                       ipv4-fasttrack-bytes: 0            
+
+IP DNS
+                      servers: 8.8.8.8
+                               8.8.4.4
+              dynamic-servers:        
+               use-doh-server:        
+              verify-doh-cert: no     
+   doh-max-server-connections: 5      
+   doh-max-concurrent-queries: 50     
+                  doh-timeout: 5s     
+        allow-remote-requests: yes    
+          max-udp-packet-size: 4096   
+         query-server-timeout: 2s     
+          query-total-timeout: 10s    
+       max-concurrent-queries: 100    
+  max-concurrent-tcp-sessions: 20     
+                   cache-size: 2048KiB
+                cache-max-ttl: 1w     
+      address-list-extra-time: 0s     
+                          vrf: main   
+           mdns-repeat-ifaces:        
+                   cache-used: 27KiB  
+

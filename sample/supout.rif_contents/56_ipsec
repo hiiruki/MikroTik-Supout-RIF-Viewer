@@ -1,0 +1,62 @@
+PEER CONFIG
+Flags: X - disabled; D - dynamic; R - responder 
+
+PEER PROFILE
+Flags: * - default 
+ 0 * name="default" hash-algorithm=sha1 enc-algorithm=aes-128,3des dh-group=modp2048,modp1024 lifetime=1d proposal-check=obey nat-traversal=yes ppk=no dpd-interval=2m 
+     dpd-maximum-failures=5 
+
+IDENTITIES
+Flags: D - dynamic; X - disabled 
+
+PROPOSAL
+Flags: X - disabled; * - default 
+ 0  * name="default" auth-algorithms=sha1 enc-algorithms=aes-256-cbc,aes-192-cbc,aes-128-cbc lifetime=30m pfs-group=modp1024 
+
+MODE CONFIG
+Flags: * - default; R - responder 
+ 0 *  name="request-only" responder=no use-responder-dns=exclusively 
+
+QKD CONFIG
+syntax error (line 1 column 23)
+ACTIVE PEERS
+Flags: R - responder; N - natt-peer; P - ppk 
+
+
+POLICY
+Flags: T - template; B - backup; X - disabled, D - dynamic, I - invalid, A - active; * - default 
+ 0 T  * group=default src-address=::/0 dst-address=::/0 protocol=all proposal=default template=yes 
+
+INSTALLED SA
+Flags: S - seen-traffic; H - hw-aead; A - AH, E - ESP 
+
+STATISTICS
+                  in-errors: 0
+           in-buffer-errors: 0
+           in-header-errors: 0
+               in-no-states: 0
+   in-state-protocol-errors: 0
+       in-state-mode-errors: 0
+   in-state-sequence-errors: 0
+           in-state-expired: 0
+        in-state-mismatches: 0
+           in-state-invalid: 0
+     in-template-mismatches: 0
+             in-no-policies: 0
+          in-policy-blocked: 0
+           in-policy-errors: 0
+                 out-errors: 0
+          out-bundle-errors: 0
+    out-bundle-check-errors: 0
+              out-no-states: 0
+  out-state-protocol-errors: 0
+      out-state-mode-errors: 0
+  out-state-sequence-errors: 0
+          out-state-expired: 0
+         out-policy-blocked: 0
+            out-policy-dead: 0
+          out-policy-errors: 0
+
+kernel policies:
+spd dump
+

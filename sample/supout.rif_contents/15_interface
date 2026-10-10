@@ -1,0 +1,75 @@
+INTERFACE
+Flags: R - RUNNING; S - SLAVE
+Columns: NAME, TYPE, ACTUAL-MTU, L2MTU, MAX-L2MTU, MAC-ADDRESS
+#    NAME         TYPE      ACTUAL-MTU  L2MTU  MAX-L2MTU  MAC-ADDRESS      
+0  S ether1       ether           1500   1598       2028  F4:1E:57:4E:1F:A0
+1 RS ether2       ether           1500   1598       2028  F4:1E:57:4E:1F:A1
+2  S ether3       ether           1500   1598       2028  F4:1E:57:4E:1F:A2
+3  S ether4       ether           1500   1598       2028  F4:1E:57:4E:1F:A3
+4    pwr-line1    ether           1500   1598       2028  F4:1E:57:4E:1F:A4
+5  S wlan1        wlan            1500   1600       2290  F4:1E:57:4E:1F:A5
+6 R  bridge-LAN   bridge          1500   1598             F4:1E:57:4E:1F:A1
+7 R  bridge-WAN   bridge          1500   1598             F4:1E:57:4E:1F:A0
+8 R  bridge-WLAN  bridge          1500   1600             F4:1E:57:4E:1F:A5
+9 R  lo           loopback       65536                    00:00:00:00:00:00
+
+Flags: R - RUNNING; S - SLAVE
+Columns: NAME, RX-BYTE, TX-BYTE, RX-PACKET, TX-PACKET, RX-DROP, TX-DROP, TX-QUEUE-DROP, RX-ERROR, TX-ERROR
+#    NAME           RX-BYTE     TX-BYTE  RX-PACKET  TX-PACKET  RX-DROP  TX-DROP  TX-QUEUE-DROP  RX-ERROR  TX-ERROR
+0  S ether1               0           0          0          0        0        0              0         0         0
+1 RS ether2       8 594 732  25 465 040     61 380     44 503        0        0              0         0         0
+2  S ether3               0           0          0          0        0        0              0         0         0
+3  S ether4               0           0          0          0        0        0              0         0         0
+4    pwr-line1            0           0          0          0        0        0              0         0         0
+5  S wlan1                0           0          0          0        0        0              0         0         0
+6 R  bridge-LAN   7 235 689           0     60 240          0        0        0              0         0         0
+7 R  bridge-WAN           0   1 004 796          0      2 938        0        0              0         0         0
+8 R  bridge-WLAN          0         484          0          3        0        0              0         0         0
+9 R  lo                   0           0          0          0        0        0              0         0         0
+
+Flags: D - dynamic; X - disabled; I - inactive, R - running; S - slave; P - passthrough 
+ 0    S  name="ether1" link-downs=0 rx-byte=0 tx-byte=0 rx-packet=0 tx-packet=0 rx-drop=0 tx-drop=0 tx-queue-drop=0 rx-error=0 tx-error=0 fp-rx-byte=0 fp-tx-byte=0 fp-rx-packet=0 
+         fp-tx-packet=0 fp-rps-drop=0 
+
+ 1   RS  name="ether2" last-link-up-time=2026-04-20 14:02:47 link-downs=0 rx-byte=8 596 698 tx-byte=25 468 340 rx-packet=61 396 tx-packet=44 519 rx-drop=0 tx-drop=0 
+         tx-queue-drop=0 rx-error=0 tx-error=0 fp-rx-byte=8 346 589 fp-tx-byte=0 fp-rx-packet=61 381 fp-tx-packet=0 fp-rps-drop=0 
+
+ 2    S  name="ether3" link-downs=0 rx-byte=0 tx-byte=0 rx-packet=0 tx-packet=0 rx-drop=0 tx-drop=0 tx-queue-drop=0 rx-error=0 tx-error=0 fp-rx-byte=0 fp-tx-byte=0 fp-rx-packet=0 
+         fp-tx-packet=0 fp-rps-drop=0 
+
+ 3    S  name="ether4" link-downs=0 rx-byte=0 tx-byte=0 rx-packet=0 tx-packet=0 rx-drop=0 tx-drop=0 tx-queue-drop=0 rx-error=0 tx-error=0 fp-rx-byte=0 fp-tx-byte=0 fp-rx-packet=0 
+         fp-tx-packet=0 fp-rps-drop=0 
+
+ 4       name="pwr-line1" link-downs=0 rx-byte=0 tx-byte=0 rx-packet=0 tx-packet=0 rx-drop=0 tx-drop=0 tx-queue-drop=0 rx-error=0 tx-error=0 fp-rx-byte=0 fp-tx-byte=0 
+         fp-rx-packet=0 fp-tx-packet=0 fp-rps-drop=0 
+
+ 5    S  name="wlan1" link-downs=0 rx-byte=0 tx-byte=0 rx-packet=0 tx-packet=0 rx-drop=0 tx-drop=0 tx-queue-drop=0 rx-error=0 tx-error=0 fp-rx-byte=0 fp-tx-byte=0 fp-rx-packet=0 
+         fp-tx-packet=0 fp-rps-drop=0 
+
+ 6   R   name="bridge-LAN" last-link-up-time=2026-04-20 14:02:46 link-downs=0 rx-byte=7 237 226 tx-byte=0 rx-packet=60 255 tx-packet=0 rx-drop=0 tx-drop=0 tx-queue-drop=0 
+         rx-error=0 tx-error=0 fp-rx-byte=0 fp-tx-byte=0 fp-rx-packet=0 fp-tx-packet=0 fp-rps-drop=0 
+
+ 7   R   name="bridge-WAN" last-link-up-time=2026-04-20 14:02:34 link-downs=0 rx-byte=0 tx-byte=1 004 796 rx-packet=0 tx-packet=2 938 rx-drop=0 tx-drop=0 tx-queue-drop=0 
+         rx-error=0 tx-error=0 fp-rx-byte=0 fp-tx-byte=0 fp-rx-packet=0 fp-tx-packet=0 fp-rps-drop=0 
+
+ 8   R   name="bridge-WLAN" last-link-up-time=2026-04-20 14:02:47 link-downs=0 rx-byte=0 tx-byte=484 rx-packet=0 tx-packet=3 rx-drop=0 tx-drop=0 tx-queue-drop=0 rx-error=0 
+         tx-error=0 fp-rx-byte=0 fp-tx-byte=0 fp-rx-packet=0 fp-tx-packet=0 fp-rps-drop=0 
+
+ 9   R   name="lo" last-link-up-time=2026-04-20 14:02:33 link-downs=0 rx-byte=0 tx-byte=0 rx-packet=0 tx-packet=0 rx-drop=0 tx-drop=0 tx-queue-drop=0 rx-error=0 tx-error=0 
+         fp-rx-byte=0 fp-tx-byte=0 fp-rx-packet=0 fp-tx-packet=0 fp-rps-drop=0 
+
+VRRP
+
+PWR-LINE
+               name: pwr-line1
+  connection-to-plc: no-link  
+
+BONDING
+Flags: X - disabled; R - running 
+
+LIST MEMBERS
+
+VXLAN-VTEPS
+
+VXLAN-FDB
+

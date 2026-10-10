@@ -1,0 +1,10 @@
+TEMPLATE
+syntax error (line 1 column 13)
+CONNECTION
+syntax error (line 1 column 13)
+SESSION
+syntax error (line 1 column 13)
+VPN
+syntax error (line 1 column 13)
+ADVERTISEMENTS
+bad command name bgp (line 1 column 22)

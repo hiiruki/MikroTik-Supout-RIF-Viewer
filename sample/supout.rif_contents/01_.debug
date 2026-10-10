@@ -1,0 +1,2604 @@
+
+@loader@
+ pid=109)local(RUNNING)peer(65,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:04:20.69@0: static(keyman pid=109)local(TRYTERM)peer(65,ffffffff,,BADID)  sending TERM message
+2026.04.20-07:04:20.69@0: read failed (EOF)
+2026.04.20-07:04:20.69@0: static(keyman pid=109)local(TRYTERM)peer(65,ffffffff,,BADID)  entering WAITSIG
+2026.04.20-07:04:20.69@0: static(keyman)local(WAITSIG)peer(65,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:04:20.69@0: static(keyman)local(WAITSIG)peer(41,ffffffff,,BADID)  entering DEAD
+2026.04.20-07:04:30.69@0: static(fileman pid=108)local(RUNNING)peer(72,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:04:30.69@0: static(fileman pid=108)local(RUNNING)peer(72,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:04:30.69@0: static(fileman pid=108)local(TRYTERM)peer(72,ffffffff,,BADID)  sending TERM message
+2026.04.20-07:04:30.69@0: read failed (EOF)
+2026.04.20-07:04:30.69@0: static(fileman pid=108)local(TRYTERM)peer(72,ffffffff,,BADID)  entering WAITSIG
+2026.04.20-07:04:30.69@0: request to reply with error to NON-REQUEST message [72, 16584704]->[79, 1]
+2026.04.20-07:04:30.69@0: static(fileman)local(WAITSIG)peer(72,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:04:30.69@0: static(fileman)local(WAITSIG)peer(48,ffffffff,,BADID)  entering DEAD
+2026.04.20-07:04:51.72@0: static(fileman)local(DEAD)peer(72,ffffffff,,BADID)  run!  started, pid 110
+2026.04.20-07:04:51.72@0: static(fileman pid=110)local(DEAD)peer(72,ffffffff,,BADID)  entering WAITING
+2026.04.20-07:04:51.81@0: static(fileman pid=110)local(WAITING)peer(72,ffffffff,,BADID)  entering READY
+2026.04.20-07:04:51.81@0: static(fileman pid=110)local(READY)peer(72,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:04:51.81@0: static(fileman pid=110)local(READY)peer(72,ffffffff,,BADID)  flushing queue
+2026.04.20-07:04:51.81@0: request to reply with error to NON-REQUEST message [72, 16584704]->[79, 1]
+2026.04.20-07:04:51.81@0: queuing error message
+2026.04.20-07:04:51.83@0: static(keyman)local(DEAD)peer(65,ffffffff,,BADID)  run!  started, pid 111
+2026.04.20-07:04:51.83@0: static(keyman pid=111)local(DEAD)peer(65,ffffffff,,BADID)  entering WAITING
+2026.04.20-07:04:52.04@0: static(keyman pid=111)local(WAITING)peer(65,ffffffff,,BADID)  entering READY
+2026.04.20-07:04:52.04@0: static(keyman pid=111)local(READY)peer(65,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:04:52.04@0: static(keyman pid=111)local(READY)peer(65,ffffffff,,BADID)  flushing queue
+2026.04.20-07:04:52.04@0: static(keyman pid=111)local(READY)peer(65,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:04:52.04@0: static(keyman pid=111)local(RUNNING)peer(65,ffffffff,,BADID)  SETUP timeout to:1000
+2026.04.20-07:04:52.25@0: static(fileman pid=110)local(READY)peer(72,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:04:52.25@0: static(fileman pid=110)local(RUNNING)peer(72,ffffffff,,BADID)  SETUP timeout to:1000
+2026.04.20-07:05:10.69@0: static(keyman pid=111)local(RUNNING)peer(65,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:05:10.69@0: static(keyman pid=111)local(RUNNING)peer(65,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:05:10.69@0: static(keyman pid=111)local(TRYTERM)peer(65,ffffffff,,BADID)  sending TERM message
+2026.04.20-07:05:10.69@0: static(fileman pid=110)local(RUNNING)peer(72,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:05:10.69@0: static(fileman pid=110)local(RUNNING)peer(72,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:05:10.69@0: static(fileman pid=110)local(TRYTERM)peer(72,ffffffff,,BADID)  sending TERM message
+2026.04.20-07:05:10.78@0: read failed (EOF)
+2026.04.20-07:05:10.78@0: static(keyman pid=111)local(TRYTERM)peer(65,ffffffff,,BADID)  entering WAITSIG
+2026.04.20-07:05:10.78@0: static(fileman pid=110)local(TRYTERM)peer(72,ffffffff,,BADID)  TERMOK, terminating
+2026.04.20-07:05:10.78@0: read failed (EOF)
+2026.04.20-07:05:10.78@0: static(fileman pid=110)local(TRYTERM)peer(72,ffffffff,,BADID)  entering WAITSIG
+2026.04.20-07:05:10.78@0: request to reply with error to NON-REQUEST message [72, 16584704]->[79, 1]
+2026.04.20-07:05:10.79@0: static(keyman)local(WAITSIG)peer(65,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:05:10.79@0: static(keyman)local(WAITSIG)peer(41,ffffffff,,BADID)  entering DEAD
+2026.04.20-07:05:10.79@0: static(fileman)local(WAITSIG)peer(72,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:05:10.79@0: static(fileman)local(WAITSIG)peer(48,ffffffff,,BADID)  entering DEAD
+2026.04.20-07:08:23.74@0: static(tr069-client)local(DEAD)peer(131,ffffffff,,BADID)  run!  started, pid 113
+2026.04.20-07:08:23.74@0: static(tr069-client pid=113)local(DEAD)peer(131,ffffffff,,BADID)  entering WAITING
+2026.04.20-07:08:23.74@0: static(cerm)local(DEAD)peer(19,ffffffff,,BADID)  run!  started, pid 114
+2026.04.20-07:08:23.74@0: static(cerm pid=114)local(DEAD)peer(19,ffffffff,,BADID)  entering WAITING
+@mproxy@
+2026.04.20-07:02:33.78@0: sermgr::CMD_SET
+2026.04.20-07:02:34.78@0: set mac listen [] []
+2026.04.20-07:02:35.04@0: sermgr::CMD_SET
+2026.04.20-07:02:36.29@0: set mac listen [13] [F4:1E:57:4E:1F:A0]
+2026.04.20-07:02:48.12@0: set mac listen [9, 13, 14, 15] [F4:1E:57:4E:1F:A1, F4:1E:57:4E:1F:A0, F4:1E:57:4E:1F:A1, A6:7F:2F:DA:A3:E5]
+2026.04.20-07:02:54.18@0: set mac listen [9, 13, 14, 15] [F4:1E:57:4E:1F:A1, F4:1E:57:4E:1F:A0, F4:1E:57:4E:1F:A1, F4:1E:57:4E:1F:A5]
+2026.04.20-07:03:00.93@0: set mac listen [9, 13, 14, 15] [F4:1E:57:4E:1F:A1, F4:1E:57:4E:1F:A0, F4:1E:57:4E:1F:A1, F4:1E:57:4E:1F:A5]
+2026.04.20-07:03:04.42@0: set mac listen [9, 13, 14, 15] [F4:1E:57:4E:1F:A1, F4:1E:57:4E:1F:A0, F4:1E:57:4E:1F:A1, F4:1E:57:4E:1F:A5]
+2026.04.20-07:03:23.63@0: got challenge
+2026.04.20-07:03:23.88@0: --- nv::message --------
+2026.04.20-07:03:23.88@0:  bool [SYS_REPLYEXP]=true
+2026.04.20-07:03:23.88@0:  u32 [SYS_POLICY]=0 0x0 0.0.0.0
+2026.04.20-07:03:23.88@0:  u32 [SYS_TYPE]=TYPE_REQUEST
+2026.04.20-07:03:23.88@0:  u32 [SYS_CONN_TYPE]=1 0x1 0.0.0.1
+2026.04.20-07:03:23.88@0:  u32 [SYS_REQID]=1 0x1 0.0.0.1
+2026.04.20-07:03:23.88@0:  u32 [SYS_CMD]=4 0x4 0.0.0.4
+2026.04.20-07:03:23.88@0:  raw [9]=#39 0 6e 69 6d 64 61 
+2026.04.20-07:03:23.88@0:  raw [SYS_RMACADDR]=#6 b0 22 a1 74 4a 26 
+2026.04.20-07:03:23.88@0:  u32[2] [SYS_TO]=13, 4, 
+2026.04.20-07:03:23.88@0:  u32[0] [SYS_FROM]=
+2026.04.20-07:03:23.88@0:  string[1] [SYS_TRACE]=mac-msg(winbox):@26:4A:74:A1:22:B0, 
+2026.04.20-07:03:24.74@0: got challenge gen
+2026.04.20-07:03:24.74@0: --- nv::message --------
+2026.04.20-07:03:24.74@0:  u32 [SYS_TYPE]=TYPE_REPLY
+2026.04.20-07:03:24.74@0:  u32 [SYS_REQID]=1 0x1 0.0.0.1
+2026.04.20-07:03:24.74@0:  raw [9]=#49 27 f7 86 c5 de 42 
+2026.04.20-07:03:24.74@0:  string [1]=admin
+2026.04.20-07:03:24.74@0:  u32[0] [SYS_TO]=
+2026.04.20-07:03:24.74@0:  u32[2] [SYS_FROM]=13, 4, 
+2026.04.20-07:03:24.76@0: login
+2026.04.20-07:03:24.76@0: --- nv::message --------
+2026.04.20-07:03:24.76@0:  bool [35]=true
+2026.04.20-07:03:24.76@0:  bool [8]=true
+2026.04.20-07:03:24.76@0:  u32 [SYS_POLICY]=0 0x0 0.0.0.0
+2026.04.20-07:03:24.76@0:  u32 [SYS_CONN_TYPE]=1 0x1 0.0.0.1
+2026.04.20-07:03:24.76@0:  u32 [SYS_CMD]=1 0x1 0.0.0.1
+2026.04.20-07:03:24.76@0:  raw [SYS_RMACADDR]=#6 b0 22 a1 74 4a 26 
+2026.04.20-07:03:24.77@0:  raw [10]=#32 f 7 33 d3 f5 c4 
+2026.04.20-07:03:24.77@0:  raw [9]=#49 27 f7 86 c5 de 42 
+2026.04.20-07:03:24.77@0:  string [1]=admin
+2026.04.20-07:03:24.77@0:  string[1] [SYS_TRACE]=mac-msg(winbox):@26:4A:74:A1:22:B0, 
+2026.04.20-07:03:24.77@0:  u32[2] [SYS_TO]=13, 4, 
+2026.04.20-07:03:25.24@0: --- nv::message --------
+2026.04.20-07:03:25.24@0:  bool [38]=false
+2026.04.20-07:03:25.24@0:  bool [28]=true
+2026.04.20-07:03:25.24@0:  bool [19]=false
+2026.04.20-07:03:25.24@0:  u32 [11]=655358 0x9fffe 0.9.255.254
+2026.04.20-07:03:25.24@0:  u32 [15]=0 0x0 0.0.0.0
+2026.04.20-07:03:25.24@0:  u32 [16]=4 0x4 0.0.0.4
+2026.04.20-07:03:25.24@0:  u32 [39]=1 0x1 0.0.0.1
+2026.04.20-07:03:25.24@0:  u32 [STD_ID]=1 0x1 0.0.0.1
+2026.04.20-07:03:25.24@0:  u32 [SYS_TYPE]=TYPE_REPLY
+2026.04.20-07:03:25.24@0:  u32 [SYS_REQID]=2 0x2 0.0.0.2
+2026.04.20-07:03:25.24@0:  raw [26]=#16 8e db 36 5a 76 36 
+2026.04.20-07:03:25.24@0:  raw [25]=#16 d9 8 fc 7c 5e bf 
+2026.04.20-07:03:25.24@0:  raw [10]=#32 dd 2f 9a ac 2e e7 
+2026.04.20-07:03:25.24@0:  message [40]...
+2026.04.20-07:03:25.24@0:     --- nv::flat_message --------
+2026.04.20-07:03:25.24@0:     109_ua[4]=289936515, 546326540, 2143258624, 256
+2026.04.20-07:03:25.24@0:     11_b=false
+2026.04.20-07:03:25.24@0:     12_b|S=true
+2026.04.20-07:03:25.24@0:     13_b|S=true
+2026.04.20-07:03:25.24@0:     14_b|S=true
+2026.04.20-07:03:25.24@0:     15_b|S=true
+2026.04.20-07:03:25.24@0:     16_b|S=true
+2026.04.20-07:03:25.24@0:     17_b|S=true
+2026.04.20-07:03:25.24@0:     18_b|S=true
+2026.04.20-07:03:25.24@0:     19_b=false
+2026.04.20-07:03:25.24@0:     20_b|S=true
+2026.04.20-07:03:25.24@0:     21_b|S=true
+2026.04.20-07:03:25.24@0:     22_b|S=true
+2026.04.20-07:03:25.24@0:     23_b|S=true
+2026.04.20-07:03:25.24@0:     24_b|S=true
+2026.04.20-07:03:25.24@0:     25_b|S=true
+2026.04.20-07:03:25.24@0:     26_b|S=true
+2026.04.20-07:03:25.24@0:     27_b|S=true
+2026.04.20-07:03:25.24@0:     28_b=false
+2026.04.20-07:03:25.24@0:     29_b=false
+2026.04.20-07:03:25.24@0:     30_b=false
+2026.04.20-07:03:25.24@0:     31_b=false
+2026.04.20-07:03:25.24@0:     101_b|S=true
+2026.04.20-07:03:25.24@0:     102_b=false
+2026.04.20-07:03:25.24@0:     100_u|S=253 0xfd 0.0.0.253
+2026.04.20-07:03:25.24@0:     105_u|S=0 0x0 0.0.0.0
+2026.04.20-07:03:25.24@0:     106_u|S=4 0x4 0.0.0.4
+2026.04.20-07:03:25.24@0:     107_u|S=6 0x6 0.0.0.6
+2026.04.20-07:03:25.24@0:     108_u|S=3 0x3 0.0.0.3
+2026.04.20-07:03:25.24@0:     110_u|S=0 0x0 0.0.0.0
+2026.04.20-07:03:25.33@0:     104_q=3799015639754
+2026.04.20-07:03:25.33@0:     102_q=2
+2026.04.20-07:03:25.33@0:  string [24]=default
+2026.04.20-07:03:25.33@0:  string [20]=
+2026.04.20-07:03:25.33@0:  string [22]=3.42rc1
+2026.04.20-07:03:25.33@0:  string [23]=RB700
+2026.04.20-07:03:25.33@0:  string [21]=RB941-2nD
+2026.04.20-07:03:25.33@0:  string [18]=H951L
+2026.04.20-07:03:25.33@0:  string [17]=smips
+2026.04.20-07:03:25.33@0:  u32[0] [SYS_TO]=
+2026.04.20-07:03:25.33@0:  u32[2] [SYS_FROM]=13, 4, 
+2026.04.20-07:03:25.96@0: opening file for reading: /home/web/webfig/list
+2026.04.20-07:03:26.00@0: opening file for reading: /pckg/hotspot/home/web/webfig/hotspot.jg.gz
+2026.04.20-07:03:26.09@0: opening file for reading: /pckg/tr069-client/home/web/webfig/tr069.jg.gz
+2026.04.20-07:03:26.14@0: opening file for reading: /pckg/wireless/home/web/webfig/wlan6.jg.gz
+2026.04.20-07:03:26.75@0: opening file for reading: /flash/rw/disk/skins/default.json
+
+@log@
+2026.04.20-07:02:25.98@0: APP: rebuild actions
+2026.04.20-07:02:25.99@0: APP: rebuild actions
+2026.04.20-07:02:26.00@0: APP: rebuild actions
+2026.04.20-07:02:26.00@0: APP: rebuild actions
+2026.04.20-07:02:26.00@0: memory buffers get buf:memory refs:1, max:1000, stop:0
+2026.04.20-07:02:26.00@0: APP: rebuild actions
+2026.04.20-07:02:26.00@0: memory buffers get buf:memory refs:2, max:1000, stop:0
+2026.04.20-07:02:26.00@0: APP: rebuild actions
+2026.04.20-07:02:26.01@0: memory buffers get buf:memory refs:3, max:1000, stop:0
+2026.04.20-07:02:26.01@0: APP: rebuild actions
+2026.04.20-07:02:26.01@0: APP: rebuild actions
+2026.04.20-07:02:26.01@0: APP: rebuild actions
+2026.04.20-07:02:34.04@0: REC 5: ready
+2026.04.20-07:02:34.04@0: REC 5: 1 subscribe dns
+2026.04.20-07:02:34.04@0: REC 5: 1 notify off
+2026.04.20-07:02:34.63@0: REC 8: ready
+2026.04.20-07:02:34.63@0: REC 8: 1 subscribe interface,info
+2026.04.20-07:02:34.89@0: REC 9: ready
+2026.04.20-07:02:34.89@0: REC 9: 1 subscribe system,info
+2026.04.20-07:02:36.31@0: REC 10: ready
+2026.04.20-07:02:36.31@0: REC 10: 1 subscribe dhcp,debug,state
+2026.04.20-07:02:36.32@0: REC 10: 1 notify off
+2026.04.20-07:02:36.78@0: REC 10: 2 subscribe dhcp,debug
+2026.04.20-07:02:36.78@0: REC 10: 2 notify off
+2026.04.20-07:02:36.78@0: REC 10: 3 subscribe dhcp,debug,packet
+2026.04.20-07:02:36.78@0: REC 10: 3 notify off
+2026.04.20-07:02:41.70@0: REC 11: ready
+2026.04.20-07:02:41.76@0: REC 11: 1 subscribe route,rpki,debug
+2026.04.20-07:02:41.76@0: REC 11: 1 notify off
+2026.04.20-07:02:48.06@0: REC 12: ready
+2026.04.20-07:02:48.06@0: REC 12: 1 subscribe bridge,stp
+2026.04.20-07:02:48.07@0: REC 12: 1 notify off
+2026.04.20-07:02:48.07@0: REC 12: 2 subscribe bridge,stp,debug
+2026.04.20-07:02:48.07@0: REC 12: 2 notify off
+2026.04.20-07:02:48.12@0: REC 12: 3 subscribe bridge,info
+2026.04.20-07:02:55.68@0: REC 11: 2 subscribe route,debug,calc
+2026.04.20-07:02:55.69@0: REC 11: 2 notify off
+2026.04.20-07:03:25.18@0: REC 13: ready
+2026.04.20-07:03:25.18@0: REC 13: 1 subscribe system,info,account
+
+@moduler@
+2026.04.20-07:02:22.03@0: old RCBUF: 180224
+2026.04.20-07:02:22.03@0: new RCBUF: 3604480
+2026.04.20-07:02:23.90@0: add@/devices/platform/rb900-spi.0
+2026.04.20-07:02:23.90@0: 	SYNTH_UUID=0
+2026.04.20-07:02:23.90@0: 	DRIVER=rb900-spi
+2026.04.20-07:02:23.90@0: 	MODALIAS=platform:rb900-spi
+2026.04.20-07:02:23.95@0: add@/devices/platform/rb750-wlan
+2026.04.20-07:02:23.95@0: 	SYNTH_UUID=0
+2026.04.20-07:02:23.95@0: 	MODALIAS=platform:rb750-wlan
+2026.04.20-07:02:23.96@0: add@/devices/platform/ag7240
+2026.04.20-07:02:23.96@0: 	SYNTH_UUID=0
+2026.04.20-07:02:23.96@0: 	MODALIAS=platform:ag7240
+2026.04.20-07:02:23.96@0: add@/devices/platform/rb400-gpio
+2026.04.20-07:02:23.96@0: 	SYNTH_UUID=0
+2026.04.20-07:02:23.96@0: 	DRIVER=rb400-gpio
+2026.04.20-07:02:23.96@0: 	MODALIAS=platform:rb400-gpio
+2026.04.20-07:02:23.96@0: add@/devices/platform/Fixed MDIO bus.0
+2026.04.20-07:02:23.98@0: 	SYNTH_UUID=0
+2026.04.20-07:02:23.98@0: 	MODALIAS=platform:Fixed MDIO bus
+2026.04.20-07:02:23.98@0: add@/devices/platform/serial8250
+2026.04.20-07:02:23.98@0: 	SYNTH_UUID=0
+2026.04.20-07:02:23.98@0: 	DRIVER=serial8250
+2026.04.20-07:02:23.98@0: 	MODALIAS=platform:serial8250
+2026.04.20-07:02:23.98@0: add@/devices/platform/rb900-spi.4
+2026.04.20-07:02:23.98@0: 	SYNTH_UUID=0
+2026.04.20-07:02:23.98@0: 	DRIVER=rb900-spi
+2026.04.20-07:02:23.99@0: 	MODALIAS=platform:rb900-spi
+2026.04.20-07:02:23.99@0: add@/devices/platform/leds-rb
+2026.04.20-07:02:23.99@0: 	SYNTH_UUID=0
+2026.04.20-07:02:23.99@0: 	DRIVER=leds-rb
+2026.04.20-07:02:23.99@0: 	MODALIAS=platform:leds-rb
+2026.04.20-07:02:24.00@0: add@/devices/platform/rb900-spi.0/spi_master/spi0/spi0.0
+2026.04.20-07:02:24.07@0: 	SYNTH_UUID=0
+2026.04.20-07:02:24.07@0: 	DRIVER=rb400-spi-misc
+2026.04.20-07:02:24.07@0: 	MODALIAS=spi:rb400-spi-misc
+2026.04.20-07:02:24.07@0: add@/devices/platform/rb900-spi.0/spi_master/spi0/spi0.4
+2026.04.20-07:02:24.09@0: 	SYNTH_UUID=0
+2026.04.20-07:02:24.09@0: 	DRIVER=spi-nor
+2026.04.20-07:02:24.09@0: 	MODALIAS=spi:spi-nor
+2026.04.20-07:02:24.09@0: add@/devices/gpiochip0/gpio/gpiochip0
+2026.04.20-07:02:24.09@0: 	SYNTH_UUID=0
+2026.04.20-07:02:24.09@0: add@/devices/gpiochip0/gpio/button
+2026.04.20-07:02:24.10@0: 	SYNTH_UUID=0
+2026.04.20-07:02:24.10@0: add@/devices/gpiochip1/gpio/gpiochip100
+2026.04.20-07:02:24.10@0: 	SYNTH_UUID=0
+2026.04.20-07:02:24.10@0: init usb
+
+@discover@
+2026.04.20-07:02:35.06@0: platform: MikroTik
+2026.04.20-07:02:35.15@0: osvers:7.21.4 (long-term) 2026-04-21 06:49:05
+2026.04.20-07:02:35.15@0: [ND] subscribe to netdev
+2026.04.20-07:02:35.19@0: board name: RB941-2nD neighbours->max: 512
+2026.04.20-07:02:35.19@0: rosIdentity: MikroTik
+2026.04.20-07:02:47.37@0: bridge-WLAN discover: enable
+2026.04.20-07:02:47.38@0: bridge-WAN discover: enable
+2026.04.20-07:02:47.38@0: bridge-LAN discover: enable
+2026.04.20-07:02:47.72@0: ether2 discover: enable
+2026.04.20-07:02:48.10@0: bridge-WAN discover: disable
+2026.04.20-07:02:48.10@0: bridge-LAN discover: disable
+2026.04.20-07:02:49.41@0: Discovery: chassis mac:F4:1E:57:4E:1F:A0
+2026.04.20-07:02:52.81@0: bridge-WLAN discover: disable
+
+@user@
+2026.04.20-07:03:24.39@0: user loaded
+2026.04.20-07:03:24.57@0: SkinMap::refresh
+2026.04.20-07:03:24.60@0: found <admin> age=2
+2026.04.20-07:03:24.77@0: UserContainer::cmdLogin
+2026.04.20-07:03:24.77@0: local auth
+2026.04.20-07:03:24.77@0: srp5 auth
+2026.04.20-07:03:24.81@0: LoginManager::authed
+2026.04.20-07:03:25.10@0: first authed user, staying in memory
+
+@resolver@
+ name: cloud2.mikrotik.com.
+2026.04.20-07:03:41.94@0: connect socket: Network unreachable
+2026.04.20-07:03:41.94@0: connect socket: Network unreachable
+2026.04.20-07:03:41.94@0: connect socket: Network unreachable
+2026.04.20-07:03:41.94@0: connect socket: Network unreachable
+2026.04.20-07:03:41.94@0: connect socket: Network unreachable
+2026.04.20-07:03:41.94@0: q cloud2.mikrotik.com.:A:8: done reqs:0 dur:0 server failure
+2026.04.20-07:05:02.13@0: cmd_resolve6: cloud2.mikrotik.com
+2026.04.20-07:05:02.13@0: connect socket: Network unreachable
+2026.04.20-07:05:02.13@0: connect socket: Network unreachable
+2026.04.20-07:05:02.13@0: connect socket: Network unreachable
+2026.04.20-07:05:02.13@0: connect socket: Network unreachable
+2026.04.20-07:05:02.13@0: connect socket: Network unreachable
+2026.04.20-07:05:02.13@0: q cloud2.mikrotik.com.:AAAA:9: done reqs:0 dur:1 server failure
+2026.04.20-07:05:02.14@0: cmd_resolve: cloud2.mikrotik.com
+2026.04.20-07:05:02.14@0: name: cloud2.mikrotik.com.
+2026.04.20-07:05:02.14@0: connect socket: Network unreachable
+2026.04.20-07:05:02.14@0: connect socket: Network unreachable
+2026.04.20-07:05:02.14@0: connect socket: Network unreachable
+2026.04.20-07:05:02.14@0: connect socket: Network unreachable
+2026.04.20-07:05:02.14@0: connect socket: Network unreachable
+2026.04.20-07:05:02.14@0: q cloud2.mikrotik.com.:A:a: done reqs:0 dur:0 server failure
+2026.04.20-07:07:42.14@0: cmd_resolve: cloud2.mikrotik.com
+2026.04.20-07:07:42.14@0: name: cloud2.mikrotik.com.
+2026.04.20-07:07:42.15@0: connect socket: Network unreachable
+2026.04.20-07:07:42.15@0: connect socket: Network unreachable
+2026.04.20-07:07:42.15@0: connect socket: Network unreachable
+2026.04.20-07:07:42.15@0: connect socket: Network unreachable
+2026.04.20-07:07:42.15@0: connect socket: Network unreachable
+2026.04.20-07:07:42.15@0: q cloud2.mikrotik.com.:A:b: done reqs:0 dur:0 server failure
+2026.04.20-07:07:42.15@0: cmd_resolve6: cloud2.mikrotik.com
+2026.04.20-07:07:42.15@0: connect socket: Network unreachable
+2026.04.20-07:07:42.15@0: connect socket: Network unreachable
+2026.04.20-07:07:42.15@0: connect socket: Network unreachable
+2026.04.20-07:07:42.15@0: connect socket: Network unreachable
+2026.04.20-07:07:42.15@0: connect socket: Network unreachable
+2026.04.20-07:07:42.15@0: q cloud2.mikrotik.com.:AAAA:c: done reqs:0 dur:0 server failure
+2026.04.20-07:13:02.26@0: cmd_resolve: cloud2.mikrotik.com
+2026.04.20-07:13:02.26@0: name: cloud2.mikrotik.com.
+2026.04.20-07:13:02.34@0: connect socket: Network unreachable
+2026.04.20-07:13:02.34@0: connect socket: Network unreachable
+2026.04.20-07:13:02.34@0: connect socket: Network unreachable
+2026.04.20-07:13:02.34@0: connect socket: Network unreachable
+2026.04.20-07:13:02.34@0: connect socket: Network unreachable
+2026.04.20-07:13:02.35@0: q cloud2.mikrotik.com.:A:d: done reqs:0 dur:9 server failure
+2026.04.20-07:13:02.35@0: cmd_resolve6: cloud2.mikrotik.com
+2026.04.20-07:13:02.35@0: connect socket: Network unreachable
+2026.04.20-07:13:02.35@0: connect socket: Network unreachable
+2026.04.20-07:13:02.35@0: connect socket: Network unreachable
+2026.04.20-07:13:02.35@0: connect socket: Network unreachable
+2026.04.20-07:13:02.35@0: connect socket: Network unreachable
+2026.04.20-07:13:02.35@0: q cloud2.mikrotik.com.:AAAA:e: done reqs:0 dur:0 server failure
+2026.04.20-07:23:42.35@0: cmd_resolve6: cloud2.mikrotik.com
+2026.04.20-07:23:42.36@0: connect socket: Network unreachable
+2026.04.20-07:23:42.36@0: connect socket: Network unreachable
+2026.04.20-07:23:42.36@0: connect socket: Network unreachable
+2026.04.20-07:23:42.36@0: connect socket: Network unreachable
+2026.04.20-07:23:42.36@0: connect socket: Network unreachable
+2026.04.20-07:23:42.36@0: q cloud2.mikrotik.com.:AAAA:f: done reqs:0 dur:0 server failure
+2026.04.20-07:23:42.36@0: cmd_resolve: cloud2.mikrotik.com
+2026.04.20-07:23:42.36@0: name: cloud2.mikrotik.com.
+2026.04.20-07:23:42.36@0: connect socket: Network unreachable
+2026.04.20-07:23:42.36@0: connect socket: Network unreachable
+2026.04.20-07:23:42.36@0: connect socket: Network unreachable
+2026.04.20-07:23:42.36@0: connect socket: Network unreachable
+2026.04.20-07:23:42.36@0: connect socket: Network unreachable
+2026.04.20-07:23:42.36@0: q cloud2.mikrotik.com.:A:10: done reqs:0 dur:0 server failure
+2026.04.20-07:45:02.36@0: cmd_resolve6: cloud2.mikrotik.com
+2026.04.20-07:45:02.36@0: connect socket: Network unreachable
+2026.04.20-07:45:02.37@0: connect socket: Network unreachable
+2026.04.20-07:45:02.37@0: connect socket: Network unreachable
+2026.04.20-07:45:02.37@0: connect socket: Network unreachable
+2026.04.20-07:45:02.37@0: connect socket: Network unreachable
+2026.04.20-07:45:02.37@0: q cloud2.mikrotik.com.:AAAA:11: done reqs:0 dur:0 server failure
+2026.04.20-07:45:02.37@0: cmd_resolve: cloud2.mikrotik.com
+2026.04.20-07:45:02.37@0: name: cloud2.mikrotik.com.
+2026.04.20-07:45:02.37@0: connect socket: Network unreachable
+2026.04.20-07:45:02.37@0: connect socket: Network unreachable
+2026.04.20-07:45:02.37@0: connect socket: Network unreachable
+2026.04.20-07:45:02.37@0: connect socket: Network unreachable
+2026.04.20-07:45:02.37@0: connect socket: Network unreachable
+2026.04.20-07:45:02.37@0: q cloud2.mikrotik.com.:A:12: done reqs:0 dur:0 server failure
+2026.04.20-08:06:22.37@0: cmd_resolve6: cloud2.mikrotik.com
+2026.04.20-08:06:22.37@0: connect socket: Network unreachable
+2026.04.20-08:06:22.37@0: connect socket: Network unreachable
+2026.04.20-08:06:22.38@0: connect socket: Network unreachable
+2026.04.20-08:06:22.38@0: connect socke
+@mactel@
+2026.04.20-07:02:22.64@0: main() in
+2026.04.20-07:02:22.67@0: doSet: 33554432
+2026.04.20-07:02:33.79@0: AsyncReget done
+
+@bridge2@
+2026.04.20-07:02:23.12@0: about to init
+2026.04.20-07:02:23.13@0: ASecMap[15]: store does not have ORDER_ID
+2026.04.20-07:02:34.85@0: BH: allocated lname br0
+2026.04.20-07:02:34.86@0: bridge-WAN; bridgeEnable 
+2026.04.20-07:02:34.87@0: bridge-WAN max learned entries 4096
+2026.04.20-07:02:34.88@0: PORTDEV: brid: 8 mtu:1500 l2mtu:65535
+2026.04.20-07:02:34.88@0: bridge-WAN: BRIDGE: updating mtu: 1500
+2026.04.20-07:02:34.89@0: BH: tryAddRstpPort: no PortDev for 1
+2026.04.20-07:02:34.89@0: BH: allocated lname br1
+2026.04.20-07:02:34.89@0: bridge-LAN; bridgeEnable 
+2026.04.20-07:02:34.90@0: bridge-LAN max learned entries 4096
+2026.04.20-07:02:34.92@0: PORTDEV: brid: 9 mtu:1500 l2mtu:65535
+2026.04.20-07:02:34.92@0: bridge-LAN: BRIDGE: updating mtu: 1500
+2026.04.20-07:02:34.92@0: BH: tryAddRstpPort: no PortDev for 2
+2026.04.20-07:02:34.93@0: BH: tryAddRstpPort: no PortDev for 3
+2026.04.20-07:02:34.93@0: BH: tryAddRstpPort: no PortDev for 4
+2026.04.20-07:02:34.93@0: BH: allocated lname br2
+2026.04.20-07:02:34.93@0: bridge-WLAN; bridgeEnable 
+2026.04.20-07:02:34.93@0: bridge-WLAN max learned entries 4096
+2026.04.20-07:02:34.98@0: PORTDEV: brid: 10 mtu:1500 l2mtu:65535
+2026.04.20-07:02:34.98@0: bridge-WLAN: BRIDGE: updating mtu: 1500
+2026.04.20-07:02:34.98@0: BH: tryAddRstpPort: no PortDev for 6
+2026.04.20-07:02:34.98@0: BridgeHandler::watchDevices
+2026.04.20-07:02:37.08@0: do run
+2026.04.20-07:02:37.09@0: HW: rechecking hw
+2026.04.20-07:02:38.25@0: BridgeHandler: detnet disabled
+2026.04.20-07:02:47.90@0: PORTDEV: ether1 0x1 status 0x4441 valid:0->1 F4:1E:57:4E:1F:A0 group:0
+2026.04.20-07:02:47.90@0: BRIDGE: notifyNewPortDev ether1
+2026.04.20-07:02:47.90@0: bridge-WAN; add port: F4:1E:57:4E:1F:A0
+2026.04.20-07:02:47.91@0: PORTDEV: sendUnderBridge: ether1 -> 1
+2026.04.20-07:02:47.91@0: PORTDEV: brid: 8 mtu:1500 l2mtu:1598
+2026.04.20-07:02:47.98@0: bridge-WAN: BRIDGE: updating l2mtu: 1598
+2026.04.20-07:02:47.99@0: PORTDEV: ether2 0x2 status 0x4441 valid:0->1 F4:1E:57:4E:1F:A1 group:0
+2026.04.20-07:02:48.00@0: BRIDGE: notifyNewPortDev ether2
+2026.04.20-07:02:48.00@0: bridge-LAN; add port: F4:1E:57:4E:1F:A1
+2026.04.20-07:02:48.00@0: PORTDEV: sendUnderBridge: ether2 -> 1
+2026.04.20-07:02:48.00@0: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+2026.04.20-07:02:48.01@0: bridge-LAN: BRIDGE: updating l2mtu: 1598
+2026.04.20-07:02:48.01@0: PORTDEV: ether3 0x3 status 0x4441 valid:0->1 F4:1E:57:4E:1F:A2 group:0
+2026.04.20-07:02:48.02@0: BRIDGE: notifyNewPortDev ether3
+2026.04.20-07:02:48.02@0: bridge-LAN; add port: F4:1E:57:4E:1F:A2
+2026.04.20-07:02:48.02@0: PORTDEV: sendUnderBridge: ether3 -> 1
+2026.04.20-07:02:48.02@0: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+2026.04.20-07:02:48.02@0: PORTDEV: ether4 0x4 status 0x4441 valid:0->1 F4:1E:57:4E:1F:A3 group:0
+2026.04.20-07:02:48.03@0: BRIDGE: notifyNewPortDev ether4
+2026.04.20-07:02:48.03@0: bridge-LAN; add port: F4:1E:57:4E:1F:A3
+2026.04.20-07:02:48.03@0: PORTDEV: sendUnderBridge: ether4 -> 1
+2026.04.20-07:02:48.03@0: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+2026.04.20-07:02:48.03@0: PORTDEV: pwr-line1 0x5 status 0x4441 valid:0->1 F4:1E:57:4E:1F:A4 group:0
+2026.04.20-07:02:48.04@0: BRIDGE: notifyNewPortDev pwr-line1
+2026.04.20-07:02:48.04@0: BH: notifyNewPortDev: pwr-line1 no port or disabled
+2026.04.20-07:02:48.04@0: PORTDEV: bridge-LAN 0x9 status 0x80741 valid:0->1 F4:1E:57:4E:1F:A1
+2026.04.20-07:02:48.04@0: PORTDEV: bridge-WAN 0x8 status 0x80541 valid:0->1 F4:1E:57:4E:1F:A0
+2026.04.20-07:02:48.04@0: PORTDEV: bridge-WLAN 0xa status 0x80741 valid:0->1 A6:7F:2F:DA:A3:E5
+2026.04.20-07:02:48.04@0: AsyncReget done
+2026.04.20-07:02:48.05@0: PORTDEV: ether2 0x2 status 0x84541 valid:1->1 F4:1E:57:4E:1F:A1 group:0 speed:100
+2026.04.20-07:02:48.05@0: setPort, cfg.mac=F4:1E:57:4E:1F:A1 
+2026.04.20-07:02:48.05@0: bridge-LAN:       ether2; portEnable F4:1E:57:4E:1F:A1
+2026.04.20-07:02:48.06@0: PORTDEV: sendUnderBridge: ether2 -> 1
+2026.04.20-07:02:48.06@0: BRIDGE: kernelUpdateState for ether2 0:1
+2026.04.20-07:02:48.07@0: ether2:0  becomes Designated
+2026.04.20-07:02:48.07@0: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+2026.04.20-07:02:48.09@0: PORTDEV: bridge-WAN 0x8 status 0x80541 valid:1->1 F4:1E:57:4E:1F:A0
+2026.04.20-07:02:48.09@0: PORTDEV: bridge-WAN 0x8 status 0x80541 valid:1->1 F4:1E:57:4E:1F:A0
+2026.04.20-07:02:48.10@0: PORTDEV: bridge-LAN 0x9 status 0x80741 valid:1->1 F4:1E:57:4E:1F:A1
+2026.04.20-07:02:48.11@0: HW: rechecking hw
+2026.04.20-07:02:48.11@0: HW: portHwEnable: ether1: otherHw 0 otherSw 1, 0 -> 1
+2026.04.20-07:02:48.12@0: HW: portHwEnable: ether2: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:48.12@0: HW: portHwEnable: ether3: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:48.12@0: HW: portHwEnable: ether4: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:48.12@0: hardware offloading activated on bridge "bridge-WAN" ports: ether1
+2026.04.20-07:02:48.12@0: PORTDEV: bridge-LAN 0x9 status 0x80741 valid:1->1 F4:1E:57:4E:1F:A1
+2026.04.20-07:02:48.13@0: PORTDEV: ether1 0x1 status 0x25449 valid:1->1 F4:1E:57:4E:1F:A0 masterID:8 group:0
+2026.04.20-07:02:48.13@0: PORTDEV: brid: 8 mtu:1500 l2mtu:1598
+2026.04.20-07:02:48.13@0: PORTDEV: ether2 0x2 status 0xa5549 valid:1->1 F4:1E:57:4E:1F:A1 masterID:9 group:0 speed:100
+2026.04.20-07:02:48.13@0: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+2026.04.20-07:02:48.14@0: PORTDEV: ether3 0x3 status 0x25449 valid:1->1 F4:1E:57:4E:1F:A2 masterID:9 group:0
+2026.04.20-07:02:48.14@0: PORTDEV: brid: 9
+@macping@
+2026.04.20-07:02:33.72@0: AsyncReget done
+
+@cerm@
+2026.04.20-07:02:35.02@0: free hdd 7612
+2026.04.20-07:02:35.19@0: reading store
+2026.04.20-07:08:25.01@0: free hdd 7596
+2026.04.20-07:08:25.01@0: reading store
+2026.04.20-07:09:54.33@0: free hdd 7596
+2026.04.20-07:09:54.33@0: reading store
+
+@net@
+: reset
+2026.04.20-09:39:34.13@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:39:34.13@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:39:44.15@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:39:44.15@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:39:54.18@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:39:54.18@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:40:04.23@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:40:04.23@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:40:14.23@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:40:14.23@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:40:24.24@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:40:24.24@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:40:34.26@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:40:34.26@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:40:44.30@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:40:44.30@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:40:54.31@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:40:54.31@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:41:04.32@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:41:04.32@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:41:14.32@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:41:14.32@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:41:24.34@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:41:24.34@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:41:34.39@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:41:34.39@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:41:44.42@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:41:44.42@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:41:54.44@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:41:54.44@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:42:04.48@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:42:04.48@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:42:14.48@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:42:14.48@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:42:24.52@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:42:24.52@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:42:34.54@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:42:34.54@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:42:44.55@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:42:44.55@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:42:54.60@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:42:54.60@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:43:04.60@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:43:04.60@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:43:14.63@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:43:14.63@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:43:24.64@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:43:24.64@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:43:34.67@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:43:34.67@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:43:44.70@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:43:44.70@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:43:54.73@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:43:54.73@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:44:04.75@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:44:04.75@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:44:14.77@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:44:14.77@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:44:24.79@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:44:24.79@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:44:34.81@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:44:34.81@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:44:44.82@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:44:44.82@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:44:54.83@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:44:54.83@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:45:04.84@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:45:04.84@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:45:14.84@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:45:14.84@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:45:24.84@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:45:24.84@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:45:34.84@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:45:34.84@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:45:44.84@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:45:44.84@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:45:54.84@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:45:54.84@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:46:04.85@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:46:04.85@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:46:14.85@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:46:14.85@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:46:24.86@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:46:24.86@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:46:34.86@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:46:34.86@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:46:44.87@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:46:44.87@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:46:54.87@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:46:54.87@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:47:04.86@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:47:04.86@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:47:14.87@0: PLC-pwr-line1#5(eth4#12): onRes
+@dhcp@
+2026.04.20-07:02:35.44@0: creating classes
+2026.04.20-07:02:35.93@0: adding handlers
+2026.04.20-07:02:35.93@0: init config
+2026.04.20-07:02:35.93@0: init options
+2026.04.20-07:02:35.93@0: init ifaces
+2026.04.20-07:02:36.38@0: loaded DUID: 00030001f41e574e1fa0 
+2026.04.20-07:02:36.38@0: init subnets
+2026.04.20-07:02:36.38@0: init servers
+2026.04.20-07:02:38.25@0:  added giaddr 0.0.0.0
+2026.04.20-07:02:38.25@0:  added giaddr 0.0.0.0
+2026.04.20-07:02:38.26@0: init servers6
+2026.04.20-07:02:38.26@0: init relays6
+2026.04.20-07:02:38.26@0: init relays6Routes
+2026.04.20-07:02:38.26@0: init bindings
+2026.04.20-07:02:38.26@0: init leases
+2026.04.20-07:02:38.26@0: restored 0 leases in 0ms
+2026.04.20-07:02:38.26@0: init relays
+2026.04.20-07:02:38.26@0: entering run
+2026.04.20-07:02:38.26@0: unseen ifaces: 2
+2026.04.20-07:02:47.73@0: > addr getall, + 192.168.1.1 devid=9, + 192.168.10.1 devid=10, finish
+2026.04.20-07:02:47.73@0: devinfo
+2026.04.20-07:02:47.73@0: bridge-LAN/br1/9/e/0 0x80741 up --LERUI-O------------
+2026.04.20-07:02:47.73@0: link4 br1 (14) SET bridge-LAN
+2026.04.20-07:02:47.73@0: devinfo
+2026.04.20-07:02:47.73@0: bridge-WLAN/br2/a/f/0 0x80741 up --LERUI-O------------
+2026.04.20-07:02:47.73@0: link4 br2 (15) SET bridge-WLAN
+2026.04.20-07:02:48.01@0: devinfo
+2026.04.20-07:02:48.01@0: bridge-LAN/br1/9/e/0 0x80741 up --LERUI-O------------
+2026.04.20-07:02:52.66@0: devinfo
+2026.04.20-07:02:52.66@0: bridge-WLAN/br2/a/f/0 0x80341 down --LER-I-O------------
+2026.04.20-07:02:53.23@0: link4 br2 (15) DEL (was bridge-WLAN)
+2026.04.20-07:02:54.56@0: devinfo
+2026.04.20-07:02:54.56@0: bridge-WLAN/br2/a/f/0 0x80141 down --LER---O------------
+2026.04.20-07:02:54.57@0: devinfo
+2026.04.20-07:02:54.57@0: bridge-WLAN/br2/a/f/0 0x80141 down --LER---O------------
+2026.04.20-07:02:54.57@0: devinfo
+2026.04.20-07:02:54.57@0: bridge-WLAN/br2/a/f/0 0x80541 up --LERU--O------------
+2026.04.20-07:02:54.57@0: link4 br2 (15) SET bridge-WLAN
+2026.04.20-07:02:54.58@0: devinfo
+2026.04.20-07:02:54.58@0: bridge-WLAN/br2/a/f/0 0x80741 up --LERUI-O------------
+2026.04.20-07:02:54.58@0: > addr notify, + 192.168.10.1 devid=10
+2026.04.20-07:03:03.61@0: devinfo
+2026.04.20-07:03:03.61@0: bridge-WLAN/br2/a/f/0 0x80741 up --LERUI-O------------
+
+@sys2@
+2026.04.20-07:02:26.20@0: open file descriptor
+2026.04.20-07:02:26.20@0: descriptor opened fd=7
+2026.04.20-07:02:26.20@0: Health store is empty
+2026.04.20-07:02:28.88@0: init booter
+2026.04.20-07:02:29.63@0: BooterCfg::start()
+2026.04.20-07:02:29.63@0: Holder init - done
+2026.04.20-07:02:29.63@0: cfgSize = 4096
+2026.04.20-07:02:29.64@0: baudrate = 0
+2026.04.20-07:02:29.64@0: s_version = 7.21.4
+2026.04.20-07:02:29.64@0: s_ver_build = 7.21.4 built by gitlab-runner at Apr/21/2026 06:51:47
+2026.04.20-07:02:29.64@0: nfoSize = 4096
+2026.04.20-07:02:29.64@0: ID_BOARD_NAME = RB941-2nD
+2026.04.20-07:02:29.64@0: cfg->marketName = hAP lite
+2026.04.20-07:02:29.64@0: p_version = 6.49.17
+2026.04.20-07:02:29.65@0: cfg->boardRevision = r3
+2026.04.20-07:02:30.32@0: found valid firmware /etc/qca9531L-7.21.4.fwf
+2026.04.20-07:02:30.38@0: start PoE handler.
+2026.04.20-07:02:30.38@0: PoEOutHandler::PoEOutHandler()
+2026.04.20-07:02:30.38@0: Failed to open usbler dev: No such file or directory
+2026.04.20-07:02:30.41@0: init pacman
+2026.04.20-07:02:30.79@0: init upgrader
+2026.04.20-07:02:31.52@0: init panicsaver
+2026.04.20-07:02:32.78@0: init done
+2026.04.20-07:02:33.83@0: cmd tick
+2026.04.20-07:02:33.83@0: ctl 20 5000000 2 10
+2026.04.20-07:02:33.83@0: add tickTimer
+2026.04.20-07:02:34.25@0: tickTimer
+2026.04.20-07:03:27.77@0: hasCF = 0
+2026.04.20-07:03:35.10@0: poe is not available
+
+@upnp@
+2026.04.20-07:02:22.79@0: main() in
+2026.04.20-07:02:40.63@0: main() out
+
+@btest@
+2026.04.20-07:02:23.51@0: SocketHelper-1: listen 2000
+
+@snmp@
+2026.04.20-07:03:33.24@0: loop = new SnmpLooper();
+2026.04.20-07:03:34.10@0: loop->init();
+2026.04.20-07:03:34.10@0: engine = 10 € :Œ
+2026.04.20-07:03:34.13@0: +1.3.6.1.6.3.10.2.1.1
+2026.04.20-07:03:34.13@0: +1.3.6.1.4.1.14988.1.1.8.1.1
+2026.04.20-07:03:34.13@0: +1.3.6.1.4.1.14988.1.1.18.1.1
+2026.04.20-07:03:34.13@0: +1.3.6.1.4.1.14988.1.1.7.1
+2026.04.20-07:03:34.13@0: +1.3.6.1.4.1.14988.1.1.7.2
+2026.04.20-07:03:34.69@0: +1.3.6.1.4.1.14988.1.1.7.3
+2026.04.20-07:03:34.69@0: +1.3.6.1.4.1.14988.1.1.7.4
+2026.04.20-07:03:34.69@0: +1.3.6.1.4.1.14988.1.1.7.7
+2026.04.20-07:03:34.70@0: +1.3.6.1.4.1.14988.1.1.7.8
+2026.04.20-07:03:34.70@0: +1.3.6.1.4.1.14988.1.1.7.9
+2026.04.20-07:03:34.70@0: +1.3.6.1.4.1.14988.1.1.7.5
+2026.04.20-07:03:34.70@0: +1.3.6.1.4.1.14988.1.1.7.6
+2026.04.20-07:03:34.70@0: +1.3.6.1.4.1.14988.1.1.11.1.1
+2026.04.20-07:03:34.71@0: +1.3.6.1.2.1.1.1
+2026.04.20-07:03:34.71@0: +1.3.6.1.2.1.1.2
+2026.04.20-07:03:34.71@0: +1.3.6.1.2.1.1.3
+2026.04.20-07:03:34.71@0: +1.3.6.1.2.1.1.4
+2026.04.20-07:03:34.71@0: +1.3.6.1.2.1.1.5
+2026.04.20-07:03:34.71@0: +1.3.6.1.2.1.1.6
+2026.04.20-07:03:34.71@0: +1.3.6.1.2.1.1.7
+2026.04.20-07:03:34.71@0: +1.3.6.1.2.1.25.2.3.1
+2026.04.20-07:03:34.71@0: +1.3.6.1.2.1.25.2.2
+2026.04.20-07:03:34.71@0: +1.3.6.1.2.1.25.1.1
+2026.04.20-07:03:34.71@0: +1.3.6.1.2.1.25.1.2
+2026.04.20-07:03:34.71@0: +1.3.6.1.2.1.25.3.3.1
+2026.04.20-07:03:34.71@0: +1.3.6.1.2.1.25.3.2.1
+2026.04.20-07:03:34.71@0: +1.3.6.1.4.1.2021.11.10
+2026.04.20-07:03:34.71@0: +1.3.6.1.4.1.14988.1.1.4.1
+2026.04.20-07:03:34.71@0: +1.3.6.1.4.1.14988.1.1.4.3
+2026.04.20-07:03:34.71@0: +1.3.6.1.4.1.14988.1.1.4.2
+2026.04.20-07:03:34.72@0: +1.3.6.1.4.1.14988.1.1.4.5
+2026.04.20-07:03:34.72@0: +1.3.6.1.4.1.14988.1.1.4.4
+2026.04.20-07:03:34.72@0: +1.3.6.1.4.1.14988.1.1.17.1.1
+2026.04.20-07:03:34.72@0: +1.0.8802.1.1.2.1.4.1.1
+2026.04.20-07:03:34.72@0: +1.0.8802.1.1.2.1.4.2.1
+2026.04.20-07:03:34.72@0: +1.0.8802.1.1.2.1.3.1
+2026.04.20-07:03:34.72@0: +1.0.8802.1.1.2.1.3.2
+2026.04.20-07:03:34.72@0: +1.0.8802.1.1.2.1.3.3
+2026.04.20-07:03:34.72@0: +1.0.8802.1.1.2.1.3.4
+2026.04.20-07:03:34.72@0: +1.0.8802.1.1.2.1.3.5
+2026.04.20-07:03:34.72@0: +1.0.8802.1.1.2.1.3.6
+2026.04.20-07:03:34.72@0: +1.0.8802.1.1.2.1.3.7.1
+2026.04.20-07:03:34.72@0: +1.3.6.1.2.1.4.1
+2026.04.20-07:03:34.72@0: +1.3.6.1.2.1.4.2
+2026.04.20-07:03:34.72@0: +1.3.6.1.2.1.4.20.1
+2026.04.20-07:03:34.72@0: +1.3.6.1.2.1.4.22.1
+2026.04.20-07:03:34.72@0: +1.3.6.1.2.1.4.24.4.1
+2026.04.20-07:03:34.72@0: +1.3.6.1.2.1.4.24.3
+2026.04.20-07:03:34.72@0: +1.3.6.1.2.1.15.3.1
+2026.04.20-07:03:34.72@0: +1.3.6.1.2.1.15.2
+2026.04.20-07:03:34.72@0: +1.3.6.1.2.1.15.4
+2026.04.20-07:03:34.72@0: +1.3.6.1.4.1.3495.1.1.1
+2026.04.20-07:03:34.72@0: +1.3.6.1.4.1.3495.1.1.2
+2026.04.20-07:03:34.73@0: +1.3.6.1.4.1.3495.1.1.3
+2026.04.20-07:03:34.73@0: +1.3.6.1.4.1.3495.1.3.2.2
+2026.04.20-07:03:34.73@0: +1.3.6.1.4.1.3495.1.3.2.5
+2026.04.20-07:03:34.73@0: +1.3.6.1.4.1.3495.1.3.2.10
+2026.04.20-07:03:34.73@0: +1.3.6.1.4.1.3495.1.3.2.12
+2026.04.20-07:03:34.73@0: +1.3.6.1.4.1.3495.1.3.2.13
+2026.04.20-07:03:34.73@0: +1.3.6.1.4.1.14988.1.1.2.1.1
+2026.04.20-07:03:34.73@0: +1.3.6.1.4.1.14988.1.1.2.2.1
+2026.04.20-07:03:34.73@0: +1.3.6.1.2.1.17.4.3.1
+2026.04.20-07:03:34.73@0: +1.3.6.1.2.1.17.1.1
+2026.04.20-07:03:34.73@0: +1.3.6.1.2.1.17.1.4.1
+2026.04.20-07:03:34.73@0: +1.3.6.1.2.1.17.2.1
+2026.04.20-07:03:34.73@0: +1.3.6.1.2.1.17.2.2
+2026.04.20-07:03:34.73@0: +1.3.6.1.2.1.17.2.15.1
+2026.04.20-07:03:34.73@0: +1.3.6.1.2.1.17.7.1.2.2.1
+2026.04.20-07:03:34.73@0: +1.3.6.1.2.1.17.7.1.4.5.1
+2026.04.20-07:03:34.73@0: +1.3.6.1.2.1.2.1
+2026.04.20-07:03:34.73@0: +1.3.6.1.2.1.2.2.1
+2026.04.20-07:03:34.73@0: +1.3.6.1.2.1.31.1.1.1
+2026.04.20-07:03:34.73@0: +1.3.6.1.4.1.14988.1.1.14.1.1
+2026.04.20-07:03:34.73@0: +1.3.6.1.4.1.14988.1.1.16.1.1
+2026.04.20-07:03:34.74@0: +1.3.6.1.4.1.14988.1.1.15.1.1
+2026.04.20-07:03:34.74@0: +1.3.6.1.4.1.14988.1.1.19.1.1
+2026.04.20-07:03:34.74@0: +1.3.6.1.2.1.47.1.1.1.1
+2026.04.20-07:03:34.74@0: +1.3.6.1.4.1.14988.1.1.3.14
+2026.04.20-07:03:34.74@0: +1.3.6.1.4.1.14988.1.1.3.9
+2026.04.20-07:03:34.74@0: +1.3.6.1.4.1.14988.1.1.3.100.1
+2026.04.20-07:03:34.74@0: +1.3.6.1.4.1.6876.2.1.1
+2026.04.20-07:03:34.74@0: +1.3.6.1.2.1.9999.1.1.1.1
+2026.04.20-07:03:34.74@0: +1.3.6.1.2.1.9999.1.1.1.2
+2026.04.20-07:03:34.74@0: +1.3.6.1.4.1.14988.1.1.6.1
+2026.04.20-07:03:34.74@0: +1.3.6.1.2.1.9999.1.1.6.4.1
+2026.04.20-07:03:34.79@0: +1.3.6.1.4.1.9.9.150.1.1.1
+2026.04.20-07:03:34.79@0: +1.3.6.1.4.1.9.9.150.1.1.3.1
+2026.04.20-07:03:34.79@0: +1.3.6.1.4.1.14988.1.1.13.1
+2026.04.20-07:03:34.79@0: +1.3.6.1.4.1.14988.1.1.13.2
+2026.04.20-07:03:34.79@0: +1.3.6.1.4.1.14988.1.1.13.3
+2026.04.20-07:03:34.79@0: +1.3.6.1.4.1.14988.1.1.13.4
+2026.04.20-07:03:34.80@0: +1.3.6.1.4.1.14988.1.1.13.5
+2026.04.20-07:03:34.80@0: +1.3.6.1.4.1.14988.1.1.13.6
+2026.04.20-07:03:34.80@0: +1.3.6.1.4.1.14988.1.1.13.7
+2026.04.20-07:03:34.80@0: +1.3.6.1.4.1.14988.1.1.13.8
+2026.04.20-07:03:34.80@0: +1.3.6.1.4.1.14988.1.1.13.9
+2026.04.20-07:03:34.80@0: +1.3.6.1.4.1.14988.1.1.13.10
+2026.04.20-07:03:34.80@0: +1.3.6.1.4.1.14988.1.1.13.11
+2026.04.20-07:03:34.80@0: +1.3.6.1.4.1.14988.1.1.13.12
+2026.04.20-07:03:34.80@0: +1.3.6.1.4.1.14988.1.1.13.13
+2026.04.20-07:03:34.80@0: +1.3.6.1.4.1.14988.1.1.5.1.1
+2026.04.20-07:03:34.80@0: +1.3.6.1.2.1.55.1.5.1
+2026.04.20-07:03:34.80@0: +1.3.6.1.2.1.55.1.3
+2026.04.20-07:03:34.80@0: +1.3.6.1.2.1.55.1.7.1
+2026.04.20-07:03:34.80@0: +1.3.6.1.2.1.55.1.8.1
+2026.04.20-07:03:34.80@0: +1.3.6.1.2.1.55.1.11.1
+2026.04.20-07:03:34.80@0: +1.3.6.1.2.1.55.1.9
+2026.04.20-07:03:34.80@0: +1.3.6.1.4.1.14988.1.1.20.2.1
+2026.04.20-07:03:34.80@0: +1.3.6.1.4.1.14988.1.1.20.1.1
+2026.04.20-07:03:34.80@0: +1.3.6.1.2.1.33.1.1.2
+2026.04.20-07:03:34.80@0: +1.3.6.1.2.1.33.1.1.3
+2026.04.20-07:03:34.80@0: +1.3.6.1.2.1.33.1.2.1
+2026.04.20-07:03:34.80@0: +1.3.6.1.2.1.33.1.2.3
+2026.04.20-07:03:34.80@0: +1.3.6.1.2.1.33.1.2.4
+2026.04.20-07:03:34.81@0: +1.3.6.1.2.1.33.1.2.5
+2026.04.20-07:03:34.81@0: +1.3.6.1.2.1.33.1.2.7
+2026.04.20-07:03:34.81@0: +1.3.6.1.2.1.33.1.3.2
+2026.04.20-07:03:34.81@0: +1.3.6.1.2.1.33.1.3.3.1
+2026.04.20-07:03:34.81@0: +1.3.6.1.2.1.33.1.4.3
+2026.04.20-07:03:34.81@0: +1.3.6.1.2.1.33.1.4.4.1
+2026.04.20-07:03:34.81@0: +1.3.6.1.2
+@dhcpclient@
+ (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:52:27.12@0: bridge-WAN sending DHCPDISCOVER after 36s
+2026.04.20-09:52:27.12@0: dhcp-client on bridge-WAN sending discover with id 3567353398 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:52:33.98@0: bridge-WAN sending DHCPDISCOVER after 43s
+2026.04.20-09:52:33.98@0: dhcp-client on bridge-WAN sending discover with id 3567353398 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:52:40.87@0: bridge-WAN sending DHCPDISCOVER after 50s
+2026.04.20-09:52:40.87@0: dhcp-client on bridge-WAN sending discover with id 3567353398 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:52:43.99@0: bridge-WAN sending DHCPDISCOVER after 53s
+2026.04.20-09:52:43.99@0: dhcp-client on bridge-WAN sending discover with id 3567353398 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:52:50.03@0: bridge-WAN sending DHCPDISCOVER after 59s
+2026.04.20-09:52:50.03@0: dhcp-client on bridge-WAN sending discover with id 3567353398 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:52:51.84@0: bridge-WAN sending DHCPDISCOVER after 61s
+2026.04.20-09:52:51.84@0: dhcp-client on bridge-WAN sending discover with id 3567353398 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:52:56.77@0: bridge-WAN sending DHCPDISCOVER after 0s
+2026.04.20-09:52:56.77@0: dhcp-client on bridge-WAN sending discover with id 855512930 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:52:57.78@0: bridge-WAN sending DHCPDISCOVER after 0s
+2026.04.20-09:52:57.78@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:52:58.78@0: bridge-WAN sending DHCPDISCOVER after 2s
+2026.04.20-09:52:58.78@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:01.24@0: bridge-WAN sending DHCPDISCOVER after 4s
+2026.04.20-09:53:01.24@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:04.85@0: bridge-WAN sending DHCPDISCOVER after 8s
+2026.04.20-09:53:04.85@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:05.89@0: bridge-WAN sending DHCPDISCOVER after 9s
+2026.04.20-09:53:05.89@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:11.97@0: bridge-WAN sending DHCPDISCOVER after 15s
+2026.04.20-09:53:11.97@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:13.19@0: bridge-WAN sending DHCPDISCOVER after 16s
+2026.04.20-09:53:13.19@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:14.39@0: bridge-WAN sending DHCPDISCOVER after 17s
+2026.04.20-09:53:14.39@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:18.69@0: bridge-WAN sending DHCPDISCOVER after 22s
+2026.04.20-09:53:18.69@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:25.31@0: bridge-WAN sending DHCPDISCOVER after 28s
+2026.04.20-09:53:25.31@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:26.74@0: bridge-WAN sending DHCPDISCOVER after 30s
+2026.04.20-09:53:26.74@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:30.16@0: bridge-WAN sending DHCPDISCOVER after 33s
+2026.04.20-09:53:30.16@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:35.99@0: bridge-WAN sending DHCPDISCOVER after 39s
+2026.04.20-09:53:35.99@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:39.79@0: bridge-WAN sending DHCPDISCOVER after 43s
+2026.04.20-09:53:39.79@0: dhcp-client on bridge-WAN sending d
+@route@
+2026.04.20-07:02:28.45@0: no okfile
+2026.04.20-07:02:28.45@0: Initialize shmem
+2026.04.20-07:02:28.45@0: 1 map registry private 3072-3104 0x30000000-0x307fffff
+2026.04.20-07:02:28.45@0: 1 map registry shared 2048-2080 0x20000000-0x207fffff
+2026.04.20-07:02:28.46@0: 1 malmapmux(0, 0, 4096, *4096)
+2026.04.20-07:02:28.46@0: shmemMallocMuxImpl(4096, *4096) 1 blocks
+2026.04.20-07:02:28.46@0: malloc blocks 3073(0x30040000) - 3073(0x3007ffff))
+2026.04.20-07:02:28.46@0: [64 64] Initialize main looper
+2026.04.20-07:02:28.47@0: handler remap :0:fd1000 as fffe0000
+2026.04.20-07:02:28.47@0: handler remap :0:fd1001 as fffe0001
+2026.04.20-07:02:28.47@0: handler remap :0:fd1002 as fffe0002
+2026.04.20-07:02:28.49@0: handler remap :0:fd1003 as fffe0003
+2026.04.20-07:02:28.49@0: Created Task #1: routing tables
+2026.04.20-07:02:28.56@0:  routing policy publish ON
+2026.04.20-07:02:28.56@0:  routing policy wipe ON
+2026.04.20-07:02:28.56@0:  mark default dsts ON
+2026.04.20-07:02:28.57@0: handler remap :0:fd1004 as fffe0004
+2026.04.20-07:02:28.57@0:  update connected route information ON
+2026.04.20-07:02:28.57@0: [42mCREATE CALC TASK[m
+2026.04.20-07:02:28.57@0: Created Task #2: rib
+2026.04.20-07:02:28.58@0:  main route calculation ON
+2026.04.20-07:02:28.58@0:  mark used origins ON
+2026.04.20-07:02:28.58@0:  unnamed ON
+2026.04.20-07:02:28.58@0:  unnamed ON
+2026.04.20-07:02:28.58@0: [42mCREATE HOLD TASK[m
+2026.04.20-07:02:28.58@0:  unnamed ON
+2026.04.20-07:02:28.59@0: starting in single process mode
+2026.04.20-07:02:28.59@0: [42mCREATE NETLINK TASK[m
+2026.04.20-07:02:28.59@0:  route/fib/publish/sync ON
+2026.04.20-07:02:28.59@0:  route/fib/publish/mark ON
+2026.04.20-07:02:28.59@0: inhibit sleep, publish requested
+2026.04.20-07:02:28.59@0: Created Task #3: fib
+2026.04.20-07:02:28.59@0:  publish ON
+2026.04.20-07:02:39.45@0: Created Task #4: routing policy configuration
+2026.04.20-07:02:39.90@0:  publish ON
+2026.04.20-07:02:39.90@0:  mark ON
+2026.04.20-07:02:39.90@0:  wipe ON
+2026.04.20-07:02:39.91@0: handler remap :0:fd1005 as fffe0005
+2026.04.20-07:02:39.91@0: handler remap :0:fd1006 as fffe0006
+2026.04.20-07:02:39.91@0: [42mCREATE STATIC TASK[m
+2026.04.20-07:02:39.91@0: Created Task #5: configuration and reporting
+2026.04.20-07:02:39.91@0:  route/static/dst/mark ON
+2026.04.20-07:02:39.91@0:  route/static/dst/publish ON
+2026.04.20-07:02:39.91@0:  cleanup static ON
+2026.04.20-07:02:39.91@0:  update static routes ON
+2026.04.20-07:02:39.91@0:  notifications ON
+2026.04.20-07:02:39.92@0:  process api queue ON
+2026.04.20-07:02:39.92@0:  wipe ON
+2026.04.20-07:02:39.92@0: handler map :0:15
+2026.04.20-07:02:39.92@0: Created Task #6: BFD service
+2026.04.20-07:02:39.92@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:40.42@0: [41mCREATE OSPF TASK[m
+2026.04.20-07:02:40.42@0: Created Task #7: ospf
+2026.04.20-07:02:40.42@0:  policy merge ON
+2026.04.20-07:02:40.42@0:  cleanup ospf ON
+2026.04.20-07:02:40.60@0: Created Task #8: isis
+2026.04.20-07:02:40.60@0:  link update ON
+2026.04.20-07:02:41.40@0: Created Task #9: rip
+2026.04.20-07:02:41.40@0:   cfg update ON
+2026.04.20-07:02:41.41@0:  unnamed ON
+2026.04.20-07:02:41.41@0: [42mCREATE FANTASY TASK[m
+2026.04.20-07:02:41.42@0: Created Task #10: fantasy
+2026.04.20-07:02:41.42@0:  unnamed ON
+2026.04.20-07:02:41.42@0: [42mCREATE ROUTING TABLE TASK[m
+2026.04.20-07:02:41.42@0: [42mCREATE NET MIRROR TASK[m
+2026.04.20-07:02:41.42@0:  cleanup net ON
+2026.04.20-07:02:41.69@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:41.69@0:  recompile later
+2026.04.20-07:02:41.69@0: inhibit sleep, scheduled later
+2026.04.20-07:02:41.70@0: PolicyTask recompile
+2026.04.20-07:02:41.76@0: rpki:
+2026.04.20-07:02:41.76@0: address-lists:
+2026.04.20-07:02:41.76@0: num-sets:
+2026.04.20-07:02:41.76@0: community-sets:
+2026.04.20-07:02:41.76@0: ext-community-sets:
+2026.04.20-07:02:41.76@0: large-community-sets:
+2026.04.20-07:02:41.76@0: fchains:
+2026.04.20-07:02:41.77@0: schains:
+2026.04.20-07:02:41.77@0: PolicyTask recompile done
+2026.04.20-07:02:41.77@0: handler map :0:14
+2026.04.20-07:02:42.23@0: inhibit sleep, scheduled later
+2026.04.20-07:02:42.23@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:42.23@0: inhibit sleep, scheduled later
+2026.04.20-07:02:42.77@0: inhibit sleep, scheduled later
+2026.04.20-07:02:42.77@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:42.77@0: inhibit sleep, scheduled later
+2026.04.20-07:02:43.27@0: inhibit sleep, scheduled later
+2026.04.20-07:02:43.27@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:43.28@0: inhibit sleep, scheduled later
+2026.04.20-07:02:43.78@0: inhibit sleep, scheduled later
+2026.04.20-07:02:43.78@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:43.78@0: inhibit sleep, scheduled later
+2026.04.20-07:02:44.29@0: inhibit sleep, scheduled later
+2026.04.20-07:02:44.29@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:44.29@0: inhibit sleep, scheduled later
+2026.04.20-07:02:44.79@0: inhibit sleep, scheduled later
+2026.04.20-07:02:44.79@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:44.80@0: inhibit sleep, scheduled later
+2026.04.20-07:02:45.30@0: inhibit sleep, scheduled later
+2026.04.20-07:02:45.30@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:45.30@0: inhibit sleep, scheduled later
+2026.04.20-07:02:45.83@0: inhibit sleep, scheduled later
+2026.04.20-07:02:45.83@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:45.83@0: inhibit sleep, scheduled later
+2026.04.20-07:02:46.33@0: inhibit sleep, scheduled later
+2026.04.20-07:02:46.33@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:46.34@0: inhibit sleep, scheduled later
+2026.04.20-07:02:46.89@0: inhibit sleep, scheduled later
+2026.04.20-07:02:46.89@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:46.89@0: inhibit sleep, scheduled later
+2026.04.20-07:02:47.39@0: inhibit sleep, scheduled later
+2026.04.20-07:02:47.39@0:  BFD cfg apply schedule after 50 jiff
+@ntp@
+2026.04.20-07:02:24.65@0: starting NTP
+2026.04.20-07:02:25.59@0: Old settings were already imported
+2026.04.20-07:02:31.19@0: [INF] save perm data
+2026.04.20-07:02:31.19@0: --- nv::message --------
+2026.04.20-07:02:31.19@0:  message[0] [6]..
+2026.04.20-07:02:31.20@0: NTP exited
+
+@parser@
+]
+2026.04.20-07:03:13.34@0: H88_35: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0: H88_150: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0: H88_152: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0: H88_157: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0: H88_160: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0: H88_163: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0: H88_164: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0: H118_1: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0: H119_2: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0: H119_6: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0: H119_8: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0: H119_9: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.34@0: H123_2: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0: H125_1: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0: H134_1: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0: H134_2: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0: H146_1: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0: H153_1: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0: H153_2: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0: H153_3: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0: H153_14: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0: H164_0: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0: H254_8: fe0010 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0: H254_101: 66 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0: H254_102: 1 fe0009 0 [ ]
+2026.04.20-07:03:13.35@0: 
+2026.04.20-07:03:13.94@0: Loaded H20_101, signalling
+2026.04.20-07:03:15.77@0: mkFindMsgInspector expr=$name;$version;$build-time;$scheduled;$bundle;$size;$available;$disabled;$.id;$.nextid;$.dead;$.about;(  (= $name ipv6) (! $disabled));5
+2026.04.20-07:03:15.83@0: mkFindMsgInspector expr=$name;$version;$build-time;$scheduled;$bundle;$size;$available;$disabled;$.id;$.nextid;$.dead;$.about;(  (= $name dhcp) (! $disabled));5
+2026.04.20-07:03:15.84@0: mkFindMsgInspector expr=$name;$version;$build-time;$scheduled;$bundle;$size;$available;$disabled;$.id;$.nextid;$.dead;$.about;(  (= $name wireless) (! $disabled));5
+2026.04.20-07:03:15.84@0: mkFindMsgInspector expr=$name;$version;$build-time;$scheduled;$bundle;$size;$available;$disabled;$.id;$.nextid;$.dead;$.about;(  (~ $name wifi) (! $disabled));5
+2026.04.20-07:03:16.07@0: RUN INLINE  owner=-empty- policy=ffffffff source=:global nTemp [:len [/interface wireless find where interface-type!="virtual"]]
+2026.04.20-07:03:16.33@0: mkFindMsgInspector expr=$default-name;$name;$mtu;$l2mtu;$mac-address;$arp;$arp-timeout;$disable-running-check;$interface-type;$prism-cardtype;$master-interface;$radio-name;$mode;$ssid;$area;$frequency-mode;$country;$installation;$antenna-gain;$frequency;$band;$channel-width;$secondary-frequency;$scan-list;$wireless-protocol;$rate-set;$supported-rates-b;$supported-rates-a/g;$basic-rates-b;$basic-rates-a/g;$max-station-count;$distance;$tx-power;$tx-power-mode;$noise-floor-threshold;$nv2-noise-floor-offset;$burst-time;$antenna-mode;$vlan-mode;$vlan-id;$wds-mode;$wds-default-bridge;$wds-default-cost;$wds-cost-range;$wds-ignore-ssid;$update-stats-interval;$bridge-mode;$default-authentication;$default-forwarding;$default-ap-tx-limit;$default-client-tx-limit;$wmm-support;$hide-ssid;$security-profile;$interworking-profile;$wps-mode;$station-roaming;$disconnect-timeout;$on-fail-retry-time;$preamble-mode;$compression;$allow-sharedkey;$station-bridge-clone-mac;$ampdu-priorities;$guard-interval;$ht-supported-mcs;$ht-basic-mcs;$vht-supported-mcs;$vht-basic-mcs;$tx-chains;$rx-chains;$amsdu-limit;$amsdu-threshold;$tdma-period-size;$nv2-queue-count;$nv2-qos;$nv2-cell-radius;$nv2-security;$nv2-preshared-key;$nv2-mode;$nv2-downlink-ratio;$nv2-sync-secret;$hw-retries;$frame-lifetime;$adaptive-noise-immunity;$hw-fragmentation-threshold;$hw-protection-mode;$hw-protection-threshold;$frequency-offset;$rate-selection;$multicast-helper;$multicast-buffering;$keepalive-frames;$skip-dfs-channels;$pci-info;$running;$disabled;$comment;$.id;$.nextid;$.dead;$.about;(!= $interface-type virtual);65536
+2026.04.20-07:03:16.99@0: Loaded H88_28, signalling
+2026.04.20-07:03:17.02@0: Loaded H88_27, signalling
+2026.04.20-07:03:17.23@0: Loaded H20_0, signalling
+2026.04.20-07:03:17.25@0: Loaded H88_14, signalling
+2026.04.20-07:03:17.25@0: Loaded H88_25, signalling
+2026.04.20-07:03:18.94@0: hdTimer H20_101 lastAccess+d 6149+500
+2026.04.20-07:03:19.59@0: RUN INLINE  owner=-empty- policy=ffffffff source=:if ([/interface wireless get [find default-name=wlan1] antenna-gain]=0) do={:set gain true}
+2026.04.20-07:03:19.68@0: mkFindMsgInspector expr=$default-name;$name;$mtu;$l2mtu;$mac-address;$arp;$arp-timeout;$disable-running-check;$interface-type;$prism-cardtype;$master-interface;$radio-name;$mode;$ssid;$area;$frequency-mode;$country;$installation;$antenna-gain;$frequency;$band;$channel-width;$secondary-frequen
+@portman@
+2026.04.20-07:02:28.81@0: init
+2026.04.20-07:02:28.87@0: perm store empty
+2026.04.20-07:02:28.88@0: checkPorts
+2026.04.20-07:02:51.59@0: exit
+2026.04.20-07:03:31.88@0: init
+2026.04.20-07:03:33.98@0: perm store !empty
+2026.04.20-07:04:00.69@0: exit
+
+@modprobed@
+2026.04.20-07:02:29.69@0:   +sram.ko
+2026.04.20-07:02:29.95@0:  d+ath.ko
+2026.04.20-07:02:30.90@0:  d+a9300.ko
+2026.04.20-07:02:31.42@0:   +a9300_ahb.ko
+2026.04.20-07:02:32.19@0:   +aths16.ko
+2026.04.20-07:02:32.44@0: module load failed: ath8327.ko: No such file or directory
+2026.04.20-07:02:32.44@0: module load failed: music_switch.ko: No such file or directory
+2026.04.20-07:02:33.82@0:   +ag7240.ko
+
+@sermgr@
+2026.04.20-07:02:21.91@0: started
+2026.04.20-07:02:25.47@0: Service0x77eddbb0-ssh---0-6-22: enable
+2026.04.20-07:02:25.47@0: Service0x77eddbb0-ssh---0-6-22: enabling
+2026.04.20-07:02:26.02@0: Service0x77f98190-telnet---0-6-23: enable
+2026.04.20-07:02:26.02@0: Service0x77f98190-telnet---0-6-23: enabling
+2026.04.20-07:02:26.02@0: Service0x77ff9760-ftp---0-6-21: enable
+2026.04.20-07:02:26.02@0: Service0x77ff9760-ftp---0-6-21: enabling
+2026.04.20-07:02:26.02@0: Service0x77ff98f0-www---0-6-80: enable
+2026.04.20-07:02:26.02@0: Service0x77ff98f0-www---0-6-80: enabling remote
+2026.04.20-07:02:32.14@0: Service0x77ff99e0-api---0-6-8728: enable
+2026.04.20-07:02:32.14@0: Service0x77ff99e0-api---0-6-8728: enabling
+2026.04.20-07:02:32.14@0: Service0x77ff9b10-winbox---0-6-8291: enable
+2026.04.20-07:02:32.14@0: Service0x77ff9b10-winbox---0-6-8291: enabling remote
+2026.04.20-07:02:33.79@0: Service0x77eae770-api-ssl---0-6-8729: enable
+2026.04.20-07:02:33.79@0: Service0x77eae770-api-ssl---0-6-8729: enabling
+2026.04.20-07:02:35.03@0: running
+2026.04.20-07:02:35.04@0: Service0x77ff9b10-winbox---0-6-8291: enable
+2026.04.20-07:02:35.04@0: Service0x77ff9b10-winbox---0-6-8291: enabling remote
+2026.04.20-07:02:35.05@0: map mirror [146, 1]: CMD_GETALL failed: std failure: broken path (2)
+
+@www@
+2026.04.20-07:02:32.07@0: adding server www-ssl, ssl=1
+2026.04.20-07:02:32.08@0: Server-0x431b90-www-ssl-0-fd-1: adding servlet index, path=/
+2026.04.20-07:02:32.08@0: Server-0x431b90-www-ssl-0-fd-1: adding servlet jsproxy, path=/jsproxy
+2026.04.20-07:02:32.08@0: Server-0x431b90-www-ssl-0-fd-1: adding servlet dir, path=/
+2026.04.20-07:02:32.08@0: Server-0x431b90-www-ssl-0-fd-1: adding servlet dir, path=/assets/
+2026.04.20-07:02:32.08@0: Server-0x431b90-www-ssl-0-fd-1: adding servlet dir, path=/webfig/list
+2026.04.20-07:02:32.08@0: Server-0x431b90-www-ssl-0-fd-1: adding servlet dir, path=/webfig/
+2026.04.20-07:02:32.08@0: Server-0x431b90-www-ssl-0-fd-1: adding servlet rest, path=/rest
+2026.04.20-07:02:32.08@0: Server-0x431b90-www-ssl-0-fd-1: adding servlet remote, path=/graphs
+2026.04.20-07:02:32.08@0: Server-0x431b90-www-ssl-0-fd-1: adding servlet remote, path=/apps
+2026.04.20-07:02:32.08@0: adding server www, ssl=0
+2026.04.20-07:02:32.08@0: Server-0x77ff9d50-www-0-fd-1: adding servlet index, path=/
+2026.04.20-07:02:32.09@0: Server-0x77ff9d50-www-0-fd-1: adding servlet jsproxy, path=/jsproxy
+2026.04.20-07:02:32.09@0: Server-0x77ff9d50-www-0-fd-1: adding servlet dir, path=/
+2026.04.20-07:02:32.09@0: Server-0x77ff9d50-www-0-fd-1: adding servlet dir, path=/assets/
+2026.04.20-07:02:32.09@0: Server-0x77ff9d50-www-0-fd-1: adding servlet dir, path=/webfig/list
+2026.04.20-07:02:32.09@0: Server-0x77ff9d50-www-0-fd-1: adding servlet dir, path=/webfig/
+2026.04.20-07:02:32.09@0: Server-0x77ff9d50-www-0-fd-1: adding servlet dir, path=/crl
+2026.04.20-07:02:32.09@0: Server-0x77ff9d50-www-0-fd-1: adding servlet rest, path=/rest
+2026.04.20-07:02:32.10@0: Server-0x77ff9d50-www-0-fd-1: adding servlet remote, path=/graphs
+2026.04.20-07:02:32.11@0: Server-0x77ff9d50-www-0-fd-1: adding servlet remote, path=/scep
+2026.04.20-07:02:32.11@0: Server-0x77ff9d50-www-0-fd-1: adding servlet remote, path=/apps
+2026.04.20-07:02:32.11@0: Server-0x77ff9d50-www-0-fd-1: adding servlet remote, path=/.well-known/acme-challenge
+2026.04.20-07:02:32.11@0: adding server fileshare-www-ssl, ssl=1
+2026.04.20-07:02:32.11@0: Server-0x77e34af0-fileshare-www-ssl-0-fd-1: adding servlet remote, path=/
+2026.04.20-07:02:32.12@0: Plain {/:1}, {/.well-known/acme-challenge:1}, {/apps:1}, {/assets/:1}, {/crl:1}, {/graphs:1}, {/jsproxy:1}, {/rest:1}, {/scep:1}, {/webfig/:1}, {/webfig/list:1}, 
+2026.04.20-07:02:32.12@0: Secure {/:1}, {/apps:1}, {/assets/:1}, {/graphs:1}, {/jsproxy:1}, {/rest:1}, {/webfig/:1}, {/webfig/list:1}, 
+2026.04.20-07:02:32.12@0: set www enabled=1 port=80 cert=4294967295 vrf=0
+2026.04.20-07:02:32.14@0: Server-0x77ff9d50-www-80-fd-1: rebind enabled:1 allowedFrom:[]
+2026.04.20-07:02:32.14@0: Server-0x77ff9d50-www-80-fd-1: creating tcp socket on port 80
+2026.04.20-07:02:32.14@0: Server-0x77ff9d50-www-80-fd5: using inet6
+
+@fileman@
+2026.04.20-07:04:06.87@0: main in
+2026.04.20-07:04:07.13@0: App: leave unblocked
+2026.04.20-07:04:07.25@0: installed: [(routeros 7.21.4), (wireless 7.21.4), (tr069-client 7.21.4), (hotspot 7.21.4)]
+2026.04.20-07:04:07.25@0: App: leave unblocked
+2026.04.20-07:04:07.25@0: WARNING: init global watch for backwards compatibility
+2026.04.20-07:04:07.26@0: FileMan: subscribed (winbox/2/518/0/474)
+2026.04.20-07:04:07.26@0: App: leave blocked due to [subscribers(w1)]
+2026.04.20-07:04:07.26@0: Watch (default): finished, added 2 dirs
+2026.04.20-07:04:07.26@0: FileMan: unsubscribed (winbox/2/518/0/474)
+2026.04.20-07:04:07.26@0: App: leave unblocked
+2026.04.20-07:04:07.26@0: FileMan: subscribed (winbox/2/518/0/474)
+2026.04.20-07:04:07.27@0: App: leave blocked due to [subscribers(w1)]
+2026.04.20-07:04:07.27@0: Disks: loaded 0 disks
+2026.04.20-07:04:07.27@0: GetAll/R (self): started 
+2026.04.20-07:04:07.27@0: App: leave blocked due to [subscribers(w1), getAll]
+2026.04.20-07:04:07.28@0: GetAll/R (self): stopped, active 0
+2026.04.20-07:04:07.28@0: App: leave blocked due to [subscribers(w1)]
+2026.04.20-07:04:07.28@0: GetAll/R (self): started 
+2026.04.20-07:04:07.28@0: App: leave blocked due to [subscribers(w1), getAll]
+2026.04.20-07:04:07.29@0: GetAll/R (self): stopped, active 0
+2026.04.20-07:04:07.29@0: App: leave blocked due to [subscribers(w1)]
+2026.04.20-07:04:07.29@0: GetAll/R (winbox/2/518/0/474): started 
+2026.04.20-07:04:07.29@0: App: leave blocked due to [subscribers(w1), getAll]
+2026.04.20-07:04:07.29@0: GetAll/R (winbox/2/518/0/474): stopped, active 0
+2026.04.20-07:04:07.29@0: App: leave blocked due to [subscribers(w1)]
+2026.04.20-07:04:07.30@0: GetAll/R (winbox/2/518/0/474): started 
+2026.04.20-07:04:07.30@0: App: leave blocked due to [subscribers(w1), getAll]
+2026.04.20-07:04:07.30@0: GetAll/R (winbox/2/518/0/474): stopped, active 0
+2026.04.20-07:04:07.30@0: App: leave blocked due to [subscribers(w1)]
+2026.04.20-07:04:12.49@0: FileMan: unsubscribed (winbox/2/518/0/474)
+2026.04.20-07:04:12.49@0: App: leave unblocked
+2026.04.20-07:04:13.49@0: INFO: global watch stopped
+2026.04.20-07:04:13.49@0: Watch (default): removed
+2026.04.20-07:04:30.69@0: GetAll: stop all
+2026.04.20-07:04:30.69@0: App: leave unblocked
+2026.04.20-07:04:30.69@0: main out
+2026.04.20-07:04:51.81@0: main in
+2026.04.20-07:04:51.81@0: App: leave unblocked
+2026.04.20-07:04:52.24@0: installed: [(routeros 7.21.4), (wireless 7.21.4), (tr069-client 7.21.4), (hotspot 7.21.4)]
+2026.04.20-07:04:52.24@0: App: leave unblocked
+2026.04.20-07:04:52.25@0: Disks: loaded 0 disks
+2026.04.20-07:05:10.73@0: GetAll: stop all
+2026.04.20-07:05:10.73@0: App: leave unblocked
+2026.04.20-07:05:10.73@0: main out
+
+@ippool@
+2026.04.20-07:02:38.22@0: burp c0a8000a,c0a800fe,blah
+2026.04.20-07:02:38.22@0: burp c0a80102,c0a801fe,blah
+2026.04.20-07:02:38.22@0: burp c0a80a02,c0a80afe,blah
+
+@wireless@
+2026.04.20-07:02:39.79@0: wirelessrd: using /pckg/wireless/nova/etc/wirelessrd, parse ok
+2026.04.20-07:02:39.79@0: loadLockBlob: no valid data, len -1
+2026.04.20-07:02:41.23@0: socketActivity: NEWDEVICE
+2026.04.20-07:02:41.24@0: HWDevice: phymodes 0x360000 2312000-2732000, step 5000
+2026.04.20-07:02:41.24@0: HWDevice: phymodes 0x360000 2484000-2484000, step 5000
+2026.04.20-07:02:41.24@0: getWifiIfIdx: iface num 0
+2026.04.20-07:02:41.24@0: findLockInfo: for num 0 no valid data
+2026.04.20-07:02:41.24@0: HwDevice: use legacy lock info
+2026.04.20-07:02:41.65@0: loadMfgRulesFile: /pckg/wireless/nova/etc/wirelessmfg parsed ok
+2026.04.20-07:02:41.65@0: loadMfgRulesFile: count 331
+2026.04.20-07:02:41.65@0: HwDevice::HwDevice: bn 'RB941-2nD' mn 'hAP lite' btn 'H951L'
+2026.04.20-07:02:41.65@0: HwDevice::HwDevice:    matched rule line 55
+2026.04.20-07:02:41.65@0: HwDevice::HwDevice:    matched rule line 92
+2026.04.20-07:02:41.65@0: HwDevice::HwDevice:    matched rule line 153
+2026.04.20-07:02:41.65@0: HwDevice::HwDevice:    matched rule line 230
+2026.04.20-07:02:41.66@0: HwDevice::HwDevice: type 9 htinfo 0x30301 pciinfo 0x0 soccoreid 0 mfg: enableallchains 1 euantgain 2 cca2 -90 cca5 0 location 0 deflocation 0 defantgain 2 resetantgain 0 rdtag 0
+2026.04.20-07:02:41.66@0:   countries:
+2026.04.20-07:02:41.66@0:   freqcost:
+2026.04.20-07:02:41.66@0: NetDevHandler::init
+2026.04.20-07:02:48.38@0:   init has info for f4:1e:57:4e:1f:a5
+2026.04.20-07:02:50.28@0:   setting config
+2026.04.20-07:02:50.29@0: NetDevHw::setConfig
+2026.04.20-07:02:50.29@0: MainCfg::validateChan: fixed ext
+2026.04.20-07:02:52.63@0: init over
+2026.04.20-07:02:52.65@0: modeReset
+2026.04.20-07:02:52.65@0: HwDevice::selectDefaultMode
+2026.04.20-07:02:52.65@0: HwDevice::hwIdle: curr 0/0 pend ...
+2026.04.20-07:02:52.65@0: HwDevice::notifyModeCleanupOver: activeMode = mode
+2026.04.20-07:02:55.19@0: hwInit: ccahackva 2ghz 0 5ghz 0
+2026.04.20-07:02:55.19@0: HwDevice::vapUpdate: for 0
+2026.04.20-07:02:56.36@0: HwDevice::vapUpdate: vapcfg.macaddr:F4:1E:57:4E:1F:A5 mac:F4:1E:57:4E:1F:A5 vd->mac:F4:1E:57:4E:1F:A5
+2026.04.20-07:02:58.24@0: ApMode::figureChannelSelInfo: channelid 4294967295 channel 2412
+2026.04.20-07:02:58.98@0: ApMode::doInit: ChannelSelInfo
+2026.04.20-07:02:58.98@0:   valid 1 about  doScan 0 firstFixed 0 fixed 2412/20/g(18dBm)
+2026.04.20-07:02:59.05@0:   prim: 
+2026.04.20-07:02:59.05@0:   sec: 
+2026.04.20-07:02:59.05@0:   spec: 
+2026.04.20-07:02:59.05@0:   scan: 
+2026.04.20-07:02:59.05@0: ApMode: fixed chan 2412/20/g(18dBm)
+2026.04.20-07:02:59.05@0: ApMode::enable: wirelessprotocol 2
+2026.04.20-07:02:59.05@0: ApMode::enableWlans
+2026.04.20-07:02:59.05@0: HwDevice::hwStateSwitch: 17 curr 0/0 pend ...
+2026.04.20-07:03:07.31@0: getBaseMac: from flash F4:1E:57:4E:1F:A0
+2026.04.20-07:03:08.14@0: WlcIfaceHandler::init
+2026.04.20-07:03:09.26@0: WlcIfaceHandler::init over
+2026.04.20-07:03:09.70@0: WilDevHandler::init regionLocks:[]
+2026.04.20-07:03:09.72@0: ioctl SIOCGIFHWADDR@wil0 failed: No such device(19)
+2026.04.20-07:03:09.72@0: WilDevHandler::init: no ifaces, rmmod
+2026.04.20-07:03:10.66@0: MESH: new br2, mac F4:1E:57:4E:1F:A5
+2026.04.20-07:03:10.66@0: MESH: addNetDev wlan1
+2026.04.20-07:03:10.66@0: MESH: start up on br2
+2026.04.20-07:03:10.83@0: statechange: curr 0/0 pend 17/1 old 0/0 new 17/1
+2026.04.20-07:03:10.83@0: ApMode::nlStatechange: statechange 0->17 in state 5
+2026.04.20-07:03:10.84@0: ApMode::enableWlans: new AP wlan1
+2026.04.20-07:03:10.84@0: ApVapMode::start: no iw profile 
+2026.04.20-07:03:10.84@0: ApVapMode::start: runtime:
+2026.04.20-07:03:10.84@0: chan: 2412/20/g(18dBm) defaultrate: 0x1000 rates: CCK:1-11 OFDM:6-54
+2026.04.20-07:03:10.84@0: VapDevice::vapInit: wdsmode 0
+2026.04.20-07:03:11.03@0: GroupContext::keyUpdateOver
+2026.04.20-07:03:11.04@0: ApVapMode::start: create WLAN_AP
+2026.04.20-07:08:11.43@0: GroupContext::keyUpdateOver
+2026.04.20-07:13:11.50@0: GroupContext::keyUpdateOver
+2026.04.20-07:18:11.50@0: GroupContext::keyUpdateOver
+2026.04.20-07:23:11.51@0: GroupContext::keyUpdateOver
+2026.04.20-07:28:11.52@0: GroupContext::keyUpdateOver
+2026.04.20-07:33:11.53@0: GroupContext::keyUpdateOver
+2026.04.20-07:38:11.54@0: GroupContext::keyUpdateOver
+2026.04.20-07:43:11.55@0: GroupContext::keyUpdateOver
+2026.04.20-07:48:11.56@0: GroupContext::keyUpdateOver
+2026.04.20-07:53:11.57@0: GroupContext::keyUpdateOver
+2026.04.20-07:58:11.58@0: GroupContext::keyUpdateOver
+2026.04.20-08:03:11.59@0: GroupContext::keyUpdateOver
+2026.04.20-08:08:11.60@0: GroupContext::keyUpdateOver
+2026.04.20-08:13:11.61@0: GroupContext::keyUpdateOver
+2026.04.20-08:18:11.62@0: GroupContext::keyUpdateOver
+2026.04.20-08:23:11.63@0: GroupContext::keyUpdateOver
+2026.04.20-08:28:11.64@0: GroupContext::keyUpdateOver
+2026.04.20-08:33:11.65@0: GroupContext::keyUpdateOver
+2026.04.20-08:38:11.65@0: GroupContext::keyUpdateOver
+2026.04.20-08:43:11.66@0: GroupContext::keyUpdateOver
+2026.04.20-08:48:11.67@0: GroupContext::keyUpdateOver
+2026.04.20-08:53:11.68@0: GroupContext::keyUpdateOver
+2026.04.20-08:58:11.69@0: GroupContext::keyUpdateOver
+2026.04.20-09:03:11.70@0: GroupContext::keyUpdateOver
+2026.04.20-09:06:41.09@0: PRINT:   txfree 128 txdone 0 txscurr 0 first 68ae5892 txe 0x0
+2026.04.20-09:06:41.09@0: PRINT:   recover_resets 0 recoverval 0x0 machang 0, bbpanics 0, panicval 0x0
+2026.04.20-09:06:41.09@0: PRINT:   bbpanics_B 0 bbpanics_wouldreset 0 bbpanics_resets 0
+2026.04.20-09:06:41.09@0: 
+2026.04.20-09:06:41.09@0: PRINT:   nf_resets 0
+2026.04.20-09:06:42.13@0: PRINT:   txfree 128 txdone 0 txscurr 0 first 68ae5892 txe 0x0
+2026.04.20-09:06:42.13@0: PRINT:   recover_resets 0 recoverval 0x0 machang 0, 
+@led@
+2026.04.20-07:02:25.58@0: no led config found
+2026.04.20-07:02:25.58@0: error: while loading config from store: This feature is not supported on this board! (16646150)
+2026.04.20-07:02:25.59@0: discover ifaces 0
+2026.04.20-07:02:25.59@0: -ifaces present-
+2026.04.20-07:02:25.59@0: finish loading 0
+2026.04.20-07:02:25.59@0: done loading 0
+2026.04.20-07:02:25.59@0: checking triggers
+2026.04.20-07:02:25.60@0: triggers updated: [none] dark-mode-trigger heartbeat group0.0 group0.1 group0.2 group0.3 group0.4 group0.5 group0.6 group0.7 group1.0 group1.1 group1.2 group1.3 group1.4 group1.5 group1.6 group1.7 group2.0 group2.1 group2.2 group2.3 group2.4 group2.5 group2.6 group2.7 group3.0 group3.1 group3.2 group3.3 group3.4 group3.5 group3.6 group3.7
+2026.04.20-07:02:25.60@0: +user-led	1
+2026.04.20-07:02:25.60@0: -leds present-
+2026.04.20-07:02:25.60@0: checking triggers
+2026.04.20-07:02:50.73@0: no led config found
+2026.04.20-07:02:50.73@0: error: while loading config from store: This feature is not supported on this board! (16646150)
+2026.04.20-07:02:50.77@0: discover ifaces 0
+2026.04.20-07:02:50.77@0: -ifaces present-
+2026.04.20-07:02:50.77@0: finish loading 0
+2026.04.20-07:02:50.77@0: done loading 0
+2026.04.20-07:02:50.78@0: checking triggers
+2026.04.20-07:02:50.78@0: triggers updated: [none] dark-mode-trigger heartbeat group0.0 group0.1 group0.2 group0.3 group0.4 group0.5 group0.6 group0.7 group1.0 group1.1 group1.2 group1.3 group1.4 group1.5 group1.6 group1.7 group2.0 group2.1 group2.2 group2.3 group2.4 group2.5 group2.6 group2.7 group3.0 group3.1 group3.2 group3.3 group3.4 group3.5 group3.6 group3.7 wifi-signal-ath0 wifi-status-ath0
+2026.04.20-07:02:50.78@0: +user-led	1
+2026.04.20-07:02:50.78@0: -leds present-
+2026.04.20-07:02:50.78@0: checking triggers
+2026.04.20-07:02:52.66@0: setup uname: ath0 wlan1 6
+2026.04.20-07:03:01.09@0: setup uname: ath0 wlan1 6
+2026.04.20-07:03:03.04@0: setup uname: ath0 wlan1 6
+
+@quickset@
+2026.04.20-07:02:33.99@0: caps=0
+2026.04.20-07:02:46.20@0: caps=0
+2026.04.20-07:02:47.12@0: caps=64
+2026.04.20-07:02:47.35@0: caps=64
+2026.04.20-07:02:47.98@0: caps=64
+2026.04.20-07:02:48.20@0: caps=64
+2026.04.20-07:02:53.32@0: caps=25118
+2026.04.20-07:02:57.02@0: caps=25118
+2026.04.20-07:03:00.28@0: caps=25118
+2026.04.20-07:03:03.70@0: caps=25118
+2026.04.20-07:03:04.41@0: caps=25118
+
+@cloud@
+]all unsubscribed
+2026.04.20-09:13:52.46@0: [CTH] subs timeout
+2026.04.20-09:13:52.46@0: [CTH] subs timeout
+2026.04.20-09:13:52.46@0: [CTUN-6]all unsubscribed
+2026.04.20-09:14:22.47@0: [CTH] subs timeout
+2026.04.20-09:14:22.47@0: [CTH] subs timeout
+2026.04.20-09:14:22.47@0: [CTUN-4]all unsubscribed
+2026.04.20-09:14:52.48@0: [CTH] subs timeout
+2026.04.20-09:14:52.48@0: [CTH] subs timeout
+2026.04.20-09:14:52.48@0: [CTUN-6]all unsubscribed
+2026.04.20-09:15:22.49@0: [CTH] subs timeout
+2026.04.20-09:15:22.49@0: [CTH] subs timeout
+2026.04.20-09:15:22.49@0: [CTUN-4]all unsubscribed
+2026.04.20-09:15:52.50@0: [CTH] subs timeout
+2026.04.20-09:15:52.50@0: [CTH] subs timeout
+2026.04.20-09:15:52.50@0: [CTUN-6]all unsubscribed
+2026.04.20-09:16:22.51@0: [CTH] subs timeout
+2026.04.20-09:16:22.51@0: [CTH] subs timeout
+2026.04.20-09:16:22.51@0: [CTUN-4]all unsubscribed
+2026.04.20-09:16:52.52@0: [CTH] subs timeout
+2026.04.20-09:16:52.52@0: [CTH] subs timeout
+2026.04.20-09:16:52.52@0: [CTUN-6]all unsubscribed
+2026.04.20-09:17:22.53@0: [CTH] subs timeout
+2026.04.20-09:17:22.53@0: [CTH] subs timeout
+2026.04.20-09:17:22.53@0: [CTUN-4]all unsubscribed
+2026.04.20-09:17:52.54@0: [CTH] subs timeout
+2026.04.20-09:17:52.54@0: [CTH] subs timeout
+2026.04.20-09:17:52.54@0: [CTUN-6]all unsubscribed
+2026.04.20-09:18:22.55@0: [CTH] subs timeout
+2026.04.20-09:18:22.55@0: [CTH] subs timeout
+2026.04.20-09:18:22.55@0: [CTUN-4]all unsubscribed
+2026.04.20-09:18:52.56@0: [CTH] subs timeout
+2026.04.20-09:18:52.56@0: [CTH] subs timeout
+2026.04.20-09:18:52.56@0: [CTUN-6]all unsubscribed
+2026.04.20-09:19:22.57@0: [CTH] subs timeout
+2026.04.20-09:19:22.57@0: [CTH] subs timeout
+2026.04.20-09:19:22.57@0: [CTUN-4]all unsubscribed
+2026.04.20-09:19:52.58@0: [CTH] subs timeout
+2026.04.20-09:19:52.58@0: [CTH] subs timeout
+2026.04.20-09:19:52.58@0: [CTUN-6]all unsubscribed
+2026.04.20-09:20:22.59@0: [CTH] subs timeout
+2026.04.20-09:20:22.59@0: [CTH] subs timeout
+2026.04.20-09:20:22.59@0: [CTUN-4]all unsubscribed
+2026.04.20-09:20:52.60@0: [CTH] subs timeout
+2026.04.20-09:20:52.60@0: [CTH] subs timeout
+2026.04.20-09:20:52.60@0: [CTUN-6]all unsubscribed
+2026.04.20-09:21:22.61@0: [CTH] subs timeout
+2026.04.20-09:21:22.61@0: [CTH] subs timeout
+2026.04.20-09:21:22.61@0: [CTUN-4]all unsubscribed
+2026.04.20-09:21:52.62@0: [CTH] subs timeout
+2026.04.20-09:21:52.62@0: [CTH] subs timeout
+2026.04.20-09:21:52.62@0: [CTUN-6]all unsubscribed
+2026.04.20-09:22:22.63@0: [CTH] subs timeout
+2026.04.20-09:22:22.63@0: [CTH] subs timeout
+2026.04.20-09:22:22.63@0: [CTUN-4]all unsubscribed
+2026.04.20-09:22:52.64@0: [CTH] subs timeout
+2026.04.20-09:22:52.64@0: [CTH] subs timeout
+2026.04.20-09:22:52.64@0: [CTUN-6]all unsubscribed
+2026.04.20-09:23:22.65@0: [CTH] subs timeout
+2026.04.20-09:23:22.65@0: [CTH] subs timeout
+2026.04.20-09:23:22.65@0: [CTUN-4]all unsubscribed
+2026.04.20-09:23:52.66@0: [CTH] subs timeout
+2026.04.20-09:23:52.66@0: [CTH] subs timeout
+2026.04.20-09:23:52.66@0: [CTUN-6]all unsubscribed
+2026.04.20-09:24:22.67@0: [CTH] subs timeout
+2026.04.20-09:24:22.67@0: [CTH] subs timeout
+2026.04.20-09:24:22.67@0: [CTUN-4]all unsubscribed
+2026.04.20-09:24:52.68@0: [CTH] subs timeout
+2026.04.20-09:24:52.68@0: [CTH] subs timeout
+2026.04.20-09:24:52.68@0: [CTUN-6]all unsubscribed
+2026.04.20-09:25:22.69@0: [CTH] subs timeout
+2026.04.20-09:25:22.69@0: [CTH] subs timeout
+2026.04.20-09:25:22.69@0: [CTUN-4]all unsubscribed
+2026.04.20-09:25:52.70@0: [CTH] subs timeout
+2026.04.20-09:25:52.70@0: [CTH] subs timeout
+2026.04.20-09:25:52.70@0: [CTUN-6]all unsubscribed
+2026.04.20-09:26:22.71@0: [CTH] subs timeout
+2026.04.20-09:26:22.71@0: [CTH] subs timeout
+2026.04.20-09:26:22.71@0: [CTUN-4]all unsubscribed
+2026.04.20-09:26:52.72@0: [CTH] subs timeout
+2026.04.20-09:26:52.72@0: [CTH] subs timeout
+2026.04.20-09:26:52.72@0: [CTUN-6]all unsubscribed
+2026.04.20-09:27:22.73@0: [CTH] subs timeout
+2026.04.20-09:27:22.73@0: [CTH] subs timeout
+2026.04.20-09:27:22.73@0: [CTUN-4]all unsubscribed
+2026.04.20-09:27:52.74@0: [CTH] subs timeout
+2026.04.20-09:27:52.74@0: [CTH] subs timeout
+2026.04.20-09:27:52.74@0: [CTUN-6]all unsubscribed
+2026.04.20-09:28:22.75@0: [CTH] subs timeout
+2026.04.20-09:28:22.75@0: [CTH] subs timeout
+2026.04.20-09:28:22.75@0: [CTUN-4]all unsubscribed
+2026.04.20-09:28:52.76@0: [CTH] subs timeout
+2026.04.20-09:28:52.76@0: [CTH] subs timeout
+2026.04.20-09:28:52.76@0: [CTUN-6]all unsubscribed
+2026.04.20-09:29:22.77@0: [CTH] subs timeout
+2026.04.20-09:29:22.77@0: [CTH] subs timeout
+2026.04.20-09:29:22.77@0: [CTUN-4]all unsubscribed
+2026.04.20-09:29:52.78@0: [CTH] subs timeout
+2026.04.20-09:29:52.78@0: [CTH] subs timeout
+2026.04.20-09:29:52.78@0: [CTUN-6]all unsubscribed
+2026.04.20-09:30:22.79@0: [CTH] subs timeout
+2026.04.20-09:30:22.79@0: [CTH] subs timeout
+2026.04.20-09:30:22.79@0: [CTUN-4]all unsubscribed
+2026.04.20-09:30:52.80@0: [CTH] subs timeout
+2026.04.20-09:30:52.80@0: [CTH] subs timeout
+2026.04.20-09:30:52.80@0: [CTUN-6]all unsubscribed
+2026.04.20-09:31:22.81@0: [CTH] subs timeout
+2026.04.20-09:31:22.81@0: [CTH] subs timeout
+2026.04.20-09:31:22.81@0: [CTUN-4]all unsubscribed
+2026.04.20-09:31:42.40@0: [CTUN-6]Start resolving: cloud2.mikrotik.com
+2026.04.20-09:31:42.41@0: [CTUN-6][WARN] couldn't resolve. Scheduling next retry...
+2026.04.20-09:31:42.41@0: [CTUN-4]Start resolving: cloud2.mikrotik.com
+2026.04.20-09:31:42.41@0: [CTUN-6]all unsubscribed
+2026.04.20-09:31:42.41@0: [CTUN-6] next startConnection scheduled after secs: 1280
+2026.04.20-09:31:42.41@0: [CTUN-4][WARN] couldn't resolve. Scheduling next retry...
+2026.04.20-09:31:42.41@0: [CTUN-4]all unsubscribed
+2026.04.20-09:31:42.41@0: [CTUN-4] next startConnection scheduled after secs: 1280
+2026.04.20-09:32:12.41@0: [CTH] subs timeout
+2026.04.20-09:32:12.41@0: [CTH] subs timeout
+2026.04.20-09:32:12.41@0: [CTUN-6]all unsubscribed
+2026.04.20-09:32:42.42@0: [CTH] subs timeout
+2026.04.20-09:32:42.42@0: [CTH] subs timeout
+2026.04.20-09:32:42.42@0: [CTUN-4]all unsubscribed
+2026.04.20-09:33:12.43@0: [CTH] subs timeout
+2026.04.20-09:33:12.43@0: [CTH] subs timeout
+2026.04.20-09:33:12.43@0: [CTUN-6]all unsubscribed
+2026.04.20-09:33:42.44@0: [CTH] subs timeout
+2026.04.20-09:33:42.44@0: [CTH] subs timeout
+2026.04.20-09:33:42.44@0: [CTUN-4]all unsubscribed
+2026.04.20-09:34:12.45@0: [CTH] subs timeout
+
+@tr069-client@
+2026.04.20-07:08:24.45@0: =================
+2026.04.20-07:08:24.45@0: tr069-client started (v1)...
+2026.04.20-07:08:24.70@0: UNDO: Nothing to restore
+2026.04.20-07:08:25.22@0: NETSTACK AFTER RESTORE: 
+2026.04.20-07:08:25.22@0: ==== NET STACK ====
+2026.04.20-07:08:25.22@0: 
+2026.04.20-07:08:25.22@0: [CWMP][INF] new exe version.
+2026.04.20-07:08:25.22@0: >) event: DISABLED, state: DISABLED, runState: NONE
+2026.04.20-07:08:25.22@0: [RosDataObserver]: STOP observing Remote Modules (FULLY)
+2026.04.20-07:08:25.22@0: >>>) state: DISABLED, runState: NONE
+2026.04.20-07:08:25.22@0: Starting runner..
+
+@detnet@
+2026.04.20-07:02:38.06@0: main in
+2026.04.20-07:02:38.21@0: software id: 0000017486fa4aca
+2026.04.20-07:02:38.21@0: key hex: 
+2026.04.20-07:02:38.22@0: 0000: e2 83 12 43 b3 9c fc 49  2f dd cd 28 31 38 f9 9d  ...C...I /..(18..
+2026.04.20-07:02:38.22@0: 0010: a3 a5 51 fd d8 5a 70 8e  ba 98 98 d8 c3 fc f7 30  ..Q..Zp. .......0
+2026.04.20-07:02:38.22@0: 0020: 67 79 01 36 55 e9 b5 75  47 7d 1f 98 b6 83 a5 9e  gy.6U..u G}......
+2026.04.20-07:02:38.22@0: 0030: ed 6f 17 d5 2d ac 5d 6f  f7 a7 63 13 4e 7f f0 07  .o..-.]o ..c.N...
+2026.04.20-07:02:38.23@0: key hash: 
+2026.04.20-07:02:38.23@0: 0000: 91 f1 87 90 1b 10 36 3f  69 8b 21 0f 61 33 3a ee  ......6? i.!.a3:.
+2026.04.20-07:02:38.23@0: key id: 00760d179ddf0a41
+2026.04.20-07:02:40.41@0: main out
+2026.04.20-07:08:51.49@0: main in
+2026.04.20-07:08:51.49@0: software id: 0000017486fa4aca
+2026.04.20-07:08:51.49@0: key hex: 
+2026.04.20-07:08:51.49@0: 0000: e2 83 12 43 b3 9c fc 49  2f dd cd 28 31 38 f9 9d  ...C...I /..(18..
+2026.04.20-07:08:51.49@0: 0010: a3 a5 51 fd d8 5a 70 8e  ba 98 98 d8 c3 fc f7 30  ..Q..Zp. .......0
+2026.04.20-07:08:51.49@0: 0020: 67 79 01 36 55 e9 b5 75  47 7d 1f 98 b6 83 a5 9e  gy.6U..u G}......
+2026.04.20-07:08:51.49@0: 0030: ed 6f 17 d5 2d ac 5d 6f  f7 a7 63 13 4e 7f f0 07  .o..-.]o ..c.N...
+2026.04.20-07:08:51.49@0: key hash: 
+2026.04.20-07:08:51.49@0: 0000: 91 f1 87 90 1b 10 36 3f  69 8b 21 0f 61 33 3a ee  ......6? i.!.a3:.
+2026.04.20-07:08:51.49@0: key id: 00760d179ddf0a41
+2026.04.20-07:09:00.69@0: main out
+
+@syslog@
+][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:41:05.60@0: [ 9533.174385][    C0] ath_reset
+2026.04.20-09:41:05.61@0: [ 9533.178067][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:41:10.67@0: [ 9538.244336][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:41:10.67@0: [ 9538.244385][    C0] ath_reset
+2026.04.20-09:41:10.68@0: [ 9538.248070][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:41:15.74@0: [ 9543.314339][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:41:15.74@0: [ 9543.314390][    C0] ath_reset
+2026.04.20-09:41:15.75@0: [ 9543.318068][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:41:20.81@0: [ 9548.384349][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:41:20.81@0: [ 9548.384400][    C0] ath_reset
+2026.04.20-09:41:20.82@0: [ 9548.388080][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:41:25.88@0: [ 9553.454342][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:41:25.88@0: [ 9553.454392][    C0] ath_reset
+2026.04.20-09:41:25.89@0: [ 9553.458071][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:41:30.95@0: [ 9558.524336][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:41:30.95@0: [ 9558.524384][    C0] ath_reset
+2026.04.20-09:41:30.96@0: [ 9558.528063][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:41:36.02@0: [ 9563.594340][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:41:36.02@0: [ 9563.594393][    C0] ath_reset
+2026.04.20-09:41:36.03@0: [ 9563.598073][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:41:41.09@0: [ 9568.664334][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:41:41.09@0: [ 9568.664383][    C0] ath_reset
+2026.04.20-09:41:41.10@0: [ 9568.668062][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:41:46.16@0: [ 9573.734344][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:41:46.16@0: [ 9573.734392][    C0] ath_reset
+2026.04.20-09:41:46.17@0: [ 9573.738074][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:41:51.23@0: [ 9578.804334][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:41:51.23@0: [ 9578.804384][    C0] ath_reset
+2026.04.20-09:41:51.24@0: [ 9578.808061][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:41:56.30@0: [ 9583.874333][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:41:56.30@0: [ 9583.874381][    C0] ath_reset
+2026.04.20-09:41:56.31@0: [ 9583.878063][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:42:01.37@0: [ 9588.944340][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:42:01.37@0: [ 9588.944391][    C0] ath_reset
+2026.04.20-09:42:01.38@0: [ 9588.948070][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:42:06.44@0: [ 9594.014376][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:42:06.44@0: [ 9594.014429][    C0] ath_reset
+2026.04.20-09:42:06.45@0: [ 9594.018107][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:42:11.51@0: [ 9599.084355][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:42:11.51@0: [ 9599.084403][    C0] ath_reset
+2026.04.20-09:42:11.52@0: [ 9599.088088][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:42:16.58@0: [ 9604.154332][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:42:16.58@0: [ 9604.154383][    C0] ath_reset
+2026.04.20-09:42:16.59@0: [ 9604.158061][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:42:21.65@0: [ 9609.224332][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:42:21.65@0: [ 9609.224382][    C0] ath_reset
+2026.04.20-09:42:21.66@0: [ 9609.228063][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:42:26.72@0: [ 9614.294337][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:42:26.72@0: [ 9614.294390][    C0] ath_reset
+2026.04.20-09:42:26.73@0: [ 9614.298078][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:42:31.79@0: [ 9619.364332][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:42:31.79@0: [ 9619.364382][    C0] ath_reset
+2026.04.20-09:42:31.80@0: [ 9619.368061][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:42:36.86@0: [ 9624.434332][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:42:36.86@0: [ 9624.434382][    C0] ath_reset
+2026.04.20-09:42:36.87@0: [ 9624.438061][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:42:41.93@0: [ 9629.504331][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:42:41.93@0: [ 9629.504380][    C0] ath_reset
+2026.04.20-09:42:41.94@0: [ 9629.508061][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:42:47.00@0: [ 9634.574349][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:42:47.00@0: [ 9634.574398][    C0] ath_reset
+2026.04.20-09:42:47.01@0: [ 9634.578077][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:42:52.07@0: [ 9639.644330][    C0] ath_txtimeou
+@sstore@
+2026.04.20-07:02:19.70@0: run
+2026.04.20-07:02:34.88@0: net/devices:8 wr 313
+2026.04.20-07:02:46.47@0: net/devices:9 wr 313
+2026.04.20-07:02:47.16@0: net/devices:10 wr 314
+2026.04.20-07:02:47.70@0: dhcp/server/server:2 wr 164
+2026.04.20-07:02:47.70@0: dhcp/server/server:3 wr 164
+2026.04.20-07:02:50.30@0: net/devices:6 wr 1250
+2026.04.20-07:02:52.57@0: net/devices:10 wr 314
+2026.04.20-07:02:54.58@0: dhcp/server/server:3 wr 164
+2026.04.20-07:08:24.93@0: tr069/node:1 wr 25
+2026.04.20-07:08:24.93@0: tr069/node:5 wr 22
+2026.04.20-07:08:24.93@0: tr069/node:13 wr 22
+2026.04.20-07:08:24.94@0: tr069/node:14 wr 22
+2026.04.20-07:08:24.94@0: tr069/node:22 wr 25
+2026.04.20-07:08:24.94@0: tr069/node:25 wr 25
+2026.04.20-07:08:24.94@0: tr069/node:27 wr 22
+2026.04.20-07:08:24.94@0: tr069/node:33 wr 22
+2026.04.20-07:08:24.94@0: tr069/node:34 wr 22
+2026.04.20-07:08:24.94@0: tr069/node:39 wr 25
+2026.04.20-07:08:24.94@0: tr069/node:41 wr 22
+2026.04.20-07:08:24.94@0: tr069/node:47 wr 22
+2026.04.20-07:08:24.95@0: tr069/node:48 wr 22
+2026.04.20-07:08:24.95@0: tr069/node:56 wr 22
+2026.04.20-07:08:24.95@0: tr069/node:59 wr 22
+2026.04.20-07:08:24.95@0: tr069/node:60 wr 22
+2026.04.20-07:08:24.95@0: tr069/node:61 wr 22
+2026.04.20-07:08:24.95@0: tr069/node:65 wr 22
+2026.04.20-07:08:24.96@0: tr069/node:71 wr 22
+2026.04.20-07:08:24.96@0: tr069/node:72 wr 22
+2026.04.20-07:08:24.96@0: tr069/node:73 wr 22
+2026.04.20-07:08:24.96@0: tr069/node:75 wr 22
+2026.04.20-07:08:24.96@0: tr069/node:76 wr 22
+2026.04.20-07:08:24.96@0: tr069/node:78 wr 22
+2026.04.20-07:08:25.04@0: tr069/node:157 wr 22
+2026.04.20-07:08:25.05@0: tr069/node:159 wr 22
+2026.04.20-07:08:25.06@0: tr069/node:163 wr 22
+2026.04.20-07:08:25.06@0: tr069/node:164 wr 22
+2026.04.20-07:08:25.07@0: tr069/node:166 wr 22
+2026.04.20-07:08:25.07@0: tr069/node:167 wr 22
+2026.04.20-07:08:25.08@0: tr069/node:169 wr 22
+2026.04.20-07:08:25.14@0: tr069/node:170 wr 25
+2026.04.20-07:08:25.15@0: tr069/node:172 wr 25
+2026.04.20-07:08:25.15@0: tr069/node:173 wr 25
+2026.04.20-07:08:25.15@0: tr069/node:174 wr 25
+2026.04.20-07:08:25.15@0: tr069/node:176 wr 25
+2026.04.20-07:08:25.16@0: tr069/node:178 wr 25
+2026.04.20-07:08:25.16@0: tr069/node:179 wr 25
+2026.04.20-07:08:25.16@0: tr069/node:181 wr 25
+2026.04.20-07:08:25.16@0: tr069/node:182 wr 25
+2026.04.20-07:08:25.16@0: tr069/node:184 wr 25
+2026.04.20-07:08:25.17@0: tr069/node:185 wr 25
+2026.04.20-07:08:25.17@0: tr069/node:187 wr 25
+2026.04.20-07:08:25.17@0: tr069/node:13 wr 22
+2026.04.20-07:08:25.17@0: tr069/node:159 wr 28
+2026.04.20-07:08:25.18@0: tr069/node:192 wr 29
+2026.04.20-07:08:25.18@0: tr069/node:193 wr 28
+2026.04.20-07:08:25.18@0: tr069/node:194 wr 35
+2026.04.20-07:08:25.18@0: tr069/node:196 wr 22
+2026.04.20-07:08:25.18@0: tr069/node:193 wr 28
+2026.04.20-07:08:25.18@0: tr069/node:194 wr 34
+2026.04.20-07:08:25.18@0: tr069/node:178 wr 31
+2026.04.20-07:08:25.18@0: tr069/node:197 wr 32
+2026.04.20-07:08:25.18@0: tr069/node:198 wr 31
+2026.04.20-07:08:25.19@0: tr069/node:199 wr 25
+2026.04.20-07:08:25.19@0: tr069/node:201 wr 25
+2026.04.20-07:08:25.19@0: tr069/node:198 wr 31
+2026.04.20-07:08:25.19@0: tr069/node:199 wr 35
+2026.04.20-07:08:25.19@0: tr069/node:178 wr 31
+2026.04.20-07:08:25.19@0: tr069/node:202 wr 32
+2026.04.20-07:08:25.19@0: tr069/node:203 wr 31
+2026.04.20-07:08:25.19@0: tr069/node:204 wr 25
+2026.04.20-07:08:25.19@0: tr069/node:206 wr 25
+2026.04.20-07:08:25.19@0: tr069/node:203 wr 31
+2026.04.20-07:08:25.19@0: tr069/node:204 wr 37
+2026.04.20-07:08:25.20@0: tr069/node:178 wr 31
+2026.04.20-07:08:25.20@0: tr069/node:207 wr 32
+2026.04.20-07:08:25.20@0: tr069/node:208 wr 31
+2026.04.20-07:08:25.20@0: tr069/node:209 wr 25
+2026.04.20-07:08:25.20@0: tr069/node:211 wr 25
+2026.04.20-07:08:25.20@0: tr069/node:208 wr 31
+2026.04.20-07:08:25.20@0: tr069/node:209 wr 36
+2026.04.20-07:08:25.20@0: tr069/node:181 wr 31
+2026.04.20-07:08:25.20@0: tr069/node:212 wr 32
+2026.04.20-07:08:25.21@0: tr069/node:213 wr 31
+2026.04.20-07:08:25.21@0: tr069/node:214 wr 25
+2026.04.20-07:08:25.21@0: tr069/node:216 wr 25
+2026.04.20-07:08:25.21@0: tr069/node:213 wr 31
+2026.04.20-07:08:25.21@0: tr069/node:214 wr 36
+2026.04.20-07:08:25.21@0: tr069/node:181 wr 31
+2026.04.20-07:08:25.21@0: tr069/node:217 wr 32
+2026.04.20-07:08:25.21@0: tr069/node:218 wr 31
+2026.04.20-07:08:25.21@0: tr069/node:219 wr 25
+2026.04.20-07:08:25.21@0: tr069/node:221 wr 25
+2026.04.20-07:08:25.22@0: tr069/node:218 wr 31
+2026.04.20-07:08:25.22@0: tr069/node:219 wr 36
+2026.04.20-07:08:25.22@0: tr069/config:0 wr 84
+
+@loader@
+
+2026.04.20-07:08:24.45@0: static(tr069-client pid=113)local(WAITING)peer(131,ffffffff,,BADID)  entering READY
+2026.04.20-07:08:24.45@0: static(tr069-client pid=113)local(READY)peer(131,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:08:24.45@0: static(tr069-client pid=113)local(READY)peer(131,ffffffff,,BADID)  flushing queue
+2026.04.20-07:08:24.59@0: static(cerm pid=114)local(WAITING)peer(19,ffffffff,,BADID)  entering READY
+2026.04.20-07:08:24.59@0: static(cerm pid=114)local(READY)peer(19,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:08:24.59@0: static(cerm pid=114)local(READY)peer(19,ffffffff,,BADID)  flushing queue
+2026.04.20-07:08:25.02@0: static(cerm pid=114)local(READY)peer(19,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:08:25.02@0: static(cerm pid=114)local(RUNNING)peer(19,ffffffff,,BADID)  SETUP timeout to:1000
+2026.04.20-07:08:25.23@0: static(tr069-client pid=113)local(READY)peer(131,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:08:40.68@0: static(cerm pid=114)local(RUNNING)peer(19,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:08:40.68@0: static(cerm pid=114)local(RUNNING)peer(19,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:08:40.68@0: static(cerm pid=114)local(TRYTERM)peer(19,ffffffff,,BADID)  sending TERM message
+2026.04.20-07:08:40.69@0: read failed (EOF)
+2026.04.20-07:08:40.69@0: static(cerm pid=114)local(TRYTERM)peer(19,ffffffff,,BADID)  entering WAITSIG
+2026.04.20-07:08:40.69@0: static(cerm)local(WAITSIG)peer(19,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:08:40.69@0: static(cerm)local(WAITSIG)peer(13,ffffffff,,BADID)  entering DEAD
+2026.04.20-07:08:51.02@0: static(detnet)local(DEAD)peer(132,ffffffff,,BADID)  run!  started, pid 115
+2026.04.20-07:08:51.02@0: static(detnet pid=115)local(DEAD)peer(132,ffffffff,,BADID)  entering WAITING
+2026.04.20-07:08:51.49@0: static(detnet pid=115)local(WAITING)peer(132,ffffffff,,BADID)  entering READY
+2026.04.20-07:08:51.49@0: static(detnet pid=115)local(READY)peer(132,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:08:51.49@0: static(detnet pid=115)local(READY)peer(132,ffffffff,,BADID)  flushing queue
+2026.04.20-07:08:51.50@0: static(detnet pid=115)local(READY)peer(132,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:08:51.50@0: static(detnet pid=115)local(RUNNING)peer(132,ffffffff,,BADID)  SETUP timeout to:100
+2026.04.20-07:09:00.69@0: static(detnet pid=115)local(RUNNING)peer(132,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:09:00.69@0: static(detnet pid=115)local(RUNNING)peer(132,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:09:00.69@0: static(detnet pid=115)local(TRYTERM)peer(132,ffffffff,,BADID)  sending TERM message
+2026.04.20-07:09:00.69@0: static(detnet pid=115)local(TRYTERM)peer(132,ffffffff,,BADID)  TERMOK, terminating
+2026.04.20-07:09:00.69@0: read failed (EOF)
+2026.04.20-07:09:00.69@0: static(detnet pid=115)local(TRYTERM)peer(132,ffffffff,,BADID)  entering WAITSIG
+2026.04.20-07:09:00.70@0: static(detnet)local(WAITSIG)peer(132,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:09:00.70@0: static(detnet)local(WAITSIG)peer(84,ffffffff,,BADID)  entering DEAD
+2026.04.20-07:09:53.36@0: static(cerm)local(DEAD)peer(19,ffffffff,,BADID)  run!  started, pid 116
+2026.04.20-07:09:53.36@0: static(cerm pid=116)local(DEAD)peer(19,ffffffff,,BADID)  entering WAITING
+2026.04.20-07:09:54.06@0: static(cerm pid=116)local(WAITING)peer(19,ffffffff,,BADID)  entering READY
+2026.04.20-07:09:54.06@0: static(cerm pid=116)local(READY)peer(19,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-07:09:54.06@0: static(cerm pid=116)local(READY)peer(19,ffffffff,,BADID)  flushing queue
+2026.04.20-07:09:54.34@0: static(cerm pid=116)local(READY)peer(19,ffffffff,,BADID)  entering RUNNING
+2026.04.20-07:09:54.34@0: static(cerm pid=116)local(RUNNING)peer(19,ffffffff,,BADID)  SETUP timeout to:1000
+2026.04.20-07:10:10.69@0: static(cerm pid=116)local(RUNNING)peer(19,ffffffff,,BADID)  trying to terminate, entering TRYTERM
+2026.04.20-07:10:10.69@0: static(cerm pid=116)local(RUNNING)peer(19,ffffffff,,BADID)  entering TRYTERM
+2026.04.20-07:10:10.69@0: static(cerm pid=116)local(TRYTERM)peer(19,ffffffff,,BADID)  sending TERM message
+2026.04.20-07:10:10.77@0: static(cerm pid=116)local(TRYTERM)peer(19,ffffffff,,BADID)  TERMOK, terminating
+2026.04.20-07:10:10.77@0: read failed (EOF)
+2026.04.20-07:10:10.77@0: static(cerm pid=116)local(TRYTERM)peer(19,ffffffff,,BADID)  entering WAITSIG
+2026.04.20-07:10:10.77@0: static(cerm)local(WAITSIG)peer(19,ffffffff,,BADID)  SIGCHLD, status 0x0
+2026.04.20-07:10:10.77@0: static(cerm)local(WAITSIG)peer(13,ffffffff,,BADID)  entering DEAD
+2026.04.20-09:55:00.34@0: building dynamic peer
+2026.04.20-09:55:00.34@0: dynamic(17)local(READY)peer(1032,ffffffff,,BADID)  sending READY_CONFIRM message
+2026.04.20-09:55:00.34@0: dynamic(17)local(READY)peer(1032,ffffffff,,BADID)  flushing queue
+
+@resolver@
+t: Network unreachable
+2026.04.20-08:06:22.38@0: connect socket: Network unreachable
+2026.04.20-08:06:22.38@0: q cloud2.mikrotik.com.:AAAA:13: done reqs:0 dur:0 server failure
+2026.04.20-08:06:22.38@0: cmd_resolve: cloud2.mikrotik.com
+2026.04.20-08:06:22.38@0: name: cloud2.mikrotik.com.
+2026.04.20-08:06:22.38@0: connect socket: Network unreachable
+2026.04.20-08:06:22.38@0: connect socket: Network unreachable
+2026.04.20-08:06:22.38@0: connect socket: Network unreachable
+2026.04.20-08:06:22.38@0: connect socket: Network unreachable
+2026.04.20-08:06:22.38@0: connect socket: Network unreachable
+2026.04.20-08:06:22.38@0: q cloud2.mikrotik.com.:A:14: done reqs:0 dur:0 server failure
+2026.04.20-08:27:42.38@0: cmd_resolve6: cloud2.mikrotik.com
+2026.04.20-08:27:42.38@0: connect socket: Network unreachable
+2026.04.20-08:27:42.39@0: connect socket: Network unreachable
+2026.04.20-08:27:42.39@0: connect socket: Network unreachable
+2026.04.20-08:27:42.39@0: connect socket: Network unreachable
+2026.04.20-08:27:42.39@0: connect socket: Network unreachable
+2026.04.20-08:27:42.39@0: q cloud2.mikrotik.com.:AAAA:15: done reqs:0 dur:0 server failure
+2026.04.20-08:27:42.39@0: cmd_resolve: cloud2.mikrotik.com
+2026.04.20-08:27:42.39@0: name: cloud2.mikrotik.com.
+2026.04.20-08:27:42.39@0: connect socket: Network unreachable
+2026.04.20-08:27:42.39@0: connect socket: Network unreachable
+2026.04.20-08:27:42.39@0: connect socket: Network unreachable
+2026.04.20-08:27:42.39@0: connect socket: Network unreachable
+2026.04.20-08:27:42.39@0: connect socket: Network unreachable
+2026.04.20-08:27:42.39@0: q cloud2.mikrotik.com.:A:16: done reqs:0 dur:0 server failure
+2026.04.20-08:49:02.39@0: cmd_resolve6: cloud2.mikrotik.com
+2026.04.20-08:49:02.39@0: connect socket: Network unreachable
+2026.04.20-08:49:02.39@0: connect socket: Network unreachable
+2026.04.20-08:49:02.39@0: connect socket: Network unreachable
+2026.04.20-08:49:02.39@0: connect socket: Network unreachable
+2026.04.20-08:49:02.39@0: connect socket: Network unreachable
+2026.04.20-08:49:02.39@0: q cloud2.mikrotik.com.:AAAA:17: done reqs:0 dur:0 server failure
+2026.04.20-08:49:02.39@0: cmd_resolve: cloud2.mikrotik.com
+2026.04.20-08:49:02.39@0: name: cloud2.mikrotik.com.
+2026.04.20-08:49:02.39@0: connect socket: Network unreachable
+2026.04.20-08:49:02.39@0: connect socket: Network unreachable
+2026.04.20-08:49:02.39@0: connect socket: Network unreachable
+2026.04.20-08:49:02.39@0: connect socket: Network unreachable
+2026.04.20-08:49:02.39@0: connect socket: Network unreachable
+2026.04.20-08:49:02.39@0: q cloud2.mikrotik.com.:A:18: done reqs:0 dur:0 server failure
+2026.04.20-09:10:22.39@0: cmd_resolve6: cloud2.mikrotik.com
+2026.04.20-09:10:22.39@0: connect socket: Network unreachable
+2026.04.20-09:10:22.40@0: connect socket: Network unreachable
+2026.04.20-09:10:22.40@0: connect socket: Network unreachable
+2026.04.20-09:10:22.40@0: connect socket: Network unreachable
+2026.04.20-09:10:22.40@0: connect socket: Network unreachable
+2026.04.20-09:10:22.40@0: q cloud2.mikrotik.com.:AAAA:19: done reqs:0 dur:0 server failure
+2026.04.20-09:10:22.40@0: cmd_resolve: cloud2.mikrotik.com
+2026.04.20-09:10:22.40@0: name: cloud2.mikrotik.com.
+2026.04.20-09:10:22.40@0: connect socket: Network unreachable
+2026.04.20-09:10:22.40@0: connect socket: Network unreachable
+2026.04.20-09:10:22.40@0: connect socket: Network unreachable
+2026.04.20-09:10:22.40@0: connect socket: Network unreachable
+2026.04.20-09:10:22.40@0: connect socket: Network unreachable
+2026.04.20-09:10:22.40@0: q cloud2.mikrotik.com.:A:1a: done reqs:0 dur:0 server failure
+2026.04.20-09:31:42.40@0: cmd_resolve6: cloud2.mikrotik.com
+2026.04.20-09:31:42.40@0: connect socket: Network unreachable
+2026.04.20-09:31:42.40@0: connect socket: Network unreachable
+2026.04.20-09:31:42.41@0: connect socket: Network unreachable
+2026.04.20-09:31:42.41@0: connect socket: Network unreachable
+2026.04.20-09:31:42.41@0: connect socket: Network unreachable
+2026.04.20-09:31:42.41@0: q cloud2.mikrotik.com.:AAAA:1b: done reqs:0 dur:0 server failure
+2026.04.20-09:31:42.41@0: cmd_resolve: cloud2.mikrotik.com
+2026.04.20-09:31:42.41@0: name: cloud2.mikrotik.com.
+2026.04.20-09:31:42.41@0: connect socket: Network unreachable
+2026.04.20-09:31:42.41@0: connect socket: Network unreachable
+2026.04.20-09:31:42.41@0: connect socket: Network unreachable
+2026.04.20-09:31:42.41@0: connect socket: Network unreachable
+2026.04.20-09:31:42.41@0: connect socket: Network unreachable
+2026.04.20-09:31:42.41@0: q cloud2.mikrotik.com.:A:1c: done reqs:0 dur:0 server failure
+2026.04.20-09:53:02.41@0: cmd_resolve6: cloud2.mikrotik.com
+2026.04.20-09:53:02.41@0: connect socket: Network unreachable
+2026.04.20-09:53:02.42@0: connect socket: Network unreachable
+2026.04.20-09:53:02.42@0: connect socket: Network unreachable
+2026.04.20-09:53:02.42@0: connect socket: Network unreachable
+2026.04.20-09:53:02.42@0: connect socket: Network unreachable
+2026.04.20-09:53:02.42@0: q cloud2.mikrotik.com.:AAAA:1d: done reqs:0 dur:0 server failure
+2026.04.20-09:53:02.42@0: cmd_resolve: cloud2.mikrotik.com
+2026.04.20-09:53:02.42@0: name: cloud2.mikrotik.com.
+2026.04.20-09:53:02.42@0: connect socket: Network unreachable
+2026.04.20-09:53:02.42@0: connect socket: Network unreachable
+2026.04.20-09:53:02.42@0: connect socket: Network unreachable
+2026.04.20-09:53:02.42@0: connect socket: Network unreachable
+2026.04.20-09:53:02.42@0: connect socket: Network unreachable
+2026.04.20-09:53:02.42@0: q cloud2.mikrotik.com.:A:1e: done reqs:0 dur:0 server failure
+
+@bridge2@
+ mtu:1500 l2mtu:1598
+2026.04.20-07:02:48.15@0: PORTDEV: ether4 0x4 status 0x25449 valid:1->1 F4:1E:57:4E:1F:A3 masterID:9 group:0
+2026.04.20-07:02:48.15@0: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+2026.04.20-07:02:48.23@0: HW: rechecking hw
+2026.04.20-07:02:48.23@0: HW: portHwDisable: ether1: 1 -> 0
+2026.04.20-07:02:48.23@0: HW: portHwEnable: ether1: otherHw 0 otherSw 1, 0 -> 1
+2026.04.20-07:02:48.23@0: HW: portHwEnable: ether2: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:48.23@0: HW: portHwEnable: ether3: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:48.23@0: HW: portHwEnable: ether4: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:50.38@0: PORTDEV: wlan1 0x6 status 0x41 valid:0->1 F4:1E:57:4E:1F:A5
+2026.04.20-07:02:50.38@0: BRIDGE: notifyNewPortDev wlan1
+2026.04.20-07:02:50.38@0: bridge-WLAN; add port: F4:1E:57:4E:1F:A5
+2026.04.20-07:02:50.38@0: PORTDEV: sendUnderBridge: wlan1 -> 1
+2026.04.20-07:02:50.38@0: "bridge-WLAN" mac address changed to F4:1E:57:4E:1F:A5
+2026.04.20-07:02:50.81@0: BRIDGE: kernelUpdateState for wlan1 0:1
+2026.04.20-07:02:51.20@0: [ERR] set stp state: 
+2026.04.20-07:02:51.20@0:   req hdr len:56,type:0010,flags:0005,seq:5,pid:77 errno:Not supported
+2026.04.20-07:02:51.20@0: PORTDEV: brid: 10 mtu:1500 l2mtu:65535
+2026.04.20-07:02:51.20@0: bridge-LAN:       ether2; BDM_EDGE
+2026.04.20-07:02:51.21@0: BRIDGE: kernelUpdateState for ether2 0:2
+2026.04.20-07:02:51.21@0: ether2:0  learning
+2026.04.20-07:02:51.21@0: BRIDGE: kernelUpdateState for ether2 0:3
+2026.04.20-07:02:51.21@0: ether2:0  forwarding
+2026.04.20-07:02:51.28@0: HW: rechecking hw
+2026.04.20-07:02:51.28@0: HW: portHwDisable: ether1: 1 -> 0
+2026.04.20-07:02:51.28@0: HW: portHwEnable: ether1: otherHw 0 otherSw 1, 0 -> 1
+2026.04.20-07:02:51.28@0: HW: portHwEnable: ether2: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:51.28@0: HW: portHwEnable: ether3: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:51.28@0: HW: portHwEnable: ether4: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:52.68@0: PORTDEV: bridge-WLAN 0xa status 0x80341 valid:1->1 F4:1E:57:4E:1F:A5
+2026.04.20-07:02:52.68@0: PORTDEV: bridge-WLAN 0xa status 0x80141 valid:1->1 F4:1E:57:4E:1F:A5
+2026.04.20-07:02:52.75@0: PORTDEV: bridge-WLAN 0xa status 0x80141 valid:1->1 F4:1E:57:4E:1F:A5
+2026.04.20-07:02:52.77@0: PORTDEV: bridge-WLAN 0xa status 0x80541 valid:1->1 F4:1E:57:4E:1F:A5
+2026.04.20-07:02:52.77@0: PORTDEV: bridge-WLAN 0xa status 0x80741 valid:1->1 F4:1E:57:4E:1F:A5
+2026.04.20-07:02:52.80@0: PORTDEV: wlan1 0x6 status 0x21049 valid:1->1 F4:1E:57:4E:1F:A5 masterID:10
+2026.04.20-07:02:52.80@0: PORTDEV: brid: 10 mtu:1500 l2mtu:65535
+2026.04.20-07:02:52.88@0: HW: rechecking hw
+2026.04.20-07:02:52.88@0: HW: portHwDisable: ether1: 1 -> 0
+2026.04.20-07:02:52.88@0: HW: portHwEnable: ether1: otherHw 0 otherSw 1, 0 -> 1
+2026.04.20-07:02:52.88@0: HW: portHwEnable: ether2: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:52.88@0: HW: portHwEnable: ether3: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:52.88@0: HW: portHwEnable: ether4: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:59.46@0: PORTDEV: ether2 0x2 status 0x85549 valid:1->1 F4:1E:57:4E:1F:A1 masterID:9 group:0 speed:100
+2026.04.20-07:02:59.46@0: PORTDEV: brid: 9 mtu:1500 l2mtu:1598
+2026.04.20-07:02:59.52@0: HW: rechecking hw
+2026.04.20-07:02:59.52@0: HW: portHwDisable: ether1: 1 -> 0
+2026.04.20-07:02:59.52@0: HW: portHwEnable: ether1: otherHw 0 otherSw 1, 0 -> 1
+2026.04.20-07:02:59.52@0: HW: portHwEnable: ether2: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:59.52@0: HW: portHwEnable: ether3: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:02:59.52@0: HW: portHwEnable: ether4: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:03:02.64@0: PORTDEV: wlan1 0x6 status 0x21449 valid:1->1 F4:1E:57:4E:1F:A5 masterID:10
+2026.04.20-07:03:02.64@0: PORTDEV: brid: 10 mtu:1500 l2mtu:1600
+2026.04.20-07:03:02.64@0: bridge-WLAN: BRIDGE: updating l2mtu: 1600
+2026.04.20-07:03:02.71@0: HW: rechecking hw
+2026.04.20-07:03:02.71@0: HW: portHwDisable: ether1: 1 -> 0
+2026.04.20-07:03:02.71@0: HW: portHwEnable: ether1: otherHw 0 otherSw 1, 0 -> 1
+2026.04.20-07:03:02.71@0: HW: portHwEnable: ether2: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:03:02.71@0: HW: portHwEnable: ether3: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:03:02.71@0: HW: portHwEnable: ether4: otherHw 1 otherSw 0, 0 -> 0
+2026.04.20-07:03:03.05@0: PORTDEV: bridge-WLAN 0xa status 0x80741 valid:1->1 F4:1E:57:4E:1F:A5
+2026.04.20-07:03:03.05@0: PORTDEV: bridge-WLAN 0xa status 0x80741 valid:1->1 F4:1E:57:4E:1F:A5
+
+@net@
+et 0x0
+2026.04.20-09:47:14.87@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:47:24.87@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:47:24.87@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:47:34.87@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:47:34.87@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:47:44.87@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:47:44.88@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:47:54.89@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:47:54.89@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:48:04.88@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:48:04.88@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:48:14.89@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:48:14.89@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:48:24.88@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:48:24.89@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:48:34.89@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:48:34.89@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:48:44.89@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:48:44.89@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:48:54.90@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:48:54.90@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:49:04.90@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:49:04.90@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:49:14.90@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:49:14.90@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:49:24.91@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:49:24.91@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:49:34.91@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:49:34.91@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:49:44.90@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:49:44.90@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:49:54.92@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:49:54.92@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:50:04.92@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:50:04.92@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:50:14.92@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:50:14.92@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:50:24.92@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:50:24.92@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:50:34.93@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:50:34.93@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:50:44.93@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:50:44.93@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:50:54.94@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:50:54.94@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:51:04.95@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:51:04.95@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:51:14.96@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:51:14.96@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:51:24.96@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:51:24.96@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:51:34.97@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:51:34.97@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:51:44.97@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:51:44.97@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:51:54.96@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:51:54.96@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:52:04.99@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:52:04.99@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:52:15.00@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:52:15.00@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:52:25.00@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:52:25.00@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:52:35.00@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:52:35.00@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:52:45.00@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:52:45.00@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:52:55.02@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:52:55.02@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:53:05.02@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:53:05.02@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:53:15.03@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:53:15.03@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:53:25.03@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:53:25.03@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:53:35.03@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:53:35.03@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:53:45.04@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:53:45.04@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:53:55.04@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:53:55.04@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:54:05.04@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:54:05.04@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:54:15.04@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:54:15.04@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:54:25.04@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:54:25.04@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:54:35.04@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:54:35.04@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:54:45.04@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:54:45.04@0: PLC-pwr-line1#5(eth4#12): reset
+2026.04.20-09:54:55.05@0: PLC-pwr-line1#5(eth4#12): onReset 0x0
+2026.04.20-09:54:55.05@0: PLC-pwr-line1#5(eth4#12): reset
+
+@snmp@
+.1.33.1.6.1
+2026.04.20-07:03:34.81@0: +1.3.6.1.2.1.33.1.6.2.1
+2026.04.20-07:03:34.81@0: +1.3.6.1.4.1.14988.1.1.12.1
+2026.04.20-07:03:34.81@0: +1.3.6.1.4.1.14988.1.1.12.2
+2026.04.20-07:03:34.81@0: +1.3.6.1.4.1.14988.1.1.12.3
+2026.04.20-07:03:34.81@0: +1.3.6.1.4.1.14988.1.1.12.4
+2026.04.20-07:03:34.81@0: +1.3.6.1.4.1.14988.1.1.12.5
+2026.04.20-07:03:34.81@0: +1.3.6.1.4.1.14988.1.1.12.6
+2026.04.20-07:03:34.81@0: +1.3.6.1.4.1.14988.1.1.12.7
+2026.04.20-07:03:34.81@0: wireless snmp
+2026.04.20-07:03:34.81@0: +1.3.6.1.4.1.14988.1.1.1.1.1
+2026.04.20-07:03:34.81@0: +1.3.6.1.4.1.14988.1.1.1.2.1
+2026.04.20-07:03:34.81@0: +1.3.6.1.4.1.14988.1.1.1.4
+2026.04.20-07:03:34.81@0: +1.3.6.1.4.1.14988.1.1.1.3.1
+2026.04.20-07:03:34.81@0: +1.3.6.1.4.1.14988.1.1.10.1.1
+2026.04.20-07:03:34.81@0: +1.3.6.1.4.1.14988.1.1.1.5.1
+2026.04.20-07:03:34.81@0: +1.3.6.1.4.1.14988.1.1.1.6
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.1.7.1
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.1.10
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.1.11.1
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.1.8.1
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.1.9.1
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.1.1
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.1.2
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.1.3
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.1.4
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.1.5
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.1.6
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.1.7
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.1.8
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.1.9
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.2.1
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.2.2
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.2.3
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.2.4
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.2.5
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.2.6
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.2.7
+2026.04.20-07:03:34.82@0: +1.3.6.1.4.1.14988.1.1.21.2.8
+2026.04.20-07:03:34.83@0: +1.3.6.1.4.1.14988.1.1.21.2.9
+2026.04.20-07:03:34.83@0: +1.3.6.1.4.1.14988.1.1.21.2.10
+2026.04.20-07:03:34.83@0: +1.3.6.1.4.1.14988.1.1.21.2.11
+2026.04.20-07:03:34.83@0: +1.3.6.1.4.1.14988.1.1.21.2.12
+2026.04.20-07:03:34.83@0: +1.3.6.1.4.1.14988.1.1.21.2.13
+2026.04.20-07:03:34.83@0: +1.3.6.1.4.1.14988.1.1.21.3.1
+2026.04.20-07:03:34.83@0: +1.3.6.1.4.1.14988.1.1.21.4.1
+2026.04.20-07:03:34.83@0: +1.3.6.1.4.1.14988.1.1.21.5.1
+2026.04.20-07:03:34.83@0: conntrack snmp
+2026.04.20-07:03:34.83@0: +1.3.6.1.4.1.14988.1.1.22.1.1
+2026.04.20-07:03:34.83@0: +1.3.6.1.4.1.14988.1.1.22.1.2
+2026.04.20-07:03:34.83@0: +1.3.6.1.4.1.14988.1.1.22.1.3
+
+@dhcpclient@
+iscover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:44.41@0: bridge-WAN sending DHCPDISCOVER after 47s
+2026.04.20-09:53:44.41@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:46.50@0: bridge-WAN sending DHCPDISCOVER after 50s
+2026.04.20-09:53:46.50@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:53.00@0: bridge-WAN sending DHCPDISCOVER after 56s
+2026.04.20-09:53:53.00@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:53:58.98@0: bridge-WAN sending DHCPDISCOVER after 62s
+2026.04.20-09:53:58.98@0: dhcp-client on bridge-WAN sending discover with id 869595057 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:01.89@0: bridge-WAN sending DHCPDISCOVER after 0s
+2026.04.20-09:54:01.89@0: dhcp-client on bridge-WAN sending discover with id 2777743806 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:02.90@0: bridge-WAN sending DHCPDISCOVER after 0s
+2026.04.20-09:54:02.90@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:03.90@0: bridge-WAN sending DHCPDISCOVER after 2s
+2026.04.20-09:54:03.90@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:06.80@0: bridge-WAN sending DHCPDISCOVER after 5s
+2026.04.20-09:54:06.80@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:12.43@0: bridge-WAN sending DHCPDISCOVER after 10s
+2026.04.20-09:54:12.43@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:15.42@0: bridge-WAN sending DHCPDISCOVER after 13s
+2026.04.20-09:54:15.42@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:17.72@0: bridge-WAN sending DHCPDISCOVER after 16s
+2026.04.20-09:54:17.72@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:23.29@0: bridge-WAN sending DHCPDISCOVER after 21s
+2026.04.20-09:54:23.29@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:26.31@0: bridge-WAN sending DHCPDISCOVER after 24s
+2026.04.20-09:54:26.31@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:27.46@0: bridge-WAN sending DHCPDISCOVER after 26s
+2026.04.20-09:54:27.46@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:33.57@0: bridge-WAN sending DHCPDISCOVER after 32s
+2026.04.20-09:54:33.57@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:36.50@0: bridge-WAN sending DHCPDISCOVER after 35s
+2026.04.20-09:54:36.50@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:41.64@0: bridge-WAN sending DHCPDISCOVER after 40s
+2026.04.20-09:54:41.64@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:46.84@0: bridge-WAN sending DHCPDISCOVER after 45s
+2026.04.20-09:54:46.84@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:48.73@0: bridge-WAN sending DHCPDISCOVER after 47s
+2026.04.20-09:54:48.73@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+2026.04.20-09:54:55.52@0: bridge-WAN sending DHCPDISCOVER after 54s
+2026.04.20-09:54:55.52@0: dhcp-client on bridge-WAN sending discover with id 2024867277 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)
+
+@route@
+ies
+2026.04.20-07:02:47.39@0: inhibit sleep, scheduled later
+2026.04.20-07:02:48.28@0: inhibit sleep, hold release
+2026.04.20-07:02:49.26@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:50.29@0: inhibit sleep, route updated
+2026.04.20-07:02:50.30@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:50.37@0: inhibit sleep, route updated
+2026.04.20-07:02:50.38@0: inhibit sleep, route updated
+2026.04.20-07:02:50.39@0: inhibit sleep, route updated
+2026.04.20-07:02:52.43@0: inhibit sleep, route updated
+2026.04.20-07:02:52.43@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:02:52.43@0: inhibit sleep, route updated
+2026.04.20-07:02:52.43@0: inhibit sleep, route updated
+2026.04.20-07:02:52.44@0: inhibit sleep, route updated
+2026.04.20-07:02:52.44@0:  apply routing policy rule changes schedule after 50 jiffies
+2026.04.20-07:02:52.45@0: inhibit sleep, scheduled later
+2026.04.20-07:02:52.68@0: inhibit sleep, route updated
+2026.04.20-07:02:52.77@0: inhibit sleep, route updated
+2026.04.20-07:02:52.77@0: inhibit sleep, route updated
+2026.04.20-07:02:52.94@0: inhibit sleep, scheduled later
+2026.04.20-07:02:53.03@0:  BFD cfg apply schedule after 50 jiffies
+2026.04.20-07:03:09.01@0: evicting 0x20200000..0x20240000
+2026.04.20-07:03:09.01@0: Reclaimed 1 blocks
+2026.04.20-07:03:09.16@0:  recompile later
+2026.04.20-07:03:09.58@0: inhibit sleep, scheduled later
+2026.04.20-07:03:09.58@0: PolicyTask recompile
+2026.04.20-07:03:09.58@0: rpki:
+2026.04.20-07:03:09.58@0: address-lists:
+2026.04.20-07:03:09.58@0: num-sets:
+2026.04.20-07:03:09.58@0: community-sets:
+2026.04.20-07:03:09.58@0: ext-community-sets:
+2026.04.20-07:03:09.58@0: large-community-sets:
+2026.04.20-07:03:09.58@0: fchains:
+2026.04.20-07:03:09.59@0: schains:
+2026.04.20-07:03:09.59@0: PolicyTask recompile done
+2026.04.20-07:03:09.59@0: evicting 0x20200000..0x20240000
+2026.04.20-07:03:09.59@0: Reclaimed 1 blocks
+
+@parser@
+cy;$scan-list;$wireless-protocol;$rate-set;$supported-rates-b;$supported-rates-a/g;$basic-rates-b;$basic-rates-a/g;$max-station-count;$distance;$tx-power;$tx-power-mode;$noise-floor-threshold;$nv2-noise-floor-offset;$burst-time;$antenna-mode;$vlan-mode;$vlan-id;$wds-mode;$wds-default-bridge;$wds-default-cost;$wds-cost-range;$wds-ignore-ssid;$update-stats-interval;$bridge-mode;$default-authentication;$default-forwarding;$default-ap-tx-limit;$default-client-tx-limit;$wmm-support;$hide-ssid;$security-profile;$interworking-profile;$wps-mode;$station-roaming;$disconnect-timeout;$on-fail-retry-time;$preamble-mode;$compression;$allow-sharedkey;$station-bridge-clone-mac;$ampdu-priorities;$guard-interval;$ht-supported-mcs;$ht-basic-mcs;$vht-supported-mcs;$vht-basic-mcs;$tx-chains;$rx-chains;$amsdu-limit;$amsdu-threshold;$tdma-period-size;$nv2-queue-count;$nv2-qos;$nv2-cell-radius;$nv2-security;$nv2-preshared-key;$nv2-mode;$nv2-downlink-ratio;$nv2-sync-secret;$hw-retries;$frame-lifetime;$adaptive-noise-immunity;$hw-fragmentation-threshold;$hw-protection-mode;$hw-protection-threshold;$frequency-offset;$rate-selection;$multicast-helper;$multicast-buffering;$keepalive-frames;$skip-dfs-channels;$pci-info;$running;$disabled;$comment;$.id;$.nextid;$.dead;$.about;(= $default-name wlan1);5
+2026.04.20-07:03:20.40@0: mkFindMsgInspector expr=
+2026.04.20-07:03:20.43@0: mkFindMsgInspector expr=$name;$version;$build-time;$scheduled;$bundle;$size;$available;$disabled;$.id;$.nextid;$.dead;$.about;(  (~ $name wifi) (! $disabled));5
+2026.04.20-07:03:20.47@0: mkFindMsgInspector expr=$default-name;$name;$mtu;$l2mtu;$mac-address;$arp;$arp-timeout;$disable-running-check;$interface-type;$prism-cardtype;$master-interface;$radio-name;$mode;$ssid;$area;$frequency-mode;$country;$installation;$antenna-gain;$frequency;$band;$channel-width;$secondary-frequency;$scan-list;$wireless-protocol;$rate-set;$supported-rates-b;$supported-rates-a/g;$basic-rates-b;$basic-rates-a/g;$max-station-count;$distance;$tx-power;$tx-power-mode;$noise-floor-threshold;$nv2-noise-floor-offset;$burst-time;$antenna-mode;$vlan-mode;$vlan-id;$wds-mode;$wds-default-bridge;$wds-default-cost;$wds-cost-range;$wds-ignore-ssid;$update-stats-interval;$bridge-mode;$default-authentication;$default-forwarding;$default-ap-tx-limit;$default-client-tx-limit;$wmm-support;$hide-ssid;$security-profile;$interworking-profile;$wps-mode;$station-roaming;$disconnect-timeout;$on-fail-retry-time;$preamble-mode;$compression;$allow-sharedkey;$station-bridge-clone-mac;$ampdu-priorities;$guard-interval;$ht-supported-mcs;$ht-basic-mcs;$vht-supported-mcs;$vht-basic-mcs;$tx-chains;$rx-chains;$amsdu-limit;$amsdu-threshold;$tdma-period-size;$nv2-queue-count;$nv2-qos;$nv2-cell-radius;$nv2-security;$nv2-preshared-key;$nv2-mode;$nv2-downlink-ratio;$nv2-sync-secret;$hw-retries;$frame-lifetime;$adaptive-noise-immunity;$hw-fragmentation-threshold;$hw-protection-mode;$hw-protection-threshold;$frequency-offset;$rate-selection;$multicast-helper;$multicast-buffering;$keepalive-frames;$skip-dfs-channels;$pci-info;$running;$disabled;$comment;$.id;$.nextid;$.dead;$.about;(= $default-name wlan1);5
+2026.04.20-07:03:21.03@0: mkFindMsgInspector expr=$name;$default-name;$type;$mtu;$actual-mtu;$l2mtu;$max-l2mtu;$vrf;$mac-address;$last-link-down-time;$last-link-up-time;$link-downs;$rx-byte;$tx-byte;$rx-packet;$tx-packet;$rx-drop;$tx-drop;$tx-queue-drop;$rx-error;$tx-error;$fp-rx-byte;$fp-tx-byte;$fp-rx-packet;$fp-tx-packet;$fp-rps-drop;$dynamic;$inactive;$running;$slave;$passthrough;$disabled;$comment;$.id;$.nextid;$.dead;$.about;(and (= $type ppp-out) (= $name ppp-out1));5
+2026.04.20-07:03:21.26@0: Loaded H20_101, signalling
+2026.04.20-07:03:22.03@0: hdTimer H88_28 lastAccess+d 6802+156
+2026.04.20-07:03:22.03@0: hdTimer H88_27 lastAccess+d 6802+156
+2026.04.20-07:03:22.30@0: hdTimer H20_0 lastAccess+d 6804+181
+2026.04.20-07:03:22.30@0: hdTimer H88_25 lastAccess+d 6802+183
+2026.04.20-07:03:22.30@0: hdTimer H88_14 lastAccess+d 6802+183
+2026.04.20-07:03:26.94@0: hdTimer H20_101 lastAccess+d 6881+502
+2026.04.20-07:03:27.19@0: hdTimer H88_27 lastAccess+d 6802+672
+2026.04.20-07:03:27.19@0: hdTimer H88_28 lastAccess+d 6802+672
+2026.04.20-07:03:27.32@0: hdTimer H20_0 lastAccess+d 6804+683
+2026.04.20-07:03:27.32@0: hdTimer H88_25 lastAccess+d 6802+685
+2026.04.20-07:03:27.32@0: hdTimer H88_14 lastAccess+d 6802+685
+
+@wireless@
+bbpanics 0, panicval 0x0
+2026.04.20-09:06:42.13@0: PRINT:   bbpanics_B 0 bbpanics_wouldreset 0 bbpanics_resets 0
+2026.04.20-09:06:42.13@0: 
+2026.04.20-09:06:42.13@0: PRINT:   nf_resets 0
+2026.04.20-09:08:11.71@0: GroupContext::keyUpdateOver
+2026.04.20-09:13:11.71@0: GroupContext::keyUpdateOver
+2026.04.20-09:18:11.72@0: GroupContext::keyUpdateOver
+2026.04.20-09:23:11.73@0: GroupContext::keyUpdateOver
+2026.04.20-09:28:11.73@0: GroupContext::keyUpdateOver
+2026.04.20-09:33:11.74@0: GroupContext::keyUpdateOver
+2026.04.20-09:38:11.75@0: GroupContext::keyUpdateOver
+2026.04.20-09:43:11.75@0: GroupContext::keyUpdateOver
+2026.04.20-09:48:11.75@0: GroupContext::keyUpdateOver
+2026.04.20-09:53:11.76@0: GroupContext::keyUpdateOver
+
+@cloud@
+2026.04.20-09:34:12.45@0: [CTH] subs timeout
+2026.04.20-09:34:12.45@0: [CTUN-6]all unsubscribed
+2026.04.20-09:34:42.46@0: [CTH] subs timeout
+2026.04.20-09:34:42.46@0: [CTH] subs timeout
+2026.04.20-09:34:42.46@0: [CTUN-4]all unsubscribed
+2026.04.20-09:35:12.47@0: [CTH] subs timeout
+2026.04.20-09:35:12.47@0: [CTH] subs timeout
+2026.04.20-09:35:12.47@0: [CTUN-6]all unsubscribed
+2026.04.20-09:35:42.48@0: [CTH] subs timeout
+2026.04.20-09:35:42.48@0: [CTH] subs timeout
+2026.04.20-09:35:42.48@0: [CTUN-4]all unsubscribed
+2026.04.20-09:36:12.49@0: [CTH] subs timeout
+2026.04.20-09:36:12.49@0: [CTH] subs timeout
+2026.04.20-09:36:12.49@0: [CTUN-6]all unsubscribed
+2026.04.20-09:36:42.50@0: [CTH] subs timeout
+2026.04.20-09:36:42.50@0: [CTH] subs timeout
+2026.04.20-09:36:42.50@0: [CTUN-4]all unsubscribed
+2026.04.20-09:37:12.51@0: [CTH] subs timeout
+2026.04.20-09:37:12.51@0: [CTH] subs timeout
+2026.04.20-09:37:12.51@0: [CTUN-6]all unsubscribed
+2026.04.20-09:37:42.52@0: [CTH] subs timeout
+2026.04.20-09:37:42.52@0: [CTH] subs timeout
+2026.04.20-09:37:42.52@0: [CTUN-4]all unsubscribed
+2026.04.20-09:38:12.53@0: [CTH] subs timeout
+2026.04.20-09:38:12.53@0: [CTH] subs timeout
+2026.04.20-09:38:12.53@0: [CTUN-6]all unsubscribed
+2026.04.20-09:38:42.54@0: [CTH] subs timeout
+2026.04.20-09:38:42.54@0: [CTH] subs timeout
+2026.04.20-09:38:42.54@0: [CTUN-4]all unsubscribed
+2026.04.20-09:39:12.55@0: [CTH] subs timeout
+2026.04.20-09:39:12.55@0: [CTH] subs timeout
+2026.04.20-09:39:12.55@0: [CTUN-6]all unsubscribed
+2026.04.20-09:39:42.56@0: [CTH] subs timeout
+2026.04.20-09:39:42.56@0: [CTH] subs timeout
+2026.04.20-09:39:42.56@0: [CTUN-4]all unsubscribed
+2026.04.20-09:40:12.57@0: [CTH] subs timeout
+2026.04.20-09:40:12.57@0: [CTH] subs timeout
+2026.04.20-09:40:12.57@0: [CTUN-6]all unsubscribed
+2026.04.20-09:40:42.58@0: [CTH] subs timeout
+2026.04.20-09:40:42.58@0: [CTH] subs timeout
+2026.04.20-09:40:42.58@0: [CTUN-4]all unsubscribed
+2026.04.20-09:41:12.59@0: [CTH] subs timeout
+2026.04.20-09:41:12.59@0: [CTH] subs timeout
+2026.04.20-09:41:12.59@0: [CTUN-6]all unsubscribed
+2026.04.20-09:41:42.60@0: [CTH] subs timeout
+2026.04.20-09:41:42.60@0: [CTH] subs timeout
+2026.04.20-09:41:42.60@0: [CTUN-4]all unsubscribed
+2026.04.20-09:42:12.61@0: [CTH] subs timeout
+2026.04.20-09:42:12.61@0: [CTH] subs timeout
+2026.04.20-09:42:12.61@0: [CTUN-6]all unsubscribed
+2026.04.20-09:42:42.62@0: [CTH] subs timeout
+2026.04.20-09:42:42.62@0: [CTH] subs timeout
+2026.04.20-09:42:42.62@0: [CTUN-4]all unsubscribed
+2026.04.20-09:43:12.63@0: [CTH] subs timeout
+2026.04.20-09:43:12.63@0: [CTH] subs timeout
+2026.04.20-09:43:12.63@0: [CTUN-6]all unsubscribed
+2026.04.20-09:43:42.64@0: [CTH] subs timeout
+2026.04.20-09:43:42.64@0: [CTH] subs timeout
+2026.04.20-09:43:42.64@0: [CTUN-4]all unsubscribed
+2026.04.20-09:44:12.65@0: [CTH] subs timeout
+2026.04.20-09:44:12.65@0: [CTH] subs timeout
+2026.04.20-09:44:12.65@0: [CTUN-6]all unsubscribed
+2026.04.20-09:44:42.66@0: [CTH] subs timeout
+2026.04.20-09:44:42.66@0: [CTH] subs timeout
+2026.04.20-09:44:42.66@0: [CTUN-4]all unsubscribed
+2026.04.20-09:45:12.67@0: [CTH] subs timeout
+2026.04.20-09:45:12.67@0: [CTH] subs timeout
+2026.04.20-09:45:12.67@0: [CTUN-6]all unsubscribed
+2026.04.20-09:45:42.68@0: [CTH] subs timeout
+2026.04.20-09:45:42.68@0: [CTH] subs timeout
+2026.04.20-09:45:42.68@0: [CTUN-4]all unsubscribed
+2026.04.20-09:46:12.69@0: [CTH] subs timeout
+2026.04.20-09:46:12.69@0: [CTH] subs timeout
+2026.04.20-09:46:12.69@0: [CTUN-6]all unsubscribed
+2026.04.20-09:46:42.70@0: [CTH] subs timeout
+2026.04.20-09:46:42.70@0: [CTH] subs timeout
+2026.04.20-09:46:42.70@0: [CTUN-4]all unsubscribed
+2026.04.20-09:47:12.71@0: [CTH] subs timeout
+2026.04.20-09:47:12.71@0: [CTH] subs timeout
+2026.04.20-09:47:12.71@0: [CTUN-6]all unsubscribed
+2026.04.20-09:47:42.72@0: [CTH] subs timeout
+2026.04.20-09:47:42.72@0: [CTH] subs timeout
+2026.04.20-09:47:42.72@0: [CTUN-4]all unsubscribed
+2026.04.20-09:48:12.73@0: [CTH] subs timeout
+2026.04.20-09:48:12.73@0: [CTH] subs timeout
+2026.04.20-09:48:12.73@0: [CTUN-6]all unsubscribed
+2026.04.20-09:48:42.74@0: [CTH] subs timeout
+2026.04.20-09:48:42.74@0: [CTH] subs timeout
+2026.04.20-09:48:42.74@0: [CTUN-4]all unsubscribed
+2026.04.20-09:49:12.75@0: [CTH] subs timeout
+2026.04.20-09:49:12.75@0: [CTH] subs timeout
+2026.04.20-09:49:12.75@0: [CTUN-6]all unsubscribed
+2026.04.20-09:49:42.76@0: [CTH] subs timeout
+2026.04.20-09:49:42.76@0: [CTH] subs timeout
+2026.04.20-09:49:42.76@0: [CTUN-4]all unsubscribed
+2026.04.20-09:50:12.77@0: [CTH] subs timeout
+2026.04.20-09:50:12.77@0: [CTH] subs timeout
+2026.04.20-09:50:12.77@0: [CTUN-6]all unsubscribed
+2026.04.20-09:50:42.78@0: [CTH] subs timeout
+2026.04.20-09:50:42.78@0: [CTH] subs timeout
+2026.04.20-09:50:42.78@0: [CTUN-4]all unsubscribed
+2026.04.20-09:51:12.79@0: [CTH] subs timeout
+2026.04.20-09:51:12.79@0: [CTH] subs timeout
+2026.04.20-09:51:12.79@0: [CTUN-6]all unsubscribed
+2026.04.20-09:51:42.80@0: [CTH] subs timeout
+2026.04.20-09:51:42.80@0: [CTH] subs timeout
+2026.04.20-09:51:42.80@0: [CTUN-4]all unsubscribed
+2026.04.20-09:52:12.81@0: [CTH] subs timeout
+2026.04.20-09:52:12.81@0: [CTH] subs timeout
+2026.04.20-09:52:12.81@0: [CTUN-6]all unsubscribed
+2026.04.20-09:52:42.82@0: [CTH] subs timeout
+2026.04.20-09:52:42.82@0: [CTH] subs timeout
+2026.04.20-09:52:42.82@0: [CTUN-4]all unsubscribed
+2026.04.20-09:53:02.41@0: [CTUN-6]Start resolving: cloud2.mikrotik.com
+2026.04.20-09:53:02.42@0: [CTUN-6][WARN] couldn't resolve. Scheduling next retry...
+2026.04.20-09:53:02.42@0: [CTUN-4]Start resolving: cloud2.mikrotik.com
+2026.04.20-09:53:02.42@0: [CTUN-6]all unsubscribed
+2026.04.20-09:53:02.42@0: [CTUN-6] next startConnection scheduled after secs: 1280
+2026.04.20-09:53:02.42@0: [CTUN-4][WARN] couldn't resolve. Scheduling next retry...
+2026.04.20-09:53:02.42@0: [CTUN-4]all unsubscribed
+2026.04.20-09:53:02.42@0: [CTUN-4] next startConnection scheduled after secs: 1280
+2026.04.20-09:53:32.42@0: [CTH] subs timeout
+2026.04.20-09:53:32.42@0: [CTH] subs timeout
+2026.04.20-09:53:32.42@0: [CTUN-6]all unsubscribed
+2026.04.20-09:54:02.43@0: [CTH] subs timeout
+2026.04.20-09:54:02.43@0: [CTH] subs timeout
+2026.04.20-09:54:02.43@0: [CTUN-4]all unsubscribed
+2026.04.20-09:54:32.44@0: [CTH] subs timeout
+2026.04.20-09:54:32.44@0: [CTH] subs timeout
+2026.04.20-09:54:32.44@0: [CTUN-6]all unsub
+@syslog@
+t: monitor reset
+2026.04.20-09:42:52.07@0: [ 9639.644379][    C0] ath_reset
+2026.04.20-09:42:52.08@0: [ 9639.648059][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:42:57.14@0: [ 9644.714338][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:42:57.14@0: [ 9644.714390][    C0] ath_reset
+2026.04.20-09:42:57.15@0: [ 9644.718074][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:43:02.21@0: [ 9649.784330][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:43:02.21@0: [ 9649.784379][    C0] ath_reset
+2026.04.20-09:43:02.22@0: [ 9649.788060][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:43:07.28@0: [ 9654.854329][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:43:07.28@0: [ 9654.854380][    C0] ath_reset
+2026.04.20-09:43:07.29@0: [ 9654.858064][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:43:11.75@0: [ 9659.319886][   T68] ctl_key_set: vid 0, idx 1, algo 3
+2026.04.20-09:43:11.75@0: [ 9659.319949][   T68] aesccm_init: wep_kid 1, id 34
+2026.04.20-09:43:11.75@0: [ 9659.320077][   T68] ctl_txkey_set: updated txkey to 1
+2026.04.20-09:43:11.75@0: [ 9659.320108][   T68] ctl_key_set: vid 0, idx 2, algo 0
+2026.04.20-09:43:12.35@0: [ 9659.924332][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:43:12.35@0: [ 9659.924384][    C0] ath_reset
+2026.04.20-09:43:12.36@0: [ 9659.928072][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:43:17.42@0: [ 9664.994349][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:43:17.42@0: [ 9664.994396][    C0] ath_reset
+2026.04.20-09:43:17.43@0: [ 9664.998078][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:43:22.49@0: [ 9670.064330][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:43:22.49@0: [ 9670.064381][    C0] ath_reset
+2026.04.20-09:43:22.50@0: [ 9670.068077][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:43:27.56@0: [ 9675.134338][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:43:27.56@0: [ 9675.134385][    C0] ath_reset
+2026.04.20-09:43:27.57@0: [ 9675.138066][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:43:32.63@0: [ 9680.204332][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:43:32.63@0: [ 9680.204384][    C0] ath_reset
+2026.04.20-09:43:32.64@0: [ 9680.208062][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:43:37.70@0: [ 9685.274334][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:43:37.70@0: [ 9685.274386][    C0] ath_reset
+2026.04.20-09:43:37.71@0: [ 9685.278073][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:43:42.77@0: [ 9690.344330][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:43:42.77@0: [ 9690.344379][    C0] ath_reset
+2026.04.20-09:43:42.78@0: [ 9690.348060][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:43:47.84@0: [ 9695.414328][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:43:47.84@0: [ 9695.414378][    C0] ath_reset
+2026.04.20-09:43:47.85@0: [ 9695.418068][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:43:52.91@0: [ 9700.484328][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:43:52.91@0: [ 9700.484374][    C0] ath_reset
+2026.04.20-09:43:52.92@0: [ 9700.488058][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:43:57.98@0: [ 9705.554357][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:43:57.98@0: [ 9705.554409][    C0] ath_reset
+2026.04.20-09:43:57.99@0: [ 9705.558094][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:44:03.05@0: [ 9710.624329][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:44:03.05@0: [ 9710.624379][    C0] ath_reset
+2026.04.20-09:44:03.06@0: [ 9710.628059][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:44:08.12@0: [ 9715.694325][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:44:08.12@0: [ 9715.694376][    C0] ath_reset
+2026.04.20-09:44:08.13@0: [ 9715.698057][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:44:13.19@0: [ 9720.764329][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:44:13.19@0: [ 9720.764378][    C0] ath_reset
+2026.04.20-09:44:13.20@0: [ 9720.768067][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:44:18.26@0: [ 9725.834337][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:44:18.26@0: [ 9725.834389][    C0] ath_reset
+2026.04.20-09:44:18.27@0: [ 9725.838072][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:44:23.33@0: [ 9730.904358][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:44:23.33@0: [ 9730.904409][    C0] ath_reset
+2026.04.20-09:44:23.34@0: [ 9730.908090][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:44:28.40@0: [ 9735.974325][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:44:28.40@0: [ 9735.974375][    C0] ath_reset
+2026.04.20-09:44:28.41@0: [ 9735.978056][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+
+@cloud@
+scribed
+
+@syslog@
+2026.04.20-09:44:33.47@0: [ 9741.044335][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:44:33.47@0: [ 9741.044387][    C0] ath_reset
+2026.04.20-09:44:33.48@0: [ 9741.048065][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:44:38.54@0: [ 9746.114325][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:44:38.54@0: [ 9746.114376][    C0] ath_reset
+2026.04.20-09:44:38.55@0: [ 9746.118056][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:44:43.61@0: [ 9751.184336][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:44:43.61@0: [ 9751.184384][    C0] ath_reset
+2026.04.20-09:44:43.62@0: [ 9751.188076][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:44:48.68@0: [ 9756.254323][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:44:48.68@0: [ 9756.254374][    C0] ath_reset
+2026.04.20-09:44:48.69@0: [ 9756.258052][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:44:53.75@0: [ 9761.324322][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:44:53.75@0: [ 9761.324372][    C0] ath_reset
+2026.04.20-09:44:53.76@0: [ 9761.328051][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:44:58.82@0: [ 9766.394324][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:44:58.82@0: [ 9766.394374][    C0] ath_reset
+2026.04.20-09:44:58.83@0: [ 9766.398070][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:45:03.89@0: [ 9771.464325][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:45:03.89@0: [ 9771.464376][    C0] ath_reset
+2026.04.20-09:45:03.90@0: [ 9771.468056][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:45:08.96@0: [ 9776.534322][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:45:08.96@0: [ 9776.534374][    C0] ath_reset
+2026.04.20-09:45:08.97@0: [ 9776.538053][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:45:14.03@0: [ 9781.604322][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:45:14.03@0: [ 9781.604373][    C0] ath_reset
+2026.04.20-09:45:14.04@0: [ 9781.608053][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:45:19.10@0: [ 9786.674326][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:45:19.10@0: [ 9786.674379][    C0] ath_reset
+2026.04.20-09:45:19.11@0: [ 9786.678064][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:45:24.17@0: [ 9791.744320][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:45:24.17@0: [ 9791.744372][    C0] ath_reset
+2026.04.20-09:45:24.18@0: [ 9791.748053][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:45:29.24@0: [ 9796.814319][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:45:29.24@0: [ 9796.814374][    C0] ath_reset
+2026.04.20-09:45:29.25@0: [ 9796.818054][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:45:34.31@0: [ 9801.884320][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:45:34.31@0: [ 9801.884372][    C0] ath_reset
+2026.04.20-09:45:34.32@0: [ 9801.888051][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:45:39.38@0: [ 9806.954322][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:45:39.38@0: [ 9806.954376][    C0] ath_reset
+2026.04.20-09:45:39.39@0: [ 9806.958064][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:45:44.45@0: [ 9812.024320][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:45:44.45@0: [ 9812.024372][    C0] ath_reset
+2026.04.20-09:45:44.46@0: [ 9812.028054][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:45:49.52@0: [ 9817.094332][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:45:49.52@0: [ 9817.094382][    C0] ath_reset
+2026.04.20-09:45:49.53@0: [ 9817.098072][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:45:54.59@0: [ 9822.164323][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:45:54.59@0: [ 9822.164376][    C0] ath_reset
+2026.04.20-09:45:54.60@0: [ 9822.168056][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:45:59.66@0: [ 9827.234317][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:45:59.66@0: [ 9827.234368][    C0] ath_reset
+2026.04.20-09:45:59.67@0: [ 9827.238054][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:46:04.73@0: [ 9832.304322][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:46:04.73@0: [ 9832.304375][    C0] ath_reset
+2026.04.20-09:46:04.74@0: [ 9832.308055][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:46:09.80@0: [ 9837.374333][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:46:09.80@0: [ 9837.374383][    C0] ath_reset
+2026.04.20-09:46:09.81@0: [ 9837.378068][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:46:14.87@0: [ 9842.444370][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:46:14.87@0: [ 9842.444421][    C0] ath_reset
+2026.04.20-09:46:14.88@0: [ 9842.448103][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:46:19.94@0: [ 9847.514336][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:46:19.94@0: [ 9847.514387][    C0] ath_reset
+2026.04.20-09:46:19.95@0: [ 9847.518070][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:46:25.01@0: [ 9852.584319][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:46:25.01@0: [ 9852.584373][    C0] ath_reset
+2026.04.20-09:46:25.02@0: [ 9852.588064][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:46:30.08@0: [ 9857.654332][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:46:30.08@0: [ 9857.654383][    C0] ath_reset
+2026.04.20-09:46:30.09@0: [ 9857.658062][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:46:35.15@0: [ 9862.724350][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:46:35.15@0: [ 9862.724404][    C0] ath_reset
+2026.04.20-09:46:35.16@0: [ 9862.728087][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:46:40.22@0: [ 9867.794316][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:46:40.22@0: [ 9867.794368][    C0] ath_reset
+2026.04.20-09:46:40.23@0: [ 9867.798048][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:46:45.29@0: [ 9872.864316][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:46:45.29@0: [ 9872.864369][    C0] ath_reset
+2026.04.20-09:46:45.30@0: [ 9872.868054][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:46:50.36@0: [ 9877.934314][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:46:50.36@0: [ 9877.934366][    C0] ath_reset
+2026.04.20-09:46:50.37@0: [ 9877.938047][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:46:55.43@0: [ 9883.004330][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:46:55.43@0: [ 9883.004381][    C0] ath_reset
+2026.04.20-09:46:55.44@0: [ 9883.008061][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:47:00.50@0: [ 9888.074316][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:47:00.50@0: [ 9888.074368][    C0] ath_reset
+2026.04.20-09:47:00.51@0: [ 9888.078049][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:47:05.57@0: [ 9893.144314][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:47:05.57@0: [ 9893.144364][    C0] ath_reset
+2026.04.20-09:47:05.58@0: [ 9893.148047][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:47:10.64@0: [ 9898.214314][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:47:10.64@0: [ 9898.214368][    C0] ath_reset
+2026.04.20-09:47:10.65@0: [ 9898.218048][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:47:15.71@0: [ 9903.284312][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:47:15.71@0: [ 9903.284370][    C0] ath_reset
+2026.04.20-09:47:15.72@0: [ 9903.288052][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:47:20.78@0: [ 9908.354327][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:47:20.78@0: [ 9908.354378][    C0] ath_reset
+2026.04.20-09:47:20.79@0: [ 9908.358057][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:47:25.85@0: [ 9913.424330][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:47:25.85@0: [ 9913.424383][    C0] ath_reset
+2026.04.20-09:47:25.86@0: [ 9913.428060][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:47:30.92@0: [ 9918.494329][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:47:30.92@0: [ 9918.494381][    C0] ath_reset
+2026.04.20-09:47:30.93@0: [ 9918.498062][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:47:35.99@0: [ 9923.564328][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:47:35.99@0: [ 9923.564376][    C0] ath_reset
+2026.04.20-09:47:36.00@0: [ 9923.568064][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:47:41.06@0: [ 9928.634344][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:47:41.06@0: [ 9928.634399][    C0] ath_reset
+2026.04.20-09:47:41.07@0: [ 9928.638085][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:47:46.13@0: [ 9933.704312][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:47:46.13@0: [ 9933.704363][    C0] ath_reset
+2026.04.20-09:47:46.14@0: [ 9933.708044][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:47:51.20@0: [ 9938.774312][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:47:51.20@0: [ 9938.774365][    C0] ath_reset
+2026.04.20-09:47:51.21@0: [ 9938.778047][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:47:56.27@0: [ 9943.844322][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:47:56.27@0: [ 9943.844372][    C0] ath_reset
+2026.04.20-09:47:56.28@0: [ 9943.848056][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:48:01.34@0: [ 9948.914313][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:48:01.34@0: [ 9948.914366][    C0] ath_reset
+2026.04.20-09:48:01.35@0: [ 9948.918045][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:48:06.41@0: [ 9953.984310][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:48:06.41@0: [ 9953.984362][    C0] ath_reset
+2026.04.20-09:48:06.42@0: [ 9953.988043][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:48:11.48@0: [ 9959.054313][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:48:11.48@0: [ 9959.054365][    C0] ath_reset
+2026.04.20-09:48:11.49@0: [ 9959.058043][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:48:11.75@0: [ 9959.324280][   T68] ctl_key_set: vid 0, idx 2, algo 3
+2026.04.20-09:48:11.75@0: [ 9959.324363][   T68] aesccm_init: wep_kid 2, id 35
+2026.04.20-09:48:11.75@0: [ 9959.324449][   T68] ctl_txkey_set: updated txkey to 2
+2026.04.20-09:48:11.75@0: [ 9959.324476][   T68] ctl_key_set: vid 0, idx 1, algo 0
+2026.04.20-09:48:16.55@0: [ 9964.124310][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:48:16.55@0: [ 9964.124361][    C0] ath_reset
+2026.04.20-09:48:16.56@0: [ 9964.128046][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:48:21.62@0: [ 9969.194327][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:48:21.62@0: [ 9969.194375][    C0] ath_reset
+2026.04.20-09:48:21.63@0: [ 9969.198066][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:48:26.69@0: [ 9974.264313][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:48:26.69@0: [ 9974.264365][    C0] ath_reset
+2026.04.20-09:48:26.70@0: [ 9974.268049][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:48:31.76@0: [ 9979.334314][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:48:31.76@0: [ 9979.334367][    C0] ath_reset
+2026.04.20-09:48:31.77@0: [ 9979.338047][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:48:36.83@0: [ 9984.404312][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:48:36.83@0: [ 9984.404359][    C0] ath_reset
+2026.04.20-09:48:36.84@0: [ 9984.408041][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:48:41.90@0: [ 9989.474319][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:48:41.90@0: [ 9989.474371][    C0] ath_reset
+2026.04.20-09:48:41.91@0: [ 9989.478049][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:48:46.97@0: [ 9994.544309][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:48:46.97@0: [ 9994.544358][    C0] ath_reset
+2026.04.20-09:48:46.98@0: [ 9994.548046][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:48:52.04@0: [ 9999.614310][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:48:52.04@0: [ 9999.614360][    C0] ath_reset
+2026.04.20-09:48:52.05@0: [ 9999.618038][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:48:57.11@0: [10004.684309][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:48:57.11@0: [10004.684361][    C0] ath_reset
+2026.04.20-09:48:57.12@0: [10004.688042][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:49:02.18@0: [10009.754312][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:49:02.18@0: [10009.754365][    C0] ath_reset
+2026.04.20-09:49:02.19@0: [10009.758052][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:49:07.25@0: [10014.824309][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:49:07.25@0: [10014.824359][    C0] ath_reset
+2026.04.20-09:49:07.26@0: [10014.828041][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:49:12.32@0: [10019.894310][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:49:12.32@0: [10019.894359][    C0] ath_reset
+2026.04.20-09:49:12.33@0: [10019.898040][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:49:17.39@0: [10024.964343][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:49:17.39@0: [10024.964395][    C0] ath_reset
+2026.04.20-09:49:17.40@0: [10024.968079][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:49:22.46@0: [10030.034308][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:49:22.46@0: [10030.034358][    C0] ath_reset
+2026.04.20-09:49:22.47@0: [10030.038037][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:49:27.53@0: [10035.104313][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:49:27.53@0: [10035.104365][    C0] ath_reset
+2026.04.20-09:49:27.54@0: [10035.108044][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:49:32.60@0: [10040.174306][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:49:32.60@0: [10040.174355][    C0] ath_reset
+2026.04.20-09:49:32.61@0: [10040.178034][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:49:37.67@0: [10045.244323][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:49:37.67@0: [10045.244372][    C0] ath_reset
+2026.04.20-09:49:37.68@0: [10045.248052][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:49:42.74@0: [10050.314307][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:49:42.74@0: [10050.314359][    C0] ath_reset
+2026.04.20-09:49:42.75@0: [10050.318039][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:49:47.81@0: [10055.384306][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:49:47.81@0: [10055.384355][    C0] ath_reset
+2026.04.20-09:49:47.82@0: [10055.388034][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:49:52.88@0: [10060.454304][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:49:52.88@0: [10060.454355][    C0] ath_reset
+2026.04.20-09:49:52.89@0: [10060.458035][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:49:57.95@0: [10065.524306][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:49:57.95@0: [10065.524357][    C0] ath_reset
+2026.04.20-09:49:57.96@0: [10065.528039][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:50:03.02@0: [10070.594322][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:50:03.02@0: [10070.594371][    C0] ath_reset
+2026.04.20-09:50:03.03@0: [10070.598054][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:50:08.09@0: [10075.664303][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:50:08.09@0: [10075.664353][    C0] ath_reset
+2026.04.20-09:50:08.10@0: [10075.668033][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:50:13.16@0: [10080.734305][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:50:13.16@0: [10080.734354][    C0] ath_reset
+2026.04.20-09:50:13.17@0: [10080.738034][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:50:18.23@0: [10085.804304][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:50:18.23@0: [10085.804355][    C0] ath_reset
+2026.04.20-09:50:18.24@0: [10085.808036][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:50:23.30@0: [10090.874303][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:50:23.30@0: [10090.874356][    C0] ath_reset
+2026.04.20-09:50:23.31@0: [10090.878038][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:50:28.37@0: [10095.944335][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:50:28.37@0: [10095.944389][    C0] ath_reset
+2026.04.20-09:50:28.38@0: [10095.948075][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:50:33.44@0: [10101.014305][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:50:33.44@0: [10101.014358][    C0] ath_reset
+2026.04.20-09:50:33.45@0: [10101.018038][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:50:38.51@0: [10106.084353][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:50:38.51@0: [10106.084408][    C0] ath_reset
+2026.04.20-09:50:38.52@0: [10106.088097][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:50:43.58@0: [10111.154305][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:50:43.58@0: [10111.154357][    C0] ath_reset
+2026.04.20-09:50:43.59@0: [10111.158035][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:50:48.65@0: [10116.224301][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:50:48.65@0: [10116.224352][    C0] ath_reset
+2026.04.20-09:50:48.66@0: [10116.228037][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:50:53.72@0: [10121.294317][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:50:53.72@0: [10121.294370][    C0] ath_reset
+2026.04.20-09:50:53.73@0: [10121.298052][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:50:58.79@0: [10126.364303][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:50:58.79@0: [10126.364352][    C0] ath_reset
+2026.04.20-09:50:58.80@0: [10126.368039][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:51:03.86@0: [10131.434301][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:51:03.86@0: [10131.434350][    C0] ath_reset
+2026.04.20-09:51:03.87@0: [10131.438031][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:51:08.93@0: [10136.504302][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:51:08.93@0: [10136.504353][    C0] ath_reset
+2026.04.20-09:51:08.94@0: [10136.508035][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:51:14.00@0: [10141.574305][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:51:14.00@0: [10141.574358][    C0] ath_reset
+2026.04.20-09:51:14.01@0: [10141.578044][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:51:19.07@0: [10146.644300][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:51:19.07@0: [10146.644350][    C0] ath_reset
+2026.04.20-09:51:19.08@0: [10146.648030][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:51:24.14@0: [10151.714306][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:51:24.14@0: [10151.714359][    C0] ath_reset
+2026.04.20-09:51:24.15@0: [10151.718043][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:51:29.21@0: [10156.784302][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:51:29.21@0: [10156.784355][    C0] ath_reset
+2026.04.20-09:51:29.22@0: [10156.788035][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:51:34.28@0: [10161.854310][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:51:34.28@0: [10161.854361][    C0] ath_reset
+2026.04.20-09:51:34.29@0: [10161.858040][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:51:39.35@0: [10166.924310][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:51:39.35@0: [10166.924363][    C0] ath_reset
+2026.04.20-09:51:39.36@0: [10166.928044][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:51:44.42@0: [10171.994299][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:51:44.42@0: [10171.994352][    C0] ath_reset
+2026.04.20-09:51:44.43@0: [10171.998031][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:51:49.49@0: [10177.064296][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:51:49.49@0: [10177.064347][    C0] ath_reset
+2026.04.20-09:51:49.50@0: [10177.068027][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:51:54.56@0: [10182.134299][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:51:54.56@0: [10182.134352][    C0] ath_reset
+2026.04.20-09:51:54.57@0: [10182.138042][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:51:59.63@0: [10187.204308][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:51:59.63@0: [10187.204362][    C0] ath_reset
+2026.04.20-09:51:59.64@0: [10187.208042][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:52:04.70@0: [10192.274305][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:52:04.70@0: [10192.274357][    C0] ath_reset
+2026.04.20-09:52:04.71@0: [10192.278054][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:52:09.77@0: [10197.344313][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:52:09.77@0: [10197.344366][    C0] ath_reset
+2026.04.20-09:52:09.78@0: [10197.348047][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:52:14.84@0: [10202.414313][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:52:14.84@0: [10202.414367][    C0] ath_reset
+2026.04.20-09:52:14.85@0: [10202.418049][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:52:19.91@0: [10207.484297][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:52:19.91@0: [10207.484348][    C0] ath_reset
+2026.04.20-09:52:19.92@0: [10207.488037][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:52:24.98@0: [10212.554330][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:52:24.98@0: [10212.554384][    C0] ath_reset
+2026.04.20-09:52:24.99@0: [10212.558069][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:52:30.05@0: [10217.624337][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:52:30.05@0: [10217.624390][    C0] ath_reset
+2026.04.20-09:52:30.06@0: [10217.628078][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:52:35.12@0: [10222.694294][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:52:35.12@0: [10222.694346][    C0] ath_reset
+2026.04.20-09:52:35.13@0: [10222.698037][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:52:40.19@0: [10227.764295][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:52:40.19@0: [10227.764346][    C0] ath_reset
+2026.04.20-09:52:40.20@0: [10227.768025][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:52:45.26@0: [10232.834292][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:52:45.26@0: [10232.834343][    C0] ath_reset
+2026.04.20-09:52:45.27@0: [10232.838024][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:52:50.33@0: [10237.904297][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:52:50.33@0: [10237.904349][    C0] ath_reset
+2026.04.20-09:52:50.34@0: [10237.908031][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:52:55.40@0: [10242.974308][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:52:55.40@0: [10242.974363][    C0] ath_reset
+2026.04.20-09:52:55.41@0: [10242.978041][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:53:00.47@0: [10248.044292][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:53:00.47@0: [10248.044344][    C0] ath_reset
+2026.04.20-09:53:00.48@0: [10248.048026][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:53:05.54@0: [10253.114337][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:53:05.54@0: [10253.114385][    C0] ath_reset
+2026.04.20-09:53:05.55@0: [10253.118069][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:53:10.61@0: [10258.184295][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:53:10.61@0: [10258.184348][    C0] ath_reset
+2026.04.20-09:53:10.62@0: [10258.188026][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:53:11.76@0: [10259.333920][   T68] ctl_key_set: vid 0, idx 1, algo 3
+2026.04.20-09:53:11.76@0: [10259.333976][   T68] aesccm_init: wep_kid 1, id 36
+2026.04.20-09:53:11.76@0: [10259.334051][   T68] ctl_txkey_set: updated txkey to 1
+2026.04.20-09:53:11.76@0: [10259.334079][   T68] ctl_key_set: vid 0, idx 2, algo 0
+2026.04.20-09:53:15.68@0: [10263.254292][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:53:15.68@0: [10263.254341][    C0] ath_reset
+2026.04.20-09:53:15.69@0: [10263.258020][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:53:20.75@0: [10268.324294][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:53:20.75@0: [10268.324345][    C0] ath_reset
+2026.04.20-09:53:20.76@0: [10268.328027][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:53:25.82@0: [10273.394308][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:53:25.82@0: [10273.394359][    C0] ath_reset
+2026.04.20-09:53:25.83@0: [10273.398037][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:53:30.89@0: [10278.464293][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:53:30.89@0: [10278.464342][    C0] ath_reset
+2026.04.20-09:53:30.90@0: [10278.468021][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:53:35.96@0: [10283.534294][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:53:35.96@0: [10283.534344][    C0] ath_reset
+2026.04.20-09:53:35.97@0: [10283.538023][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:53:41.03@0: [10288.604308][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:53:41.03@0: [10288.604360][    C0] ath_reset
+2026.04.20-09:53:41.04@0: [10288.608041][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:53:46.10@0: [10293.674292][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:53:46.10@0: [10293.674341][    C0] ath_reset
+2026.04.20-09:53:46.11@0: [10293.678020][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:53:51.17@0: [10298.744294][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:53:51.17@0: [10298.744345][    C0] ath_reset
+2026.04.20-09:53:51.18@0: [10298.748033][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:53:56.24@0: [10303.814292][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:53:56.24@0: [10303.814343][    C0] ath_reset
+2026.04.20-09:53:56.25@0: [10303.818024][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:54:01.31@0: [10308.884301][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:54:01.31@0: [10308.884353][    C0] ath_reset
+2026.04.20-09:54:01.32@0: [10308.888042][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:54:06.38@0: [10313.954292][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:54:06.38@0: [10313.954342][    C0] ath_reset
+2026.04.20-09:54:06.39@0: [10313.958025][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:54:11.45@0: [10319.024291][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:54:11.45@0: [10319.024341][    C0] ath_reset
+2026.04.20-09:54:11.46@0: [10319.028018][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:54:16.52@0: [10324.094289][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:54:16.52@0: [10324.094339][    C0] ath_reset
+2026.04.20-09:54:16.53@0: [10324.098018][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:54:21.59@0: [10329.164321][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:54:21.59@0: [10329.164373][    C0] ath_reset
+2026.04.20-09:54:21.60@0: [10329.168056][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:54:26.66@0: [10334.234332][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:54:26.66@0: [10334.234384][    C0] ath_reset
+2026.04.20-09:54:26.67@0: [10334.238070][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:54:31.73@0: [10339.304300][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:54:31.73@0: [10339.304347][    C0] ath_reset
+2026.04.20-09:54:31.74@0: [10339.308029][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:54:36.80@0: [10344.374287][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:54:36.80@0: [10344.374337][    C0] ath_reset
+2026.04.20-09:54:36.81@0: [10344.378014][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:54:41.87@0: [10349.444291][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:54:41.87@0: [10349.444343][    C0] ath_reset
+2026.04.20-09:54:41.88@0: [10349.448026][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:54:46.94@0: [10354.514319][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:54:46.94@0: [10354.514368][    C0] ath_reset
+2026.04.20-09:54:46.95@0: [10354.518050][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:54:52.01@0: [10359.584291][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:54:52.01@0: [10359.584343][    C0] ath_reset
+2026.04.20-09:54:52.02@0: [10359.588028][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+2026.04.20-09:54:57.08@0: [10364.654304][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:54:57.08@0: [10364.654355][    C0] ath_reset
+2026.04.20-09:54:57.09@0: [10364.658035][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)

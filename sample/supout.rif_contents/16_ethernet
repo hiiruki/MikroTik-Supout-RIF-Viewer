@@ -1,0 +1,313 @@
+INTERFACE ETHERNET
+Flags: R - RUNNING; S - SLAVE
+Columns: NAME, MTU, MAC-ADDRESS, ARP, SWITCH
+#    NAME     MTU  MAC-ADDRESS        ARP      SWITCH 
+0  S ether1  1500  F4:1E:57:4E:1F:A0  enabled  switch1
+1 RS ether2  1500  F4:1E:57:4E:1F:A1  enabled  switch1
+2  S ether3  1500  F4:1E:57:4E:1F:A2  enabled  switch1
+3  S ether4  1500  F4:1E:57:4E:1F:A3  enabled  switch1
+
+Flags: X - disabled, R - running; S - slave 
+ 0  S name="ether1" default-name="ether1" mtu=1500 l2mtu=1598 mac-address=F4:1E:57:4E:1F:A0 orig-mac-address=F4:1E:57:4E:1F:A0 arp=enabled arp-timeout=auto loop-protect=default 
+      loop-protect-status=off loop-protect-send-interval=5s loop-protect-disable-time=5m auto-negotiation=yes 
+      advertise=10M-baseT-half,10M-baseT-full,100M-baseT-half,100M-baseT-full tx-flow-control=off rx-flow-control=off bandwidth=unlimited/unlimited switch=switch1 
+
+ 1 RS name="ether2" default-name="ether2" mtu=1500 l2mtu=1598 mac-address=F4:1E:57:4E:1F:A1 orig-mac-address=F4:1E:57:4E:1F:A1 arp=enabled arp-timeout=auto loop-protect=default 
+      loop-protect-status=off loop-protect-send-interval=5s loop-protect-disable-time=5m auto-negotiation=yes 
+      advertise=10M-baseT-half,10M-baseT-full,100M-baseT-half,100M-baseT-full tx-flow-control=off rx-flow-control=off bandwidth=unlimited/unlimited switch=switch1 
+
+ 2  S name="ether3" default-name="ether3" mtu=1500 l2mtu=1598 mac-address=F4:1E:57:4E:1F:A2 orig-mac-address=F4:1E:57:4E:1F:A2 arp=enabled arp-timeout=auto loop-protect=default 
+      loop-protect-status=off loop-protect-send-interval=5s loop-protect-disable-time=5m auto-negotiation=yes 
+      advertise=10M-baseT-half,10M-baseT-full,100M-baseT-half,100M-baseT-full tx-flow-control=off rx-flow-control=off bandwidth=unlimited/unlimited switch=switch1 
+
+ 3  S name="ether4" default-name="ether4" mtu=1500 l2mtu=1598 mac-address=F4:1E:57:4E:1F:A3 orig-mac-address=F4:1E:57:4E:1F:A3 arp=enabled arp-timeout=auto loop-protect=default 
+      loop-protect-status=off loop-protect-send-interval=5s loop-protect-disable-time=5m auto-negotiation=yes 
+      advertise=10M-baseT-half,10M-baseT-full,100M-baseT-half,100M-baseT-full tx-flow-control=off rx-flow-control=off bandwidth=unlimited/unlimited switch=switch1 
+
+ = = = ether1 = = =
+                      name: ether1         
+                    status: no-link        
+          auto-negotiation: done           
+                 supported: 10M-baseT-half 
+                            10M-baseT-full 
+                            100M-baseT-half
+                            100M-baseT-full
+               advertising: 10M-baseT-half 
+                            10M-baseT-full 
+                            100M-baseT-half
+                            100M-baseT-full
+  link-partner-advertising:                
+
+
+ = = = ether2 = = =
+                      name: ether2         
+                    status: link-ok        
+          auto-negotiation: done           
+                      rate: 100Mbps        
+               full-duplex: yes            
+           tx-flow-control: no             
+           rx-flow-control: no             
+                 supported: 10M-baseT-half 
+                            10M-baseT-full 
+                            100M-baseT-half
+                            100M-baseT-full
+               advertising: 10M-baseT-half 
+                            10M-baseT-full 
+                            100M-baseT-half
+                            100M-baseT-full
+  link-partner-advertising: 10M-baseT-half 
+                            10M-baseT-full 
+                            100M-baseT-half
+                            100M-baseT-full
+
+
+ = = = ether3 = = =
+                      name: ether3         
+                    status: no-link        
+          auto-negotiation: done           
+                 supported: 10M-baseT-half 
+                            10M-baseT-full 
+                            100M-baseT-half
+                            100M-baseT-full
+               advertising: 10M-baseT-half 
+                            10M-baseT-full 
+                            100M-baseT-half
+                            100M-baseT-full
+  link-partner-advertising:                
+
+
+ = = = ether4 = = =
+                      name: ether4         
+                    status: no-link        
+          auto-negotiation: done           
+                 supported: 10M-baseT-half 
+                            10M-baseT-full 
+                            100M-baseT-half
+                            100M-baseT-full
+               advertising: 10M-baseT-half 
+                            10M-baseT-full 
+                            100M-baseT-half
+                            100M-baseT-full
+  link-partner-advertising:                
+
+
+INTERFACE ETHERNET STATS
+                    name: ether1     ether2 ether3 ether4
+          driver-rx-byte:      0  8 373 146      0      0
+        driver-rx-packet:      0     61 606      0      0
+          driver-tx-byte:      0 25 336 903      0      0
+        driver-tx-packet:      0     44 745      0      0
+                rx-bytes:      0  8 624 155      0      0
+            rx-too-short:      0          0      0      0
+                   rx-64:      0      3 109      0      0
+               rx-65-127:      0     33 073      0      0
+              rx-128-255:      0     21 414      0      0
+              rx-256-511:      0      1 167      0      0
+             rx-512-1023:      0      2 744      0      0
+            rx-1024-1518:      0        114      0      0
+             rx-1519-max:      0          0      0      0
+             rx-too-long:      0          0      0      0
+            rx-broadcast:      0     41 767      0      0
+                rx-pause:      0          0      0      0
+            rx-multicast:      0     19 848      0      0
+            rx-fcs-error:      0          0      0      0
+          rx-align-error:      0          0      0      0
+             rx-fragment:      0          0      0      0
+             rx-overflow:      0          0      0      0
+                tx-bytes:      0 25 515 309      0      0
+                   tx-64:      0      5 231      0      0
+               tx-65-127:      0     13 513      0      0
+              tx-128-255:      0      1 339      0      0
+              tx-256-511:      0     12 366      0      0
+             tx-512-1023:      0      1 593      0      0
+            tx-1024-1518:      0     10 701      0      0
+             tx-1519-max:      0          0      0      0
+             tx-too-long:      0          0      0      0
+            tx-broadcast:      0        351      0      0
+                tx-pause:      0          0      0      0
+            tx-multicast:      0      5 932      0      0
+             tx-underrun:      0          0      0      0
+            tx-collision:      0          0      0      0
+  tx-excessive-collision:      0          0      0      0
+   tx-multiple-collision:      0          0      0      0
+     tx-single-collision:      0          0      0      0
+   tx-excessive-deferred:      0          0      0      0
+             tx-deferred:      0          0      0      0
+       tx-late-collision:      0          0      0      0
+
+                    name: ether1
+          driver-rx-byte:      0
+        driver-rx-packet:      0
+          driver-tx-byte:      0
+        driver-tx-packet:      0
+                rx-bytes:      0
+            rx-too-short:      0
+                   rx-64:      0
+               rx-65-127:      0
+              rx-128-255:      0
+              rx-256-511:      0
+             rx-512-1023:      0
+            rx-1024-1518:      0
+             rx-1519-max:      0
+             rx-too-long:      0
+            rx-broadcast:      0
+                rx-pause:      0
+            rx-multicast:      0
+            rx-fcs-error:      0
+          rx-align-error:      0
+             rx-fragment:      0
+             rx-overflow:      0
+                tx-bytes:      0
+                   tx-64:      0
+               tx-65-127:      0
+              tx-128-255:      0
+              tx-256-511:      0
+             tx-512-1023:      0
+            tx-1024-1518:      0
+             tx-1519-max:      0
+             tx-too-long:      0
+            tx-broadcast:      0
+                tx-pause:      0
+            tx-multicast:      0
+             tx-underrun:      0
+            tx-collision:      0
+  tx-excessive-collision:      0
+   tx-multiple-collision:      0
+     tx-single-collision:      0
+   tx-excessive-deferred:      0
+             tx-deferred:      0
+       tx-late-collision:      0
+
+
+                    name:     ether2
+          driver-rx-byte:  8 381 430
+        driver-rx-packet:     61 676
+          driver-tx-byte: 25 348 798
+        driver-tx-packet:     44 802
+                rx-bytes:  8 632 744
+            rx-too-short:          0
+                   rx-64:      3 109
+               rx-65-127:     33 116
+              rx-128-255:     21 441
+              rx-256-511:      1 167
+             rx-512-1023:      2 744
+            rx-1024-1518:        114
+             rx-1519-max:          0
+             rx-too-long:          0
+            rx-broadcast:     41 818
+                rx-pause:          0
+            rx-multicast:     19 867
+            rx-fcs-error:          0
+          rx-align-error:          0
+             rx-fragment:          0
+             rx-overflow:          0
+                tx-bytes: 25 528 006
+                   tx-64:      5 236
+               tx-65-127:     13 536
+              tx-128-255:      1 354
+              tx-256-511:     12 382
+             tx-512-1023:      1 593
+            tx-1024-1518:     10 701
+             tx-1519-max:          0
+             tx-too-long:          0
+            tx-broadcast:        352
+                tx-pause:          0
+            tx-multicast:      5 939
+             tx-underrun:          0
+            tx-collision:          0
+  tx-excessive-collision:          0
+   tx-multiple-collision:          0
+     tx-single-collision:          0
+   tx-excessive-deferred:          0
+             tx-deferred:          0
+       tx-late-collision:          0
+
+
+                    name: ether3
+          driver-rx-byte:      0
+        driver-rx-packet:      0
+          driver-tx-byte:      0
+        driver-tx-packet:      0
+                rx-bytes:      0
+            rx-too-short:      0
+                   rx-64:      0
+               rx-65-127:      0
+              rx-128-255:      0
+              rx-256-511:      0
+             rx-512-1023:      0
+            rx-1024-1518:      0
+             rx-1519-max:      0
+             rx-too-long:      0
+            rx-broadcast:      0
+                rx-pause:      0
+            rx-multicast:      0
+            rx-fcs-error:      0
+          rx-align-error:      0
+             rx-fragment:      0
+             rx-overflow:      0
+                tx-bytes:      0
+                   tx-64:      0
+               tx-65-127:      0
+              tx-128-255:      0
+              tx-256-511:      0
+             tx-512-1023:      0
+            tx-1024-1518:      0
+             tx-1519-max:      0
+             tx-too-long:      0
+            tx-broadcast:      0
+                tx-pause:      0
+            tx-multicast:      0
+             tx-underrun:      0
+            tx-collision:      0
+  tx-excessive-collision:      0
+   tx-multiple-collision:      0
+     tx-single-collision:      0
+   tx-excessive-deferred:      0
+             tx-deferred:      0
+       tx-late-collision:      0
+
+
+                    name: ether4
+          driver-rx-byte:      0
+        driver-rx-packet:      0
+          driver-tx-byte:      0
+        driver-tx-packet:      0
+                rx-bytes:      0
+            rx-too-short:      0
+                   rx-64:      0
+               rx-65-127:      0
+              rx-128-255:      0
+              rx-256-511:      0
+             rx-512-1023:      0
+            rx-1024-1518:      0
+             rx-1519-max:      0
+             rx-too-long:      0
+            rx-broadcast:      0
+                rx-pause:      0
+            rx-multicast:      0
+            rx-fcs-error:      0
+          rx-align-error:      0
+             rx-fragment:      0
+             rx-overflow:      0
+                tx-bytes:      0
+                   tx-64:      0
+               tx-65-127:      0
+              tx-128-255:      0
+              tx-256-511:      0
+             tx-512-1023:      0
+            tx-1024-1518:      0
+             tx-1519-max:      0
+             tx-too-long:      0
+            tx-broadcast:      0
+                tx-pause:      0
+            tx-multicast:      0
+             tx-underrun:      0
+            tx-collision:      0
+  tx-excessive-collision:      0
+   tx-multiple-collision:      0
+     tx-single-collision:      0
+   tx-excessive-deferred:      0
+             tx-deferred:      0
+       tx-late-collision:      0
+
+

@@ -1,0 +1,12 @@
+MANGLE
+
+NAT
+Columns: CHAIN, ACTION, BYTES, PACKETS
+# CHAIN   ACTION      BYTES  PACKETS
+0 srcnat  masquerade      0        0
+1 srcnat  masquerade      0        0
+
+FILTER
+
+RAW
+

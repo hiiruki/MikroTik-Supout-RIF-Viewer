@@ -1,0 +1,12 @@
+NEIGHBOR
+Flags: D - dynamic 
+
+INTERFACE TEMPLATE
+Flags: X - disabled, I - inactive 
+
+INTERFACE
+Flags: D - dynamic 
+
+LSP
+Flags: I - inactive, D - dynamic 
+

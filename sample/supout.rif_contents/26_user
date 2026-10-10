@@ -1,0 +1,13 @@
+USER ACTIVE
+Flags: R - radius; M - by-romon 
+ 0    when=2026-04-20 14:03:24 name="admin" address=26:4A:74:A1:22:B0 via=winbox group=full 
+
+SYSTEM SCRIPT JOB
+Columns: TYPE, STARTED
+#  TYPE     STARTED            
+0  command  2026-04-20 16:58:51
+
+PUBLIC SSH-KEYS
+
+PRIVATE SSH-KEYS
+

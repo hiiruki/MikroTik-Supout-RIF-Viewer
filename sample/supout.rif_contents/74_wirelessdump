@@ -1,0 +1,25 @@
+  txfree 128 txdone 0 txscurr 0 first 68ae5892 txe 0x0
+  recover_resets 0 recoverval 0x0 machang 0, bbpanics 0, panicval 0x0
+  bbpanics_B 0 bbpanics_wouldreset 0 bbpanics_resets 0
+
+  nf_resets 0
+  txfree 128 txdone 0 txscurr 0 first 68ae5892 txe 0x0
+  recover_resets 0 recoverval 0x0 machang 0, bbpanics 0, panicval 0x0
+  bbpanics_B 0 bbpanics_wouldreset 0 bbpanics_resets 0
+
+  nf_resets 0
+UNAME: wlan1
+ath0: flags 0x44, mvd->flags 0x3, netif_s 0, localb 0
+  txdeq 0x81788084, localp 0
+  postbeacons 0
+f4:1e:57:4e:1f:a5: flags 0x1, bytes 0, blocked 0, ref 1, state 0
+ff:ff:ff:ff:ff:ff: flags 0xb, bytes 0, blocked 0, ref 1, state 0
+ath:
+  flags 0x42090, filter 0x42f, free_for_data 128 txfullacs 0x0 txusedacs 0x0
+  rxcurr 0, txtimeout_resets 2
+  beacon_resets 3, papd_failures 0, monitor_resets 2110
+  txfree 128 txdone 0 txscurr 7 first 68ae5892 txe 0x0
+  recover_resets 0 recoverval 0x0 machang 0, bbpanics 0, panicval 0x0
+  bbpanics_B 0 bbpanics_wouldreset 0 bbpanics_resets 0
+
+  nf_resets 0

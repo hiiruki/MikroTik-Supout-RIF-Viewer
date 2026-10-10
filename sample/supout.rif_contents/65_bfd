@@ -1,0 +1,7 @@
+SESSION
+Flags: U - up, I - inactive 
+
+CONFIGURATION
+Flags: X - disabled, I - inactive 
+ 0   interfaces=all min-tx=200ms min-rx=200ms multiplier=5 
+

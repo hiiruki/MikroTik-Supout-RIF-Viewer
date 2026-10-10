@@ -1,0 +1,27 @@
+Flags: X - disabled, I - invalid, S - HTTPS 
+
+PROFILE
+Flags: * - default 
+ 0 * name="default" hotspot-address=0.0.0.0 dns-name="" html-directory=hotspot html-directory-override="" install-hotspot-queue=yes rate-limit="" http-proxy=0.0.0.0:0 
+     smtp-server=0.0.0.0 login-by=cookie,http-chap http-cookie-lifetime=3d split-user-domain=no use-radius=no 
+
+IP_BINDING
+
+HOST
+Flags: S - static, H - DHCP, D - dynamic; A - authorized, P - bypassed 
+
+HOST_STATUS
+
+ACTIVE
+Flags: R - radius; B - blocked 
+
+ACTIVE_STATS
+
+WALLED_GARDEN
+Flags: X - disabled, D - dynamic 
+
+WALLED_GARDEN_IP
+Flags: X - disabled, I - invalid 
+
+COOKIE
+

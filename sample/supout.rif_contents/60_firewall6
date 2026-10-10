@@ -1,0 +1,21 @@
+MANGLE
+Flags: X - disabled, I - invalid; D - dynamic 
+
+NAT
+Flags: X - disabled, I - invalid; D - dynamic 
+
+FILTER
+Flags: X - disabled, I - invalid; D - dynamic 
+
+RAW
+Flags: X - disabled, I - invalid; D - dynamic 
+
+ADDRESS-LIST
+0
+0
+Flags: X - disabled, D - dynamic 
+
+CONNECTION
+0
+0
+

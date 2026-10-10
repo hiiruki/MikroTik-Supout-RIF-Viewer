@@ -1,0 +1,27 @@
+       routerboard: yes        
+        board-name: hAP lite   
+             model: RB941-2nD  
+          revision: r3         
+     serial-number: HH40A17G8R8
+     firmware-type: qca9531L   
+  factory-firmware: 6.49.17    
+  current-firmware: 7.21.4     
+  upgrade-firmware: 7.21.4     
+
+BIOS
+bad command name bios (line 1 column 21)
+SETTINGS
+              auto-upgrade: no                        
+               boot-device: nand-if-fail-then-ethernet
+         preboot-etherboot: disabled                  
+  preboot-etherboot-server: any                       
+             cpu-frequency: 650MHz                    
+             boot-protocol: bootp                     
+       force-backup-booter: no                        
+               silent-boot: no                        
+      protected-routerboot: disabled                  
+      reformat-hold-button: 20s                       
+  reformat-hold-button-max: 10m                       
+
+USB
+

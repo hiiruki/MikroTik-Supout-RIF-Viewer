@@ -1,0 +1,25 @@
+SETTINGS
+  builtin-trust-store: all
+         crl-download: no 
+              crl-use: no 
+            crl-store: ram
+
+TRUSTED CERTIFICATES
+Flags: K - private-key; L - crl; C - smart-card-key; A - authority; I - issued, R - revoked; E - expired; T - trusted 
+
+CA CERTIFICATES
+Flags: K - private-key; L - crl; C - smart-card-key; A - authority; I - issued, R - revoked; E - expired; T - trusted 
+
+ALL CERTIFICATES
+Flags: K - private-key; L - crl; C - smart-card-key; A - authority; I - issued, R - revoked; E - expired; T - trusted 
+
+CRL
+Flags: E - expired; D - dynamic; I - invalid 
+
+SCEP SERVER REQUESTS
+
+SCEP RA REQUESTS
+Flags: X - disabled; C - smart-card-key 
+
+ON DISK STORE
+[ERR] opendir: No such file or directory

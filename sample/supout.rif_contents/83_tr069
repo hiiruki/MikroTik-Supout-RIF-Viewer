@@ -1,0 +1,14 @@
+                      enabled: no      
+                      acs-url:         
+                     username:         
+      periodic-inform-enabled: yes     
+     periodic-inform-interval: 1d      
+  connection-request-username:         
+      connection-request-port: 7547    
+            provisioning-code:         
+           client-certificate: none    
+            check-certificate: yes     
+                       status: disabled
+           last-session-error:         
+                  retry-count: 0       
+

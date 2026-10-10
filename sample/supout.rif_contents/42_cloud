@@ -1,0 +1,4 @@
+          ddns-enabled: auto
+  ddns-update-interval: none
+           update-time: yes 
+

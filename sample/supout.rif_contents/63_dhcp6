@@ -1,0 +1,11 @@
+SERVER
+
+BINDINGS
+Flags: I - invalid; X - disabled, R - radius, D - dynamic 
+
+CLIENT
+Flags: D - dynamic; X - disabled, I - invalid 
+
+DHCP-RELAY
+Flags: X - disabled, I - invalid 
+

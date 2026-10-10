@@ -1,0 +1,53 @@
+MANGLE
+Flags: X - disabled, I - invalid; D - dynamic 
+
+NAT
+Flags: X - disabled, I - invalid; D - dynamic 
+ 0    chain=srcnat action=masquerade out-interface=bridge-WAN log=no log-prefix="" 
+
+ 1    chain=srcnat action=masquerade out-interface=bridge-WLAN log=no log-prefix="" 
+
+FILTER
+Flags: X - disabled, I - invalid; D - dynamic 
+
+RAW
+Flags: X - disabled, I - invalid; D - dynamic 
+
+TRACKING
+                   enabled: auto
+               active-ipv4: yes 
+               active-ipv6: no  
+      tcp-syn-sent-timeout: 5s  
+  tcp-syn-received-timeout: 5s  
+   tcp-established-timeout: 1d  
+      tcp-fin-wait-timeout: 10s 
+    tcp-close-wait-timeout: 10s 
+      tcp-last-ack-timeout: 10s 
+     tcp-time-wait-timeout: 10s 
+         tcp-close-timeout: 10s 
+   tcp-max-retrans-timeout: 5m  
+       tcp-unacked-timeout: 5m  
+        loose-tcp-tracking: yes 
+      liberal-tcp-tracking: no  
+               udp-timeout: 10s 
+        udp-stream-timeout: 3m  
+              icmp-timeout: 10s 
+           generic-timeout: 10m 
+               max-entries: 4096
+             total-entries: 1   
+         total-ip4-entries: 1   
+         total-ip6-entries: 0   
+
+ADDRESS-LIST
+0
+0
+Flags: X - disabled, D - dynamic 
+
+CONNECTION
+1
+1
+Flags: C - CONFIRMED
+Columns: PROTOCOL, SRC-ADDRESS, SRC-PORT, DST-ADDRESS, DST-PORT, TIMEOUT, ORIG-RATE, REPL-RATE, ORIG-PACKETS, REPL-PACKETS, ORIG-BYTES, REPL-BYTES
+#   PROTOCOL  SRC-ADDRESS   SRC-PORT  DST-ADDRESS      DST-PORT  TIMEOUT  ORIG-RATE  REPL-RATE  ORIG-PACKETS  REPL-PACKETS  ORIG-BYTES  REPL-BYTES
+0 C udp       10.234.34.99     60990  255.255.255.255     20561  9s       4.7kbps    0bps             37 877             0   3 407 561           0
+

@@ -1,0 +1,13 @@
+
+@route@
+2026.04.20-09:55:12.23@0: PROCID 0x00000001 RPID 0x00000000
+2026.04.20-09:55:12.23@0: 
+
+@syslog@
+2026.04.20-09:55:12.28@0: [10379.854323][    C0] ath_txtimeout: monitor reset
+2026.04.20-09:55:12.28@0: [10379.854379][    C0] ath_reset
+2026.04.20-09:55:12.29@0: [10379.858066][    C0] a9300_hw_reset: chan 2412000, phymode 0x12 (phy 2412:0xc0)
+
+@dhcpclient@
+2026.04.20-09:55:13.28@0: bridge-WAN sending DHCPDISCOVER after 5s
+2026.04.20-09:55:13.28@0: dhcp-client on bridge-WAN sending discover with id 3485156437 from 0.0.0.0:68 (F4:1E:57:4E:1F:A0) to 255.255.255.255:67 (FF:FF:FF:FF:FF:FF)

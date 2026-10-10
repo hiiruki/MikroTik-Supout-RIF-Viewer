@@ -1,0 +1,19 @@
+ACTIVE
+Flags: R - radius 
+
+PPPoE-INTERFACE
+Flags: X - disabled; D - dynamic; R - running 
+
+PPTP-INTERFACE
+Flags: X - disabled; D - dynamic; R - running 
+
+L2TP-INTERFACE
+Flags: X - disabled; D - dynamic; R - running 
+
+SSTP-INTERFACE
+Flags: X - disabled; D - dynamic; R - running; H - hw-crypto 
+
+PPP-OUT
+Flags: X - disabled; R - running 
+
+PPP-OUT INFO

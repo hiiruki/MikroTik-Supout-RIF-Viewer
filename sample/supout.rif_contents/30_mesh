@@ -1,0 +1,9 @@
+MESH
+Flags: X - disabled; R - running 
+
+PORT
+Flags: X - disabled, I - inactive; D - dynamic 
+
+FDB
+Flags: A - active; R - root 
+

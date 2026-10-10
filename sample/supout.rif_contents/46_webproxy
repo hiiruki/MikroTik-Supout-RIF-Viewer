@@ -1,0 +1,30 @@
+                 enabled: no       
+             src-address: ::       
+                    port: 8080     
+               anonymous: no       
+            parent-proxy: ::       
+       parent-proxy-port: 0        
+     cache-administrator: webmaster
+          max-cache-size: unlimited
+   max-cache-object-size: 2048KiB  
+           cache-on-disk: no       
+  max-client-connections: 600      
+  max-server-connections: 600      
+          max-fresh-time: 3d       
+   serialize-connections: no       
+       always-from-cache: no       
+          cache-hit-dscp: 4        
+              cache-path: web-proxy
+
+STATUS
+                 status: stopped
+     client-connections: 0      
+     server-connections: 0      
+               requests: 0      
+         total-ram-used: 0KiB   
+  received-from-servers: 0KiB   
+        sent-to-clients: 0KiB   
+   hits-sent-to-clients: 0KiB   
+
+ACCESS
+

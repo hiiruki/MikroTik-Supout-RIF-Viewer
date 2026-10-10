@@ -1,0 +1,44 @@
+TYPE
+Flags: * - default 
+ 0 * name="default" kind=pfifo pfifo-limit=50 
+
+ 1 * name="ethernet-default" kind=pfifo pfifo-limit=50 
+
+ 2 * name="wireless-default" kind=sfq sfq-perturb=5 sfq-allot=1514 
+
+ 3 * name="synchronous-default" kind=red red-limit=60 red-min-threshold=10 red-max-threshold=50 red-burst=20 red-avg-packet=1000 
+
+ 4 * name="hotspot-default" kind=sfq sfq-perturb=5 sfq-allot=1514 
+
+ 5 * name="pcq-upload-default" kind=pcq pcq-rate=0 pcq-limit=50KiB pcq-classifier=src-address pcq-total-limit=2000KiB pcq-burst-rate=0 pcq-burst-threshold=0 pcq-burst-time=10s 
+     pcq-src-address-mask=32 pcq-dst-address-mask=32 pcq-src-address6-mask=128 pcq-dst-address6-mask=128 
+
+ 6 * name="pcq-download-default" kind=pcq pcq-rate=0 pcq-limit=50KiB pcq-classifier=dst-address pcq-total-limit=2000KiB pcq-burst-rate=0 pcq-burst-threshold=0 pcq-burst-time=10s 
+     pcq-src-address-mask=32 pcq-dst-address-mask=32 pcq-src-address6-mask=128 pcq-dst-address6-mask=128 
+
+ 7 * name="only-hardware-queue" kind=none 
+
+ 8 * name="multi-queue-ethernet-default" kind=mq-pfifo mq-pfifo-limit=50 
+
+ 9 * name="default-small" kind=pfifo pfifo-limit=10 
+
+QUEUE TREE
+Flags: X - disabled, I - invalid 
+
+SIMPLE QUEUES
+Flags: X - disabled, I - invalid; D - dynamic 
+
+QUEUE INTERFACE
+Columns: INTERFACE, QUEUE, ACTIVE-QUEUE
+#  INTERFACE    QUEUE                ACTIVE-QUEUE       
+0  ether1       only-hardware-queue  only-hardware-queue
+1  ether2       only-hardware-queue  only-hardware-queue
+2  ether3       only-hardware-queue  only-hardware-queue
+3  ether4       only-hardware-queue  only-hardware-queue
+4  pwr-line1    only-hardware-queue  only-hardware-queue
+5  wlan1        wireless-default     wireless-default   
+6  bridge-LAN   no-queue             no-queue           
+7  bridge-WAN   no-queue             no-queue           
+8  bridge-WLAN  no-queue             no-queue           
+9  lo           no-queue             no-queue           
+

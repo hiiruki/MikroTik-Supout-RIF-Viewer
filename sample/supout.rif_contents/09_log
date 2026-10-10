@@ -1,0 +1,10 @@
+TIME                 MESSAGE
+Apr/20/2026 14:02:33 system,info          installed tr069-client-7.21.4
+Apr/20/2026 14:02:33 system,info          installed wireless-7.21.4
+Apr/20/2026 14:02:33 system,info          installed hotspot-7.21.4
+Apr/20/2026 14:02:34 interface,info       lo link up
+Apr/20/2026 14:02:34 system,info          router rebooted by winbox-3.43/mac-msg(winbox):admin@00:FF:14:F8:AE:45
+Apr/20/2026 14:02:47 interface,info       ether2 link up (speed 100M, full duplex)
+Apr/20/2026 14:02:48 bridge,info          hardware offloading activated on bridge "bridge-WAN" ports: ether1
+Apr/20/2026 14:02:50 bridge,info          "bridge-WLAN" mac address changed to F4:1E:57:4E:1F:A5
+Apr/20/2026 14:03:25 system,info,account  user admin logged in from 26:4A:74:A1:22:B0 via winbox

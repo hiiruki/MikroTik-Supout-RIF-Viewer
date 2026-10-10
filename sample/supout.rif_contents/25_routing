@@ -1,0 +1,156 @@
+IP
+2
+Flags: D - DYNAMIC; A - ACTIVE; c - CONNECT
+Columns: DST-ADDRESS, GATEWAY, ROUTING-TABLE, DISTANCE
+    DST-ADDRESS      GATEWAY      ROUTING-TABLE  DISTANCE
+DAc 192.168.1.0/24   bridge-LAN   main                  0
+DAc 192.168.10.0/24  bridge-WLAN  main                  0
+
+IPv6
+0
+
+ROUTE
+7
+Flags: X - disabled, F - filtered, U - unreachable, A - active; 
+c - connect, s - static, r - rip, b - bgp, n - bgp-net, o - ospf, i - isis, d - dhcp, v - vpn, m - modem, a - ldp-address, l - ldp-mapping, g - slaac, y - bgp-mpls-vpn, e - evpn; 
+H - hw-offloaded; + - ecmp, B - blackhole 
+ Ac   afi=ip contribution=active dst-address=192.168.1.0/24 routing-table=main gateway=bridge-LAN immediate-gw=bridge-LAN distance=0 scope=10 target-scope=5 
+       belongs-to="connected" local-address=192.168.1.1%bridge-LAN 
+       debug.fwp-ptr=0x201C2060 
+
+ Ac   afi=ip contribution=active dst-address=192.168.10.0/24 routing-table=main gateway=bridge-WLAN immediate-gw=bridge-WLAN distance=0 scope=10 target-scope=5 
+       belongs-to="connected" local-address=192.168.10.1%bridge-WLAN 
+       debug.fwp-ptr=0x201C2000 
+
+ A    afi=link contribution=active dst-address=ether2 routing-table=main distance=0 belongs-to="interface" 
+
+ A    afi=link contribution=active dst-address=bridge-WAN routing-table=main distance=0 belongs-to="interface" 
+
+ A    afi=link contribution=active dst-address=bridge-LAN routing-table=main distance=0 belongs-to="interface" 
+
+ A    afi=link contribution=active dst-address=bridge-WLAN routing-table=main distance=0 belongs-to="interface" 
+
+ A    afi=link contribution=active dst-address=lo routing-table=main distance=0 belongs-to="interface" 
+
+RULE
+Flags: X - disabled, I - inactive 
+
+FORWARDING PATH
+Flags: R - REACHABLE
+Columns: ADDRESS, SCOPE, TARGET-SCOPE, IMMEDIATE-GW.ADDRESS, IMMEDIATE-GW.WEIGHT, IMMEDIATE-GW.FLAP-COUNT, IMMEDIATE-GW.INTERFACE-IDX, IMMEDIATE-GW.MPLS-PEER-ID, 
+         IMMEDIATE-GW.MPLS-LABEL, IMMEDIATE-GW.BLACKHOLE
+  ADDRESS      SCOPE  TARGET-SCOPE  IMMEDIATE-GW.ADDRESS  IMMEDIATE-GW.WEIGHT  IMMEDIATE-GW.FLAP-COUNT  IM  I  IMMEDIATE-GW.MPLS-LABEL  IMMEDIATE-GW.BLACKHOLE
+R bridge-WLAN     10             5  bridge-WLAN                             1               1788458157  15  0               4294967295  no                    
+R bridge-LAN      10             5  bridge-LAN                              1               4055616968  14  0               4294967295  no                    
+
+TABLE
+Flags: D - dynamic; X - disabled, I - invalid; U - used 
+ 0 D   name="main" fib 
+
+ID
+Flags: X - disabled, D - dynamic, I - inactive 
+ 0 D name="main" dynamic-id=192.168.10.1 select-dynamic-id=only-vrf select-from-vrf=main 
+
+PROCESS
+Columns: TASKS, PRIVATE-MEM-BLOCKS, SHARED-MEM-BLOCKS, PSS, RSS, VMS, ID, PID, RPID, PROCESS-TIME, KERNEL-TIME, CUR-BUSY, MAX-BUSY, CUR-CALC, MAX-CALC
+# TASKS                         PRIVATE-M  SHARED-ME  PSS        RSS        VMS      ID    PID  RPID  PROCESS-TIME  KERNEL-TIME  CUR-BUSY  MAX-BUSY  CUR-CALC  MAX-CALC
+0 routing tables                1280.0KiB  1792.0KiB  1327.0KiB  1824.0KiB  19.7MiB  main   64     0  400ms         13s300ms     70ms      7s360ms   70ms      16s80ms 
+  rib                                                                                                                                                                  
+  fib                                                                                                                                                                  
+  routing policy configuration                                                                                                                                         
+  configuration and reporting                                                                                                                                          
+  BFD service                                                                                                                                                          
+  ospf                                                                                                                                                                 
+  isis                                                                                                                                                                 
+  rip                                                                                                                                                                  
+  fantasy                                                                                                                                                              
+
+ORIGIN
+Flags: Y - synthetic; Z - terminal; X - stopping; A - abandoned; H - hold; U - attrs-updated; M - attrs-merge 
+ 0         name="static" instance-id=0 publisher-idx=0 route-type="3" pid=main route-count=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 total-route-count=0 
+
+ 1         name="dhcp" instance-id=0 publisher-idx=1 route-type="10" pid=main route-count=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 total-route-count=0 
+
+ 2         name="vpn" instance-id=0 publisher-idx=2 route-type="9" pid=main route-count=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 total-route-count=0 
+
+ 3         name="modem" instance-id=0 publisher-idx=3 route-type="20" pid=main route-count=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 total-route-count=0 
+
+ 4         name="slaac" instance-id=0 publisher-idx=4 route-type="25" pid=main route-count=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 total-route-count=0 
+
+ 5         name="other" instance-id=0 publisher-idx=5 route-type="22" pid=main route-count=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 total-route-count=0 
+
+ 6         name="connected" instance-id=0 publisher-idx=6 route-type="2" pid=main route-count=0,2,0,0,0,0,0,0,0,0,0,0,0,0,0 total-route-count=2 
+
+ 7 YZ      name="interface" instance-id=0 publisher-idx=7 route-type="11" pid=main route-count=0,0,0,0,0,0,0,0,0,5,0,0,0,0,0 total-route-count=5 
+
+STEP
+Flags: R - RUNNING
+Columns: NAME, CONTEXT, PID, ORDER, RUNS, TARGETS, MAX-TIME, CUR-TIME, STATE
+ #   NAME                             CONTEXT              PID   ORDER  RUNS  TARGETS  MAX-TIME  CUR-TIME  STATE
+ 0   synchronize                      PREPARE_CLEANUP      0     0         0        1            0ms       off  
+ 1   synchronize                      MARK                 0     0         0        1            0ms       off  
+ 2   unnamed                          MARK                 main  0       100           0ms       0ms       on   
+ 3   mark                             MARK                 main  0       100           250ms     0ms       on   
+ 4   synchronize                      TC_60970bdea2e982ff  0     0         0        1            0ms       off  
+ 5   mark used origins                TC_60970bdea2e982ff  main  0        11           0ms       0ms       on   
+ 6   synchronize                      MARK_DSTS            0     0         0        1            0ms       off  
+ 7   mark default dsts                MARK_DSTS            main  0         0                     0ms       on   
+ 8   route/fib/publish/mark           MARK_DSTS            main  0         0                     0ms       on   
+ 9   route/static/dst/mark            MARK_DSTS            main  0         0                     0ms       on   
+10   synchronize                      CLEANUP              0     0       100        1  3s150ms   0ms       off  
+11   synchronize                      PUBLISH              0     0        11        1  4s930ms   70ms      off  
+12   route/static/dst/publish         PUBLISH              main  -100     11           280ms     0ms       on   
+13   update connected route informat  PUBLISH              main  -20      11           1s        0ms       on   
+14   link update                      PUBLISH              main  -20      11           760ms     0ms       on   
+15   routing policy publish           PUBLISH              main  0        11           80ms      0ms       on   
+16   route/fib/publish/sync           PUBLISH              main  0        11           1s460ms   0ms       on   
+17   publish                          PUBLISH              main  0        11           320ms     0ms       on   
+18   publish                          PUBLISH              main  0        11           330ms     0ms       on   
+19   policy merge                     PUBLISH              main  1        11           240ms     0ms       on   
+20   update static routes             PUBLISH              main  120      11           0ms       0ms       on   
+21   notifications                    PUBLISH              main  130      11           540ms     0ms       on   
+22   process api queue                PUBLISH              main  140      11           1s10ms    70ms      on   
+23   synchronize                      STATUS               0     0         1        1  0ms       0ms       off  
+24   synchronize                      WIPE                 0     0         0        1            0ms       off  
+25   routing policy wipe              WIPE                 main  0       100           360ms     0ms       on   
+26   unnamed                          WIPE                 main  0       100           850ms     0ms       on   
+27   wipe                             WIPE                 main  0       100           300ms     0ms       on   
+28   wipe                             WIPE                 main  0       100           0ms       0ms       on   
+29   unnamed                          WIPE                 main  0       100           900ms     0ms       on   
+30   unnamed                          WIPE                 main  0       100           220ms     0ms       on   
+31   cleanup static                   WIPE                 main  50      100           0ms       0ms       on   
+32   cleanup ospf                     WIPE                 main  50      100           0ms       0ms       on   
+33   cleanup net                      WIPE                 main  50      100           570ms     0ms       on   
+34   synchronize                      UPKEEP               0     0         0                     0ms       off  
+35   fn registry update               UPKEEP               main  0        34           0ms       0ms       off  
+36   Update schedule for PUBLISH      UPKEEP               main  0         1           0ms       0ms       off  
+37   Update schedule for UPKEEP       UPKEEP               main  0        47           0ms       0ms       off  
+38   Update schedule for WIPE         UPKEEP               main  0         1           0ms       0ms       off  
+39   Update schedule for MARK_DSTS    UPKEEP               main  0        14           0ms       0ms       off  
+40   Update schedule for TC_60970bde  UPKEEP               main  0         1           0ms       0ms       off  
+41   Update schedule for MARK         UPKEEP               main  0         1           0ms       0ms       off  
+42   Update schedule for PREPARE_CLE  UPKEEP               main  0         0                     0ms       off  
+43   Update schedule for STATUS       UPKEEP               main  0         0                     0ms       off  
+44   Update schedule for CLEANUP      UPKEEP               main  0         0                     0ms       off  
+45   apply configuration updates      STEP                 main  0         0                     0ms       off  
+46   apply routing policy rule chang  STEP                 main  0         1           0ms       0ms       off  
+47   empty dst cleanup                STEP                 main  0         0                     0ms       off  
+48   rtable cleanup                   STEP                 main  0         0                     0ms       off  
+49   BFD cfg apply                    STEP                 main  0        17           60ms      0ms       off  
+50   iface cfg change                 STEP                 main  0         0                     0ms       off  
+51    cfg update                      STEP                 main  0       440           520ms     0ms       on   
+52   interface config update          STEP                 main  1         0                     0ms       off  
+53   interface update                 STEP                 main  2         0                     0ms       off  
+54   instance calc                    STEP                 main  3         0                     0ms       off  
+55   edb update                       STEP                 main  5         0                     0ms       off  
+56   fwd update                       STEP                 main  6         0                     0ms       off  
+57   recompile                        STEP                 main  800       2           70ms      10ms      off  
+58   unnamed                          STEP                 main  2000    440           170ms     0ms       on   
+59   main route calculation           STEP                 main  3000    440           15s990ms  0ms       on   
+60   process api requests             STEP                 main  9000      1           70ms      70ms      off  
+61 R process api requests             STEP                 main  9000      1                     60ms      off  
+62   process api requests             STEP                 main  9000      0                     0ms       off  
+63   process api requests             STEP                 main  9000      1           0ms       0ms       off  
+64   process api requests             STEP                 main  9000      0                     0ms       off  
+65   process api requests             STEP                 main  9000      0                     0ms       off  
+

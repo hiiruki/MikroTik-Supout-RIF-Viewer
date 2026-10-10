@@ -1,0 +1,14 @@
+SETTINGS
+syntax error (line 1 column 15)
+FORWARDING TABLE
+bad command name forwarding-table (line 1 column 7)
+LOCAL BINDINGS
+syntax error (line 1 column 10)
+REMOTE BINDINGS
+syntax error (line 1 column 10)
+LDP NEIGHBORS
+bad command name ldp (line 1 column 7)
+VPLS IFACES
+bad command name vpls (line 1 column 12)
+BGP VPLS
+syntax error (line 1 column 13)

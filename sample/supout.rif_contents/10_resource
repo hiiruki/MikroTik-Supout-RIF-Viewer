@@ -1,0 +1,99 @@
+                   uptime: 2h53m4s            
+                  version: 7.21.4 (long-term) 
+               build-time: 2026-04-21 06:49:05
+         factory-software: 6.49.8             
+              free-memory: 8.3MiB             
+             total-memory: 32.0MiB            
+                      cpu: MIPS 24Kc V7.4     
+                cpu-count: 1                  
+            cpu-frequency: 650MHz             
+                 cpu-load: 100%               
+           free-hdd-space: 7.2MiB             
+          total-hdd-space: 16.0MiB            
+  write-sect-since-reboot: 261                
+         write-sect-total: 22923              
+        architecture-name: smips              
+               board-name: hAP lite           
+                 platform: MikroTik           
+
+
+CLOCK
+                  time: 16:55:17    
+                  date: 2026-04-20  
+  time-zone-autodetect: yes         
+        time-zone-name: Asia/Jakarta
+            gmt-offset: +07:00      
+            dst-active: no          
+
+
+IRQs
+Columns: IRQ, USERS, CPU, ACTIVE-CPU, COUNT
+# IRQ  USERS    CPU   ACTIVE-CPU    COUNT
+0   2  wlan1    auto           0  650 470
+1   5  switch0  auto           0  177 363
+2 112  gpiolib  auto           0        0
+
+
+MEMORY
+MemTotal:          28348 kB
+MemFree:            5388 kB
+MemAvailable:       8768 kB
+Buffers:            1284 kB
+Cached:             5036 kB
+SwapCached:            0 kB
+Active:             9004 kB
+Inactive:           3452 kB
+Active(anon):       6308 kB
+Inactive(anon):      416 kB
+Active(file):       2696 kB
+Inactive(file):     3036 kB
+Unevictable:         196 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:          6332 kB
+Mapped:             3772 kB
+Shmem:               392 kB
+KReclaimable:        504 kB
+Slab:               5212 kB
+SReclaimable:        504 kB
+SUnreclaim:         4708 kB
+KernelStack:         432 kB
+PageTables:          404 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:       14172 kB
+Committed_AS:      10456 kB
+VmallocTotal:     786228 kB
+VmallocUsed:        1860 kB
+VmallocChunk:          0 kB
+Percpu:               32 kB
+
+==================== CPU ====================
+Columns: CPU, LOAD, IRQ, DISK
+#  CPU   LOAD  IRQ  DISK
+0  cpu0  100%  0%   0%  
+
+system type		: Mikrotik RouterBOARD
+machine			: Unknown
+processor		: 0
+cpu model		: MIPS 24Kc V7.4
+cpu MHz			: 650.000
+BogoMIPS		: 432.53
+wait instruction	: yes
+microsecond timers	: yes
+tlb_entries		: 16
+extra interrupt vector	: yes
+hardware watchpoint	: yes, count: 4, address/irw mask: [0x0ffc, 0x0ffc, 0x0ffb, 0x0ffb]
+isa			: mips1 mips2 mips32r1 mips32r2 mips64r1 mips64r2
+ASEs implemented	: mips16
+shadow register sets	: 1
+kscratch registers	: 0
+package			: 0
+core			: 0
+VCED exceptions		: not available
+VCEI exceptions		: not available
+

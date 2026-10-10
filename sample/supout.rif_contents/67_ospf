@@ -1,0 +1,20 @@
+NEIGHBOR
+Flags: V - virtual; D - dynamic 
+
+STATIC NEIGHBOR
+Flags: X - disabled, I - inactive 
+
+INTERFACE TEMPLATE
+Flags: X - disabled, I - inactive 
+
+INTERFACE
+Flags: D - dynamic 
+
+AREA
+Flags: X - disabled, I - inactive, D - dynamic; T - transit-capable 
+
+AREA RANGE
+
+LSA
+Flags: S - self-originated, F - flushing, W - wraparound; D - dynamic 
+

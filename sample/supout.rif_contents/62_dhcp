@@ -1,0 +1,28 @@
+DHCP-SERVER
+Columns: NAME, INTERFACE, ADDRESS-POOL, LEASE-TIME
+# NAME   INTERFACE    ADDRESS-POOL  LEASE-TIME
+0 dhcp1  bridge-LAN   dhcp_pool2    10m       
+1 dhcp2  bridge-WLAN  dhcp_pool3    10m       
+
+LEASE
+Flags: X - disabled, R - radius, D - dynamic, B - blocked 
+
+NETWORK
+Flags: D - dynamic 
+ 0   address=192.168.0.0/24 gateway=192.168.0.0 dns-server="" wins-server="" ntp-server="" caps-manager="" dhcp-option="" 
+
+ 1   address=192.168.1.0/24 gateway=192.168.1.1 dns-server=192.168.1.1 wins-server="" ntp-server="" caps-manager="" dhcp-option="" 
+
+ 2   address=192.168.10.0/24 gateway=192.168.10.1 dns-server=192.168.1.1 wins-server="" ntp-server="" caps-manager="" dhcp-option="" 
+
+ALERT
+Flags: X - disabled, I - invalid 
+
+DHCP-CLIENT
+Flags: X - disabled, I - invalid, D - dynamic 
+ 0   interface=bridge-WAN add-default-route=yes default-route-distance=1 default-route-tables=default check-gateway=none use-peer-dns=yes use-peer-ntp=yes allow-reconfigure=no 
+     use-broadcast=both dhcp-options=hostname,clientid status=searching... 
+
+DHCP-RELAY
+Flags: X - disabled, I - invalid 
+

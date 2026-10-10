@@ -1,0 +1,21 @@
+IPV6 SETTINGS
+                     disable-ipv6: yes                       
+                          forward: yes                       
+            multipath-hash-policy: l3                        
+                 accept-redirects: yes-if-forwarding-disabled
+     accept-router-advertisements: yes-if-forwarding-disabled
+  accept-router-advertisements-on: all                       
+       disable-link-local-address: no                        
+   stale-neighbor-detect-interval: 30                        
+           stale-neighbor-timeout: 60                        
+             min-neighbor-entries: 256                       
+        soft-max-neighbor-entries: 512                       
+             max-neighbor-entries: 8192                      
+                  allow-fast-path: yes                       
+            ipv6-fast-path-active: no                        
+           ipv6-fast-path-packets: 0                         
+             ipv6-fast-path-bytes: 0                         
+            ipv6-fasttrack-active: no                        
+           ipv6-fasttrack-packets: 0                         
+             ipv6-fasttrack-bytes: 0                         
+

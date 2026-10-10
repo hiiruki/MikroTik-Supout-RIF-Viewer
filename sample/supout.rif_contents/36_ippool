@@ -1,0 +1,9 @@
+POOLS
+Columns: NAME, RANGES, TOTAL, USED, AVAILABLE
+#  NAME        RANGES                       TOTAL  USED  AVAILABLE
+0  dhcp_pool1  192.168.0.10-192.168.0.254     245     0        245
+1  dhcp_pool2  192.168.1.2-192.168.1.254      253     0        253
+2  dhcp_pool3  192.168.10.2-192.168.10.254    253     0        253
+
+USED
+

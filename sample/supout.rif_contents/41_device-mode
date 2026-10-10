@@ -1,0 +1,30 @@
+DEVICE MODE CONFIG
+              mode: advanced     
+  allowed-versions: 7.13+,6.49.8+
+
+DEVICE MODE
+                 mode: advanced     
+     allowed-versions: 7.13+,6.49.8+
+              flagged: no           
+     flagging-enabled: yes          
+            scheduler: yes          
+                socks: yes          
+                fetch: yes          
+                 pptp: yes          
+                 l2tp: yes          
+       bandwidth-test: yes          
+          traffic-gen: no           
+              sniffer: yes          
+                ipsec: yes          
+                romon: yes          
+                proxy: yes          
+              hotspot: yes          
+                  smb: yes          
+                email: yes          
+             zerotier: yes          
+            container: no           
+  install-any-version: no           
+           partitions: no           
+          routerboard: no           
+        attempt-count: 0            
+

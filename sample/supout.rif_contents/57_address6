@@ -1,0 +1,10 @@
+IPv6 address
+Flags: X - disabled, I - invalid; D - dynamic; G - global, L - link-local; S - slave; d - deprecated 
+
+IPv6 ND
+Flags: X - disabled, I - invalid; * - default 
+ 0  * interface=all ra-interval=3m20s-10m ra-delay=3s mtu=unspecified reachable-time=unspecified retransmit-interval=unspecified ra-lifetime=30m ra-preference=medium 
+      hop-limit=unspecified advertise-mac-address=yes advertise-dns=no managed-address-configuration=no other-configuration=no 
+
+Flags: X - disabled, I - invalid; D - dynamic 
+

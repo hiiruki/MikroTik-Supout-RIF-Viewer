@@ -1,0 +1,6 @@
+INTERFACE
+Flags: X - disabled, I - inactive, D - dynamic; U - upstream 
+
+MFC
+Flags: X - disabled, A - active; D - dynamic 
+
