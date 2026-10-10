@@ -7,7 +7,7 @@ import FileUpload, {FileUploadUploaderEvent} from 'primevue/fileupload'
 import TabView from 'primevue/tabview'
 import TabPanel from 'primevue/tabpanel'
 
-import {Ref, ref, computed, watchEffect} from 'vue'
+import {Ref, ref, computed} from 'vue'
 
 import {decode} from './lib/decoder.ts'
 import DashboardView from './components/DashboardView.vue'
@@ -54,14 +54,7 @@ const features = [
   { icon: 'pi pi-copy', title: 'Compare / Diff', desc: 'Side-by-side diff two supout.rif files section by section.' },
 ]
 
-// Toggle body overflow based on whether a file is loaded
-watchEffect(() => {
-  if (hasPrimaryFile.value) {
-    document.body.classList.remove('no-scroll')
-  } else {
-    document.body.classList.add('no-scroll')
-  }
-})
+// Layout fills 100vh viewport without body overflow on desktop
 
 const formatFileSize = (bytes: number): string => {
   if (bytes === 0) return '0 B'
@@ -309,7 +302,7 @@ const toggleSidebar = () => { sidebarOpen.value = !sidebarOpen.value }
           </div>
 
           <!-- Diff viewer when compare file is loaded -->
-          <div v-else>
+          <div v-else class="compare-diff-panel">
             <div class="compare-file-bar">
               <div class="file-info compare-info">
                 <div class="file-info-icon compare"><i class="pi pi-copy"></i></div>
@@ -337,7 +330,9 @@ const toggleSidebar = () => { sidebarOpen.value = !sidebarOpen.value }
 <style>
 html, body {
   margin: 0;
-  min-height: 100vh;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
   background: radial-gradient(circle at top left, rgba(165, 214, 52, 0.12), transparent 28%), #121212;
 }
 
@@ -414,14 +409,15 @@ body.no-scroll {
 .home-container {
   display: grid;
   grid-template-columns: 280px 1fr;
-  gap: .5rem;
-  max-width: 1600px;
+  gap: .75rem;
+  max-width: 100%;
   width: 100%;
   height: 100vh;
-  margin: 0 auto;
-  padding: .5rem;
+  margin: 0;
+  padding: .75rem;
   position: relative;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .home-sidebar {
@@ -615,32 +611,121 @@ body.no-scroll {
 .app-shell {
   display: grid;
   grid-template-columns: 280px 1fr;
-  gap: .5rem;
-  max-width: 1600px;
+  gap: .75rem;
+  max-width: 100%;
+  width: 100%;
   height: 100vh;
-  margin: 0 auto;
-  padding: .5rem;
+  margin: 0;
+  padding: .75rem;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
-.sidebar,
-.main-panel {
+.sidebar {
   overflow-y: auto;
   min-height: 0;
+  height: 100%;
 }
 
 .main-panel {
-  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  padding-bottom: 0;
+}
+
+.main-panel :deep(.p-tabview) {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  height: 100%;
+}
+
+.main-panel :deep(.p-tabview-nav-container) {
+  flex-shrink: 0;
+}
+
+.main-panel :deep(.p-tabview-panels) {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: .75rem 0 0;
+  background: transparent;
+}
+
+/* Eliminate redundant scrollbars for panel views with their own scroll containers */
+.main-panel :deep(.p-tabview-panels:has(.raw-layout)),
+.main-panel :deep(.p-tabview-panels:has(.compare-diff-panel)) {
+  overflow-y: hidden;
+}
+
+.main-panel :deep(.p-tabview-panel) {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 /* ============ RAW SECTIONS ============ */
 .raw-layout {
   display: grid;
-  grid-template-columns: 260px 1fr;
-  gap: .5rem;
+  grid-template-columns: 280px 1fr;
+  gap: .75rem;
+  flex: 1;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
+.sections-card,
 .raw-code-card {
-  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.sections-card :deep(.p-card-body),
+.raw-code-card :deep(.p-card-body) {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.sections-card :deep(.p-card-content) {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.sections-card :deep(.p-listbox) {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  width: 100% !important;
+  border: unset;
+}
+
+.raw-code-card :deep(.p-card-content) {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  padding: 0;
 }
 
 .code {
@@ -648,6 +733,7 @@ body.no-scroll {
   font-size: .8rem;
   padding: unset;
   margin: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 .code :deep(.hljs) {
@@ -801,6 +887,15 @@ body.no-scroll {
   max-width: 400px;
 }
 
+.compare-diff-panel {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 /* ============ TABVIEW ============ */
 :deep(.p-tabview-nav) {
   border: 1px solid rgba(255,255,255,.08);
@@ -812,6 +907,24 @@ body.no-scroll {
 :deep(.p-tabview-panels) {
   padding: .75rem 0 0;
   background: transparent;
+}
+
+/* ============ FILE UPLOAD ============ */
+.p-fileupload :deep(.p-message) {
+  border-radius: 10px;
+}
+.p-fileupload :deep(.p-message-wrapper) {
+  display: flex;
+  align-items: flex-start;
+  gap: .5rem;
+}
+.p-fileupload :deep(.p-message-text) {
+  overflow-wrap: anywhere;
+}
+.p-fileupload :deep(.p-message-close) {
+  width: 1.6rem;
+  height: 1.6rem;
+  flex-shrink: 0;
 }
 
 /* ============ RESPONSIVE ============ */

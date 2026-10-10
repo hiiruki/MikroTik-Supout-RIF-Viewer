@@ -56,7 +56,7 @@ const counts = computed(() => ({
         class="diagnostic-message"
       >
         <template #messageicon>
-          <i :class="iconMap(item.severity)"></i>
+          <i :class="[iconMap(item.severity), 'diagnostic-icon', 'p-message-icon']"></i>
         </template>
         <div class="diagnostic-content">
           <div class="diagnostic-title-row">
@@ -69,3 +69,77 @@ const counts = computed(() => ({
     </div>
   </section>
 </template>
+
+<style scoped>
+.diagnostics-view {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.diagnostic-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+:deep(.p-message.diagnostic-message) {
+  margin: 0;
+  border-radius: 14px;
+}
+
+:deep(.diagnostic-message .p-message-wrapper) {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 0.85rem !important;
+  padding: 0.85rem 1.1rem !important;
+}
+
+:deep(.diagnostic-icon) {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem !important;
+  line-height: 1 !important;
+  margin-top: 0.15rem !important;
+  margin-right: 0 !important;
+  flex-shrink: 0 !important;
+}
+
+:deep(.diagnostic-message .p-message-text) {
+  flex: 1 !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.diagnostic-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  width: 100%;
+}
+
+.diagnostic-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.diagnostic-title-row strong {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: inherit;
+}
+
+.diagnostic-content p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  opacity: 0.92;
+  word-break: break-word;
+}
+</style>

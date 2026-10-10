@@ -12,6 +12,30 @@
 
 * { box-sizing: border-box; }
 
+/* Custom sleek dark scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(165, 214, 52, 0.4);
+}
+
 body {
   color: #f4f7ec;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -127,10 +151,71 @@ body {
   gap: .5rem;
 }
 
-.diagnostic-list { display: grid; gap: .75rem; }
-.diagnostic-message { border-radius: 14px; }
-.diagnostic-content p { margin: .3rem 0 0; }
-.diagnostic-title-row { display: flex; justify-content: space-between; gap: .75rem; align-items: center; }
+.diagnostic-list {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.p-message.diagnostic-message,
+.diagnostic-message {
+  margin: 0 !important;
+  border-radius: 14px;
+}
+
+.diagnostic-message .p-message-wrapper {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 0.85rem !important;
+  padding: 0.85rem 1.1rem !important;
+}
+
+.diagnostic-icon {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem !important;
+  line-height: 1 !important;
+  margin-top: 0.15rem !important;
+  margin-right: 0 !important;
+  flex-shrink: 0 !important;
+}
+
+.diagnostic-message .p-message-text {
+  flex: 1 !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.diagnostic-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  width: 100%;
+}
+
+.diagnostic-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.diagnostic-title-row strong {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.diagnostic-content p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  opacity: 0.92;
+  word-break: break-word;
+}
 
 .log-search { width: min(360px, 100%); }
 .log-search input { width: 100%; }
